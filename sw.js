@@ -1,6 +1,12 @@
-const CACHE_NAME = 'treino-intervalos-v1';
+const CACHE_NAME = 'app-musica-v8';
 const APP_SHELL = [
   './index.html',
+  './modulo-intervalos.html',
+  './modulo-acordes-escalas.html',
+  './modulo-tab.html',
+  './style.css',
+  './app.js',
+  './fretboard.js',
   './manifest.json',
   './icon-192.png',
   './icon-512.png',
@@ -24,14 +30,9 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
-
-  // Só assume o cache-first para os arquivos do próprio app (mesma origem).
-  // Recursos externos (Tone.js, Google Fonts) seguem direto para a rede normalmente.
   if (url.origin === self.location.origin) {
     event.respondWith(
-      caches.match(event.request).then((cached) => {
-        return cached || fetch(event.request);
-      })
+      caches.match(event.request).then((cached) => cached || fetch(event.request))
     );
   }
 });

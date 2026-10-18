@@ -3,529 +3,98 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Treino de Intervalos</title>
+<title>App de Música</title>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#141416">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Intervalos">
+<meta name="apple-mobile-web-app-title" content="App de Música">
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-192.png">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Inter:wght@400;500;600&display=swap');
-
-  :root{
-    --bg-1:#141416;
-    --bg-2:#1c1d20;
-    --panel:#232428;
-    --panel-edge:#35373c;
-    --brass:#c99a3a;
-    --brass-dim:#8f6f2a;
-    --led-green:#5fae74;
-    --led-green-glow:rgba(95,174,116,0.35);
-    --led-red:#c1584f;
-    --led-red-glow:rgba(193,88,79,0.35);
-    --ink:#eee7d8;
-    --ink-dim:#9a958c;
-    --mono:'Courier New', ui-monospace, monospace;
-    --display:'Oswald', Georgia, serif;
-    --body:'Inter', -apple-system, 'Segoe UI', sans-serif;
-  }
-
-  *{box-sizing:border-box;}
-  html,body{margin:0;padding:0;}
-  body{
-    min-height:100vh;
-    background:
-      radial-gradient(ellipse at top, #202124 0%, var(--bg-1) 55%),
-      var(--bg-1);
-    color:var(--ink);
-    font-family:var(--body);
-    display:flex;
-    justify-content:center;
-    padding:32px 16px 60px;
-  }
-
-  .stage{ width:100%; max-width:460px; }
-
-  header{ text-align:center; margin-bottom:22px; }
-  header h1{
-    font-family:var(--display);
-    font-weight:700;
-    font-size:1.7rem;
-    letter-spacing:0.3px;
-    margin:0 0 6px;
-    color:var(--ink);
-  }
-  header p{
-    margin:0;
-    color:var(--ink-dim);
-    font-size:0.92rem;
-    line-height:1.5;
-    max-width:360px;
-    margin:0 auto;
-  }
-
-  .pedal{
-    background:linear-gradient(180deg, var(--panel) 0%, var(--bg-2) 100%);
-    border:1px solid var(--panel-edge);
-    border-radius:18px;
-    padding:22px 20px 26px;
-    box-shadow:
-      0 20px 40px -20px rgba(0,0,0,0.6),
-      inset 0 1px 0 rgba(255,255,255,0.04);
-  }
-
-  .selector-group{
-    display:flex;
-    flex-direction:column;
-    gap:6px;
-    margin-bottom:14px;
-  }
-  .selector-label{
-    font-size:0.72rem;
-    color:var(--ink-dim);
-  }
-  .segmented{
-    display:flex;
-    background:var(--bg-1);
-    border:1px solid var(--panel-edge);
-    border-radius:10px;
-    padding:3px;
-    gap:3px;
-  }
-  .segmented button{
-    flex:1;
-    padding:8px 6px;
-    background:transparent;
-    border:none;
-    border-radius:7px;
-    color:var(--ink-dim);
-    font-family:var(--body);
-    font-size:0.82rem;
-    font-weight:500;
-    cursor:pointer;
-    transition:background 0.15s, color 0.15s;
-  }
-  .segmented button.active{
-    background:var(--brass);
-    color:#211a0a;
-    font-weight:600;
-  }
-
-  .readout{
-    margin-top:16px;
-    background:#0f1010;
-    border:1px solid #000;
-    border-radius:10px;
-    padding:14px 16px;
-    box-shadow:inset 0 2px 6px rgba(0,0,0,0.6);
-  }
-  .readout .stats{
-    font-family:var(--mono);
-    font-size:0.78rem;
-    color:var(--brass);
-    letter-spacing:0.5px;
-    display:flex;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    gap:4px 12px;
-  }
-  .readout .feedback{
-    margin-top:10px;
-    min-height:38px;
-    font-size:0.88rem;
-    line-height:1.4;
-    color:var(--ink-dim);
-  }
-  .readout .feedback.correct{ color:var(--led-green); }
-  .readout .feedback.wrong{ color:var(--led-red); }
-
-  .footswitch-wrap{
-    display:flex;
-    justify-content:center;
-    margin:26px 0 20px;
-  }
-  .footswitch{
-    width:104px;
-    height:104px;
-    border-radius:50%;
-    border:none;
-    cursor:pointer;
-    background:radial-gradient(circle at 35% 30%, #e0b45c, var(--brass) 55%, var(--brass-dim) 100%);
-    box-shadow:
-      0 8px 0 var(--brass-dim),
-      0 14px 22px rgba(0,0,0,0.5);
-    color:#241d0c;
-    font-family:var(--display);
-    font-weight:700;
-    font-size:0.95rem;
-    letter-spacing:0.3px;
-    transition:transform 0.08s, box-shadow 0.08s;
-  }
-  .footswitch:active{
-    transform:translateY(6px);
-    box-shadow:
-      0 2px 0 var(--brass-dim),
-      0 6px 12px rgba(0,0,0,0.5);
-  }
-  .footswitch:disabled{
-    background:radial-gradient(circle at 35% 30%, #55524a, #3a3730 55%, #2c2a25 100%);
-    box-shadow:0 8px 0 #201f1c, 0 14px 22px rgba(0,0,0,0.5);
-    color:#7a766c;
-    cursor:not-allowed;
-  }
-
-  .repeat-row{
-    display:flex;
-    justify-content:center;
-    margin-bottom:18px;
-  }
-  .repeat-row button{
-    background:none;
-    border:1px solid var(--panel-edge);
-    color:var(--ink-dim);
-    padding:6px 14px;
-    border-radius:20px;
-    font-size:0.78rem;
-    font-family:var(--body);
-    cursor:pointer;
-  }
-  .repeat-row button:disabled{ opacity:0.35; cursor:not-allowed; }
-  .repeat-row button:not(:disabled):hover{ color:var(--ink); border-color:var(--brass-dim); }
-
-  .answer-grid{
-    display:grid;
-    grid-template-columns:repeat(4, 1fr);
-    gap:9px;
-    margin-bottom:18px;
-  }
-  .answer-btn{
-    aspect-ratio:1;
-    border-radius:9px;
-    border:1px solid var(--panel-edge);
-    background:linear-gradient(180deg, #2a2b2f, #202124);
-    color:var(--ink);
-    font-family:var(--mono);
-    font-size:0.95rem;
-    font-weight:700;
-    cursor:pointer;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    transition:transform 0.08s, border-color 0.15s, background 0.15s;
-  }
-  .answer-btn:disabled{ opacity:0.4; cursor:not-allowed; }
-  .answer-btn:not(:disabled):hover{ border-color:var(--brass); }
-  .answer-btn:not(:disabled):active{ transform:scale(0.95); }
-  .answer-btn.correct{
-    background:var(--led-green);
-    border-color:var(--led-green);
-    color:#0d1f12;
-    box-shadow:0 0 14px var(--led-green-glow);
-  }
-  .answer-btn.wrong{
-    background:var(--led-red);
-    border-color:var(--led-red);
-    color:#280d0a;
-    box-shadow:0 0 14px var(--led-red-glow);
-  }
-
-  .bottom-actions{
-    display:flex;
-    justify-content:center;
-  }
-  .bottom-actions button{
-    background:none;
-    border:none;
-    color:var(--ink-dim);
-    font-size:0.78rem;
-    text-decoration:underline;
-    cursor:pointer;
-  }
-  .bottom-actions button:hover{ color:var(--ink); }
-
-  @media (max-width:360px){
-    .answer-grid{ grid-template-columns:repeat(3, 1fr); }
-  }
-</style>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
 </head>
 <body>
   <div class="stage">
     <header>
-      <h1>Treino de Intervalos</h1>
-      <p>Toque o botão, ouça a tônica e a nota seguinte, e identifique o intervalo entre elas.</p>
+      <h1>App de Música</h1>
+      <p>Treino de ouvido e teoria aplicada à guitarra, em módulos curtos.</p>
     </header>
 
     <div class="pedal">
-      <div class="selector-group">
-        <span class="selector-label">Nível</span>
-        <div class="segmented" id="levelSelector">
-          <button data-level="basico" class="active">Básico</button>
-          <button data-level="intermediario">Intermediário</button>
-          <button data-level="completo">Completo</button>
-        </div>
-      </div>
-
-      <div class="selector-group">
-        <span class="selector-label">Modo</span>
-        <div class="segmented" id="modeSelector">
-          <button data-mode="melodico" class="active">Melódico (uma nota por vez)</button>
-          <button data-mode="harmonico">Harmônico (juntas)</button>
-        </div>
-      </div>
-
+      <div class="selector-label" style="margin-bottom:8px;">Minha jornada</div>
       <div class="readout">
-        <div class="stats" id="stats">
-          <span>Rodada 0</span>
+        <div class="stats" id="journeyStats">
+          <span>Sequência 0 dias</span>
           <span>Acertos 0/0</span>
-          <span>Sequência 0 (recorde 0)</span>
+          <span>Recorde 0</span>
         </div>
-        <div class="feedback" id="feedback">Clique em "Tocar intervalo" para começar.</div>
       </div>
+    </div>
 
-      <div class="footswitch-wrap">
-        <button class="footswitch" id="mainBtn">Tocar<br>intervalo</button>
-      </div>
+    <div class="pedal">
+      <div class="selector-label" style="margin-bottom:10px;">Módulos</div>
+      <div class="module-list">
+        <a class="module-row" href="modulo-intervalos.html">
+          <div class="module-icon"></div>
+          <div class="module-info">
+            <div class="module-title">Treino de Intervalos</div>
+            <div class="module-status">Identifique intervalos a partir da tônica</div>
+          </div>
+          <div class="module-chevron">›</div>
+        </a>
 
-      <div class="repeat-row">
-        <button id="repeatBtn" disabled>Repetir som</button>
-      </div>
+        <a class="module-row" href="modulo-acordes-escalas.html">
+          <div class="module-icon"></div>
+          <div class="module-info">
+            <div class="module-title">Acordes & Escalas</div>
+            <div class="module-status">Diagramas no braço, qualquer tônica</div>
+          </div>
+          <div class="module-chevron">›</div>
+        </a>
 
-      <div class="answer-grid" id="answerGrid"></div>
+        <a class="module-row" href="modulo-tab.html">
+          <div class="module-icon"></div>
+          <div class="module-info">
+            <div class="module-title">Treino de Tab</div>
+            <div class="module-status">Abra um Guitar Pro / MusicXML e toque com BPM ajustável</div>
+          </div>
+          <div class="module-chevron">›</div>
+        </a>
 
-      <div class="bottom-actions">
-        <button id="resetBtn">Reiniciar pontuação</button>
+        <div class="module-row disabled">
+          <div class="module-icon"></div>
+          <div class="module-info">
+            <div class="module-title">Reconhecimento de Acordes</div>
+            <div class="module-status">Em breve</div>
+          </div>
+        </div>
+
+        <div class="module-row disabled">
+          <div class="module-icon"></div>
+          <div class="module-info">
+            <div class="module-title">Escalas e Modos</div>
+            <div class="module-status">Em breve</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
 <script>
-  const INTERVALS = [
-    { st:1,  abbr:'2m', name:'2ª menor' },
-    { st:2,  abbr:'2M', name:'2ª maior' },
-    { st:3,  abbr:'3m', name:'3ª menor' },
-    { st:4,  abbr:'3M', name:'3ª maior' },
-    { st:5,  abbr:'4J', name:'4ª justa' },
-    { st:6,  abbr:'4A', name:'4ª aumentada (trítono)' },
-    { st:7,  abbr:'5J', name:'5ª justa' },
-    { st:8,  abbr:'6m', name:'6ª menor' },
-    { st:9,  abbr:'6M', name:'6ª maior' },
-    { st:10, abbr:'7m', name:'7ª menor' },
-    { st:11, abbr:'7M', name:'7ª maior' },
-    { st:12, abbr:'8J', name:'8ª (oitava)' },
-  ];
-
-  const LEVELS = {
-    basico:        [2,4,5,7,12],
-    intermediario: [1,2,3,4,5,7,9,10,12],
-    completo:      [1,2,3,4,5,6,7,8,9,10,11,12],
-  };
-
-  const state = {
-    level:'basico',
-    mode:'melodico',
-    phase:'idle', // idle -> awaiting -> answered
-    rounds:0,
-    correct:0,
-    streak:0,
-    best:0,
-    currentInterval:null,
-    rootMidi:null,
-  };
-
-  let synth = null;
-  let audioReady = false;
-
-  function activeIntervals(){
-    const allowed = LEVELS[state.level];
-    return INTERVALS.filter(i => allowed.includes(i.st));
+  function renderJourney(){
+    const p = loadProgress();
+    document.getElementById('journeyStats').innerHTML =
+      `<span>Sequência ${p.streakDays} dia${p.streakDays === 1 ? '' : 's'}</span>` +
+      `<span>Acertos ${p.totalCorrect}/${p.totalRounds}</span>` +
+      `<span>Recorde ${p.bestStreakEver}</span>`;
   }
-
-  async function ensureAudio(){
-    if (audioReady) return;
-    await Tone.start();
-    synth = new Tone.PolySynth(Tone.Synth, {
-      oscillator:{ type:'triangle' },
-      envelope:{ attack:0.005, decay:0.35, sustain:0.05, release:0.6 },
-    });
-    const reverb = new Tone.Reverb({ decay:1.2, wet:0.18 }).toDestination();
-    synth.connect(reverb);
-    audioReady = true;
-  }
-
-  function randomRootMidi(){
-    // roughly E2 to E4, leaving headroom for intervals up to an octave
-    return 43 + Math.floor(Math.random() * 21);
-  }
-
-  function midiToNote(midi){
-    return Tone.Frequency(midi, 'midi').toNote();
-  }
-
-  function renderAnswerGrid(){
-    const grid = document.getElementById('answerGrid');
-    grid.innerHTML = '';
-    activeIntervals().forEach(iv => {
-      const btn = document.createElement('button');
-      btn.className = 'answer-btn';
-      btn.textContent = iv.abbr;
-      btn.title = iv.name;
-      btn.dataset.st = iv.st;
-      btn.disabled = true;
-      btn.addEventListener('click', () => checkAnswer(iv.st, btn));
-      grid.appendChild(btn);
-    });
-  }
-
-  function setAnswerButtonsEnabled(enabled){
-    document.querySelectorAll('.answer-btn').forEach(b => {
-      b.disabled = !enabled;
-      b.classList.remove('correct','wrong');
-    });
-  }
-
-  function updateStats(){
-    document.getElementById('stats').innerHTML =
-      `<span>Rodada ${state.rounds}</span>` +
-      `<span>Acertos ${state.correct}/${state.rounds}</span>` +
-      `<span>Sequência ${state.streak} (recorde ${state.best})</span>`;
-  }
-
-  function setFeedback(text, cls){
-    const el = document.getElementById('feedback');
-    el.textContent = text;
-    el.className = 'feedback' + (cls ? (' ' + cls) : '');
-  }
-
-  function newRound(){
-    const options = activeIntervals();
-    state.currentInterval = options[Math.floor(Math.random() * options.length)];
-    state.rootMidi = randomRootMidi();
-    state.rounds += 1;
-    state.phase = 'awaiting';
-    updateStats();
-    setFeedback('Ouça com atenção e escolha o intervalo.');
-    setAnswerButtonsEnabled(false);
-    document.getElementById('repeatBtn').disabled = false;
-  }
-
-  async function playCurrentRound(){
-    await ensureAudio();
-    const mainBtn = document.getElementById('mainBtn');
-    mainBtn.disabled = true;
-
-    const rootNote = midiToNote(state.rootMidi);
-    const targetNote = midiToNote(state.rootMidi + state.currentInterval.st);
-    const now = Tone.now();
-
-    if (state.mode === 'melodico'){
-      synth.triggerAttackRelease(rootNote, '4n', now);
-      synth.triggerAttackRelease(targetNote, '4n', now + 0.85);
-    } else {
-      synth.triggerAttackRelease(rootNote, '2n', now);
-      synth.triggerAttackRelease(targetNote, '2n', now);
-    }
-
-    setTimeout(() => {
-      mainBtn.disabled = false;
-      if (state.phase === 'awaiting'){
-        setAnswerButtonsEnabled(true);
-      }
-    }, 950);
-  }
-
-  function checkAnswer(selectedSt, btnEl){
-    if (state.phase !== 'awaiting') return;
-    const correctSt = state.currentInterval.st;
-    const isCorrect = selectedSt === correctSt;
-
-    setAnswerButtonsEnabled(false);
-    document.querySelectorAll('.answer-btn').forEach(b => {
-      b.disabled = true;
-      if (Number(b.dataset.st) === correctSt) b.classList.add('correct');
-      else if (b === btnEl && !isCorrect) b.classList.add('wrong');
-    });
-
-    if (isCorrect){
-      state.correct += 1;
-      state.streak += 1;
-      state.best = Math.max(state.best, state.streak);
-    } else {
-      state.streak = 0;
-    }
-
-    const rootNote = midiToNote(state.rootMidi);
-    const targetNote = midiToNote(state.rootMidi + state.currentInterval.st);
-    const msg = isCorrect
-      ? `Correto! ${rootNote} → ${targetNote} é uma ${state.currentInterval.name}.`
-      : `Não foi dessa vez. ${rootNote} → ${targetNote} é uma ${state.currentInterval.name}.`;
-    setFeedback(msg, isCorrect ? 'correct' : 'wrong');
-
-    state.phase = 'answered';
-    updateStats();
-
-    const mainBtn = document.getElementById('mainBtn');
-    mainBtn.innerHTML = 'Próxima<br>rodada';
-    document.getElementById('repeatBtn').disabled = true;
-  }
-
-  function resetGame(){
-    state.rounds = 0;
-    state.correct = 0;
-    state.streak = 0;
-    state.best = 0;
-    state.phase = 'idle';
-    updateStats();
-    setFeedback('Clique em "Tocar intervalo" para começar.');
-    renderAnswerGrid();
-    document.getElementById('mainBtn').innerHTML = 'Tocar<br>intervalo';
-    document.getElementById('repeatBtn').disabled = true;
-  }
-
-  document.getElementById('mainBtn').addEventListener('click', async () => {
-    if (state.phase === 'idle' || state.phase === 'answered'){
-      newRound();
-      await playCurrentRound();
-    }
-  });
-
-  document.getElementById('repeatBtn').addEventListener('click', async () => {
-    if (state.phase === 'awaiting'){
-      await playCurrentRound();
-    }
-  });
-
-  document.getElementById('resetBtn').addEventListener('click', resetGame);
-
-  document.getElementById('levelSelector').addEventListener('click', (e) => {
-    const btn = e.target.closest('button[data-level]');
-    if (!btn) return;
-    document.querySelectorAll('#levelSelector button').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    state.level = btn.dataset.level;
-    resetGame();
-  });
-
-  document.getElementById('modeSelector').addEventListener('click', (e) => {
-    const btn = e.target.closest('button[data-mode]');
-    if (!btn) return;
-    document.querySelectorAll('#modeSelector button').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    state.mode = btn.dataset.mode;
-    resetGame();
-  });
-
-  renderAnswerGrid();
-  updateStats();
+  renderJourney();
 
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js').catch(() => {
-        // silencioso: se o registro falhar (ex: aberto via file://), o jogo continua funcionando normalmente
-      });
+      navigator.serviceWorker.register('sw.js').catch(() => {});
     });
   }
 </script>

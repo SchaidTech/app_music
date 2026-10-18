@@ -1,7 +1,7 @@
 {
-  "name": "Treino de Intervalos",
-  "short_name": "Intervalos",
-  "description": "Jogo de treino auditivo para reconhecimento de intervalos musicais a partir da tônica.",
+  "name": "App de Música",
+  "short_name": "Música",
+  "description": "Módulos de treino de ouvido e teoria musical aplicada à guitarra.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

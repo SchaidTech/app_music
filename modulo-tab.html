@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Treino de Tab</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#141416">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Treino de Tab">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/@coderline/alphatab@1/dist/alphaTab.min.js"></script>
+<style>
+  .stage{ max-width:920px; }
+
+  .file-row{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+  .btn-main{
+    background:var(--brass);
+    color:#211a0a;
+    border:none;
+    border-radius:10px;
+    padding:10px 16px;
+    font-family:var(--body);
+    font-weight:600;
+    font-size:0.9rem;
+    cursor:pointer;
+  }
+  .btn-main:active{ transform:scale(0.97); }
+  .file-name{ color:var(--ink-dim); font-size:0.82rem; word-break:break-all; }
+
+  .song-title{ font-family:var(--display); font-size:1.1rem; color:var(--ink); }
+  .song-artist{ color:var(--ink-dim); font-size:0.82rem; margin-top:2px; }
+  #status{ margin-top:10px; font-size:0.84rem; color:var(--ink-dim); min-height:20px; }
+  #status.error{ color:var(--led-red); }
+
+  .transport{ display:flex; align-items:center; justify-content:center; gap:22px; margin:6px 0 4px; }
+  .transport .footswitch{ width:88px; height:88px; font-size:0.85rem; }
+  .btn-round{
+    width:48px; height:48px; border-radius:50%;
+    background:linear-gradient(180deg,#2a2b2f,#202124);
+    border:1px solid var(--panel-edge);
+    color:var(--ink);
+    font-size:1rem;
+    cursor:pointer;
+  }
+  .btn-round:disabled{ opacity:0.4; cursor:not-allowed; }
+  .time-readout{ text-align:center; font-family:var(--mono); font-size:0.8rem; color:var(--brass); margin-bottom:14px; }
+
+  .bpm-row{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:4px; }
+  .bpm-row input[type=range]{ flex:1; min-width:160px; accent-color:var(--brass); }
+  .bpm-box{
+    display:flex; align-items:center; gap:6px;
+    background:var(--bg-1); border:1px solid var(--panel-edge); border-radius:10px; padding:4px 8px;
+  }
+  .bpm-box input{
+    width:58px; background:transparent; border:none; color:var(--ink);
+    font-family:var(--mono); font-size:1rem; text-align:center;
+  }
+  .bpm-box button{
+    background:none; border:none; color:var(--ink-dim); font-size:1.1rem; cursor:pointer; padding:0 6px;
+  }
+  .bpm-box button:hover{ color:var(--brass); }
+  .hint{ font-size:0.74rem; color:var(--ink-dim); }
+
+  .chips{ display:flex; gap:8px; flex-wrap:wrap; margin:12px 0; }
+  .chip{
+    padding:7px 14px; border-radius:20px;
+    border:1px solid var(--panel-edge); background:transparent;
+    color:var(--ink-dim); font-family:var(--body); font-size:0.8rem; cursor:pointer;
+  }
+  .chip[aria-pressed="true"]{ background:var(--brass); border-color:var(--brass); color:#211a0a; font-weight:600; }
+  .chip:disabled{ opacity:0.4; cursor:not-allowed; }
+
+  .opts-row{ display:flex; gap:14px; flex-wrap:wrap; align-items:flex-end; }
+  .opts-row .selector-group{ margin-bottom:0; flex:1; min-width:180px; }
+  select{
+    background:var(--bg-1); color:var(--ink); border:1px solid var(--panel-edge);
+    border-radius:8px; padding:8px; font-family:var(--body); font-size:0.84rem; width:100%;
+  }
+  .zoom-btns{ display:flex; gap:6px; }
+  .zoom-btns button{
+    background:var(--bg-1); color:var(--ink); border:1px solid var(--panel-edge);
+    border-radius:8px; padding:8px 12px; cursor:pointer; font-family:var(--mono);
+  }
+
+  /* Área da tablatura: cartão claro, como os diagramas */
+  .at-viewport{
+    position:relative;
+    height:60vh;
+    min-height:320px;
+    overflow-y:auto;
+    background:#faf8f4;
+    color:#1a1a1a;
+    border-radius:10px;
+    padding:8px;
+  }
+  .at-placeholder{
+    position:absolute; inset:0;
+    display:flex; align-items:center; justify-content:center;
+    text-align:center; padding:24px;
+    color:#6b655b; font-size:0.9rem; line-height:1.5;
+    pointer-events:none;
+  }
+  .at-cursor-bar{ background:rgba(201,154,58,0.22); }
+  .at-selection div{ background:rgba(201,154,58,0.20); }
+  .at-cursor-beat{ background:rgba(143,111,42,0.9); width:3px; }
+  .at-highlight *{ fill:#a9761a; stroke:#a9761a; }
+</style>
+</head>
+<body>
+  <div class="stage">
+    <a class="back-link" href="index.html">‹ Menu</a>
+    <header>
+      <h1>Treino de Tab</h1>
+      <p>Abra um arquivo Guitar Pro ou MusicXML, escolha o BPM e toque junto.</p>
+    </header>
+
+    <div class="pedal">
+      <div class="file-row">
+        <button class="btn-main" id="openBtn">Abrir tab</button>
+        <input type="file" id="fileInput" style="display:none;">
+        <span class="file-name" id="fileName">Nenhum arquivo aberto (.gp, .gp3, .gp4, .gp5, .gpx, .xml, .musicxml, .mxl)</span>
+      </div>
+      <div id="status"></div>
+    </div>
+
+    <div class="pedal">
+      <div class="readout" style="margin-bottom:16px;">
+        <div class="song-title" id="songTitle">—</div>
+        <div class="song-artist" id="songArtist"></div>
+      </div>
+
+      <div class="transport">
+        <button class="btn-round" id="stopBtn" disabled title="Parar">■</button>
+        <button class="footswitch" id="playBtn" disabled>Tocar</button>
+        <button class="btn-round" id="clearBtn" disabled title="Limpar trecho selecionado">✕</button>
+      </div>
+      <div class="time-readout" id="timeReadout">0:00 / 0:00</div>
+
+      <div class="selector-label" style="margin-bottom:6px;">Velocidade</div>
+      <div class="bpm-row">
+        <div class="bpm-box">
+          <button id="bpmMinus" disabled>−</button>
+          <input type="number" id="bpmInput" value="120" min="20" max="400" disabled>
+          <button id="bpmPlus" disabled>+</button>
+          <span class="hint">BPM</span>
+        </div>
+        <input type="range" id="speedSlider" min="20" max="200" value="100" disabled>
+        <span class="hint" id="speedPct">100%</span>
+      </div>
+      <div class="hint" id="baseBpmHint">BPM original da música: —</div>
+
+      <div class="chips">
+        <button class="chip" id="metroChip" aria-pressed="false" disabled>Metrônomo</button>
+        <button class="chip" id="countChip" aria-pressed="false" disabled>Contagem</button>
+        <button class="chip" id="loopChip" aria-pressed="false" disabled>Loop</button>
+      </div>
+      <div class="hint" style="margin-bottom:14px;">Para treinar um trecho: arraste sobre os compassos na tab para selecioná-los e ative o Loop.</div>
+
+      <div class="opts-row">
+        <div class="selector-group">
+          <span class="selector-label">Exibição</span>
+          <div class="segmented" id="viewSelector">
+            <button data-view="tab" class="active">Só tab</button>
+            <button data-view="scoretab">Tab + partitura</button>
+          </div>
+        </div>
+        <div class="selector-group">
+          <span class="selector-label">Trilha</span>
+          <select id="trackSelect" disabled><option>—</option></select>
+        </div>
+        <div class="selector-group" style="flex:0 0 auto; min-width:0;">
+          <span class="selector-label">Zoom</span>
+          <div class="zoom-btns">
+            <button id="zoomOut">A−</button>
+            <button id="zoomIn">A+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pedal">
+      <div class="at-viewport" id="viewport">
+        <div class="at-placeholder" id="placeholder">A tablatura aparece aqui depois que você abrir um arquivo.</div>
+        <div id="alphaTab"></div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  const SOUNDFONT = 'https://cdn.jsdelivr.net/npm/@coderline/alphatab@1/dist/soundfont/sonivox.sf2';
+
+  const $ = (id) => document.getElementById(id);
+  const statusEl = $('status');
+  function setStatus(msg, isError){
+    statusEl.textContent = msg || '';
+    statusEl.className = isError ? 'error' : '';
+  }
+  function fmtTime(ms){
+    const s = Math.max(0, Math.round(ms / 1000));
+    return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0');
+  }
+
+  let api = null;
+  let currentScore = null;
+  let baseBpm = 120;
+  let scale = window.innerWidth < 520 ? 0.8 : 1.0;
+  let soundFontReady = false;
+
+  const controls = ['playBtn','stopBtn','clearBtn','bpmInput','bpmMinus','bpmPlus','speedSlider','metroChip','countChip','loopChip','trackSelect'];
+  function setControlsEnabled(on){
+    controls.forEach(id => { $(id).disabled = !on; });
+  }
+
+  function init(){
+    if (typeof alphaTab === 'undefined'){
+      setStatus('Não consegui carregar o motor de tablatura (alphaTab). Verifique a conexão e recarregue a página.', true);
+      return;
+    }
+
+    const settings = {
+      display: { scale: scale, staveProfile: alphaTab.StaveProfile.Tab },
+      player: {
+        playerMode: alphaTab.PlayerMode.EnabledAutomatic,
+        soundFont: SOUNDFONT,
+        scrollElement: $('viewport')
+      }
+    };
+    api = new alphaTab.AlphaTabApi($('alphaTab'), settings);
+
+    setStatus('Carregando o som… 0%');
+
+    api.soundFontLoad.on((e) => {
+      const pct = e.total ? Math.floor((e.loaded / e.total) * 100) : 0;
+      if (!currentScore) setStatus('Carregando o som… ' + pct + '%');
+    });
+    api.soundFontLoaded.on(() => {
+      soundFontReady = true;
+      if (!currentScore) setStatus('Som pronto. Abra uma tab para começar.');
+    });
+
+    api.error.on((e) => {
+      const msg = e && e.message ? e.message : String(e);
+      setStatus('Erro ao abrir o arquivo: ' + msg, true);
+    });
+
+    api.scoreLoaded.on((score) => {
+      currentScore = score;
+      baseBpm = score.tempo || 120;
+      $('songTitle').textContent = score.title || $('fileName').textContent;
+      $('songArtist').textContent = score.artist || '';
+      $('placeholder').style.display = 'none';
+      $('baseBpmHint').textContent = 'BPM original da música: ' + Math.round(baseBpm);
+      $('bpmInput').min = Math.max(20, Math.round(baseBpm * 0.2));
+      $('bpmInput').max = Math.round(baseBpm * 2);
+      applySpeed(100);
+      fillTracks(score);
+      setStatus('Desenhando a tablatura…');
+    });
+
+    api.renderFinished.on(() => {
+      setStatus(api.isReadyForPlayback ? '' : 'Preparando o áudio…');
+    });
+
+    api.playerReady.on(() => {
+      setControlsEnabled(true);
+      setStatus('');
+    });
+
+    api.playerStateChanged.on((e) => {
+      const playing = e.state === alphaTab.synth.PlayerState.Playing;
+      $('playBtn').innerHTML = playing ? 'Pausar' : 'Tocar';
+    });
+
+    api.playerPositionChanged.on((e) => {
+      $('timeReadout').textContent = fmtTime(e.currentTime) + ' / ' + fmtTime(e.endTime);
+    });
+  }
+
+  function fillTracks(score){
+    const sel = $('trackSelect');
+    sel.innerHTML = '';
+    score.tracks.forEach((t, i) => {
+      const opt = document.createElement('option');
+      opt.value = i;
+      opt.textContent = t.name || ('Trilha ' + (i + 1));
+      sel.appendChild(opt);
+    });
+    // prioriza a primeira trilha que não seja percussão
+    const firstPitched = score.tracks.findIndex(t => !(t.staves && t.staves[0] && t.staves[0].isPercussion));
+    const idx = firstPitched >= 0 ? firstPitched : 0;
+    sel.value = idx;
+    if (idx !== 0) api.renderTracks([score.tracks[idx]]);
+  }
+
+  function applySpeed(pct){
+    pct = Math.min(200, Math.max(20, pct));
+    if (api) api.playbackSpeed = pct / 100;
+    $('speedSlider').value = pct;
+    $('speedPct').textContent = Math.round(pct) + '%';
+    $('bpmInput').value = Math.round(baseBpm * pct / 100);
+  }
+
+  // ---- arquivo ----
+  $('openBtn').addEventListener('click', () => $('fileInput').click());
+  $('fileInput').addEventListener('change', async (e) => {
+    const file = e.target.files && e.target.files[0];
+    if (!file || !api) return;
+    $('fileName').textContent = file.name;
+    setStatus('Abrindo ' + file.name + '…');
+    setControlsEnabled(false);
+    try{
+      const buf = await file.arrayBuffer();
+      const ok = api.load(new Uint8Array(buf));
+      if (ok === false) setStatus('Não consegui ler esse arquivo. Confira se é Guitar Pro ou MusicXML.', true);
+    }catch(err){
+      setStatus('Erro ao ler o arquivo: ' + err.message, true);
+    }
+    e.target.value = '';
+  });
+
+  // ---- transporte ----
+  $('playBtn').addEventListener('click', () => api && api.playPause());
+  $('stopBtn').addEventListener('click', () => api && api.stop());
+  $('clearBtn').addEventListener('click', () => {
+    if (!api) return;
+    try{
+      api.playbackRange = null;
+      if (typeof api.clearPlaybackRangeHighlight === 'function') api.clearPlaybackRangeHighlight();
+    }catch(err){}
+  });
+
+  // ---- velocidade / BPM ----
+  $('speedSlider').addEventListener('input', (e) => applySpeed(Number(e.target.value)));
+  $('bpmInput').addEventListener('change', (e) => {
+    const bpm = Number(e.target.value);
+    if (bpm > 0) applySpeed((bpm / baseBpm) * 100);
+  });
+  $('bpmMinus').addEventListener('click', () => applySpeed(((Number($('bpmInput').value) - 5) / baseBpm) * 100));
+  $('bpmPlus').addEventListener('click', () => applySpeed(((Number($('bpmInput').value) + 5) / baseBpm) * 100));
+
+  // ---- chips ----
+  function wireChip(id, onChange){
+    $(id).addEventListener('click', () => {
+      const on = $(id).getAttribute('aria-pressed') !== 'true';
+      $(id).setAttribute('aria-pressed', String(on));
+      if (api) onChange(on);
+    });
+  }
+  wireChip('metroChip', (on) => { api.metronomeVolume = on ? 1 : 0; });
+  wireChip('countChip', (on) => { api.countInVolume = on ? 1 : 0; });
+  wireChip('loopChip',  (on) => { api.isLooping = on; });
+
+  // ---- exibição, trilha, zoom ----
+  $('viewSelector').addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-view]');
+    if (!btn || !api) return;
+    document.querySelectorAll('#viewSelector button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    api.settings.display.staveProfile = btn.dataset.view === 'tab'
+      ? alphaTab.StaveProfile.Tab
+      : alphaTab.StaveProfile.ScoreTab;
+    api.updateSettings();
+    api.render();
+  });
+
+  $('trackSelect').addEventListener('change', (e) => {
+    if (!api || !currentScore) return;
+    api.renderTracks([currentScore.tracks[Number(e.target.value)]]);
+  });
+
+  function setZoom(next){
+    scale = Math.min(2, Math.max(0.5, next));
+    if (!api) return;
+    api.settings.display.scale = scale;
+    api.updateSettings();
+    api.render();
+  }
+  $('zoomIn').addEventListener('click', () => setZoom(scale + 0.1));
+  $('zoomOut').addEventListener('click', () => setZoom(scale - 0.1));
+
+  init();
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(() => {});
+    });
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Treino de Intervalos</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#141416">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Intervalos">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+</head>
+<body>
+  <div class="stage">
+    <a class="back-link" href="index.html">‹ Menu</a>
+    <header>
+      <h1>Treino de Intervalos</h1>
+      <p>Toque o botão, ouça a tônica e a nota seguinte, e identifique o intervalo entre elas.</p>
+    </header>
+
+    <div class="pedal">
+      <div class="selector-group">
+        <span class="selector-label">Nível</span>
+        <div class="segmented" id="levelSelector">
+          <button data-level="basico" class="active">Básico</button>
+          <button data-level="intermediario">Intermediário</button>
+          <button data-level="completo">Completo</button>
+        </div>
+      </div>
+
+      <div class="selector-group">
+        <span class="selector-label">Modo</span>
+        <div class="segmented" id="modeSelector">
+          <button data-mode="melodico" class="active">Melódico (uma nota por vez)</button>
+          <button data-mode="harmonico">Harmônico (juntas)</button>
+        </div>
+      </div>
+
+      <div class="readout">
+        <div class="stats" id="stats">
+          <span>Rodada 0</span>
+          <span>Acertos 0/0</span>
+          <span>Sequência 0 (recorde 0)</span>
+        </div>
+        <div class="feedback" id="feedback">Clique em "Tocar intervalo" para começar.</div>
+      </div>
+
+      <div class="footswitch-wrap">
+        <button class="footswitch" id="mainBtn">Tocar<br>intervalo</button>
+      </div>
+
+      <div class="repeat-row">
+        <button id="repeatBtn" disabled>Repetir som</button>
+      </div>
+
+      <div class="answer-grid" id="answerGrid"></div>
+
+      <div class="bottom-actions">
+        <button id="resetBtn">Reiniciar pontuação</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+  const INTERVALS = [
+    { st:1,  abbr:'2m', name:'2ª menor' },
+    { st:2,  abbr:'2M', name:'2ª maior' },
+    { st:3,  abbr:'3m', name:'3ª menor' },
+    { st:4,  abbr:'3M', name:'3ª maior' },
+    { st:5,  abbr:'4J', name:'4ª justa' },
+    { st:6,  abbr:'4A', name:'4ª aumentada (trítono)' },
+    { st:7,  abbr:'5J', name:'5ª justa' },
+    { st:8,  abbr:'6m', name:'6ª menor' },
+    { st:9,  abbr:'6M', name:'6ª maior' },
+    { st:10, abbr:'7m', name:'7ª menor' },
+    { st:11, abbr:'7M', name:'7ª maior' },
+    { st:12, abbr:'8J', name:'8ª (oitava)' },
+  ];
+
+  const LEVELS = {
+    basico:        [2,4,5,7,12],
+    intermediario: [1,2,3,4,5,7,9,10,12],
+    completo:      [1,2,3,4,5,6,7,8,9,10,11,12],
+  };
+
+  const state = {
+    level:'basico',
+    mode:'melodico',
+    phase:'idle', // idle -> awaiting -> answered
+    rounds:0,
+    correct:0,
+    streak:0,
+    best:0,
+    currentInterval:null,
+    rootMidi:null,
+  };
+
+  let synth = null;
+  let audioReady = false;
+
+  function activeIntervals(){
+    const allowed = LEVELS[state.level];
+    return INTERVALS.filter(i => allowed.includes(i.st));
+  }
+
+  async function ensureAudio(){
+    if (audioReady) return;
+    await Tone.start();
+    synth = new Tone.PolySynth(Tone.Synth, {
+      oscillator:{ type:'triangle' },
+      envelope:{ attack:0.005, decay:0.35, sustain:0.05, release:0.6 },
+    });
+    const reverb = new Tone.Reverb({ decay:1.2, wet:0.18 }).toDestination();
+    synth.connect(reverb);
+    audioReady = true;
+  }
+
+  function randomRootMidi(){
+    // roughly E2 to E4, leaving headroom for intervals up to an octave
+    return 43 + Math.floor(Math.random() * 21);
+  }
+
+  function midiToNote(midi){
+    return Tone.Frequency(midi, 'midi').toNote();
+  }
+
+  function renderAnswerGrid(){
+    const grid = document.getElementById('answerGrid');
+    grid.innerHTML = '';
+    activeIntervals().forEach(iv => {
+      const btn = document.createElement('button');
+      btn.className = 'answer-btn';
+      btn.textContent = iv.abbr;
+      btn.title = iv.name;
+      btn.dataset.st = iv.st;
+      btn.disabled = true;
+      btn.addEventListener('click', () => checkAnswer(iv.st, btn));
+      grid.appendChild(btn);
+    });
+  }
+
+  function setAnswerButtonsEnabled(enabled){
+    document.querySelectorAll('.answer-btn').forEach(b => {
+      b.disabled = !enabled;
+      b.classList.remove('correct','wrong');
+    });
+  }
+
+  function updateStats(){
+    document.getElementById('stats').innerHTML =
+      `<span>Rodada ${state.rounds}</span>` +
+      `<span>Acertos ${state.correct}/${state.rounds}</span>` +
+      `<span>Sequência ${state.streak} (recorde ${state.best})</span>`;
+  }
+
+  function setFeedback(text, cls){
+    const el = document.getElementById('feedback');
+    el.textContent = text;
+    el.className = 'feedback' + (cls ? (' ' + cls) : '');
+  }
+
+  function newRound(){
+    const options = activeIntervals();
+    state.currentInterval = options[Math.floor(Math.random() * options.length)];
+    state.rootMidi = randomRootMidi();
+    state.rounds += 1;
+    state.phase = 'awaiting';
+    updateStats();
+    setFeedback('Ouça com atenção e escolha o intervalo.');
+    setAnswerButtonsEnabled(false);
+    document.getElementById('repeatBtn').disabled = false;
+  }
+
+  async function playCurrentRound(){
+    await ensureAudio();
+    const mainBtn = document.getElementById('mainBtn');
+    mainBtn.disabled = true;
+
+    const rootNote = midiToNote(state.rootMidi);
+    const targetNote = midiToNote(state.rootMidi + state.currentInterval.st);
+    const now = Tone.now();
+
+    if (state.mode === 'melodico'){
+      synth.triggerAttackRelease(rootNote, '4n', now);
+      synth.triggerAttackRelease(targetNote, '4n', now + 0.85);
+    } else {
+      synth.triggerAttackRelease(rootNote, '2n', now);
+      synth.triggerAttackRelease(targetNote, '2n', now);
+    }
+
+    setTimeout(() => {
+      mainBtn.disabled = false;
+      if (state.phase === 'awaiting'){
+        setAnswerButtonsEnabled(true);
+      }
+    }, 950);
+  }
+
+  function checkAnswer(selectedSt, btnEl){
+    if (state.phase !== 'awaiting') return;
+    const correctSt = state.currentInterval.st;
+    const isCorrect = selectedSt === correctSt;
+
+    setAnswerButtonsEnabled(false);
+    document.querySelectorAll('.answer-btn').forEach(b => {
+      b.disabled = true;
+      if (Number(b.dataset.st) === correctSt) b.classList.add('correct');
+      else if (b === btnEl && !isCorrect) b.classList.add('wrong');
+    });
+
+    if (isCorrect){
+      state.correct += 1;
+      state.streak += 1;
+      state.best = Math.max(state.best, state.streak);
+    } else {
+      state.streak = 0;
+    }
+
+    recordPractice({ correct:isCorrect, sessionStreak:state.streak });
+
+    const rootNote = midiToNote(state.rootMidi);
+    const targetNote = midiToNote(state.rootMidi + state.currentInterval.st);
+    const msg = isCorrect
+      ? `Correto! ${rootNote} → ${targetNote} é uma ${state.currentInterval.name}.`
+      : `Não foi dessa vez. ${rootNote} → ${targetNote} é uma ${state.currentInterval.name}.`;
+    setFeedback(msg, isCorrect ? 'correct' : 'wrong');
+
+    state.phase = 'answered';
+    updateStats();
+
+    const mainBtn = document.getElementById('mainBtn');
+    mainBtn.innerHTML = 'Próxima<br>rodada';
+    document.getElementById('repeatBtn').disabled = true;
+  }
+
+  function resetGame(){
+    state.rounds = 0;
+    state.correct = 0;
+    state.streak = 0;
+    state.best = 0;
+    state.phase = 'idle';
+    updateStats();
+    setFeedback('Clique em "Tocar intervalo" para começar.');
+    renderAnswerGrid();
+    document.getElementById('mainBtn').innerHTML = 'Tocar<br>intervalo';
+    document.getElementById('repeatBtn').disabled = true;
+  }
+
+  document.getElementById('mainBtn').addEventListener('click', async () => {
+    if (state.phase === 'idle' || state.phase === 'answered'){
+      newRound();
+      await playCurrentRound();
+    }
+  });
+
+  document.getElementById('repeatBtn').addEventListener('click', async () => {
+    if (state.phase === 'awaiting'){
+      await playCurrentRound();
+    }
+  });
+
+  document.getElementById('resetBtn').addEventListener('click', resetGame);
+
+  document.getElementById('levelSelector').addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-level]');
+    if (!btn) return;
+    document.querySelectorAll('#levelSelector button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    state.level = btn.dataset.level;
+    resetGame();
+  });
+
+  document.getElementById('modeSelector').addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-mode]');
+    if (!btn) return;
+    document.querySelectorAll('#modeSelector button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    state.mode = btn.dataset.mode;
+    resetGame();
+  });
+
+  renderAnswerGrid();
+  updateStats();
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(() => {
+        // silencioso: se o registro falhar (ex: aberto via file://), o jogo continua funcionando normalmente
+      });
+    });
+  }
+</script>
+</body>
+</html>

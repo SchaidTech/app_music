@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Acordes & Escalas</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#141416">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Acordes & Escalas">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+<script src="fretboard.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+</head>
+<body>
+  <div class="stage">
+    <a class="back-link" href="index.html">‹ Menu</a>
+    <header>
+      <h1>Acordes & Escalas</h1>
+      <p>Escolha a tônica e veja as 5 formas do CAGED no braço.</p>
+    </header>
+
+    <div class="pedal">
+      <div class="selector-group">
+        <span class="selector-label">Tônica</span>
+        <div class="note-grid" id="rootGrid"></div>
+      </div>
+
+      <div class="selector-group">
+        <span class="selector-label">Ver</span>
+        <div class="segmented" id="tabSelector">
+          <button data-tab="acordes" class="active">Acordes</button>
+          <button data-tab="escalas">Escalas</button>
+        </div>
+      </div>
+
+      <div class="selector-group" id="chordControls">
+        <span class="selector-label">Qualidade</span>
+        <div class="segmented" id="qualitySelector">
+          <button data-quality="maior" class="active">Maior</button>
+          <button data-quality="menor">Menor</button>
+        </div>
+        <div class="segmented" id="qualitySelector2" style="margin-top:6px;">
+          <button data-quality="7">7</button>
+          <button data-quality="m7">m7</button>
+        </div>
+      </div>
+
+      <div class="selector-group" id="scaleControls" style="display:none;">
+        <span class="selector-label">Tipo de escala</span>
+        <div class="segmented" id="scaleTypeSelector">
+          <button data-scale="pentatonica-maior" class="active">Pent. maior</button>
+          <button data-scale="pentatonica-menor">Pent. menor</button>
+        </div>
+        <div class="segmented" id="scaleTypeSelector2" style="margin-top:6px;">
+          <button data-scale="maior">Maior</button>
+          <button data-scale="menor-natural">Menor natural</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="pedal" id="chordSection">
+      <div class="selector-label" id="chordTitle" style="margin-bottom:10px; font-size:0.95rem; color:var(--ink);">—</div>
+      <div class="shape-library" id="shapeLibrary"></div>
+    </div>
+
+    <div class="pedal" id="scaleSection" style="display:none;">
+      <div class="selector-label" id="scaleTitle" style="margin-bottom:10px; font-size:0.95rem; color:var(--ink);">—</div>
+      <div class="diagram-card">
+        <div id="scaleDiagramArea" style="display:flex; justify-content:center;"></div>
+      </div>
+      <div class="repeat-row">
+        <button id="playScaleBtn">🔊 Tocar escala</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+  const state = { rootPc:0, tab:'acordes', quality:'maior', scaleType:'pentatonica-maior' };
+  let synth = null, audioReady = false;
+
+  async function ensureAudio(){
+    if (audioReady) return;
+    await Tone.start();
+    synth = new Tone.PolySynth(Tone.Synth, {
+      oscillator:{ type:'triangle' },
+      envelope:{ attack:0.005, decay:0.35, sustain:0.08, release:0.8 },
+    });
+    const reverb = new Tone.Reverb({ decay:1.2, wet:0.18 }).toDestination();
+    synth.connect(reverb);
+    audioReady = true;
+  }
+
+  function buildRootGrid(){
+    const grid = document.getElementById('rootGrid');
+    NOTE_NAMES.forEach((name, pc) => {
+      const btn = document.createElement('button');
+      btn.className = 'note-btn' + (pc === state.rootPc ? ' active' : '');
+      btn.textContent = name;
+      btn.dataset.pc = pc;
+      btn.addEventListener('click', () => {
+        state.rootPc = pc;
+        document.querySelectorAll('.note-btn').forEach(b => b.classList.toggle('active', Number(b.dataset.pc) === pc));
+        render();
+      });
+      grid.appendChild(btn);
+    });
+  }
+
+  async function playChordShape(frets){
+    await ensureAudio();
+    const now = Tone.now();
+    frets.forEach((f, i) => {
+      if (f === null) return;
+      const midi = OPEN_STRING_MIDI[i] + f;
+      const note = Tone.Frequency(midi, 'midi').toNote();
+      synth.triggerAttackRelease(note, '2n', now + i * 0.06);
+    });
+  }
+
+  function renderShapeLibrary(){
+    const rootName = noteNameFromPc(state.rootPc);
+    document.getElementById('chordTitle').textContent = `${rootName} ${CHORD_QUALITY_LABELS[state.quality]}`;
+    const lib = document.getElementById('shapeLibrary');
+    lib.innerHTML = '';
+    SHAPE_ORDER.forEach(shapeLetter => {
+      const frets = getChordFrets(state.rootPc, state.quality, shapeLetter);
+      const card = document.createElement('div');
+      card.className = 'shape-card';
+
+      const title = document.createElement('div');
+      title.className = 'shape-card-title';
+      title.textContent = 'Modelo ' + shapeLetter;
+      card.appendChild(title);
+
+      const diagramCard = document.createElement('div');
+      diagramCard.className = 'diagram-card';
+      const diagramArea = document.createElement('div');
+      diagramCard.appendChild(diagramArea);
+      card.appendChild(diagramCard);
+      renderChordDiagram(diagramArea, frets, state.rootPc);
+
+      const playBtn = document.createElement('button');
+      playBtn.textContent = '🔊';
+      playBtn.style.cssText = 'background:none;border:1px solid var(--panel-edge);color:var(--ink-dim);border-radius:20px;padding:3px 12px;font-size:0.8rem;cursor:pointer;';
+      playBtn.addEventListener('click', () => playChordShape(frets));
+      card.appendChild(playBtn);
+
+      lib.appendChild(card);
+    });
+  }
+
+  function renderScale(){
+    const rootName = noteNameFromPc(state.rootPc);
+    const scale = SCALE_TYPES[state.scaleType];
+    document.getElementById('scaleTitle').textContent = `${rootName} — ${scale.label}`;
+    const area = document.getElementById('scaleDiagramArea');
+    renderScalePattern(area, state.rootPc, scale.intervals);
+  }
+
+  function render(){
+    if (state.tab === 'acordes') renderShapeLibrary();
+    else renderScale();
+  }
+
+  document.getElementById('tabSelector').addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-tab]');
+    if (!btn) return;
+    document.querySelectorAll('#tabSelector button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    state.tab = btn.dataset.tab;
+    document.getElementById('chordControls').style.display = state.tab === 'acordes' ? '' : 'none';
+    document.getElementById('scaleControls').style.display = state.tab === 'escalas' ? '' : 'none';
+    document.getElementById('chordSection').style.display = state.tab === 'acordes' ? '' : 'none';
+    document.getElementById('scaleSection').style.display = state.tab === 'escalas' ? '' : 'none';
+    render();
+  });
+
+  function wireQualityGroup(id){
+    document.getElementById(id).addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-quality]');
+      if (!btn) return;
+      document.querySelectorAll('#qualitySelector button, #qualitySelector2 button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.quality = btn.dataset.quality;
+      render();
+    });
+  }
+  wireQualityGroup('qualitySelector');
+  wireQualityGroup('qualitySelector2');
+
+  function wireScaleGroup(id){
+    document.getElementById(id).addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-scale]');
+      if (!btn) return;
+      document.querySelectorAll('#scaleTypeSelector button, #scaleTypeSelector2 button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.scaleType = btn.dataset.scale;
+      render();
+    });
+  }
+  wireScaleGroup('scaleTypeSelector');
+  wireScaleGroup('scaleTypeSelector2');
+
+  document.getElementById('playScaleBtn').addEventListener('click', async () => {
+    await ensureAudio();
+    const now = Tone.now();
+    const scale = SCALE_TYPES[state.scaleType];
+    const baseMidi = 52 + state.rootPc;
+    const sequence = [...scale.intervals, 12];
+    sequence.forEach((iv, i) => {
+      const note = Tone.Frequency(baseMidi + iv, 'midi').toNote();
+      synth.triggerAttackRelease(note, '8n', now + i * 0.32);
+    });
+  });
+
+  buildRootGrid();
+  render();
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(() => {});
+    });
+  }
+</script>
+</body>
+</html>
