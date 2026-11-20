@@ -1,4 +1,4 @@
-const CACHE_NAME = 'app-musica-v42';
+const CACHE_NAME = 'app-musica-v43';
 const APP_SHELL = [
   './index.html',
   './modulo-intervalos.html',
@@ -44,8 +44,10 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin && !CDNS.includes(url.hostname)) return;
   event.respondWith((async () => {
     const cache = await caches.open(CACHE_NAME);
-    const cached = await cache.match(req);
-    const net = fetch(req).then((res) => { if (res && (res.status === 200 || res.type === 'opaque')) cache.put(req, res.clone()); return res; }).catch(() => null);
+    let cached = await cache.match(req);
+    // resposta "opaca" (script/estilo sem CORS) não pode atender pedidos CORS (ex.: AudioWorklet do alphaTab): descarta
+    if (cached && cached.type === 'opaque' && req.mode !== 'no-cors') cached = undefined;
+    const net = fetch(req).then((res) => { if (res && (res.status === 200 || (res.type === 'opaque' && req.mode === 'no-cors'))) cache.put(req, res.clone()); return res; }).catch(() => null);
     if (cached){ event.waitUntil(net); return cached; }   // responde do cache e atualiza em segundo plano
     return (await net) || (req.mode === 'navigate' ? (await cache.match('./index.html')) : Response.error());
   })());
