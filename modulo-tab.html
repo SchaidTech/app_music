@@ -13,103 +13,13 @@
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="tema.css">
+<script src="diag.js"></script>
+<script src="fretboard.js"></script>
+<script src="braco.js"></script>
+<script src="cordas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@coderline/alphatab@1/dist/alphaTab.min.js"></script>
-<style>
-  .stage{ max-width:920px; }
-
-  .file-row{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
-  .btn-main{
-    background:var(--brass);
-    color:#211a0a;
-    border:none;
-    border-radius:10px;
-    padding:10px 16px;
-    font-family:var(--body);
-    font-weight:600;
-    font-size:0.9rem;
-    cursor:pointer;
-  }
-  .btn-main:active{ transform:scale(0.97); }
-  .file-name{ color:var(--ink-dim); font-size:0.82rem; word-break:break-all; }
-
-  .song-title{ font-family:var(--display); font-size:1.1rem; color:var(--ink); }
-  .song-artist{ color:var(--ink-dim); font-size:0.82rem; margin-top:2px; }
-  #status{ margin-top:10px; font-size:0.84rem; color:var(--ink-dim); min-height:20px; }
-  #status.error{ color:var(--led-red); }
-
-  .transport{ display:flex; align-items:center; justify-content:center; gap:22px; margin:6px 0 4px; }
-  .transport .footswitch{ width:88px; height:88px; font-size:0.85rem; }
-  .btn-round{
-    width:48px; height:48px; border-radius:50%;
-    background:linear-gradient(180deg,#2a2b2f,#202124);
-    border:1px solid var(--panel-edge);
-    color:var(--ink);
-    font-size:1rem;
-    cursor:pointer;
-  }
-  .btn-round:disabled{ opacity:0.4; cursor:not-allowed; }
-  .time-readout{ text-align:center; font-family:var(--mono); font-size:0.8rem; color:var(--brass); margin-bottom:14px; }
-
-  .bpm-row{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:4px; }
-  .bpm-row input[type=range]{ flex:1; min-width:160px; accent-color:var(--brass); }
-  .bpm-box{
-    display:flex; align-items:center; gap:6px;
-    background:var(--bg-1); border:1px solid var(--panel-edge); border-radius:10px; padding:4px 8px;
-  }
-  .bpm-box input{
-    width:58px; background:transparent; border:none; color:var(--ink);
-    font-family:var(--mono); font-size:1rem; text-align:center;
-  }
-  .bpm-box button{
-    background:none; border:none; color:var(--ink-dim); font-size:1.1rem; cursor:pointer; padding:0 6px;
-  }
-  .bpm-box button:hover{ color:var(--brass); }
-  .hint{ font-size:0.74rem; color:var(--ink-dim); }
-
-  .chips{ display:flex; gap:8px; flex-wrap:wrap; margin:12px 0; }
-  .chip{
-    padding:7px 14px; border-radius:20px;
-    border:1px solid var(--panel-edge); background:transparent;
-    color:var(--ink-dim); font-family:var(--body); font-size:0.8rem; cursor:pointer;
-  }
-  .chip[aria-pressed="true"]{ background:var(--brass); border-color:var(--brass); color:#211a0a; font-weight:600; }
-  .chip:disabled{ opacity:0.4; cursor:not-allowed; }
-
-  .opts-row{ display:flex; gap:14px; flex-wrap:wrap; align-items:flex-end; }
-  .opts-row .selector-group{ margin-bottom:0; flex:1; min-width:180px; }
-  select{
-    background:var(--bg-1); color:var(--ink); border:1px solid var(--panel-edge);
-    border-radius:8px; padding:8px; font-family:var(--body); font-size:0.84rem; width:100%;
-  }
-  .zoom-btns{ display:flex; gap:6px; }
-  .zoom-btns button{
-    background:var(--bg-1); color:var(--ink); border:1px solid var(--panel-edge);
-    border-radius:8px; padding:8px 12px; cursor:pointer; font-family:var(--mono);
-  }
-
-  /* Área da tablatura: cartão claro, como os diagramas */
-  .at-viewport{
-    position:relative;
-    height:60vh;
-    min-height:320px;
-    overflow-y:auto;
-    background:#faf8f4;
-    color:#1a1a1a;
-    border-radius:10px;
-    padding:8px;
-  }
-  .at-placeholder{
-    position:absolute; inset:0;
-    display:flex; align-items:center; justify-content:center;
-    text-align:center; padding:24px;
-    color:#6b655b; font-size:0.9rem; line-height:1.5;
-    pointer-events:none;
-  }
-  .at-cursor-bar{ background:rgba(201,154,58,0.22); }
-  .at-selection div{ background:rgba(201,154,58,0.20); }
-  .at-cursor-beat{ background:rgba(143,111,42,0.9); width:3px; }
-  .at-highlight *{ fill:#a9761a; stroke:#a9761a; }
-</style>
+<link rel="stylesheet" href="tab.css">
 </head>
 <body>
   <div class="stage">
@@ -140,6 +50,7 @@
         <button class="btn-round" id="clearBtn" disabled title="Limpar trecho selecionado">✕</button>
       </div>
       <div class="time-readout" id="timeReadout">0:00 / 0:00</div>
+      <div class="tab-board" id="tabBoard"></div>
 
       <div class="selector-label" style="margin-bottom:6px;">Velocidade</div>
       <div class="bpm-row">
@@ -216,6 +127,15 @@
     controls.forEach(id => { $(id).disabled = !on; });
   }
 
+  // braço realista acompanhando a música (índice 0 = 6ª corda)
+  const boardEl = $('tabBoard'); let lastStart = 0;
+  function noteStr(n){
+    const c = [n.string - 1, 6 - n.string], m = c.find(i => i >= 0 && i < 6 && OPEN_STRING_MIDI[i] + n.fret === n.realValue);
+    return m !== undefined ? m : c[0];
+  }
+  const board = new DynBoard(boardEl); board.configure({ start: 0, follow: true });
+  function drawBoard(lit){ if (!lit.length) board.clear(); }
+
   function init(){
     if (typeof alphaTab === 'undefined'){
       setStatus('Não consegui carregar o motor de tablatura (alphaTab). Verifique a conexão e recarregue a página.', true);
@@ -223,7 +143,8 @@
     }
 
     const settings = {
-      display: { scale: scale, staveProfile: alphaTab.StaveProfile.Tab },
+      display: { scale: scale, staveProfile: alphaTab.StaveProfile.Tab,
+        resources: { staffLineColor: 'rgba(110,110,122,1)', barSeparatorColor: 'rgba(110,110,122,1)', barNumberColor: 'rgba(154,150,140,1)', mainGlyphColor: 'rgba(238,231,216,1)', secondaryGlyphColor: 'rgba(154,150,140,1)', scoreInfoColor: 'rgba(238,231,216,1)' } },
       player: {
         playerMode: alphaTab.PlayerMode.EnabledAutomatic,
         soundFont: SOUNDFONT,
@@ -231,6 +152,7 @@
       }
     };
     api = new alphaTab.AlphaTabApi($('alphaTab'), settings);
+    if (window.Diag) Diag.attach(api, 'treino de tab');
 
     setStatus('Carregando o som… 0%');
 
@@ -274,7 +196,10 @@
     api.playerStateChanged.on((e) => {
       const playing = e.state === alphaTab.synth.PlayerState.Playing;
       $('playBtn').innerHTML = playing ? 'Pausar' : 'Tocar';
+      if (e.stopped) drawBoard([]);
     });
+
+    api.playedBeatChanged.on((beat) => { try{ board.beat(beat, api.playbackSpeed); }catch(err){} });
 
     api.playerPositionChanged.on((e) => {
       $('timeReadout').textContent = fmtTime(e.currentTime) + ' / ' + fmtTime(e.endTime);
@@ -387,9 +312,10 @@
 
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js').catch(() => {});
+      if (localStorage.getItem('appMusica.nosw') !== '1') navigator.serviceWorker.register('sw.js').catch(() => {});
     });
   }
 </script>
+<script src="nav.js"></script>
 </body>
 </html>

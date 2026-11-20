@@ -13,8 +13,10 @@
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="tema.css">
 <script src="app.js"></script>
 <script src="fretboard.js"></script>
+<script src="braco.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
 </head>
 <body>
@@ -67,13 +69,14 @@
     <div class="pedal" id="chordSection">
       <div class="selector-label" id="chordTitle" style="margin-bottom:10px; font-size:0.95rem; color:var(--ink);">—</div>
       <div class="shape-library" id="shapeLibrary"></div>
+      <div class="repeat-row" style="margin:12px 0 0"><button id="namesBtn2">Rótulo: dedos</button></div>
     </div>
 
     <div class="pedal" id="scaleSection" style="display:none;">
       <div class="selector-label" id="scaleTitle" style="margin-bottom:10px; font-size:0.95rem; color:var(--ink);">—</div>
-      <div class="diagram-card">
-        <div id="scaleDiagramArea" style="display:flex; justify-content:center;"></div>
-      </div>
+      <div class="braco-ctl"><button id="bPrev" aria-label="Casas anteriores">‹</button><div id="bLabel">—</div><button id="bNext" aria-label="Próximas casas">›</button></div>
+      <div id="scaleDiagramArea"></div>
+      <div class="repeat-row" style="margin:12px 0 0"><button id="namesBtn">Mostrar nomes</button></div>
       <div class="repeat-row">
         <button id="playScaleBtn">🔊 Tocar escala</button>
       </div>
@@ -81,7 +84,7 @@
   </div>
 
 <script>
-  const state = { rootPc:0, tab:'acordes', quality:'maior', scaleType:'pentatonica-maior' };
+  const state = { rootPc:0, tab:'acordes', quality:'maior', scaleType:'pentatonica-maior', start:0, names:false, chordLabel:'fingers' };
   let synth = null, audioReady = false;
 
   async function ensureAudio(){
@@ -138,12 +141,10 @@
       title.textContent = 'Modelo ' + shapeLetter;
       card.appendChild(title);
 
-      const diagramCard = document.createElement('div');
-      diagramCard.className = 'diagram-card';
       const diagramArea = document.createElement('div');
-      diagramCard.appendChild(diagramArea);
-      card.appendChild(diagramCard);
-      renderChordDiagram(diagramArea, frets, state.rootPc);
+      diagramArea.style.width = '100%';
+      card.appendChild(diagramArea);
+      renderBracoAcorde(diagramArea, frets, state.rootPc, state.chordLabel);
 
       const playBtn = document.createElement('button');
       playBtn.textContent = '🔊';
@@ -160,7 +161,9 @@
     const scale = SCALE_TYPES[state.scaleType];
     document.getElementById('scaleTitle').textContent = `${rootName} — ${scale.label}`;
     const area = document.getElementById('scaleDiagramArea');
-    renderScalePattern(area, state.rootPc, scale.intervals);
+    renderBraco(area, { start:state.start, pcs:scalePcs(state.rootPc, scale.intervals), rootPc:state.rootPc, names:state.names });
+    document.getElementById('bLabel').innerHTML = `Casas ${state.start ? state.start + 1 : 0} a ${state.start + 5}<small>${state.names ? 'nomes das notas' : 'notas da escala'}</small>`;
+    document.getElementById('bPrev').disabled = state.start <= 0; document.getElementById('bNext').disabled = state.start >= 12;
   }
 
   function render(){
@@ -219,6 +222,10 @@
     });
   });
 
+  document.getElementById('bPrev').addEventListener('click', () => { state.start = Math.max(0, state.start - 1); render(); });
+  document.getElementById('bNext').addEventListener('click', () => { state.start = Math.min(12, state.start + 1); render(); });
+  document.getElementById('namesBtn').addEventListener('click', () => { state.names = !state.names; render(); });
+  document.getElementById('namesBtn2').addEventListener('click', () => { const o = ['fingers', 'names', 'none'], t = { fingers: 'dedos', names: 'notas', none: 'nenhum' }; state.chordLabel = o[(o.indexOf(state.chordLabel) + 1) % 3]; document.getElementById('namesBtn2').textContent = 'Rótulo: ' + t[state.chordLabel]; render(); });
   buildRootGrid();
   render();
 
@@ -228,5 +235,6 @@
     });
   }
 </script>
+<script src="nav.js"></script>
 </body>
 </html>

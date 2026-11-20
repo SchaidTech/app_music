@@ -1,10 +1,18 @@
-const CACHE_NAME = 'app-musica-v8';
+const CACHE_NAME = 'app-musica-v42';
 const APP_SHELL = [
   './index.html',
   './modulo-intervalos.html',
   './modulo-acordes-escalas.html',
   './modulo-tab.html',
+  './modulo-cursos.html',
   './style.css',
+  './tema.css',
+  './cursos.css',
+  './tab.css',
+  './nav.js',
+  './braco.js',
+  './cordas.js',
+  './diag.js',
   './app.js',
   './fretboard.js',
   './manifest.json',
@@ -28,11 +36,17 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
+const CDNS = ['cdn.jsdelivr.net', 'cdnjs.cloudflare.com', 'fonts.googleapis.com', 'fonts.gstatic.com'];
 self.addEventListener('fetch', (event) => {
-  const url = new URL(event.request.url);
-  if (url.origin === self.location.origin) {
-    event.respondWith(
-      caches.match(event.request).then((cached) => cached || fetch(event.request))
-    );
-  }
+  const req = event.request;
+  if (req.method !== 'GET') return;
+  const url = new URL(req.url);
+  if (url.origin !== self.location.origin && !CDNS.includes(url.hostname)) return;
+  event.respondWith((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    const cached = await cache.match(req);
+    const net = fetch(req).then((res) => { if (res && (res.status === 200 || res.type === 'opaque')) cache.put(req, res.clone()); return res; }).catch(() => null);
+    if (cached){ event.waitUntil(net); return cached; }   // responde do cache e atualiza em segundo plano
+    return (await net) || (req.mode === 'navigate' ? (await cache.match('./index.html')) : Response.error());
+  })());
 });

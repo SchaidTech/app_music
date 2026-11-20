@@ -1,5 +1,5 @@
 // fretboard.js — motor de diagramas de acorde e escala, com as 5 formas do sistema CAGED
-// Dados de acordes extraídos e conferidos contra o Guia de Acordes (Vilmar Gusberti) —
+// Dados de acordes extraídos e conferidos contra o Guia de Acordes —
 // cada forma abaixo é o "template" na posição R=0 (a forma aberta correspondente à sua letra).
 
 const NOTE_NAMES = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];

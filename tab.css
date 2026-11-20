@@ -1,0 +1,25 @@
+/* Treino de Tab – visual novo */
+.stage{max-width:920px}
+.file-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.btn-main{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 20px;border:0;border-radius:14px;background:var(--orange);color:#1a0f00;font-family:var(--body);font-weight:600;font-size:.92rem;cursor:pointer}
+.btn-main:active{transform:scale(.97)}.file-name{color:var(--ink-dim);font-size:.82rem;word-break:break-all}
+.song-title{font-family:var(--display);font-size:1.2rem;letter-spacing:.03em}.song-artist{color:var(--ink-dim);font-size:.82rem;margin-top:2px}
+#status{margin-top:10px;font-size:.84rem;color:var(--ink-dim);min-height:20px}#status.error{color:#e4766c}
+.transport{display:flex;align-items:center;justify-content:center;gap:22px;margin:6px 0 4px}.transport .footswitch{width:88px;height:88px;font-size:.85rem}
+.btn-round{width:48px;height:48px;border-radius:50%;background:var(--panel-edge);border:0;color:var(--ink);font-size:1rem;cursor:pointer}.btn-round:disabled{opacity:.4;cursor:not-allowed}
+.time-readout{text-align:center;font-family:var(--mono);font-size:.8rem;color:var(--orange);margin-bottom:12px}
+.tab-board{margin:0 0 14px}
+.bpm-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:4px}.bpm-row input[type=range]{flex:1;min-width:160px;accent-color:var(--orange)}
+.bpm-box{display:flex;align-items:center;gap:6px;background:var(--bg-1);border:1px solid var(--panel-edge);border-radius:14px;padding:3px 8px;min-height:44px}
+.bpm-box input{width:58px;background:transparent;border:0;color:var(--ink);font-family:var(--mono);font-size:1rem;text-align:center}
+.bpm-box button{background:none;border:0;color:var(--ink-dim);font-size:1.1rem;cursor:pointer;padding:0 8px;min-height:40px}.bpm-box button:hover{color:var(--orange)}
+.hint{font-size:.74rem;color:var(--ink-dim)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.chip{min-height:44px;padding:0 16px;border-radius:22px;border:1px solid var(--panel-edge);background:transparent;color:var(--ink-dim);font-family:var(--body);font-size:.82rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:#2a1a08;border-color:var(--orange);color:var(--orange);font-weight:600}.chip:disabled{opacity:.4;cursor:not-allowed}
+.opts-row{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end}.opts-row .selector-group{margin-bottom:0;flex:1;min-width:180px}
+select{background:var(--bg-1);color:var(--ink);border:1px solid var(--panel-edge);border-radius:12px;padding:0 10px;min-height:44px;font-family:var(--body);font-size:.86rem;width:100%}
+.zoom-btns{display:flex;gap:6px}.zoom-btns button{background:var(--bg-1);color:var(--ink);border:1px solid var(--panel-edge);border-radius:12px;min-width:48px;min-height:44px;cursor:pointer;font-family:var(--mono)}
+.at-viewport{position:relative;height:60vh;min-height:320px;overflow-y:auto;background:#0e0e11;border:1px solid #1f1f25;color:var(--ink);border-radius:14px;padding:8px}
+.at-placeholder{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:var(--ink-dim);font-size:.9rem;line-height:1.5;pointer-events:none}
+.at-cursor-bar{background:rgba(255,148,55,.14)}.at-selection div{background:rgba(255,148,55,.2)}.at-cursor-beat{background:#ff9437;width:3px}.at-highlight *{fill:#ff9437;stroke:#ff9437}
