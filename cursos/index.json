@@ -1,0 +1,13 @@
+[
+ {
+  "id": "metodo-guitarra-nivel-1",
+  "title": "Método de Guitarra – Nível 1 – Iniciante",
+  "path": "cursos/metodo-guitarra-nivel-1/course.json",
+  "cover": {
+   "l1": "MÉTODO DE",
+   "l2": "GUITARRA",
+   "tag": "Nível 1 · Iniciante",
+   "accent": "#ff9437"
+  }
+ }
+]
