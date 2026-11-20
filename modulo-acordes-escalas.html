@@ -18,6 +18,7 @@
 <script src="fretboard.js"></script>
 <script src="braco.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+<script src="violao.js"></script>
 </head>
 <body>
   <div class="stage">
@@ -90,12 +91,7 @@
   async function ensureAudio(){
     if (audioReady) return;
     await Tone.start();
-    synth = new Tone.PolySynth(Tone.Synth, {
-      oscillator:{ type:'triangle' },
-      envelope:{ attack:0.005, decay:0.35, sustain:0.08, release:0.8 },
-    });
-    const reverb = new Tone.Reverb({ decay:1.2, wet:0.18 }).toDestination();
-    synth.connect(reverb);
+    synth = Violao.create();
     audioReady = true;
   }
 

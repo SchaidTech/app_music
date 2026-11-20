@@ -1,4 +1,4 @@
-const CACHE_NAME = 'app-musica-v43';
+const CACHE_NAME = 'app-musica-v45';
 const APP_SHELL = [
   './index.html',
   './modulo-intervalos.html',
@@ -13,6 +13,8 @@ const APP_SHELL = [
   './braco.js',
   './cordas.js',
   './diag.js',
+  './violao.js',
+  './acorde.js',
   './app.js',
   './fretboard.js',
   './manifest.json',

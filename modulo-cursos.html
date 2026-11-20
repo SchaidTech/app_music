@@ -19,6 +19,9 @@
 <script src="braco.js"></script>
 <script src="cordas.js"></script>
 <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/@coderline/alphatab@1/dist/alphaTab.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+<script src="violao.js"></script>
+<script src="acorde.js"></script>
 <link rel="stylesheet" href="cursos.css">
 </head>
 <body>
@@ -91,9 +94,16 @@
     const v = c.cover || {}, a = v.accent || '#ff9437', id = 'cv' + Math.random().toString(36).slice(2, 6);
     const X = (i, y) => (20 + i * 52) + (400 - y) / 230 * ((150 + (i - 2.5) * 14) - (20 + i * 52));
     let h = `<svg viewBox="0 0 300 400" class="cover" role="img" aria-label="${esc(c.title)}"><defs><linearGradient id="${id}b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d1d23"/><stop offset="1" stop-color="#0b0b0d"/></linearGradient><filter id="${id}g" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="6"/></filter></defs><rect width="300" height="400" fill="url(#${id}b)"/>`;
+    if (v.art === 'acorde'){
+      const gx = i => 78 + i * 29, gy = k => 214 + k * 34;
+      for (let k = 0; k <= 5; k++) h += `<line x1="${gx(0)}" y1="${gy(k)}" x2="${gx(5)}" y2="${gy(k)}" stroke="${k === 0 ? '#cfc8b8' : '#55555e'}" stroke-width="${k === 0 ? 4 : 1.6}" opacity=".85"/>`;
+      for (let i = 0; i < 6; i++) h += `<line x1="${gx(i)}" y1="${gy(0)}" x2="${gx(i)}" y2="${gy(5)}" stroke="#9a9aa4" stroke-width="${1 + i * .25}" opacity=".7"/>`;
+      [[1, 3], [2, 2], [4, 1]].forEach(([i, k]) => { const x = gx(i), y = gy(k) - 17; h += `<circle cx="${x}" cy="${y}" r="15" fill="${a}" opacity=".75" filter="url(#${id}g)"/><circle cx="${x}" cy="${y}" r="11" fill="${a}"/>`; });
+    } else {
     [380, 335, 292, 254, 220, 190].forEach(y => { h += `<line x1="${X(0, y)}" y1="${y}" x2="${X(5, y)}" y2="${y}" stroke="#55555e" stroke-width="2" opacity=".7"/>`; });
     for (let i = 0; i < 6; i++) h += `<line x1="${X(i, 400)}" y1="400" x2="${X(i, 170)}" y2="170" stroke="#9a9aa4" stroke-width="${1 + i * .4}" opacity=".6"/>`;
     [[1, 292], [3, 254], [4, 335], [2, 220]].forEach(([i, y]) => { const x = X(i, y); h += `<circle cx="${x}" cy="${y - 20}" r="13" fill="${a}" opacity=".8" filter="url(#${id}g)"/><circle cx="${x}" cy="${y - 20}" r="9" fill="${a}"/>`; });
+    }
     h += `<rect x="0" y="0" width="300" height="190" fill="url(#${id}b)" opacity=".92"/><text x="24" y="66" font-family="Oswald,sans-serif" font-weight="600" font-size="30" letter-spacing="1.5" fill="#eee7d8">${esc(v.l1 || c.title)}</text>`;
     if (v.l2) h += `<text x="22" y="124" font-family="Oswald,sans-serif" font-weight="700" font-size="58" letter-spacing="1" fill="${a}">${esc(v.l2)}</text>`;
     h += `<rect x="24" y="142" width="46" height="4" rx="2" fill="${a}"/>`;
@@ -194,13 +204,12 @@
         body.appendChild(grid);
       } else if (b.type === 'chords'){
         const row = document.createElement('div'); row.className = 'chords-grid';
-        b.items.forEach(it => {
-          const card = document.createElement('div'); card.className = 'chord-card';
-          const t = document.createElement('b'); t.textContent = it.name; card.appendChild(t);
-          const area = document.createElement('div'); card.appendChild(area);
-          renderBracoVertical(area, it.frets, it.root, 'fingers'); row.appendChild(card);
-        });
+        b.items.forEach(it => row.appendChild(chordCard(it)));
         body.appendChild(row);
+      } else if (b.type === 'chordseq'){
+        body.appendChild(buildSeq(b));
+      } else if (b.type === 'fretmap'){
+        body.appendChild(buildFretmap(b));
       } else if (b.type === 'exercise'){
         body.appendChild(buildExercise(b));
       }
@@ -222,7 +231,107 @@
     });
   }
 
+
+  // ---------- acordes com som ----------
+  function chordCard(it, small){
+    const card = document.createElement('div'); card.className = 'chord-card' + (small ? ' sm' : ''); card.tabIndex = 0;
+    card.setAttribute('role', 'button'); card.setAttribute('aria-label', 'Ouvir ' + it.name);
+    const t = document.createElement('b'); t.textContent = it.name; card.appendChild(t);
+    const snd = document.createElement('span'); snd.className = 'snd'; snd.textContent = '🔊'; card.appendChild(snd);
+    const area = document.createElement('div'); card.appendChild(area);
+    renderBracoVertical(area, it.frets, it.root, 'fingers');
+    const go = () => { Acorde.play(it.frets).catch(() => {}); card.classList.remove('pulse'); void card.offsetWidth; card.classList.add('pulse'); };
+    card.addEventListener('click', go);
+    card.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); go(); } });
+    return card;
+  }
+  let seqAtiva = null;
+  function buildSeq(b){
+    const wrap = document.createElement('div'); wrap.className = 'chordseq';
+    if (b.title){ const t = document.createElement('div'); t.className = 'cs-title'; t.textContent = b.title; wrap.appendChild(t); }
+    const row = document.createElement('div'); row.className = 'chords-grid';
+    const cards = b.items.map(it => { const c = chordCard(it, true); row.appendChild(c); return c; });
+    wrap.appendChild(row);
+    const ctr = document.createElement('div'); ctr.className = 'cs-ctr';
+    ctr.innerHTML = `<button class="chip cs-play" style="border-color:var(--orange);color:var(--orange)">▶ Tocar sequência</button>
+      <span class="cs-bpm"><button class="chip cs-m" aria-label="Diminuir BPM">−</button><b class="cs-v"></b><button class="chip cs-p" aria-label="Aumentar BPM">+</button> BPM</span>
+      <button class="chip cs-loop" aria-pressed="true">Repetir</button>`;
+    wrap.appendChild(ctr);
+    const play = ctr.querySelector('.cs-play'), vEl = ctr.querySelector('.cs-v'), loopB = ctr.querySelector('.cs-loop');
+    let bpm = b.tempo || 70, loop = true, i = 0, timer = null, on = false;
+    const showBpm = () => { vEl.textContent = bpm; }; showBpm();
+    const mark = (k) => cards.forEach((c, n) => c.classList.toggle('active', n === k));
+    function stop(){ on = false; clearTimeout(timer); mark(-1); play.textContent = '▶ Tocar sequência'; if (seqAtiva === stop) seqAtiva = null; }
+    function step(){
+      if (!on) return;
+      const it = b.items[i]; mark(i); Acorde.play(it.frets).catch(() => {});
+      const beats = it.beats || b.beats || 2;
+      timer = setTimeout(() => { i++; if (i >= b.items.length){ if (!loop){ stop(); return; } i = 0; } step(); }, beats * 60000 / bpm);
+    }
+    play.addEventListener('click', () => {
+      if (on){ stop(); return; }
+      if (seqAtiva) seqAtiva();
+      on = true; i = 0; seqAtiva = stop; play.textContent = '■ Parar'; step();
+    });
+    ctr.querySelector('.cs-m').addEventListener('click', () => { bpm = Math.max(40, bpm - 5); showBpm(); });
+    ctr.querySelector('.cs-p').addEventListener('click', () => { bpm = Math.min(180, bpm + 5); showBpm(); });
+    loopB.addEventListener('click', () => { loop = !loop; loopB.setAttribute('aria-pressed', String(loop)); });
+    return wrap;
+  }
+
+  // ---------- mapa de notas no braço (treino de localização) ----------
+  function buildFretmap(b){
+    const wrap = document.createElement('div'); wrap.className = 'fretmap';
+    const NAT = { 0: 'C', 2: 'D', 4: 'E', 5: 'F', 7: 'G', 9: 'A', 11: 'B' };
+    const SUS = { 1: 'C#', 3: 'D#', 6: 'F#', 8: 'G#', 10: 'A#' }, BEM = { 1: 'Db', 3: 'Eb', 6: 'Gb', 8: 'Ab', 10: 'Bb' };
+    const OPEN_TOP = [64, 59, 55, 50, 45, 40], STR_NAME = ['E', 'B', 'G', 'D', 'A', 'E'];
+    let modo = b.mode || 'nat', treino = !!b.hide;
+    const revealed = new Set();
+    const ctr = document.createElement('div'); ctr.className = 'fm-ctr';
+    ctr.innerHTML = `<button class="chip" data-m="nat">Naturais</button><button class="chip" data-m="sus">Naturais + #</button><button class="chip" data-m="bem">Naturais + b</button><button class="chip fm-hide">Treinar (esconder nomes)</button>`;
+    wrap.appendChild(ctr);
+    const box = document.createElement('div'); box.className = 'fm-box'; wrap.appendChild(box);
+    const hint = document.createElement('div'); hint.className = 'fm-hint'; wrap.appendChild(hint);
+    function draw(){
+      ctr.querySelectorAll('[data-m]').forEach(x => x.setAttribute('aria-pressed', String(x.dataset.m === modo)));
+      ctr.querySelector('.fm-hide').setAttribute('aria-pressed', String(treino));
+      const X = (f) => 34 + f * 48, Y = (s) => 24 + s * 28;
+      let s = `<svg viewBox="0 0 650 206" role="img" aria-label="Braço da guitarra com as notas da casa 0 à 12">`;
+      for (let k = 0; k <= 12; k++) s += `<line x1="${58 + k * 48}" y1="${Y(0) - 8}" x2="${58 + k * 48}" y2="${Y(5) + 8}" stroke="${k === 0 ? '#cfc8b8' : '#3a3a42'}" stroke-width="${k === 0 ? 4 : 1.5}"/>`;
+      for (let r = 0; r < 6; r++) s += `<line x1="58" y1="${Y(r)}" x2="634" y2="${Y(r)}" stroke="#8c8c96" stroke-width="${1 + r * .35}"/><text x="8" y="${Y(r) + 4}" fill="#9a968c" font-size="11" font-family="Inter,sans-serif">${STR_NAME[r]}</text>`;
+      for (let f = 0; f <= 12; f++) s += `<text x="${X(f)}" y="${Y(5) + 28}" text-anchor="middle" fill="#9a968c" font-size="11" font-family="Inter,sans-serif">${f}</text>`;
+      [3, 5, 7, 9].forEach(f => { s += `<circle cx="${X(f)}" cy="${Y(5) + 15}" r="2.5" fill="#55555e"/>`; });
+      s += `<circle cx="${X(12) - 4}" cy="${Y(5) + 15}" r="0"/>`;
+      for (let r = 0; r < 6; r++) for (let f = 0; f <= 12; f++){
+        const midi = OPEN_TOP[r] + f, pc = midi % 12;
+        const nat = NAT[pc], alt = modo === 'sus' ? SUS[pc] : modo === 'bem' ? BEM[pc] : null, nm = nat || alt;
+        if (!nm) continue;
+        const key = r + '-' + f, vis = !treino || revealed.has(key);
+        const fill = nat ? '#ff9437' : '#16161a', stroke = '#ff9437', ink = nat ? '#1b1105' : '#ffb366';
+        s += `<g class="fm-n" data-r="${r}" data-f="${f}" style="cursor:pointer"><circle cx="${X(f)}" cy="${Y(r)}" r="11.5" fill="${vis ? fill : '#0b0b0d'}" stroke="${vis ? stroke : '#55555e'}" stroke-width="1.5"/><text x="${X(f)}" y="${Y(r) + 4}" text-anchor="middle" font-size="${nm.length > 1 ? 9.5 : 11.5}" font-weight="700" font-family="Inter,sans-serif" fill="${vis ? ink : '#55555e'}">${vis ? nm : '?'}</text></g>`;
+      }
+      box.innerHTML = s + '</svg>';
+      box.querySelectorAll('.fm-n').forEach(g => g.addEventListener('click', () => {
+        const r = +g.dataset.r, f = +g.dataset.f, key = r + '-' + f;
+        if (treino){ if (revealed.has(key)) revealed.delete(key); else revealed.add(key); }
+        Acorde.nota(OPEN_TOP[r] + f).catch(() => {});
+        if (treino) draw();
+      }));
+      hint.textContent = treino ? 'Toque numa bolinha para ver o nome da nota e ouvir o som. Toque de novo para esconder.' : 'Toque numa nota para ouvir o som. Laranja cheio = nota natural; contorno = nota alterada.';
+    }
+    ctr.addEventListener('click', (e) => {
+      const m = e.target.closest('[data-m]'); if (m){ modo = m.dataset.m; revealed.clear(); draw(); return; }
+      if (e.target.closest('.fm-hide')){ treino = !treino; revealed.clear(); draw(); }
+    });
+    draw();
+    return wrap;
+  }
+
   // ---------- exercício (tab + player) ----------
+  // timbres (programas GM): o mesmo exercício pode soar como guitarra limpa, violão de aço ou nylon
+  const TIMBRES = [{ n: 'Elétrica limpa', p: 27 }, { n: 'Violão de aço', p: 25 }, { n: 'Violão de nylon', p: 24 }];
+  let timbre = (() => { try{ const v = Number(localStorage.getItem('appMusica.timbre.v1')); return v >= 0 && v < TIMBRES.length ? v : 0; }catch(e){ return 0; } })();
+  function texFor(block){ return block.tex.replace(/\\instrument\s+\d+/, '\\instrument ' + TIMBRES[timbre].p); }
   function makeSettings(withPlayer){
     const s = {
       display: { scale: window.innerWidth < 520 ? 0.8 : 0.95, staveProfile: alphaTab.StaveProfile.Tab,
@@ -274,6 +383,7 @@
         <button class="chip chip-metro" aria-pressed="false">Metrônomo</button>
         <button class="chip chip-count" aria-pressed="false">Contagem</button>
         <button class="chip chip-loop" aria-pressed="false">Repetir</button>
+        <button class="chip chip-timbre" title="Trocar o timbre do som">Timbre: ${TIMBRES[timbre].n}</button>
       </div>
       ${block.hint ? `<div class="ex-hint">${esc(block.hint)}</div>` : ''}
       <div class="ex-status"></div>`;
@@ -329,7 +439,7 @@
       }
       api.scoreLoaded.on((score) => { try{ card.pos = collectPos(score); card.start = boardStart(card.pos); if (!card.board) card.board = new DynBoard(boardEl); card.board.configure({ start: card.start === null ? 0 : card.start, follow: card.start === null, ghosts: card.pos }); }catch(e){} });
       if (withPlayer) api.playedBeatChanged.on((beat) => { try{ if (card.board) card.board.beat(beat, api.playbackSpeed); }catch(e){} });
-      api.tex(block.tex);
+      api.tex(texFor(block));
     }
 
     function destroyApi(){
@@ -384,6 +494,12 @@
     wireChip('.chip-metro', 'metro');
     wireChip('.chip-count', 'count');
     wireChip('.chip-loop', 'loop');
+    q('.chip-timbre').addEventListener('click', () => {
+      timbre = (timbre + 1) % TIMBRES.length;
+      try{ localStorage.setItem('appMusica.timbre.v1', String(timbre)); }catch(e){}
+      document.querySelectorAll('.chip-timbre').forEach(b => { b.textContent = 'Timbre: ' + TIMBRES[timbre].n; });
+      if (card.hasPlayer){ playBtn.textContent = '▶ Tocar'; loadingEl.style.display = 'flex'; createApi(true); }
+    });
 
     exercises.push(card);
     wrap._card = card;

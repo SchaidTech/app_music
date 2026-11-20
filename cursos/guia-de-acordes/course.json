@@ -1,0 +1,2246 @@
+{
+ "id": "guia-de-acordes",
+ "title": "Guia de Acordes – Guitarra e Violão",
+ "modules": [
+  {
+   "id": "g1",
+   "title": "Conceitos básicos",
+   "topics": [
+    {
+     "id": "g1-1",
+     "title": "Como ler os diagramas",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Neste curso você vai ver dois tipos de diagrama: um para <b>acordes</b> e outro para localizar <b>notas e intervalos</b> no braço. Aprender a ler os dois é o primeiro passo."
+      },
+      {
+       "type": "h3",
+       "text": "Diagrama de acorde"
+      },
+      {
+       "type": "p",
+       "html": "Ele mostra um pedaço do braço <b>em pé</b>. As linhas verticais são as cordas, com a 6ª (a mais grave) à esquerda e a 1ª (a mais fina) à direita. As linhas horizontais são os trastes, ou seja, as casas."
+      },
+      {
+       "type": "ul",
+       "items": [
+        "<b>Bolinha cheia</b>: onde apertar a corda. O número dentro dela é o dedo a usar (1 = indicador, 2 = médio, 3 = anelar, 4 = mindinho).",
+        "<b>Círculo vazio acima da corda</b>: corda solta, que deve ser tocada.",
+        "<b>X acima da corda</b>: corda que não deve soar."
+       ]
+      },
+      {
+       "type": "chords",
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 0
+        },
+        {
+         "name": "Em",
+         "frets": [
+          0,
+          2,
+          2,
+          0,
+          0,
+          0
+         ],
+         "root": 4
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Toque em qualquer diagrama de acorde do curso para <b>ouvir o som</b> dele."
+      },
+      {
+       "type": "h3",
+       "text": "Diagrama de notas no braço"
+      },
+      {
+       "type": "p",
+       "html": "Aqui o braço aparece <b>deitado</b>, como você o vê olhando de cima para o instrumento: as primeiras casas ficam à esquerda, a 1ª corda (mais fina) fica em cima e a 6ª (mais grossa) embaixo. Os números embaixo são as casas."
+      },
+      {
+       "type": "fretmap",
+       "mode": "nat",
+       "hide": false
+      }
+     ]
+    },
+    {
+     "id": "g1-2",
+     "title": "As notas musicais, tom e semitom",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A música ocidental usa <b>sete notas</b>: Dó, Ré, Mi, Fá, Sol, Lá e Si. Elas também são escritas com letras, as sete primeiras do alfabeto. Cuidado: a sequência das letras começa no <b>Lá</b> (A), e não no Dó."
+      },
+      {
+       "type": "cards",
+       "items": [
+        {
+         "big": "C",
+         "title": "Dó"
+        },
+        {
+         "big": "D",
+         "title": "Ré"
+        },
+        {
+         "big": "E",
+         "title": "Mi"
+        },
+        {
+         "big": "F",
+         "title": "Fá"
+        },
+        {
+         "big": "G",
+         "title": "Sol"
+        },
+        {
+         "big": "A",
+         "title": "Lá"
+        },
+        {
+         "big": "B",
+         "title": "Si"
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Memorize os dois nomes de cada nota. A cifra dos acordes usa as letras."
+      },
+      {
+       "type": "h3",
+       "text": "Tom e semitom"
+      },
+      {
+       "type": "p",
+       "html": "Tom e semitom medem a distância entre duas notas. O <b>semitom</b> é a menor distância e vale <b>uma casa</b> no braço. O <b>tom</b> vale dois semitons, ou <b>duas casas</b>."
+      },
+      {
+       "type": "cards",
+       "items": [
+        {
+         "big": "1 ST",
+         "title": "1 semitom",
+         "text": "= ½ tom = 1 casa"
+        },
+        {
+         "big": "1 T",
+         "title": "1 tom",
+         "text": "= 2 semitons = 2 casas"
+        }
+       ]
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-acordes/img/esq-tom-semitom.svg",
+       "caption": "Distâncias entre as notas naturais, de Dó (C) a Dó (C).",
+       "dark": true
+      },
+      {
+       "type": "note",
+       "html": "Entre <b>E e F</b> e entre <b>B e C</b> a distância é de apenas 1 semitom. Nas outras notas vizinhas (C-D, D-E, F-G, G-A, A-B) é de 1 tom, com uma casa vazia no meio."
+      }
+     ]
+    },
+    {
+     "id": "g1-3",
+     "title": "Acidentes e escala cromática",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Os <b>acidentes</b> são sinais que alteram a altura de uma nota:"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "<b>#</b> (sustenido): sobe a nota 1 semitom.",
+        "<b>b</b> (bemol): desce a nota 1 semitom.",
+        "<b>## </b>(dobrado sustenido): sobe 2 semitons.",
+        "<b>bb</b> (dobrado bemol): desce 2 semitons."
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Entre duas notas separadas por um tom cabe uma nota intermediária. Entre C e D, por exemplo, temos C# ou Db: nomes diferentes para o <b>mesmo som</b>. Notas assim se chamam <b>enarmônicas</b>. O mesmo vale para D#/Eb, F#/Gb, G#/Ab e A#/Bb."
+      },
+      {
+       "type": "h3",
+       "text": "Escala cromática"
+      },
+      {
+       "type": "p",
+       "html": "É a sequência com os <b>12 sons</b> do sistema ocidental (7 naturais + 5 alteradas), todos a 1 semitom de distância do vizinho. Ela contém todas as outras escalas."
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-acordes/img/esq-cromatica.svg",
+       "caption": "Escala cromática: as 12 notas, cada uma a 1 semitom da vizinha. Nas teclas pretas, o nome de cima é o sustenido e o de baixo é o bemol.",
+       "dark": true
+      },
+      {
+       "type": "note",
+       "html": "Entre E e F e entre B e C não há nota no meio. Por isso quase nunca se escrevem E#, Fb, B# e Cb: na prática E# = F, Fb = E, B# = C e Cb = B."
+      }
+     ]
+    },
+    {
+     "id": "g1-4",
+     "title": "Notas no braço",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Para achar uma nota no braço, você precisa saber a nota de cada <b>corda solta</b>. A afinação padrão, contando da 1ª (mais fina) para a 6ª (mais grossa), é:"
+      },
+      {
+       "type": "cards",
+       "items": [
+        {
+         "big": "E",
+         "title": "1ª corda",
+         "text": "Mi"
+        },
+        {
+         "big": "B",
+         "title": "2ª corda",
+         "text": "Si"
+        },
+        {
+         "big": "G",
+         "title": "3ª corda",
+         "text": "Sol"
+        },
+        {
+         "big": "D",
+         "title": "4ª corda",
+         "text": "Ré"
+        },
+        {
+         "big": "A",
+         "title": "5ª corda",
+         "text": "Lá"
+        },
+        {
+         "big": "E",
+         "title": "6ª corda",
+         "text": "Mi"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "html": "A cada casa que você sobe, a nota avança 1 semitom, seguindo a escala cromática. Na 1ª corda: casa 1 = F, casa 2 = F# ou Gb, casa 3 = G, casa 4 = G# ou Ab, casa 5 = A, e assim por diante. A mesma lógica vale para todas as cordas, cada uma a partir da sua nota solta."
+      },
+      {
+       "type": "fretmap",
+       "mode": "nat",
+       "hide": false
+      },
+      {
+       "type": "note",
+       "html": "A <b>casa 12</b> tem as mesmas notas das cordas soltas, uma oitava acima. Depois dela, as notas se repetem como se recomeçasse da casa 1."
+      },
+      {
+       "type": "h",
+       "text": "Treino: localize as notas"
+      },
+      {
+       "type": "p",
+       "html": "Localizar as notas no braço de cabeça é um dos treinos mais valiosos. Use o mapa abaixo no modo <b>Treinar</b>: os nomes ficam escondidos. Diga a nota de cada bolinha e toque nela para conferir e ouvir o som."
+      },
+      {
+       "type": "h3",
+       "text": "Naturais e sustenidos"
+      },
+      {
+       "type": "fretmap",
+       "mode": "sus",
+       "hide": true
+      },
+      {
+       "type": "h3",
+       "text": "Naturais e bemóis"
+      },
+      {
+       "type": "fretmap",
+       "mode": "bem",
+       "hide": true
+      },
+      {
+       "type": "h3",
+       "text": "Só as naturais"
+      },
+      {
+       "type": "p",
+       "html": "Quando você toca apenas as notas naturais em ordem, de um C até o próximo C, está tocando a <b>escala de Dó maior</b>."
+      },
+      {
+       "type": "fretmap",
+       "mode": "nat",
+       "hide": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g2",
+   "title": "Power chords, inversões e variações",
+   "topics": [
+    {
+     "id": "g2-1",
+     "title": "O que é um power chord",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "<i>Power chord</i> quer dizer “acorde de potência”. O nome vem do som mais encorpado e pesado que ele tem. Tecnicamente nem é um acorde, porque tem só <b>duas notas</b> (um acorde tem três ou mais). Pense nele como um acorde simplificado."
+      },
+      {
+       "type": "p",
+       "html": "Ele nasceu no blues e ganhou força com as primeiras bandas de rock, quando o amplificador saturado e depois a distorção viraram parte do som. Com distorção, acordes completos ficam “sujos” e embolados, enquanto o power chord continua limpo. Além disso é fácil de tocar, e por isso costuma ser um dos primeiros passos de quem começa no rock."
+      },
+      {
+       "type": "h3",
+       "text": "Como ele é formado"
+      },
+      {
+       "type": "p",
+       "html": "O power chord básico é a <b>nota tônica</b> (a que dá nome ao acorde) mais uma nota a <b>3,5 tons</b> de distância, ou seja, 7 semitons. Esse intervalo se chama <b>quinta justa (5J)</b>: é a 5ª nota da escala a partir da tônica. Por isso a cifra leva sempre o número <b>5</b>."
+      },
+      {
+       "type": "ul",
+       "items": [
+        "<b>C5</b> (Dó) = notas C e G.",
+        "<b>G5</b> (Sol) = notas G e D."
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Na prática o acorde pode ser tocado em duas ou em três cordas, repetindo a tônica uma oitava acima. A digitação é sempre a mesma: só mudam a corda e a casa."
+      },
+      {
+       "type": "chords",
+       "items": [
+        {
+         "name": "C5",
+         "frets": [
+          null,
+          3,
+          5,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G5",
+         "frets": [
+          3,
+          5,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 7
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Toque os dois e compare. O formato da mão é igual, só mudou de corda e de casa."
+      }
+     ]
+    },
+    {
+     "id": "g2-2",
+     "title": "Power chords em cada corda",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A digitação do power chord se repete em qualquer posição. Vamos ver o formato com a tônica nas <b>três cordas mais graves</b>. Em cada grupo, toque os acordes um por um e depois use a sequência, que avança casa a casa."
+      },
+      {
+       "type": "h3",
+       "text": "Tônica na 6ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Subindo casa a casa na 6ª corda",
+       "tempo": 80,
+       "beats": 2,
+       "items": [
+        {
+         "name": "E5",
+         "frets": [
+          0,
+          2,
+          2,
+          null,
+          null,
+          null
+         ],
+         "root": 4
+        },
+        {
+         "name": "F5",
+         "frets": [
+          1,
+          3,
+          3,
+          null,
+          null,
+          null
+         ],
+         "root": 5
+        },
+        {
+         "name": "F#5 / Gb5",
+         "frets": [
+          2,
+          4,
+          4,
+          null,
+          null,
+          null
+         ],
+         "root": 6
+        },
+        {
+         "name": "G5",
+         "frets": [
+          3,
+          5,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "G#5 / Ab5",
+         "frets": [
+          4,
+          6,
+          6,
+          null,
+          null,
+          null
+         ],
+         "root": 8
+        },
+        {
+         "name": "A5",
+         "frets": [
+          5,
+          7,
+          7,
+          null,
+          null,
+          null
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Tônica na 5ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Subindo casa a casa na 5ª corda",
+       "tempo": 80,
+       "beats": 2,
+       "items": [
+        {
+         "name": "A5",
+         "frets": [
+          null,
+          0,
+          2,
+          2,
+          null,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "A#5 / Bb5",
+         "frets": [
+          null,
+          1,
+          3,
+          3,
+          null,
+          null
+         ],
+         "root": 10
+        },
+        {
+         "name": "B5",
+         "frets": [
+          null,
+          2,
+          4,
+          4,
+          null,
+          null
+         ],
+         "root": 11
+        },
+        {
+         "name": "C5",
+         "frets": [
+          null,
+          3,
+          5,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C#5 / Db5",
+         "frets": [
+          null,
+          4,
+          6,
+          6,
+          null,
+          null
+         ],
+         "root": 1
+        },
+        {
+         "name": "D5",
+         "frets": [
+          null,
+          5,
+          7,
+          7,
+          null,
+          null
+         ],
+         "root": 2
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Tônica na 4ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Subindo casa a casa na 4ª corda",
+       "tempo": 80,
+       "beats": 2,
+       "items": [
+        {
+         "name": "D5",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          null
+         ],
+         "root": 2
+        },
+        {
+         "name": "D#5 / Eb5",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          4,
+          null
+         ],
+         "root": 3
+        },
+        {
+         "name": "E5",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          5,
+          null
+         ],
+         "root": 4
+        },
+        {
+         "name": "F5",
+         "frets": [
+          null,
+          null,
+          3,
+          5,
+          6,
+          null
+         ],
+         "root": 5
+        },
+        {
+         "name": "F#5 / Gb5",
+         "frets": [
+          null,
+          null,
+          4,
+          6,
+          7,
+          null
+         ],
+         "root": 6
+        },
+        {
+         "name": "G5",
+         "frets": [
+          null,
+          null,
+          5,
+          7,
+          8,
+          null
+         ],
+         "root": 7
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Na 4ª corda o formato muda um pouco: a oitava fica uma casa abaixo da posição esperada (por causa da afinação entre a 3ª e a 2ª cordas). Os dedos usados são 1, 3 e 4."
+      },
+      {
+       "type": "p",
+       "html": "Continue a sequência avançando de casa em casa, em cada grupo, até a casa 12. Procure sempre dizer o nome do acorde antes de tocar."
+      }
+     ]
+    },
+    {
+     "id": "g2-3",
+     "title": "Inversões e variações",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Há várias maneiras de variar o power chord para obter sonoridades diferentes: <b>inverter</b> as notas (colocando a 5ª no baixo, mais grave que a tônica), <b>adicionar a 3ª ou a 9ª</b> ou intercalar notas para criar uma pequena melodia na base."
+      },
+      {
+       "type": "p",
+       "html": "Tônica, 3ª, 5ª, 9ª… são <b>intervalos</b>. Se esse assunto ainda é novo, tudo bem: ele será explicado em detalhes mais adiante. Agora o mais importante é experimentar e sentir cada sonoridade."
+      },
+      {
+       "type": "note",
+       "html": "Palm mute: apoie a lateral da mão da palheta sobre as cordas, perto da ponte. Todos os exercícios a seguir tocam em colcheias, com o acorde completo na 1ª, 4ª e 7ª colcheias de cada compasso, e seguem a progressão Mi menor – Dó – Sol – Ré."
+      },
+      {
+       "type": "exercise",
+       "title": "Ex. 07 – Sequência tradicional de power chords em Mi menor",
+       "tempo": 90,
+       "tex": "\\tempo 90\n\\instrument 29\n\\tuning e4 b3 g3 d3 a2 e2\n.\n\\ro  :8 (7.5{pm} 9.4{pm} 9.3{pm}) :8 (7.5{pm}) :8 (7.5{pm}) :8 (7.5{pm} 9.4{pm} 9.3{pm}) :8 (7.5{pm}) :8 (7.5{pm}) :8 (7.5{pm} 9.4{pm} 9.3{pm}) :8 (7.5{pm}) |\n :8 (3.5{pm} 5.4{pm} 5.3{pm}) :8 (3.5{pm}) :8 (3.5{pm}) :8 (3.5{pm} 5.4{pm} 5.3{pm}) :8 (3.5{pm}) :8 (3.5{pm}) :8 (3.5{pm} 5.4{pm} 5.3{pm}) :8 (3.5{pm}) |\n :8 (3.6{pm} 5.5{pm} 5.4{pm}) :8 (3.6{pm}) :8 (3.6{pm}) :8 (3.6{pm} 5.5{pm} 5.4{pm}) :8 (3.6{pm}) :8 (3.6{pm}) :8 (3.6{pm} 5.5{pm} 5.4{pm}) :8 (3.6{pm}) |\n \\rc 2 :8 (5.5{pm} 7.4{pm} 7.3{pm}) :8 (5.5{pm}) :8 (5.5{pm}) :8 (5.5{pm} 7.4{pm} 7.3{pm}) :8 (5.5{pm}) :8 (5.5{pm}) :8 (5.5{pm} 7.4{pm} 7.3{pm}) :8 (5.5{pm})",
+       "hint": "Baixo em colcheias com o acorde de três notas na 1ª, 4ª e 7ª."
+      },
+      {
+       "type": "exercise",
+       "title": "Ex. 08 – Invertendo os power chords: 5ª como nota mais grave",
+       "tempo": 90,
+       "tex": "\\tempo 90\n\\instrument 29\n\\tuning e4 b3 g3 d3 a2 e2\n.\n\\ro  :8 (7.6{pm} 7.5{pm} 9.4{pm}) :8 (7.6{pm} 7.5{pm}) :8 (7.6{pm} 7.5{pm}) :8 (7.6{pm} 7.5{pm} 9.4{pm}) :8 (7.6{pm} 7.5{pm}) :8 (7.6{pm} 7.5{pm}) :8 (7.6{pm} 7.5{pm} 9.4{pm}) :8 (7.6{pm} 7.5{pm}) |\n :8 (3.6{pm} 3.5{pm} 5.4{pm}) :8 (3.6{pm} 3.5{pm}) :8 (3.6{pm} 3.5{pm}) :8 (3.6{pm} 3.5{pm} 5.4{pm}) :8 (3.6{pm} 3.5{pm}) :8 (3.6{pm} 3.5{pm}) :8 (3.6{pm} 3.5{pm} 5.4{pm}) :8 (3.6{pm} 3.5{pm}) |\n :8 (5.5{pm} 5.4{pm} 7.3{pm}) :8 (5.5{pm} 5.4{pm}) :8 (5.5{pm} 5.4{pm}) :8 (5.5{pm} 5.4{pm} 7.3{pm}) :8 (5.5{pm} 5.4{pm}) :8 (5.5{pm} 5.4{pm}) :8 (5.5{pm} 5.4{pm} 7.3{pm}) :8 (5.5{pm} 5.4{pm}) |\n \\rc 2 :8 (5.6{pm} 5.5{pm} 7.4{pm}) :8 (5.6{pm} 5.5{pm}) :8 (5.6{pm} 5.5{pm}) :8 (5.6{pm} 5.5{pm} 7.4{pm}) :8 (5.6{pm} 5.5{pm}) :8 (5.6{pm} 5.5{pm}) :8 (5.6{pm} 5.5{pm} 7.4{pm}) :8 (5.6{pm} 5.5{pm})",
+       "hint": "Agora a 5ª fica no baixo, abaixo da tônica."
+      },
+      {
+       "type": "exercise",
+       "title": "Ex. 09 – Adicionando a 3ª nos power chords invertidos",
+       "tempo": 90,
+       "tex": "\\tempo 90\n\\instrument 29\n\\tuning e4 b3 g3 d3 a2 e2\n.\n\\ro  :8 (7.6{pm} 7.5{pm} 5.4{pm}) :8 (7.6{pm} 7.5{pm}) :8 (7.6{pm} 7.5{pm}) :8 (7.6{pm} 7.5{pm} 5.4{pm}) :8 (7.6{pm} 7.5{pm}) :8 (7.6{pm} 7.5{pm}) :8 (7.6{pm} 7.5{pm} 5.4{pm}) :8 (7.6{pm} 7.5{pm}) |\n :8 (3.6{pm} 3.5{pm} 2.4{pm}) :8 (3.6{pm} 3.5{pm}) :8 (3.6{pm} 3.5{pm}) :8 (3.6{pm} 3.5{pm} 2.4{pm}) :8 (3.6{pm} 3.5{pm}) :8 (3.6{pm} 3.5{pm}) :8 (3.6{pm} 3.5{pm} 2.4{pm}) :8 (3.6{pm} 3.5{pm}) |\n :8 (5.5{pm} 5.4{pm} 4.3{pm}) :8 (5.5{pm} 5.4{pm}) :8 (5.5{pm} 5.4{pm}) :8 (5.5{pm} 5.4{pm} 4.3{pm}) :8 (5.5{pm} 5.4{pm}) :8 (5.5{pm} 5.4{pm}) :8 (5.5{pm} 5.4{pm} 4.3{pm}) :8 (5.5{pm} 5.4{pm}) |\n \\rc 2 :8 (5.6{pm} 5.5{pm} 4.4{pm}) :8 (5.6{pm} 5.5{pm}) :8 (5.6{pm} 5.5{pm}) :8 (5.6{pm} 5.5{pm} 4.4{pm}) :8 (5.6{pm} 5.5{pm}) :8 (5.6{pm} 5.5{pm}) :8 (5.6{pm} 5.5{pm} 4.4{pm}) :8 (5.6{pm} 5.5{pm})",
+       "hint": "A terça faz o acorde soar maior ou menor."
+      },
+      {
+       "type": "exercise",
+       "title": "Ex. 10 – Power chords com 9ª adicionada",
+       "tempo": 90,
+       "tex": "\\tempo 90\n\\instrument 29\n\\tuning e4 b3 g3 d3 a2 e2\n.\n\\ro  :8 (7.5{pm} 9.4{pm} 11.3{pm}) :8 (7.5{pm}) :8 (7.5{pm}) :8 (7.5{pm} 9.4{pm} 11.3{pm}) :8 (7.5{pm}) :8 (7.5{pm}) :8 (7.5{pm} 9.4{pm} 11.3{pm}) :8 (7.5{pm}) |\n :8 (3.5{pm} 5.4{pm} 7.3{pm}) :8 (3.5{pm}) :8 (3.5{pm}) :8 (3.5{pm} 5.4{pm} 7.3{pm}) :8 (3.5{pm}) :8 (3.5{pm}) :8 (3.5{pm} 5.4{pm} 7.3{pm}) :8 (3.5{pm}) |\n :8 (3.6{pm} 5.5{pm} 7.4{pm}) :8 (3.6{pm}) :8 (3.6{pm}) :8 (3.6{pm} 5.5{pm} 7.4{pm}) :8 (3.6{pm}) :8 (3.6{pm}) :8 (3.6{pm} 5.5{pm} 7.4{pm}) :8 (3.6{pm}) |\n \\rc 2 :8 (5.5{pm} 7.4{pm} 9.3{pm}) :8 (5.5{pm}) :8 (5.5{pm}) :8 (5.5{pm} 7.4{pm} 9.3{pm}) :8 (5.5{pm}) :8 (5.5{pm}) :8 (5.5{pm} 7.4{pm} 9.3{pm}) :8 (5.5{pm})",
+       "hint": "A 9ª dá um colorido aberto ao acorde."
+      },
+      {
+       "type": "exercise",
+       "title": "Ex. 11 – Inversões com a 3ª como nota mais grave",
+       "tempo": 90,
+       "tex": "\\tempo 90\n\\instrument 29\n\\tuning e4 b3 g3 d3 a2 e2\n.\n\\ro  :8 (0.6{pm} 2.5{pm} 2.4{pm}) :8 (0.6{pm}) :8 (0.6{pm}) :8 (0.6{pm} 2.5{pm} 2.4{pm}) :8 (0.6{pm}) :8 (0.6{pm}) :8 (0.6{pm} 2.5{pm} 2.4{pm}) :8 (0.6{pm}) |\n :8 (3.5{pm} 5.4{pm} 5.3{pm}) :8 (3.5{pm}) :8 (3.5{pm}) :8 (3.5{pm} 5.4{pm} 5.3{pm}) :8 (3.5{pm}) :8 (3.5{pm}) :8 (3.5{pm} 5.4{pm} 5.3{pm}) :8 (3.5{pm}) |\n :8 (2.5{pm} 5.4{pm} 4.3{pm}) :8 (2.5{pm}) :8 (2.5{pm}) :8 (2.5{pm} 5.4{pm} 4.3{pm}) :8 (2.5{pm}) :8 (2.5{pm}) :8 (2.5{pm} 5.4{pm} 4.3{pm}) :8 (2.5{pm}) |\n \\rc 2 :8 (2.6{pm} 5.5{pm} 4.4{pm}) :8 (2.6{pm}) :8 (2.6{pm}) :8 (2.6{pm} 5.5{pm} 4.4{pm}) :8 (2.6{pm}) :8 (2.6{pm}) :8 (2.6{pm} 5.5{pm} 4.4{pm}) :8 (2.6{pm})",
+       "hint": "Aqui a terça (ou a tônica, no primeiro compasso) fica no baixo."
+      },
+      {
+       "type": "exercise",
+       "title": "Ex. 12 – Intercalando 5ª e 6ª nos power chords",
+       "tempo": 90,
+       "tex": "\\tempo 90\n\\instrument 29\n\\tuning e4 b3 g3 d3 a2 e2\n.\n\\ro  :8 (7.5{pm} 9.4{pm}) :8 (7.5{pm}) :8 (7.5{pm}) :8 (7.5{pm} 10.4{pm}) :8 (7.5{pm}) :8 (7.5{pm}) :8 (7.5{pm} 9.4{pm}) :8 (7.5{pm}) |\n :8 (3.5{pm} 5.4{pm}) :8 (3.5{pm}) :8 (3.5{pm}) :8 (3.5{pm} 7.4{pm}) :8 (3.5{pm}) :8 (3.5{pm}) :8 (3.5{pm} 5.4{pm}) :8 (3.5{pm}) |\n :8 (3.6{pm} 5.5{pm}) :8 (3.6{pm}) :8 (3.6{pm}) :8 (3.6{pm} 7.5{pm}) :8 (3.6{pm}) :8 (3.6{pm}) :8 (3.6{pm} 5.5{pm}) :8 (3.6{pm}) |\n \\rc 2 :8 (5.5{pm} 7.4{pm}) :8 (5.5{pm}) :8 (5.5{pm}) :8 (5.5{pm} 9.4{pm}) :8 (5.5{pm}) :8 (5.5{pm}) :8 (5.5{pm} 7.4{pm}) :8 (5.5{pm})",
+       "hint": "Uma nota sobe e volta, formando um movimento de 5ª e 6ª."
+      },
+      {
+       "type": "exercise",
+       "title": "Ex. 13 – Criando melodia na base: intervalos de 5ª, 4ª e 3ª",
+       "tempo": 90,
+       "tex": "\\tempo 90\n\\instrument 29\n\\tuning e4 b3 g3 d3 a2 e2\n.\n\\ro  :8 (7.5{pm} 9.4{pm}) :8 (7.5{pm}) :8 (7.5{pm}) :8 (7.5{pm} 7.4{pm}) :8 (7.5{pm}) :8 (7.5{pm}) :8 (7.5{pm} 5.4{pm}) :8 (7.5{pm}) |\n :8 (3.5{pm} 5.4{pm}) :8 (3.5{pm}) :8 (3.5{pm}) :8 (3.5{pm} 4.4{pm}) :8 (3.5{pm}) :8 (3.5{pm}) :8 (3.5{pm} 2.4{pm}) :8 (3.5{pm}) |\n :8 (5.4{pm} 7.3{pm}) :8 (5.4{pm}) :8 (5.4{pm}) :8 (5.4{pm} 5.3{pm}) :8 (5.4{pm}) :8 (5.4{pm}) :8 (5.4{pm} 4.3{pm}) :8 (5.4{pm}) |\n \\rc 2 :8 (5.5{pm} 7.4{pm}) :8 (5.5{pm}) :8 (5.5{pm}) :8 (5.5{pm} 5.4{pm}) :8 (5.5{pm}) :8 (5.5{pm}) :8 (5.5{pm} 4.4{pm}) :8 (5.5{pm})",
+       "hint": "Três notas descem sobre o mesmo baixo, desenhando uma melodia."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g3",
+   "title": "Acordes maiores no sistema CAGED",
+   "topics": [
+    {
+     "id": "g3-1",
+     "title": "O sistema CAGED",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "O <b>sistema CAGED</b>, também chamado de Sistema 5, é uma forma de mapear o braço da guitarra e do violão usando <b>cinco modelos</b> de acorde. O nome vem das letras dos cinco acordes abertos que servem de base: C, A, G, E e D."
+      },
+      {
+       "type": "chords",
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 0
+        },
+        {
+         "name": "A",
+         "frets": [
+          null,
+          0,
+          2,
+          2,
+          2,
+          0
+         ],
+         "root": 9
+        },
+        {
+         "name": "G",
+         "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          3
+         ],
+         "root": 7
+        },
+        {
+         "name": "E",
+         "frets": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+         ],
+         "root": 4
+        },
+        {
+         "name": "D",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          2
+         ],
+         "root": 2
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Toque cada acorde aberto e guarde o formato da mão. Eles são os cinco modelos."
+      },
+      {
+       "type": "p",
+       "html": "Movendo cada um desses modelos pelo braço, você obtém um grande número de outros acordes. Para isso é preciso conhecer a <b>escala cromática</b> e saber localizar as notas no braço, assunto do primeiro módulo."
+      }
+     ]
+    },
+    {
+     "id": "g3-2",
+     "title": "Movendo cada modelo pelo braço",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Mover um modelo pelo braço, mantendo a mesma digitação, faz o acorde mudar de nome a cada casa, seguindo a ordem da <b>escala cromática</b>. Em todas as transposições as cordas soltas viram uma <b>pestana</b> feita com o dedo 1, o que também é um ótimo exercício."
+      },
+      {
+       "type": "h3",
+       "text": "Modelo de C"
+      },
+      {
+       "type": "chordseq",
+       "title": "Modelo de C subindo casa a casa",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 0
+        },
+        {
+         "name": "C#/Db",
+         "frets": [
+          null,
+          4,
+          3,
+          1,
+          2,
+          1
+         ],
+         "root": 1
+        },
+        {
+         "name": "D",
+         "frets": [
+          null,
+          5,
+          4,
+          2,
+          3,
+          2
+         ],
+         "root": 2
+        },
+        {
+         "name": "D#/Eb",
+         "frets": [
+          null,
+          6,
+          5,
+          3,
+          4,
+          3
+         ],
+         "root": 3
+        },
+        {
+         "name": "E",
+         "frets": [
+          null,
+          7,
+          6,
+          4,
+          5,
+          4
+         ],
+         "root": 4
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          8,
+          7,
+          5,
+          6,
+          5
+         ],
+         "root": 5
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Modelo de A"
+      },
+      {
+       "type": "chordseq",
+       "title": "Modelo de A subindo casa a casa",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "A",
+         "frets": [
+          null,
+          0,
+          2,
+          2,
+          2,
+          0
+         ],
+         "root": 9
+        },
+        {
+         "name": "A#/Bb",
+         "frets": [
+          null,
+          1,
+          3,
+          3,
+          3,
+          1
+         ],
+         "root": 10
+        },
+        {
+         "name": "B",
+         "frets": [
+          null,
+          2,
+          4,
+          4,
+          4,
+          2
+         ],
+         "root": 11
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          5,
+          5,
+          5,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "C#/Db",
+         "frets": [
+          null,
+          4,
+          6,
+          6,
+          6,
+          4
+         ],
+         "root": 1
+        },
+        {
+         "name": "D",
+         "frets": [
+          null,
+          5,
+          7,
+          7,
+          7,
+          5
+         ],
+         "root": 2
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Modelo de G"
+      },
+      {
+       "type": "chordseq",
+       "title": "Modelo de G subindo casa a casa",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "G",
+         "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          3
+         ],
+         "root": 7
+        },
+        {
+         "name": "G#/Ab",
+         "frets": [
+          4,
+          3,
+          1,
+          1,
+          1,
+          null
+         ],
+         "root": 8
+        },
+        {
+         "name": "A",
+         "frets": [
+          5,
+          4,
+          2,
+          2,
+          2,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "A#/Bb",
+         "frets": [
+          6,
+          5,
+          3,
+          3,
+          3,
+          null
+         ],
+         "root": 10
+        },
+        {
+         "name": "B",
+         "frets": [
+          7,
+          6,
+          4,
+          4,
+          4,
+          null
+         ],
+         "root": 11
+        },
+        {
+         "name": "C",
+         "frets": [
+          8,
+          7,
+          5,
+          5,
+          5,
+          null
+         ],
+         "root": 0
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "O modelo de G exige uma grande abertura dos dedos e fica desconfortável. Para facilitar, <b>omita a 1ª corda</b> e use um dedo a menos, como nos diagramas acima (a partir do segundo acorde)."
+      },
+      {
+       "type": "h3",
+       "text": "Modelo de E"
+      },
+      {
+       "type": "chordseq",
+       "title": "Modelo de E subindo casa a casa",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "E",
+         "frets": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+         ],
+         "root": 4
+        },
+        {
+         "name": "F",
+         "frets": [
+          1,
+          3,
+          3,
+          2,
+          1,
+          1
+         ],
+         "root": 5
+        },
+        {
+         "name": "F#/Gb",
+         "frets": [
+          2,
+          4,
+          4,
+          3,
+          2,
+          2
+         ],
+         "root": 6
+        },
+        {
+         "name": "G",
+         "frets": [
+          3,
+          5,
+          5,
+          4,
+          3,
+          3
+         ],
+         "root": 7
+        },
+        {
+         "name": "G#/Ab",
+         "frets": [
+          4,
+          6,
+          6,
+          5,
+          4,
+          4
+         ],
+         "root": 8
+        },
+        {
+         "name": "A",
+         "frets": [
+          5,
+          7,
+          7,
+          6,
+          5,
+          5
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Modelo de D"
+      },
+      {
+       "type": "chordseq",
+       "title": "Modelo de D subindo casa a casa",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "D",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          2
+         ],
+         "root": 2
+        },
+        {
+         "name": "D#/Eb",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          4,
+          3
+         ],
+         "root": 3
+        },
+        {
+         "name": "E",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          5,
+          4
+         ],
+         "root": 4
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          null,
+          3,
+          5,
+          6,
+          5
+         ],
+         "root": 5
+        },
+        {
+         "name": "F#/Gb",
+         "frets": [
+          null,
+          null,
+          4,
+          6,
+          7,
+          6
+         ],
+         "root": 6
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          null,
+          5,
+          7,
+          8,
+          7
+         ],
+         "root": 7
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Em cada grupo, continue avançando casa por casa até onde o braço permitir. Diga o nome de cada acorde antes de tocar."
+      }
+     ]
+    },
+    {
+     "id": "g3-3",
+     "title": "O mesmo acorde nos cinco modelos",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos praticar as <b>conexões entre os 5 modelos</b>, tocando o mesmo acorde em cinco lugares do braço. A ordem dos modelos segue a palavra CAGED, começando pelo modelo que tem o nome do próprio acorde: o acorde de A, por exemplo, vai pelos modelos A, G, E, D e C."
+      },
+      {
+       "type": "note",
+       "html": "Toque indo e voltando. Quando chegar ao último modelo, volte pelo caminho inverso. Repare em como a nota-raiz do acorde muda de corda a cada modelo."
+      },
+      {
+       "type": "h3",
+       "text": "Acorde de C"
+      },
+      {
+       "type": "chordseq",
+       "title": "C nos 5 modelos (C, A, G, E, D)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C · modelo C",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 0
+        },
+        {
+         "name": "C · modelo A",
+         "frets": [
+          null,
+          3,
+          5,
+          5,
+          5,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "C · modelo G",
+         "frets": [
+          8,
+          7,
+          5,
+          5,
+          5,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C · modelo E",
+         "frets": [
+          8,
+          10,
+          10,
+          9,
+          8,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "C · modelo D",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          13,
+          12
+         ],
+         "root": 0
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Acorde de A"
+      },
+      {
+       "type": "chordseq",
+       "title": "A nos 5 modelos (A, G, E, D, C)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "A · modelo A",
+         "frets": [
+          null,
+          0,
+          2,
+          2,
+          2,
+          0
+         ],
+         "root": 9
+        },
+        {
+         "name": "A · modelo G",
+         "frets": [
+          5,
+          4,
+          2,
+          2,
+          2,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "A · modelo E",
+         "frets": [
+          5,
+          7,
+          7,
+          6,
+          5,
+          5
+         ],
+         "root": 9
+        },
+        {
+         "name": "A · modelo D",
+         "frets": [
+          null,
+          null,
+          7,
+          9,
+          10,
+          9
+         ],
+         "root": 9
+        },
+        {
+         "name": "A · modelo C",
+         "frets": [
+          null,
+          12,
+          11,
+          9,
+          10,
+          9
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Acorde de G"
+      },
+      {
+       "type": "chordseq",
+       "title": "G nos 5 modelos (G, E, D, C, A)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "G · modelo G",
+         "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          3
+         ],
+         "root": 7
+        },
+        {
+         "name": "G · modelo E",
+         "frets": [
+          3,
+          5,
+          5,
+          4,
+          3,
+          3
+         ],
+         "root": 7
+        },
+        {
+         "name": "G · modelo D",
+         "frets": [
+          null,
+          null,
+          5,
+          7,
+          8,
+          7
+         ],
+         "root": 7
+        },
+        {
+         "name": "G · modelo C",
+         "frets": [
+          null,
+          10,
+          9,
+          7,
+          8,
+          7
+         ],
+         "root": 7
+        },
+        {
+         "name": "G · modelo A",
+         "frets": [
+          null,
+          10,
+          12,
+          12,
+          12,
+          null
+         ],
+         "root": 7
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Acorde de E"
+      },
+      {
+       "type": "chordseq",
+       "title": "E nos 5 modelos (E, D, C, A, G)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "E · modelo E",
+         "frets": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+         ],
+         "root": 4
+        },
+        {
+         "name": "E · modelo D",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          5,
+          4
+         ],
+         "root": 4
+        },
+        {
+         "name": "E · modelo C",
+         "frets": [
+          null,
+          7,
+          6,
+          4,
+          5,
+          4
+         ],
+         "root": 4
+        },
+        {
+         "name": "E · modelo A",
+         "frets": [
+          null,
+          7,
+          9,
+          9,
+          9,
+          7
+         ],
+         "root": 4
+        },
+        {
+         "name": "E · modelo G",
+         "frets": [
+          12,
+          11,
+          9,
+          9,
+          9,
+          null
+         ],
+         "root": 4
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Acorde de D"
+      },
+      {
+       "type": "chordseq",
+       "title": "D nos 5 modelos (D, C, A, G, E)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "D · modelo D",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          2
+         ],
+         "root": 2
+        },
+        {
+         "name": "D · modelo C",
+         "frets": [
+          null,
+          5,
+          4,
+          2,
+          3,
+          2
+         ],
+         "root": 2
+        },
+        {
+         "name": "D · modelo A",
+         "frets": [
+          null,
+          5,
+          7,
+          7,
+          7,
+          5
+         ],
+         "root": 2
+        },
+        {
+         "name": "D · modelo G",
+         "frets": [
+          10,
+          9,
+          7,
+          7,
+          7,
+          null
+         ],
+         "root": 2
+        },
+        {
+         "name": "D · modelo E",
+         "frets": [
+          10,
+          12,
+          12,
+          11,
+          10,
+          10
+         ],
+         "root": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g3-4",
+     "title": "Sequências em cada região",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos a exercícios mais musicais. Em cada um você toca a <b>mesma sequência de acordes</b> em uma região diferente do braço, usando um modelo diferente para cada acorde. A região 1 fica nas primeiras casas e a região 5 é a mais aguda."
+      },
+      {
+       "type": "h",
+       "text": "Sequência de 3 acordes: D, C e G"
+      },
+      {
+       "type": "p",
+       "html": "Um encadeamento muito usado no rock e conhecido de músicas como Sweet Home Alabama."
+      },
+      {
+       "type": "h3",
+       "text": "Região 1"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 1: D, C, G",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "D",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          2
+         ],
+         "root": 2
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          3
+         ],
+         "root": 7
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 2"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 2: D, C, G",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "D",
+         "frets": [
+          null,
+          5,
+          4,
+          2,
+          3,
+          2
+         ],
+         "root": 2
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          5,
+          5,
+          5,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          3,
+          5,
+          5,
+          4,
+          3,
+          3
+         ],
+         "root": 7
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 3"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 3: D, C, G",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "D",
+         "frets": [
+          null,
+          5,
+          7,
+          7,
+          7,
+          5
+         ],
+         "root": 2
+        },
+        {
+         "name": "C",
+         "frets": [
+          8,
+          7,
+          5,
+          5,
+          5,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          null,
+          5,
+          7,
+          8,
+          7
+         ],
+         "root": 7
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 4"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 4: D, C, G",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "D",
+         "frets": [
+          10,
+          9,
+          7,
+          7,
+          7,
+          null
+         ],
+         "root": 2
+        },
+        {
+         "name": "C",
+         "frets": [
+          8,
+          10,
+          10,
+          9,
+          8,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          10,
+          9,
+          7,
+          8,
+          7
+         ],
+         "root": 7
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 5"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 5: D, C, G",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "D",
+         "frets": [
+          10,
+          12,
+          12,
+          11,
+          10,
+          10
+         ],
+         "root": 2
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          13,
+          12
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          10,
+          12,
+          12,
+          12,
+          null
+         ],
+         "root": 7
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Pratique também com <b>fragmentos de 3 cordas</b>: use só as cordas 1, 2 e 3 ou só as cordas 2, 3 e 4 de cada acorde."
+      },
+      {
+       "type": "h",
+       "text": "Sequência de 5 acordes: C, G, D, A e E"
+      },
+      {
+       "type": "p",
+       "html": "Este encadeamento é o de Hey Joe. Toque a sequência inteira em todas as regiões e modelos."
+      },
+      {
+       "type": "h3",
+       "text": "Região 1"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 1: C, G, D, A, E",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          3
+         ],
+         "root": 7
+        },
+        {
+         "name": "D",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          2
+         ],
+         "root": 2
+        },
+        {
+         "name": "A",
+         "frets": [
+          null,
+          0,
+          2,
+          2,
+          2,
+          0
+         ],
+         "root": 9
+        },
+        {
+         "name": "E",
+         "frets": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+         ],
+         "root": 4
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 2"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 2: C, G, D, A, E",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          5,
+          5,
+          5,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          3,
+          5,
+          5,
+          4,
+          3,
+          3
+         ],
+         "root": 7
+        },
+        {
+         "name": "D",
+         "frets": [
+          null,
+          5,
+          4,
+          2,
+          3,
+          2
+         ],
+         "root": 2
+        },
+        {
+         "name": "A",
+         "frets": [
+          5,
+          4,
+          2,
+          2,
+          2,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "E",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          5,
+          4
+         ],
+         "root": 4
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 3"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 3: C, G, D, A, E",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          8,
+          7,
+          5,
+          5,
+          5,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          null,
+          5,
+          7,
+          8,
+          7
+         ],
+         "root": 7
+        },
+        {
+         "name": "D",
+         "frets": [
+          null,
+          5,
+          7,
+          7,
+          7,
+          5
+         ],
+         "root": 2
+        },
+        {
+         "name": "A",
+         "frets": [
+          5,
+          7,
+          7,
+          6,
+          5,
+          5
+         ],
+         "root": 9
+        },
+        {
+         "name": "E",
+         "frets": [
+          null,
+          7,
+          6,
+          4,
+          5,
+          4
+         ],
+         "root": 4
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 4"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 4: C, G, D, A, E",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          8,
+          10,
+          10,
+          9,
+          8,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          10,
+          9,
+          7,
+          8,
+          7
+         ],
+         "root": 7
+        },
+        {
+         "name": "D",
+         "frets": [
+          10,
+          9,
+          7,
+          7,
+          7,
+          null
+         ],
+         "root": 2
+        },
+        {
+         "name": "A",
+         "frets": [
+          null,
+          null,
+          7,
+          9,
+          10,
+          9
+         ],
+         "root": 9
+        },
+        {
+         "name": "E",
+         "frets": [
+          null,
+          7,
+          9,
+          9,
+          9,
+          7
+         ],
+         "root": 4
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 5"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 5: C, G, D, A, E",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          13,
+          12
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          10,
+          12,
+          12,
+          12,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "D",
+         "frets": [
+          10,
+          12,
+          12,
+          11,
+          10,
+          10
+         ],
+         "root": 2
+        },
+        {
+         "name": "A",
+         "frets": [
+          null,
+          12,
+          11,
+          9,
+          10,
+          9
+         ],
+         "root": 9
+        },
+        {
+         "name": "E",
+         "frets": [
+          12,
+          11,
+          9,
+          9,
+          9,
+          null
+         ],
+         "root": 4
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Pratique também com fragmentos de 3 cordas (cordas 1, 2 e 3 e cordas 2, 3 e 4)."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -55,3 +55,26 @@
 .done-row .btn-main{border:0;padding:0 20px;min-height:46px;cursor:pointer;font-family:var(--body)}.done-row .btn-main.is-done{background:#2a1a08;color:var(--orange);border:1px solid var(--orange)}
 .link-next{color:var(--orange);font-size:.88rem;text-decoration:none}
 .at-cursor-bar{background:rgba(255,148,55,.14)}.at-selection div{background:rgba(255,148,55,.2)}.at-cursor-beat{background:#ff9437;width:3px}.at-highlight *{fill:#ff9437;stroke:#ff9437}
+
+/* ---- acordes com som, sequências e mapa de notas ---- */
+.chord-card{position:relative;cursor:pointer;transition:border-color .15s,box-shadow .15s,transform .1s;-webkit-tap-highlight-color:transparent}
+.chord-card:active{transform:scale(.98)}
+.chord-card .snd{position:absolute;top:8px;right:10px;font-size:.78rem;opacity:.7}
+.chord-card.active,.chord-card.pulse{border-color:var(--orange);box-shadow:0 0 0 1px var(--orange),0 0 18px rgba(255,148,55,.25)}
+.chord-card.pulse{animation:cpulse .5s ease-out}
+@keyframes cpulse{from{box-shadow:0 0 0 1px var(--orange),0 0 26px rgba(255,148,55,.5)}to{box-shadow:0 0 0 1px var(--orange),0 0 6px rgba(255,148,55,.1)}}
+.chordseq{margin:12px 0 18px}
+.cs-title{font-family:var(--display);font-size:1rem;letter-spacing:.4px;margin-bottom:6px;color:var(--ink,#eee7d8)}
+.cs-ctr{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:6px}
+.cs-bpm{display:inline-flex;align-items:center;gap:6px;color:var(--ink-dim);font-size:.8rem}
+.cs-bpm b{min-width:2.2em;text-align:center;color:var(--ink,#eee7d8)}
+.cs-bpm .chip{min-width:44px;padding:0}
+.fretmap{margin:12px 0 18px}
+.fm-ctr{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
+.fm-box{background:#0b0b0d;border:1px solid var(--panel-edge);border-radius:14px;padding:8px 4px;overflow-x:auto}
+.fm-box svg{display:block;min-width:560px;width:100%;height:auto}
+.fm-hint{color:var(--ink-dim);font-size:.78rem;margin-top:6px}
+.chordseq .chords-grid{grid-template-columns:repeat(auto-fill,minmax(108px,1fr));gap:8px}
+.chordseq .chord-card{padding:6px 3px 4px}
+.chordseq .chord-card b{font-size:.78rem;margin-bottom:2px}
+.chordseq .chord-card .snd{top:5px;right:6px;font-size:.65rem}

@@ -9,5 +9,17 @@
    "tag": "Nível 1 · Iniciante",
    "accent": "#ff9437"
   }
+ },
+ {
+  "id": "guia-de-acordes",
+  "title": "Guia de Acordes – Guitarra e Violão",
+  "path": "cursos/guia-de-acordes/course.json",
+  "cover": {
+   "l1": "GUIA DE",
+   "l2": "ACORDES",
+   "tag": "Guitarra e Violão",
+   "accent": "#3fd0b0",
+   "art": "acorde"
+  }
  }
 ]
