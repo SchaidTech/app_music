@@ -50,7 +50,7 @@
 .bpm-box button{background:none;border:0;color:var(--ink-dim);font-size:1.1rem;cursor:pointer;padding:0 8px;min-height:40px}.bpm-box .hint{font-size:.72rem;color:var(--ink-dim)}
 .chip{min-height:44px;padding:0 14px;border-radius:22px;border:1px solid var(--panel-edge);background:transparent;color:var(--ink-dim);font-family:var(--body);font-size:.8rem;cursor:pointer}
 .chip[aria-pressed="true"]{background:#2a1a08;border-color:var(--orange);color:var(--orange);font-weight:600}
-.ex-hint{font-size:.82rem;color:var(--ink-dim);margin-top:12px;line-height:1.55}.ex-status{font-size:.78rem;color:var(--ink-dim);margin-top:8px;min-height:16px}.ex-status.error{color:#e4766c}
+.ex-hint{font-size:.82rem;color:var(--ink-dim);margin-top:12px;line-height:1.55}.ex-status{font-size:.78rem;line-height:20px;color:var(--ink-dim);margin-top:8px;height:20px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.ex-status.error{color:#e4766c}
 .done-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:24px}
 .done-row .btn-main{border:0;padding:0 20px;min-height:46px;cursor:pointer;font-family:var(--body)}.done-row .btn-main.is-done{background:#2a1a08;color:var(--orange);border:1px solid var(--orange)}
 .link-next{color:var(--orange);font-size:.88rem;text-decoration:none}
@@ -78,3 +78,12 @@
 .chordseq .chord-card{padding:6px 3px 4px}
 .chordseq .chord-card b{font-size:.78rem;margin-bottom:2px}
 .chordseq .chord-card .snd{top:5px;right:6px;font-size:.65rem}
+.chordseq .chord-card b{display:block;padding:0 16px;line-height:1.15}
+
+.tbl-wrap{overflow-x:auto;margin:10px 0 16px;border:1px solid var(--panel-edge);border-radius:12px}
+.tbl{border-collapse:collapse;width:100%;min-width:420px;font-size:.82rem}
+.tbl th{background:#1d1d23;color:var(--ink-dim);text-align:left;font-weight:600;padding:9px 12px;border-bottom:1px solid var(--panel-edge);white-space:nowrap}
+.tbl td{padding:8px 12px;border-bottom:1px solid #202026;vertical-align:top}
+.tbl tr:last-child td{border-bottom:0}
+.tbl-t tr[data-k]:active{background:#1f1a14}
+.iv-title{margin:6px 2px 8px;font-size:.95rem}

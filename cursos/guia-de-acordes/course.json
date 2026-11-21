@@ -2241,6 +2241,2985 @@
      ]
     }
    ]
+  },
+  {
+   "id": "g4",
+   "title": "Acordes menores no sistema CAGED",
+   "topics": [
+    {
+     "id": "g4-1",
+     "title": "Os 5 modelos menores",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Estes são os <b>5 modelos de acordes menores</b> do sistema CAGED: Cm, Am, Gm, Em e Dm. Eles seguem a mesma lógica dos modelos maiores, e a diferença está na <b>terça</b>, que fica um semitom mais baixa."
+      },
+      {
+       "type": "chords",
+       "items": [
+        {
+         "name": "Cm",
+         "frets": [
+          null,
+          3,
+          1,
+          0,
+          1,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          0,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 9
+        },
+        {
+         "name": "Gm",
+         "frets": [
+          3,
+          1,
+          0,
+          0,
+          3,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Em",
+         "frets": [
+          0,
+          2,
+          2,
+          0,
+          0,
+          0
+         ],
+         "root": 4
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          1
+         ],
+         "root": 2
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Toque cada um e compare com o acorde maior de mesmo nome (por exemplo, Am e A, Em e E). Repare como o som fica mais fechado."
+      }
+     ]
+    },
+    {
+     "id": "g4-2",
+     "title": "Movendo cada modelo menor pelo braço",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Assim como nos acordes maiores, cada modelo menor pode ser movido pelo braço mantendo a digitação. O nome do acorde muda a cada casa, seguindo a <b>escala cromática</b>, e as cordas soltas viram uma pestana feita com o dedo 1."
+      },
+      {
+       "type": "h3",
+       "text": "Modelo de C menor"
+      },
+      {
+       "type": "chordseq",
+       "title": "Modelo de C subindo casa a casa",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Cm",
+         "frets": [
+          null,
+          3,
+          1,
+          0,
+          1,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C#m / Dbm",
+         "frets": [
+          null,
+          4,
+          2,
+          1,
+          2,
+          null
+         ],
+         "root": 1
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          5,
+          3,
+          2,
+          3,
+          null
+         ],
+         "root": 2
+        },
+        {
+         "name": "D#m / Ebm",
+         "frets": [
+          null,
+          6,
+          4,
+          3,
+          4,
+          null
+         ],
+         "root": 3
+        },
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          7,
+          5,
+          4,
+          5,
+          null
+         ],
+         "root": 4
+        },
+        {
+         "name": "Fm",
+         "frets": [
+          null,
+          8,
+          6,
+          5,
+          6,
+          null
+         ],
+         "root": 5
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Modelo de A menor"
+      },
+      {
+       "type": "chordseq",
+       "title": "Modelo de A subindo casa a casa",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          0,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 9
+        },
+        {
+         "name": "A#m / Bbm",
+         "frets": [
+          null,
+          1,
+          3,
+          3,
+          2,
+          1
+         ],
+         "root": 10
+        },
+        {
+         "name": "Bm",
+         "frets": [
+          null,
+          2,
+          4,
+          4,
+          3,
+          2
+         ],
+         "root": 11
+        },
+        {
+         "name": "Cm",
+         "frets": [
+          null,
+          3,
+          5,
+          5,
+          4,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "C#m / Dbm",
+         "frets": [
+          null,
+          4,
+          6,
+          6,
+          5,
+          4
+         ],
+         "root": 1
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          5,
+          7,
+          7,
+          6,
+          5
+         ],
+         "root": 2
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Modelo de G menor"
+      },
+      {
+       "type": "chordseq",
+       "title": "Modelo de G subindo casa a casa",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Gm",
+         "frets": [
+          3,
+          1,
+          0,
+          0,
+          3,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "G#m / Abm",
+         "frets": [
+          4,
+          2,
+          1,
+          1,
+          4,
+          null
+         ],
+         "root": 8
+        },
+        {
+         "name": "Am",
+         "frets": [
+          5,
+          3,
+          2,
+          2,
+          5,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "A#m / Bbm",
+         "frets": [
+          6,
+          4,
+          3,
+          3,
+          6,
+          null
+         ],
+         "root": 10
+        },
+        {
+         "name": "Bm",
+         "frets": [
+          7,
+          5,
+          4,
+          4,
+          7,
+          null
+         ],
+         "root": 11
+        },
+        {
+         "name": "Cm",
+         "frets": [
+          8,
+          6,
+          5,
+          5,
+          8,
+          null
+         ],
+         "root": 0
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Se o modelo de G menor estiver difícil, simplifique: <b>omita também a 2ª corda</b> e use só os dedos 4, 2 e 1, tocando apenas as cordas 6, 5, 4 e 3. É assim que ele aparece nos próximos exercícios."
+      },
+      {
+       "type": "h3",
+       "text": "Modelo de E menor"
+      },
+      {
+       "type": "chordseq",
+       "title": "Modelo de E subindo casa a casa",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Em",
+         "frets": [
+          0,
+          2,
+          2,
+          0,
+          0,
+          0
+         ],
+         "root": 4
+        },
+        {
+         "name": "Fm",
+         "frets": [
+          1,
+          3,
+          3,
+          1,
+          1,
+          1
+         ],
+         "root": 5
+        },
+        {
+         "name": "F#m / Gbm",
+         "frets": [
+          2,
+          4,
+          4,
+          2,
+          2,
+          2
+         ],
+         "root": 6
+        },
+        {
+         "name": "Gm",
+         "frets": [
+          3,
+          5,
+          5,
+          3,
+          3,
+          3
+         ],
+         "root": 7
+        },
+        {
+         "name": "G#m / Abm",
+         "frets": [
+          4,
+          6,
+          6,
+          4,
+          4,
+          4
+         ],
+         "root": 8
+        },
+        {
+         "name": "Am",
+         "frets": [
+          5,
+          7,
+          7,
+          5,
+          5,
+          5
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Modelo de D menor"
+      },
+      {
+       "type": "chordseq",
+       "title": "Modelo de D subindo casa a casa",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          1
+         ],
+         "root": 2
+        },
+        {
+         "name": "D#m / Ebm",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          4,
+          2
+         ],
+         "root": 3
+        },
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          5,
+          3
+         ],
+         "root": 4
+        },
+        {
+         "name": "Fm",
+         "frets": [
+          null,
+          null,
+          3,
+          5,
+          6,
+          4
+         ],
+         "root": 5
+        },
+        {
+         "name": "F#m / Gbm",
+         "frets": [
+          null,
+          null,
+          4,
+          6,
+          7,
+          5
+         ],
+         "root": 6
+        },
+        {
+         "name": "Gm",
+         "frets": [
+          null,
+          null,
+          5,
+          7,
+          8,
+          6
+         ],
+         "root": 7
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Em cada grupo, continue avançando casa por casa até onde o braço permitir."
+      }
+     ]
+    },
+    {
+     "id": "g4-3",
+     "title": "O mesmo acorde menor nos cinco modelos",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos praticar as <b>conexões entre os 5 modelos</b> com um mesmo acorde menor, indo e voltando. A ordem segue a palavra CAGED a partir do modelo que tem o nome do próprio acorde, como nos acordes maiores."
+      },
+      {
+       "type": "note",
+       "html": "Nestes exercícios o modelo de G aparece <b>simplificado</b>, só com as cordas 6, 5, 4 e 3."
+      },
+      {
+       "type": "h3",
+       "text": "Acorde de Cm"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cm nos 5 modelos (C, A, G, E, D)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Cm · modelo C",
+         "frets": [
+          null,
+          3,
+          1,
+          0,
+          1,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm · modelo A",
+         "frets": [
+          null,
+          3,
+          5,
+          5,
+          4,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm · modelo G",
+         "frets": [
+          8,
+          6,
+          5,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm · modelo E",
+         "frets": [
+          8,
+          10,
+          10,
+          8,
+          8,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm · modelo D",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          13,
+          11
+         ],
+         "root": 0
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Acorde de Am"
+      },
+      {
+       "type": "chordseq",
+       "title": "Am nos 5 modelos (A, G, E, D, C)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Am · modelo A",
+         "frets": [
+          null,
+          0,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 9
+        },
+        {
+         "name": "Am · modelo G",
+         "frets": [
+          5,
+          3,
+          2,
+          2,
+          null,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "Am · modelo E",
+         "frets": [
+          5,
+          7,
+          7,
+          5,
+          5,
+          5
+         ],
+         "root": 9
+        },
+        {
+         "name": "Am · modelo D",
+         "frets": [
+          null,
+          null,
+          7,
+          9,
+          10,
+          8
+         ],
+         "root": 9
+        },
+        {
+         "name": "Am · modelo C",
+         "frets": [
+          null,
+          12,
+          10,
+          9,
+          10,
+          null
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Acorde de Gm"
+      },
+      {
+       "type": "chordseq",
+       "title": "Gm nos 5 modelos (G, E, D, C, A)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Gm · modelo G",
+         "frets": [
+          3,
+          1,
+          0,
+          0,
+          null,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Gm · modelo E",
+         "frets": [
+          3,
+          5,
+          5,
+          3,
+          3,
+          3
+         ],
+         "root": 7
+        },
+        {
+         "name": "Gm · modelo D",
+         "frets": [
+          null,
+          null,
+          5,
+          7,
+          8,
+          6
+         ],
+         "root": 7
+        },
+        {
+         "name": "Gm · modelo C",
+         "frets": [
+          null,
+          10,
+          8,
+          7,
+          8,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Gm · modelo A",
+         "frets": [
+          null,
+          10,
+          12,
+          12,
+          11,
+          10
+         ],
+         "root": 7
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Acorde de Em"
+      },
+      {
+       "type": "chordseq",
+       "title": "Em nos 5 modelos (E, D, C, A, G)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Em · modelo E",
+         "frets": [
+          0,
+          2,
+          2,
+          0,
+          0,
+          0
+         ],
+         "root": 4
+        },
+        {
+         "name": "Em · modelo D",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          5,
+          3
+         ],
+         "root": 4
+        },
+        {
+         "name": "Em · modelo C",
+         "frets": [
+          null,
+          7,
+          5,
+          4,
+          5,
+          null
+         ],
+         "root": 4
+        },
+        {
+         "name": "Em · modelo A",
+         "frets": [
+          null,
+          7,
+          9,
+          9,
+          8,
+          7
+         ],
+         "root": 4
+        },
+        {
+         "name": "Em · modelo G",
+         "frets": [
+          12,
+          10,
+          9,
+          9,
+          null,
+          null
+         ],
+         "root": 4
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Acorde de Dm"
+      },
+      {
+       "type": "chordseq",
+       "title": "Dm nos 5 modelos (D, C, A, G, E)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Dm · modelo D",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          1
+         ],
+         "root": 2
+        },
+        {
+         "name": "Dm · modelo C",
+         "frets": [
+          null,
+          5,
+          3,
+          2,
+          3,
+          null
+         ],
+         "root": 2
+        },
+        {
+         "name": "Dm · modelo A",
+         "frets": [
+          null,
+          5,
+          7,
+          7,
+          6,
+          5
+         ],
+         "root": 2
+        },
+        {
+         "name": "Dm · modelo G",
+         "frets": [
+          10,
+          8,
+          7,
+          7,
+          null,
+          null
+         ],
+         "root": 2
+        },
+        {
+         "name": "Dm · modelo E",
+         "frets": [
+          10,
+          12,
+          12,
+          10,
+          10,
+          10
+         ],
+         "root": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g4-4",
+     "title": "Sequência de acordes menores em cada região",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos a exercícios musicais: você toca a <b>mesma sequência de 3 acordes menores</b>, Am – Dm – Em – Am, nas 5 regiões do braço. Em cada região, cada acorde usa um modelo diferente."
+      },
+      {
+       "type": "h3",
+       "text": "Região 1"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 1: Am, Dm, Em, Am",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          0,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 9
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          1
+         ],
+         "root": 2
+        },
+        {
+         "name": "Em",
+         "frets": [
+          0,
+          2,
+          2,
+          0,
+          0,
+          0
+         ],
+         "root": 4
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          0,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 2"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 2: Am, Dm, Em, Am",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Am",
+         "frets": [
+          5,
+          3,
+          2,
+          2,
+          null,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          5,
+          3,
+          2,
+          3,
+          null
+         ],
+         "root": 2
+        },
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          5,
+          3
+         ],
+         "root": 4
+        },
+        {
+         "name": "Am",
+         "frets": [
+          5,
+          3,
+          2,
+          2,
+          null,
+          null
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 3"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 3: Am, Dm, Em, Am",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Am",
+         "frets": [
+          5,
+          7,
+          7,
+          5,
+          5,
+          5
+         ],
+         "root": 9
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          5,
+          7,
+          7,
+          6,
+          5
+         ],
+         "root": 2
+        },
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          7,
+          5,
+          4,
+          5,
+          null
+         ],
+         "root": 4
+        },
+        {
+         "name": "Am",
+         "frets": [
+          5,
+          7,
+          7,
+          5,
+          5,
+          5
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 4"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 4: Am, Dm, Em, Am",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          7,
+          9,
+          10,
+          8
+         ],
+         "root": 9
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          10,
+          8,
+          7,
+          7,
+          null,
+          null
+         ],
+         "root": 2
+        },
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          7,
+          9,
+          9,
+          8,
+          7
+         ],
+         "root": 4
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          7,
+          9,
+          10,
+          8
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 5"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 5: Am, Dm, Em, Am",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          12,
+          10,
+          9,
+          10,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          10,
+          12,
+          12,
+          10,
+          10,
+          10
+         ],
+         "root": 2
+        },
+        {
+         "name": "Em",
+         "frets": [
+          12,
+          10,
+          9,
+          9,
+          null,
+          null
+         ],
+         "root": 4
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          12,
+          10,
+          9,
+          10,
+          null
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Pratique também com <b>fragmentos de 3 cordas</b> de cada acorde."
+      }
+     ]
+    },
+    {
+     "id": "g4-5",
+     "title": "Arranjos com fragmentos de 3 cordas",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos criar <b>arranjos</b> sobre uma sequência que combina acordes maiores e menores, Em – C – Am – D, passando por várias regiões do braço. Em vez do acorde inteiro, você usa <b>fragmentos de 3 cordas</b>, que soam mais leves e são ótimos para fazer arranjos."
+      },
+      {
+       "type": "h3",
+       "text": "Cordas 4, 3 e 2 — a partir da casa 4"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cordas 4, 3 e 2 — a partir da casa 4: Em, C, Am, D",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          null,
+          5,
+          4,
+          5,
+          null
+         ],
+         "root": 4
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          5,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          7,
+          5,
+          5,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "D",
+         "frets": [
+          null,
+          null,
+          7,
+          7,
+          7,
+          null
+         ],
+         "root": 2
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Cordas 4, 3 e 2 — a partir da casa 8"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cordas 4, 3 e 2 — a partir da casa 8: Em, C, Am, D",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          null,
+          9,
+          9,
+          8,
+          null
+         ],
+         "root": 4
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          10,
+          9,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          10,
+          9,
+          10,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "D",
+         "frets": [
+          null,
+          null,
+          12,
+          11,
+          10,
+          null
+         ],
+         "root": 2
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Cordas 4, 3 e 2 — a partir da casa 12"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cordas 4, 3 e 2 — a partir da casa 12: Em, C, Am, D",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          null,
+          14,
+          12,
+          12,
+          null
+         ],
+         "root": 4
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          14,
+          12,
+          13,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          14,
+          14,
+          13,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "D",
+         "frets": [
+          null,
+          null,
+          16,
+          14,
+          15,
+          null
+         ],
+         "root": 2
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Cordas 3, 2 e 1 — a partir da casa 3"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cordas 3, 2 e 1 — a partir da casa 3: Em, C, Am, D",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          null,
+          null,
+          4,
+          5,
+          3
+         ],
+         "root": 4
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          5,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          5,
+          5
+         ],
+         "root": 9
+        },
+        {
+         "name": "D",
+         "frets": [
+          null,
+          null,
+          null,
+          7,
+          7,
+          5
+         ],
+         "root": 2
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Cordas 3, 2 e 1 — a partir da casa 7"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cordas 3, 2 e 1 — a partir da casa 7: Em, C, Am, D",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          null,
+          null,
+          9,
+          8,
+          7
+         ],
+         "root": 4
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          null,
+          9,
+          8,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          null,
+          9,
+          10,
+          8
+         ],
+         "root": 9
+        },
+        {
+         "name": "D",
+         "frets": [
+          null,
+          null,
+          null,
+          11,
+          10,
+          10
+         ],
+         "root": 2
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Cordas 3, 2 e 1 — a partir da casa 12"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cordas 3, 2 e 1 — a partir da casa 12: Em, C, Am, D",
+       "tempo": 80,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          12,
+          12
+         ],
+         "root": 4
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          13,
+          12
+         ],
+         "root": 0
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          null,
+          14,
+          13,
+          12
+         ],
+         "root": 9
+        },
+        {
+         "name": "D",
+         "frets": [
+          null,
+          null,
+          null,
+          14,
+          15,
+          14
+         ],
+         "root": 2
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "A partir de agora, experimente criar este tipo de arranjo, com fragmentos dos acordes do CAGED, sobre as músicas que você já costumava tocar de forma básica."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g5",
+   "title": "Tétrades no sistema CAGED",
+   "topics": [
+    {
+     "id": "g5-1",
+     "title": "O que são tétrades",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "As <b>tétrades</b> são os acordes formados por <b>4 notas</b>, ou seja, os acordes com sétima. Nos próximos módulos você vai estudá-las em detalhe. Aqui o foco é só reconhecer os 4 tipos principais e tocá-los."
+      },
+      {
+       "type": "cards",
+       "items": [
+        {
+         "big": "7M",
+         "title": "C7M",
+         "text": "maior com sétima maior"
+        },
+        {
+         "big": "7",
+         "title": "C7",
+         "text": "maior com sétima menor (dominante)"
+        },
+        {
+         "big": "m7",
+         "title": "Cm7",
+         "text": "menor com sétima menor"
+        },
+        {
+         "big": "m7(b5)",
+         "title": "Cm7(b5)",
+         "text": "menor com sétima menor e quinta diminuta"
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Compare o som de cada um nos exemplos do próximo tópico."
+      }
+     ]
+    },
+    {
+     "id": "g5-2",
+     "title": "Os 4 tipos nos 5 modelos",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos mapear e tocar, nos 5 modelos do CAGED, os <b>4 tipos principais de tétrades</b>, para que você já possa usá-los na prática, nas músicas. Os exemplos usam o acorde de C, mas o mesmo raciocínio vale para qualquer outra nota."
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima maior: C7M"
+      },
+      {
+       "type": "chordseq",
+       "title": "C7M nos 5 modelos",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7M · modelo C",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          0,
+          0
+         ],
+         "root": 0
+        },
+        {
+         "name": "C7M · modelo A",
+         "frets": [
+          null,
+          3,
+          5,
+          4,
+          5,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "C7M · modelo G",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          5,
+          7
+         ],
+         "root": 0
+        },
+        {
+         "name": "C7M · modelo E",
+         "frets": [
+          8,
+          null,
+          9,
+          9,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C7M · modelo D",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          12,
+          12
+         ],
+         "root": 0
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima menor: C7"
+      },
+      {
+       "type": "chordseq",
+       "title": "C7 nos 5 modelos",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7 · modelo C",
+         "frets": [
+          null,
+          3,
+          2,
+          3,
+          1,
+          0
+         ],
+         "root": 0
+        },
+        {
+         "name": "C7 · modelo A",
+         "frets": [
+          null,
+          3,
+          5,
+          3,
+          5,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "C7 · modelo G",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          5,
+          6
+         ],
+         "root": 0
+        },
+        {
+         "name": "C7 · modelo E",
+         "frets": [
+          8,
+          10,
+          8,
+          9,
+          8,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "C7 · modelo D",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          11,
+          12
+         ],
+         "root": 0
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Menor com sétima menor: Cm7"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cm7 nos 5 modelos",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Cm7 · modelo C",
+         "frets": [
+          null,
+          3,
+          1,
+          3,
+          1,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm7 · modelo A",
+         "frets": [
+          null,
+          3,
+          5,
+          3,
+          4,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm7 · modelo G",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          4,
+          6
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm7 · modelo E",
+         "frets": [
+          8,
+          10,
+          8,
+          8,
+          8,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm7 · modelo D",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          11,
+          11
+         ],
+         "root": 0
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Menor com sétima menor e quinta diminuta: Cm7(b5)"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cm7(b5) nos 5 modelos",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Cm7(b5) · modelo C",
+         "frets": [
+          null,
+          15,
+          13,
+          11,
+          11,
+          11
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm7(b5) · modelo A",
+         "frets": [
+          null,
+          3,
+          4,
+          3,
+          4,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm7(b5) · modelo G",
+         "frets": [
+          null,
+          null,
+          4,
+          5,
+          4,
+          6
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm7(b5) · modelo E",
+         "frets": [
+          8,
+          9,
+          8,
+          8,
+          11,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm7(b5) · modelo D",
+         "frets": [
+          null,
+          null,
+          10,
+          11,
+          11,
+          11
+         ],
+         "root": 0
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "O Cm7(b5) também é escrito <b>CØ</b> e se chama acorde <b>meio-diminuto</b>."
+      },
+      {
+       "type": "note",
+       "html": "Alguns diagramas omitem uma ou mais cordas. Isso é proposital: são as digitações mais práticas de cada modelo."
+      }
+     ]
+    },
+    {
+     "id": "g5-3",
+     "title": "Sequência de tétrades em cada região",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos praticar os 4 tipos de tétrades nas 5 regiões do braço, sobre uma sequência de acordes muito comum: <b>Dm7 – G7 – C7M – F7M – Bm7(b5) – E7 – Am7 – A7</b>."
+      },
+      {
+       "type": "p",
+       "html": "Essa sequência aparece em muitas músicas conhecidas, algumas em outras tonalidades, mas sempre com os mesmos graus e modelos. Dois exemplos clássicos são Autumn Leaves e Fly Me To The Moon."
+      },
+      {
+       "type": "note",
+       "html": "Escute como a mesma sequência soa em cada região. Repare nas notas que se repetem de um acorde para o outro: elas ajudam a escolher o modelo mais próximo."
+      },
+      {
+       "type": "h3",
+       "text": "Região 1"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 1: Dm7, G7, C7M, F7M, Bm7(b5), E7, Am7, A7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Dm7",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          1,
+          1
+         ],
+         "root": 2
+        },
+        {
+         "name": "G7",
+         "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          1
+         ],
+         "root": 7
+        },
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          0,
+          0
+         ],
+         "root": 0
+        },
+        {
+         "name": "F7M",
+         "frets": [
+          1,
+          null,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 5
+        },
+        {
+         "name": "Bm7(b5)",
+         "frets": [
+          null,
+          2,
+          3,
+          2,
+          3,
+          null
+         ],
+         "root": 11
+        },
+        {
+         "name": "E7",
+         "frets": [
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+         ],
+         "root": 4
+        },
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          0,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 9
+        },
+        {
+         "name": "A7",
+         "frets": [
+          null,
+          0,
+          2,
+          0,
+          2,
+          0
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 2"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 2: Dm7, G7, C7M, F7M, Bm7(b5), E7, Am7, A7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Dm7",
+         "frets": [
+          null,
+          5,
+          3,
+          5,
+          3,
+          null
+         ],
+         "root": 2
+        },
+        {
+         "name": "G7",
+         "frets": [
+          3,
+          5,
+          3,
+          4,
+          3,
+          3
+         ],
+         "root": 7
+        },
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          3,
+          5,
+          4,
+          5,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "F7M",
+         "frets": [
+          null,
+          null,
+          3,
+          5,
+          5,
+          5
+         ],
+         "root": 5
+        },
+        {
+         "name": "Bm7(b5)",
+         "frets": [
+          null,
+          null,
+          3,
+          4,
+          3,
+          5
+         ],
+         "root": 11
+        },
+        {
+         "name": "E7",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          3,
+          4
+         ],
+         "root": 4
+        },
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          null,
+          2,
+          2,
+          1,
+          3
+         ],
+         "root": 9
+        },
+        {
+         "name": "A7",
+         "frets": [
+          null,
+          null,
+          2,
+          2,
+          2,
+          3
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 3"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 3: Dm7, G7, C7M, F7M, Bm7(b5), E7, Am7, A7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Dm7",
+         "frets": [
+          null,
+          5,
+          7,
+          5,
+          6,
+          5
+         ],
+         "root": 2
+        },
+        {
+         "name": "G7",
+         "frets": [
+          null,
+          null,
+          5,
+          7,
+          6,
+          7
+         ],
+         "root": 7
+        },
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          5,
+          7
+         ],
+         "root": 0
+        },
+        {
+         "name": "F7M",
+         "frets": [
+          null,
+          8,
+          7,
+          5,
+          5,
+          5
+         ],
+         "root": 5
+        },
+        {
+         "name": "Bm7(b5)",
+         "frets": [
+          7,
+          null,
+          7,
+          7,
+          6,
+          null
+         ],
+         "root": 11
+        },
+        {
+         "name": "E7",
+         "frets": [
+          null,
+          7,
+          6,
+          7,
+          5,
+          null
+         ],
+         "root": 4
+        },
+        {
+         "name": "Am7",
+         "frets": [
+          5,
+          7,
+          5,
+          5,
+          5,
+          5
+         ],
+         "root": 9
+        },
+        {
+         "name": "A7",
+         "frets": [
+          5,
+          7,
+          5,
+          6,
+          5,
+          5
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 4"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 4: Dm7, G7, C7M, F7M, Bm7(b5), E7, Am7, A7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Dm7",
+         "frets": [
+          null,
+          null,
+          7,
+          7,
+          6,
+          8
+         ],
+         "root": 2
+        },
+        {
+         "name": "G7",
+         "frets": [
+          null,
+          10,
+          9,
+          10,
+          8,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "C7M",
+         "frets": [
+          8,
+          null,
+          9,
+          9,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "F7M",
+         "frets": [
+          null,
+          8,
+          10,
+          9,
+          10,
+          8
+         ],
+         "root": 5
+        },
+        {
+         "name": "Bm7(b5)",
+         "frets": [
+          7,
+          8,
+          7,
+          7,
+          10,
+          7
+         ],
+         "root": 11
+        },
+        {
+         "name": "E7",
+         "frets": [
+          null,
+          7,
+          9,
+          7,
+          9,
+          7
+         ],
+         "root": 4
+        },
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          null,
+          7,
+          9,
+          8,
+          8
+         ],
+         "root": 9
+        },
+        {
+         "name": "A7",
+         "frets": [
+          null,
+          null,
+          7,
+          9,
+          8,
+          9
+         ],
+         "root": 9
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Região 5"
+      },
+      {
+       "type": "chordseq",
+       "title": "Região 5: Dm7, G7, C7M, F7M, Bm7(b5), E7, Am7, A7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Dm7",
+         "frets": [
+          10,
+          12,
+          10,
+          10,
+          10,
+          10
+         ],
+         "root": 2
+        },
+        {
+         "name": "G7",
+         "frets": [
+          null,
+          10,
+          12,
+          10,
+          12,
+          10
+         ],
+         "root": 7
+        },
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          12,
+          12
+         ],
+         "root": 0
+        },
+        {
+         "name": "F7M",
+         "frets": [
+          null,
+          null,
+          10,
+          10,
+          10,
+          12
+         ],
+         "root": 5
+        },
+        {
+         "name": "Bm7(b5)",
+         "frets": [
+          null,
+          null,
+          9,
+          10,
+          10,
+          10
+         ],
+         "root": 11
+        },
+        {
+         "name": "E7",
+         "frets": [
+          null,
+          null,
+          9,
+          9,
+          9,
+          10
+         ],
+         "root": 4
+        },
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          12,
+          10,
+          12,
+          10,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "A7",
+         "frets": [
+          null,
+          12,
+          11,
+          12,
+          10,
+          null
+         ],
+         "root": 9
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g6",
+   "title": "Intervalos",
+   "topics": [
+    {
+     "id": "g6-1",
+     "title": "O que são intervalos",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "<b>Intervalo</b> é a distância, em graus, entre duas notas. Ele expressa a relação entre elas e define se formam uma <b>consonância</b> ou uma <b>dissonância</b>, e se podem fazer parte de uma mesma escala ou de um mesmo acorde. Entender intervalos é fundamental para qualquer músico, porque eles formam os acordes, as escalas e as melodias."
+      },
+      {
+       "type": "h3",
+       "text": "Harmônicos e melódicos"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "<b>Intervalo harmônico:</b> as duas notas soam ao mesmo tempo.",
+        "<b>Intervalo melódico:</b> as notas soam uma depois da outra."
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Os intervalos são medidos em <b>tons e semitons</b>. A nota mais grave é a <b>tônica</b>, e a nota mais aguda é classificada pela sua distância, em graus, até a tônica."
+      },
+      {
+       "type": "h3",
+       "text": "Os graus da escala maior"
+      },
+      {
+       "type": "p",
+       "html": "Para começar, pense na escala maior com as sete notas, numeradas em graus. Tomando C como tônica: D é a 2ª, E a 3ª, F a 4ª, G a 5ª, A a 6ª e B a 7ª."
+      },
+      {
+       "type": "cards",
+       "items": [
+        {
+         "big": "C",
+         "title": "Tônica"
+        },
+        {
+         "big": "D",
+         "title": "2ª"
+        },
+        {
+         "big": "E",
+         "title": "3ª"
+        },
+        {
+         "big": "F",
+         "title": "4ª"
+        },
+        {
+         "big": "G",
+         "title": "5ª"
+        },
+        {
+         "big": "A",
+         "title": "6ª"
+        },
+        {
+         "big": "B",
+         "title": "7ª"
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Maior, menor, justo, aumentado e diminuto"
+      },
+      {
+       "type": "p",
+       "html": "Dependendo da distância e da relação entre as notas, os intervalos recebem uma <b>qualidade</b>: Maior (M), Menor (m), Justo (J), Aumentado (A) ou Diminuto (d). Na escala maior, os intervalos a partir da tônica C são:"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Nota",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B",
+        "C"
+       ],
+       "rows": [
+        [
+         "Intervalo",
+         "T",
+         "2M",
+         "3M",
+         "4J",
+         "5J",
+         "6M",
+         "7M",
+         "8J"
+        ]
+       ]
+      },
+      {
+       "type": "ul",
+       "items": [
+        "Os intervalos de <b>2ª, 3ª, 6ª e 7ª</b> podem ser maiores ou menores (e, às vezes, aumentados ou diminutos).",
+        "Os intervalos de <b>4ª e 5ª</b> só podem ser justos, aumentados ou diminutos.",
+        "O intervalo de <b>8ª</b> é sempre justo.",
+        "Assim como existem notas enarmônicas, existem <b>intervalos enarmônicos</b>: nomes diferentes para a mesma distância."
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Simples e compostos"
+      },
+      {
+       "type": "p",
+       "html": "Os intervalos de até uma oitava são <b>simples</b>. Os que passam de uma oitava são <b>compostos</b> (9ª, 11ª, 13ª). Os intervalos de 3ª, 5ª e 7ª nunca são escritos na forma composta, mantendo o mesmo nome em qualquer oitava. Já os compostos sempre mantêm a qualidade (maior, menor, justo...) dos seus intervalos simples."
+      }
+     ]
+    },
+    {
+     "id": "g6-2",
+     "title": "Tabela de intervalos",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Veja a tabela dos intervalos com as suas abreviações, os semitons e os tons. Os nomes entre parênteses são enarmônicos, ou seja, o mesmo som com outro nome."
+      },
+      {
+       "type": "h3",
+       "text": "Intervalos simples"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Intervalo",
+        "Abreviações",
+        "Semitons",
+        "Tons"
+       ],
+       "rows": [
+        [
+         "Uníssono",
+         "–",
+         "0",
+         "0"
+        ],
+        [
+         "Segunda menor",
+         "2m, b2",
+         "1",
+         "½"
+        ],
+        [
+         "Segunda maior",
+         "2M, 2",
+         "2",
+         "1"
+        ],
+        [
+         "Terça menor (ou 2ª aumentada)",
+         "3m, b3 (2A, #2)",
+         "3",
+         "1+½"
+        ],
+        [
+         "Terça maior",
+         "3M, 3",
+         "4",
+         "2"
+        ],
+        [
+         "Quarta justa",
+         "4J, 4",
+         "5",
+         "2+½"
+        ],
+        [
+         "Quarta aumentada ou quinta diminuta (trítono)",
+         "4A, #4 / 5d, b5",
+         "6",
+         "3"
+        ],
+        [
+         "Quinta justa",
+         "5J, 5",
+         "7",
+         "3+½"
+        ],
+        [
+         "Quinta aumentada ou sexta menor",
+         "5A, #5 / 6m, b6",
+         "8",
+         "4"
+        ],
+        [
+         "Sexta maior (ou 7ª diminuta)",
+         "6M, 6 (7d, bb7)",
+         "9",
+         "4+½"
+        ],
+        [
+         "Sétima menor",
+         "7m, b7, 7",
+         "10",
+         "5"
+        ],
+        [
+         "Sétima maior",
+         "7M, maj7, 7+",
+         "11",
+         "5+½"
+        ],
+        [
+         "Oitava justa",
+         "8J, 8, T",
+         "12",
+         "6"
+        ]
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Intervalos compostos"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Intervalo",
+        "Abreviações",
+        "Semitons",
+        "Tons"
+       ],
+       "rows": [
+        [
+         "Nona menor",
+         "9m, b9",
+         "13",
+         "6+½"
+        ],
+        [
+         "Nona maior",
+         "9M, 9",
+         "14",
+         "7"
+        ],
+        [
+         "Nona aumentada (ou 3ª menor)",
+         "9A, #9 (3m, b3)",
+         "15",
+         "7+½"
+        ],
+        [
+         "Terça maior",
+         "3M, 3",
+         "16",
+         "8"
+        ],
+        [
+         "Décima primeira justa",
+         "11J, 11",
+         "17",
+         "8+½"
+        ],
+        [
+         "Décima primeira aumentada (ou 5ª diminuta)",
+         "11A, #11 (5d, b5)",
+         "18",
+         "9"
+        ],
+        [
+         "Quinta justa",
+         "5J, 5",
+         "19",
+         "9+½"
+        ],
+        [
+         "Quinta aumentada (ou 13ª menor)",
+         "5A, #5 (13m, b13)",
+         "20",
+         "10"
+        ],
+        [
+         "Décima terceira maior",
+         "13M, 13",
+         "21",
+         "10+½"
+        ],
+        [
+         "Sétima menor",
+         "7m, b7, 7",
+         "22",
+         "11"
+        ],
+        [
+         "Sétima maior",
+         "7M, maj7, 7+",
+         "23",
+         "11+½"
+        ]
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Dica: decore os semitons de cada intervalo. Com eles você descobre qualquer intervalo contando as casas no braço."
+      }
+     ]
+    },
+    {
+     "id": "g6-3",
+     "title": "Intervalos no braço e inversões",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Veja os intervalos <b>no braço</b>, em relação à tônica. O mapa mostra, em cada casa, que intervalo aquela nota forma com a tônica. Por padrão a tônica é C, mas você pode escolher outra nota."
+      },
+      {
+       "type": "intmap",
+       "root": 0,
+       "hide": false
+      },
+      {
+       "type": "note",
+       "html": "Toque numa nota para ouvir a tônica e depois o intervalo. Se preferir treinar, ligue o modo <b>Treinar</b> e adivinhe o intervalo antes de conferir."
+      },
+      {
+       "type": "p",
+       "html": "É preciso analisar o contexto: se o intervalo ultrapassa uma oitava, usa-se a forma composta (a 2M vira 9M, a 4J vira 11J, e assim por diante), exceto nas 3ªs, 5ªs e 7ªs. Também é fundamental memorizar as <b>enarmonias</b> dos intervalos e usar o nome mais adequado a cada contexto."
+      },
+      {
+       "type": "h3",
+       "text": "Inversão de intervalos"
+      },
+      {
+       "type": "p",
+       "html": "Os intervalos também podem ser <b>invertidos</b>: a tônica e a outra nota trocam de papel. Por exemplo, D forma uma 2M em relação a C, mas, se tomarmos D como tônica, C forma uma 7m em relação a D. As tabelas resumem o que acontece na inversão:"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Grau",
+        "Inversão"
+       ],
+       "rows": [
+        [
+         "2",
+         "7"
+        ],
+        [
+         "3",
+         "6"
+        ],
+        [
+         "4",
+         "5"
+        ],
+        [
+         "5",
+         "4"
+        ],
+        [
+         "6",
+         "3"
+        ],
+        [
+         "7",
+         "2"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "head": [
+        "Tipo",
+        "Inversão"
+       ],
+       "rows": [
+        [
+         "Maior",
+         "Menor"
+        ],
+        [
+         "Menor",
+         "Maior"
+        ],
+        [
+         "Justo",
+         "Justo"
+        ],
+        [
+         "Aumentado",
+         "Diminuto"
+        ],
+        [
+         "Diminuto",
+         "Aumentado"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g6-4",
+     "title": "Treino: distâncias e intervalos",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora treine as distâncias entre as notas naturais. Escolha a nota de partida, descubra a distância em tons e semitons e o intervalo de cada par, e toque na linha para conferir. <b>Conte os semitons em ordem ascendente</b>, do grave para o agudo."
+      },
+      {
+       "type": "intquiz"
+      },
+      {
+       "type": "note",
+       "html": "Não se preocupe se a teoria ainda não ficou totalmente clara. Tudo vai ficar mais evidente quando você praticar no instrumento."
+      }
+     ]
+    },
+    {
+     "id": "g6-5",
+     "title": "Praticando intervalos no braço",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vem a parte mais importante do estudo de intervalos: o <b>treino prático no instrumento</b>. Pratique imitando o som das notas com a voz, ou seja, <b>cantando os intervalos</b>. Assim você memoriza aos poucos a digitação e a característica sonora de cada intervalo."
+      },
+      {
+       "type": "p",
+       "html": "Escolha o intervalo e veja onde a nota fica no braço, a partir da tônica. A tônica fica sempre na corda indicada, e você pode trocar a nota da tônica para praticar em outros tons."
+      },
+      {
+       "type": "h3",
+       "text": "Tônica na 6ª corda"
+      },
+      {
+       "type": "intpick",
+       "string": 6,
+       "root": 0
+      },
+      {
+       "type": "h3",
+       "text": "Tônica na 5ª corda"
+      },
+      {
+       "type": "intpick",
+       "string": 5,
+       "root": 0
+      },
+      {
+       "type": "h3",
+       "text": "Tônica na 4ª corda"
+      },
+      {
+       "type": "intpick",
+       "string": 4,
+       "root": 0
+      },
+      {
+       "type": "h3",
+       "text": "Tônica na 3ª corda"
+      },
+      {
+       "type": "intpick",
+       "string": 3,
+       "root": 0
+      },
+      {
+       "type": "h3",
+       "text": "Tônica na 2ª corda"
+      },
+      {
+       "type": "intpick",
+       "string": 2,
+       "root": 0
+      },
+      {
+       "type": "note",
+       "html": "Coloque estes exercícios na sua rotina diária de estudos, praticando também com outras tônicas. Com cerca de 10 minutos por dia, você vai dominar a teoria musical com muito mais facilidade e desenvolver o ouvido para tocar de ouvido."
+      }
+     ]
+    }
+   ]
   }
  ]
 }

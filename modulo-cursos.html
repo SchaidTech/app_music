@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cursos</title>
-<link rel="manifest" href="manifest.json">
+<link rel="manifest" href="manifest.json" crossorigin="use-credentials">
 <meta name="theme-color" content="#141416">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -22,6 +22,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
 <script src="violao.js"></script>
 <script src="acorde.js"></script>
+<script src="intervalos.js"></script>
 <link rel="stylesheet" href="cursos.css">
 </head>
 <body>
@@ -208,6 +209,14 @@
         body.appendChild(row);
       } else if (b.type === 'chordseq'){
         body.appendChild(buildSeq(b));
+      } else if (b.type === 'table'){
+        body.appendChild(Intervalos.tabela(b));
+      } else if (b.type === 'intmap'){
+        body.appendChild(Intervalos.mapa(b));
+      } else if (b.type === 'intpick'){
+        body.appendChild(Intervalos.pratica(b));
+      } else if (b.type === 'intquiz'){
+        body.appendChild(Intervalos.tabelaTreino(b));
       } else if (b.type === 'fretmap'){
         body.appendChild(buildFretmap(b));
       } else if (b.type === 'exercise'){
@@ -409,6 +418,10 @@
     }
 
     function createApi(withPlayer){
+      // trava a altura atual da tablatura enquanto ela é redesenhada: sem isso o cartão encolhe e cresce
+      // várias vezes e o navegador rola a página sozinho para "acompanhar" o botão
+      const tabEl = q('.ex-tab');
+      tabEl.style.minHeight = Math.max(110, Math.round(tabEl.getBoundingClientRect().height)) + 'px';
       destroyApi();
       const host = q('.ex-host');
       host.innerHTML = '';
@@ -418,7 +431,7 @@
       card.api = api; card.hasPlayer = withPlayer; card.ready = false;
       if (withPlayer && window.Diag) Diag.attach(api, 'curso');
 
-      api.renderFinished.on(() => { loadingEl.style.display = 'none'; });
+      api.renderFinished.on(() => { loadingEl.style.display = 'none'; setTimeout(() => { if (card.api === api) tabEl.style.minHeight = ''; }, 250); });
       api.error.on((e) => setStatus('Erro: ' + (e && e.message ? e.message : e), true));
 
       if (withPlayer){
