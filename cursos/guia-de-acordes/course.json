@@ -15766,6 +15766,6193 @@
      ]
     }
    ]
+  },
+  {
+   "id": "g12",
+   "title": "Tétrades no campo harmônico maior",
+   "topics": [
+    {
+     "id": "g12-1",
+     "title": "Das tríades às tétrades no campo",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Partindo das tríades do campo harmônico maior que você já estudou, podemos obter as <b>tétrades</b> do campo simplesmente adicionando mais uma nota em intervalo de terça: a <b>sétima</b> do acorde, respeitando as notas e os intervalos da escala."
+      },
+      {
+       "type": "h3",
+       "text": "Tríades do campo harmônico maior de C"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Grau",
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII"
+       ],
+       "rows": [
+        [
+         "5ª",
+         "5J",
+         "5J",
+         "5J",
+         "5J",
+         "5J",
+         "5J",
+         "5dim"
+        ],
+        [
+         "3ª",
+         "3M",
+         "3m",
+         "3m",
+         "3M",
+         "3M",
+         "3m",
+         "3m"
+        ],
+        [
+         "Tônica",
+         "T",
+         "T",
+         "T",
+         "T",
+         "T",
+         "T",
+         "T"
+        ],
+        [
+         "Tríade",
+         "C",
+         "Dm",
+         "Em",
+         "F",
+         "G",
+         "Am",
+         "Bm(b5)"
+        ]
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Tétrades do campo harmônico maior de C (tríades + sétima)"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Grau",
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII"
+       ],
+       "rows": [
+        [
+         "7ª",
+         "7M",
+         "7m",
+         "7m",
+         "7M",
+         "7m",
+         "7m",
+         "7m"
+        ],
+        [
+         "5ª",
+         "5J",
+         "5J",
+         "5J",
+         "5J",
+         "5J",
+         "5J",
+         "5dim"
+        ],
+        [
+         "3ª",
+         "3M",
+         "3m",
+         "3m",
+         "3M",
+         "3M",
+         "3m",
+         "3m"
+        ],
+        [
+         "Tônica",
+         "T",
+         "T",
+         "T",
+         "T",
+         "T",
+         "T",
+         "T"
+        ],
+        [
+         "Tétrade",
+         "C7M",
+         "Dm7",
+         "Em7",
+         "F7M",
+         "G7",
+         "Am7",
+         "Bm7(b5)"
+        ]
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Por uma questão didática, as tétrades acima estão em posição fechada (T, 3, 5, 7). Na prática elas têm digitações difíceis, por isso abrimos as vozes com <b>Drop 2</b> e <b>Drop 3</b>, como você viu no módulo anterior."
+      },
+      {
+       "type": "h3",
+       "text": "Resumo: os tipos de tétrade do campo"
+      },
+      {
+       "type": "p",
+       "html": "Em qualquer tonalidade, o campo harmônico maior tem sempre os mesmos tipos de tétrades nos graus:"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Grau",
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII"
+       ],
+       "rows": [
+        [
+         "Tétrade",
+         "I7M",
+         "IIm7",
+         "IIIm7",
+         "IV7M",
+         "V7",
+         "VIm7",
+         "VIIm7(b5)"
+        ]
+       ]
+      },
+      {
+       "type": "ul",
+       "items": [
+        "<b>Maior com sétima maior:</b> no primeiro e no quarto graus (I7M, IV7M).",
+        "<b>Maior com sétima menor (dominante):</b> no quinto grau (V7).",
+        "<b>Menor com sétima menor:</b> no segundo, terceiro e sexto graus (IIm7, IIIm7, VIm7).",
+        "<b>Menor com sétima menor e quinta diminuta (meio diminuta):</b> no sétimo grau (VIIm7(b5))."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g12-2",
+     "title": "Tétrades do campo em Drop 2 e na primeira região",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Combinando as aberturas Drop com as inversões e os modelos do sistema CAGED, podemos tocar todas as tétrades de um campo harmônico maior dentro de uma pequena região do braço."
+      },
+      {
+       "type": "h3",
+       "text": "Vozes abertas em Drop 2 (T, 5, 7 e 3)"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de C em Drop 2, baixo na 5ª corda: C7M, Dm7, Em7, F7M, G7, Am7, Bm7(b5), C7M",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          3,
+          5,
+          4,
+          5,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "B",
+          "E",
+          null
+         ]
+        },
+        {
+         "name": "Dm7",
+         "frets": [
+          null,
+          5,
+          7,
+          5,
+          6,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          "A",
+          "C",
+          "F",
+          null
+         ]
+        },
+        {
+         "name": "Em7",
+         "frets": [
+          null,
+          7,
+          9,
+          7,
+          8,
+          null
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "E",
+          "B",
+          "D",
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "F7M",
+         "frets": [
+          null,
+          8,
+          10,
+          9,
+          10,
+          null
+         ],
+         "root": 5,
+         "names": [
+          null,
+          "F",
+          "C",
+          "E",
+          "A",
+          null
+         ]
+        },
+        {
+         "name": "G7",
+         "frets": [
+          null,
+          10,
+          12,
+          10,
+          12,
+          null
+         ],
+         "root": 7,
+         "names": [
+          null,
+          "G",
+          "D",
+          "F",
+          "B",
+          null
+         ]
+        },
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          12,
+          14,
+          12,
+          13,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "Bm7(b5)",
+         "frets": [
+          null,
+          14,
+          15,
+          14,
+          15,
+          null
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F",
+          "A",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          15,
+          17,
+          16,
+          17,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "B",
+          "E",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "Aqui o campo sobe pelo braço, do I grau até o I uma oitava acima, sempre com as vozes na ordem T, 5, 7 e 3."
+      },
+      {
+       "type": "h3",
+       "text": "Acordes do campo de C na primeira região"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de C na primeira região: C7M, Dm7, Em7, F7M, G7, Am7, Bm7(b5), C7M",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          0,
+          0
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "G",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "Dm7",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          1,
+          1
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "A",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "Em7",
+         "frets": [
+          0,
+          2,
+          2,
+          0,
+          3,
+          0
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "E",
+          "G",
+          "D",
+          "E"
+         ]
+        },
+        {
+         "name": "F7M",
+         "frets": [
+          1,
+          0,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          "A",
+          "E",
+          "A",
+          "C",
+          "E"
+         ]
+        },
+        {
+         "name": "G7",
+         "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          1
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "B",
+          "D",
+          "G",
+          "B",
+          "F"
+         ]
+        },
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          0,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G",
+          "C",
+          "E"
+         ]
+        },
+        {
+         "name": "Bm7(b5)",
+         "frets": [
+          null,
+          2,
+          3,
+          2,
+          3,
+          null
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F",
+          "A",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          0,
+          0
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "G",
+          "B",
+          "E"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "Toque em cada acorde para ouvir. O botão <b>Rótulo</b> alterna entre notas, funções e dedos."
+      }
+     ]
+    },
+    {
+     "id": "g12-3",
+     "title": "Treino: escala e tétrades em todas as tonalidades",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Escreva a <b>escala</b> e as <b>tétrades do campo harmônico maior</b>, junto com as notas que formam cada uma, em todas as tonalidades. Faça no papel ou de cabeça e toque na linha para conferir."
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Tom",
+        "Escala",
+        "Tétrades (I a VII)",
+        "Notas das tétrades"
+       ],
+       "rows": [
+        [
+         "C",
+         "C D E F G A B",
+         "C7M – Dm7 – Em7 – F7M – G7 – Am7 – Bm7(b5)",
+         "C E G B – D F A C – E G B D – F A C E – G B D F – A C E G – B D F A"
+        ],
+        [
+         "G",
+         "G A B C D E F#",
+         "G7M – Am7 – Bm7 – C7M – D7 – Em7 – F#m7(b5)",
+         "G B D F# – A C E G – B D F# A – C E G B – D F# A C – E G B D – F# A C E"
+        ],
+        [
+         "D",
+         "D E F# G A B C#",
+         "D7M – Em7 – F#m7 – G7M – A7 – Bm7 – C#m7(b5)",
+         "D F# A C# – E G B D – F# A C# E – G B D F# – A C# E G – B D F# A – C# E G B"
+        ],
+        [
+         "A",
+         "A B C# D E F# G#",
+         "A7M – Bm7 – C#m7 – D7M – E7 – F#m7 – G#m7(b5)",
+         "A C# E G# – B D F# A – C# E G# B – D F# A C# – E G# B D – F# A C# E – G# B D F#"
+        ],
+        [
+         "E",
+         "E F# G# A B C# D#",
+         "E7M – F#m7 – G#m7 – A7M – B7 – C#m7 – D#m7(b5)",
+         "E G# B D# – F# A C# E – G# B D# F# – A C# E G# – B D# F# A – C# E G# B – D# F# A C#"
+        ],
+        [
+         "B",
+         "B C# D# E F# G# A#",
+         "B7M – C#m7 – D#m7 – E7M – F#7 – G#m7 – A#m7(b5)",
+         "B D# F# A# – C# E G# B – D# F# A# C# – E G# B D# – F# A# C# E – G# B D# F# – A# C# E G#"
+        ],
+        [
+         "F#",
+         "F# G# A# B C# D# E#",
+         "F#7M – G#m7 – A#m7 – B7M – C#7 – D#m7 – E#m7(b5)",
+         "F# A# C# E# – G# B D# F# – A# C# E# G# – B D# F# A# – C# E# G# B – D# F# A# C# – E# G# B D#"
+        ],
+        [
+         "C#",
+         "C# D# E# F# G# A# B#",
+         "C#7M – D#m7 – E#m7 – F#7M – G#7 – A#m7 – B#m7(b5)",
+         "C# E# G# B# – D# F# A# C# – E# G# B# D# – F# A# C# E# – G# B# D# F# – A# C# E# G# – B# D# F# A#"
+        ],
+        [
+         "F",
+         "F G A Bb C D E",
+         "F7M – Gm7 – Am7 – Bb7M – C7 – Dm7 – Em7(b5)",
+         "F A C E – G Bb D F – A C E G – Bb D F A – C E G Bb – D F A C – E G Bb D"
+        ],
+        [
+         "Bb",
+         "Bb C D Eb F G A",
+         "Bb7M – Cm7 – Dm7 – Eb7M – F7 – Gm7 – Am7(b5)",
+         "Bb D F A – C Eb G Bb – D F A C – Eb G Bb D – F A C Eb – G Bb D F – A C Eb G"
+        ],
+        [
+         "Eb",
+         "Eb F G Ab Bb C D",
+         "Eb7M – Fm7 – Gm7 – Ab7M – Bb7 – Cm7 – Dm7(b5)",
+         "Eb G Bb D – F Ab C Eb – G Bb D F – Ab C Eb G – Bb D F Ab – C Eb G Bb – D F Ab C"
+        ],
+        [
+         "Ab",
+         "Ab Bb C Db Eb F G",
+         "Ab7M – Bbm7 – Cm7 – Db7M – Eb7 – Fm7 – Gm7(b5)",
+         "Ab C Eb G – Bb Db F Ab – C Eb G Bb – Db F Ab C – Eb G Bb Db – F Ab C Eb – G Bb Db F"
+        ],
+        [
+         "Db",
+         "Db Eb F Gb Ab Bb C",
+         "Db7M – Ebm7 – Fm7 – Gb7M – Ab7 – Bbm7 – Cm7(b5)",
+         "Db F Ab C – Eb Gb Bb Db – F Ab C Eb – Gb Bb Db F – Ab C Eb Gb – Bb Db F Ab – C Eb Gb Bb"
+        ],
+        [
+         "Gb",
+         "Gb Ab Bb Cb Db Eb F",
+         "Gb7M – Abm7 – Bbm7 – Cb7M – Db7 – Ebm7 – Fm7(b5)",
+         "Gb Bb Db F – Ab Cb Eb Gb – Bb Db F Ab – Cb Eb Gb Bb – Db F Ab Cb – Eb Gb Bb Db – F Ab Cb Eb"
+        ],
+        [
+         "Cb",
+         "Cb Db Eb Fb Gb Ab Bb",
+         "Cb7M – Dbm7 – Ebm7 – Fb7M – Gb7 – Abm7 – Bbm7(b5)",
+         "Cb Eb Gb Bb – Db Fb Ab Cb – Eb Gb Bb Db – Fb Ab Cb Eb – Gb Bb Db Fb – Ab Cb Eb Gb – Bb Db Fb Ab"
+        ]
+       ],
+       "hide": [
+        1,
+        2,
+        3
+       ],
+       "hint": "Comece pela escala: as tétrades saem empilhando terças, uma nota sim e outra não, quatro vezes."
+      },
+      {
+       "type": "note",
+       "html": "Os graus seguem sempre o padrão I7M, IIm7, IIIm7, IV7M, V7, VIm7 e VIIm7(b5)."
+      }
+     ]
+    },
+    {
+     "id": "g12-4",
+     "title": "Treino: tonalidade e graus das progressões",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Descubra a <b>tonalidade</b> de cada progressão e o <b>grau</b> de cada acorde dentro dela. Escreva no papel ou de cabeça e toque na linha para conferir."
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Progressão",
+        "Tonalidade",
+        "Graus"
+       ],
+       "rows": [
+        [
+         "Bm7 – E7 – A7M",
+         "A maior",
+         "IIm7 – V7 – I7M"
+        ],
+        [
+         "Bb7M – Dm7 – Am7",
+         "F maior",
+         "IV7M – VIm7 – IIIm7"
+        ],
+        [
+         "Em7 – F#m7 – Bm7",
+         "D maior",
+         "IIm7 – IIIm7 – VIm7"
+        ],
+        [
+         "Cm7 – Db7M – Eb7",
+         "Ab maior",
+         "IIIm7 – IV7M – V7"
+        ],
+        [
+         "B7 – A7M – C#m7",
+         "E maior",
+         "V7 – IV7M – VIm7"
+        ],
+        [
+         "G7M – D7 – C7M",
+         "G maior",
+         "I7M – V7 – IV7M"
+        ],
+        [
+         "Am7 – G7 – F7M",
+         "C maior",
+         "VIm7 – V7 – IV7M"
+        ],
+        [
+         "Am7 – Gm7 – F7M",
+         "F maior",
+         "IIIm7 – IIm7 – I7M"
+        ],
+        [
+         "G7M – D7M – F#m7",
+         "D maior",
+         "IV7M – I7M – IIIm7"
+        ],
+        [
+         "Cm7 – Am7(b5) – Bb7M",
+         "Bb maior",
+         "IIm7 – VIIm7(b5) – I7M"
+        ],
+        [
+         "A7M – B7 – G#m7",
+         "E maior",
+         "IV7M – V7 – IIIm7"
+        ],
+        [
+         "Dm7 – G7 – F7M",
+         "C maior",
+         "IIm7 – V7 – IV7M"
+        ],
+        [
+         "E7M – F#7 – B7M",
+         "B maior",
+         "IV7M – V7 – I7M"
+        ],
+        [
+         "E7M – F#m7 – B7",
+         "E maior",
+         "I7M – IIm7 – V7"
+        ],
+        [
+         "E7 – F#m7 – Bm7",
+         "A maior",
+         "V7 – VIm7 – IIm7"
+        ]
+       ],
+       "hide": [
+        1,
+        2
+       ],
+       "hint": "Procure o acorde de grau I (maior com sétima maior) ou o dominante (V7) e confirme se os outros acordes pertencem ao campo dessa tonalidade."
+      }
+     ]
+    },
+    {
+     "id": "g12-5",
+     "title": "Toque as progressões",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora toque as progressões do tópico anterior. Cada acorde usa a digitação do campo harmônico da tonalidade, que você vai ver nos próximos tópicos."
+      },
+      {
+       "type": "note",
+       "html": "Se quiser, toque as sequências em outras regiões do braço, usando as aberturas Drop 2 e Drop 3."
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em A maior: Bm7 – E7 – A7M",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Bm7",
+         "frets": [
+          null,
+          2,
+          4,
+          2,
+          3,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F#",
+          "A",
+          "D",
+          "F#"
+         ]
+        },
+        {
+         "name": "E7",
+         "frets": [
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "D",
+          "G#",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "A7M",
+         "frets": [
+          null,
+          0,
+          2,
+          1,
+          2,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G#",
+          "C#",
+          "E"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em F maior: Bb7M – Dm7 – Am7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Bb7M",
+         "frets": [
+          null,
+          1,
+          3,
+          2,
+          3,
+          1
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "Bb",
+          "F",
+          "A",
+          "D",
+          "F"
+         ]
+        },
+        {
+         "name": "Dm7",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          1,
+          1
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "A",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          0,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G",
+          "C",
+          "E"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em D maior: Em7 – F#m7 – Bm7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Em7",
+         "frets": [
+          0,
+          2,
+          2,
+          0,
+          3,
+          0
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "E",
+          "G",
+          "D",
+          "E"
+         ]
+        },
+        {
+         "name": "F#m7",
+         "frets": [
+          2,
+          4,
+          2,
+          2,
+          2,
+          2
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "C#",
+          "E",
+          "A",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "Bm7",
+         "frets": [
+          null,
+          2,
+          4,
+          2,
+          3,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F#",
+          "A",
+          "D",
+          "F#"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em Ab maior: Cm7 – Db7M – Eb7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Cm7",
+         "frets": [
+          null,
+          3,
+          5,
+          3,
+          4,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "Bb",
+          "Eb",
+          "G"
+         ]
+        },
+        {
+         "name": "Db7M",
+         "frets": [
+          null,
+          4,
+          3,
+          1,
+          1,
+          1
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "Db",
+          "F",
+          "Ab",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "Eb7",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          2,
+          3
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "Eb",
+          "Bb",
+          "Db",
+          "G"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em E maior: B7 – A7M – C#m7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "B7",
+         "frets": [
+          null,
+          2,
+          1,
+          2,
+          0,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "D#",
+          "A",
+          "B",
+          "F#"
+         ]
+        },
+        {
+         "name": "A7M",
+         "frets": [
+          null,
+          0,
+          2,
+          1,
+          2,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G#",
+          "C#",
+          "E"
+         ]
+        },
+        {
+         "name": "C#m7",
+         "frets": [
+          null,
+          4,
+          6,
+          4,
+          5,
+          4
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "C#",
+          "G#",
+          "B",
+          "E",
+          "G#"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em G maior: G7M – D7 – C7M",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "G7M",
+         "frets": [
+          3,
+          null,
+          4,
+          4,
+          3,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F#",
+          "B",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "D7",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          1,
+          2
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "A",
+          "C",
+          "F#"
+         ]
+        },
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          0,
+          0
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "G",
+          "B",
+          "E"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em C maior: Am7 – G7 – F7M",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          0,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G",
+          "C",
+          "E"
+         ]
+        },
+        {
+         "name": "G7",
+         "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          1
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "B",
+          "D",
+          "G",
+          "B",
+          "F"
+         ]
+        },
+        {
+         "name": "F7M",
+         "frets": [
+          1,
+          0,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          "A",
+          "E",
+          "A",
+          "C",
+          "E"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em F maior: Am7 – Gm7 – F7M",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          0,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G",
+          "C",
+          "E"
+         ]
+        },
+        {
+         "name": "Gm7",
+         "frets": [
+          3,
+          5,
+          3,
+          3,
+          3,
+          3
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "D",
+          "F",
+          "Bb",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "F7M",
+         "frets": [
+          1,
+          0,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          "A",
+          "E",
+          "A",
+          "C",
+          "E"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em D maior: G7M – D7M – F#m7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "G7M",
+         "frets": [
+          3,
+          null,
+          4,
+          4,
+          3,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F#",
+          "B",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "D7M",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          2,
+          2
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "A",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "F#m7",
+         "frets": [
+          2,
+          4,
+          2,
+          2,
+          2,
+          2
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "C#",
+          "E",
+          "A",
+          "C#",
+          "F#"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em Bb maior: Cm7 – Am7(b5) – Bb7M",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Cm7",
+         "frets": [
+          null,
+          3,
+          5,
+          3,
+          4,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "Bb",
+          "Eb",
+          "G"
+         ]
+        },
+        {
+         "name": "Am7(b5)",
+         "frets": [
+          null,
+          0,
+          1,
+          0,
+          1,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "Eb",
+          "G",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "Bb7M",
+         "frets": [
+          null,
+          1,
+          3,
+          2,
+          3,
+          1
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "Bb",
+          "F",
+          "A",
+          "D",
+          "F"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em E maior: A7M – B7 – G#m7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "A7M",
+         "frets": [
+          null,
+          0,
+          2,
+          1,
+          2,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G#",
+          "C#",
+          "E"
+         ]
+        },
+        {
+         "name": "B7",
+         "frets": [
+          null,
+          2,
+          1,
+          2,
+          0,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "D#",
+          "A",
+          "B",
+          "F#"
+         ]
+        },
+        {
+         "name": "G#m7",
+         "frets": [
+          4,
+          6,
+          4,
+          4,
+          4,
+          4
+         ],
+         "root": 8,
+         "names": [
+          "G#",
+          "D#",
+          "F#",
+          "B",
+          "D#",
+          "G#"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em C maior: Dm7 – G7 – F7M",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "Dm7",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          1,
+          1
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "A",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "G7",
+         "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          1
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "B",
+          "D",
+          "G",
+          "B",
+          "F"
+         ]
+        },
+        {
+         "name": "F7M",
+         "frets": [
+          1,
+          0,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          "A",
+          "E",
+          "A",
+          "C",
+          "E"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em B maior: E7M – F#7 – B7M",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "E7M",
+         "frets": [
+          0,
+          2,
+          2,
+          4,
+          4,
+          4
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "E",
+          "B",
+          "D#",
+          "G#"
+         ]
+        },
+        {
+         "name": "F#7",
+         "frets": [
+          2,
+          4,
+          2,
+          3,
+          2,
+          2
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "C#",
+          "E",
+          "A#",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "B7M",
+         "frets": [
+          null,
+          2,
+          4,
+          3,
+          4,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F#",
+          "A#",
+          "D#",
+          "F#"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em E maior: E7M – F#m7 – B7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "E7M",
+         "frets": [
+          0,
+          2,
+          2,
+          4,
+          4,
+          4
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "E",
+          "B",
+          "D#",
+          "G#"
+         ]
+        },
+        {
+         "name": "F#m7",
+         "frets": [
+          2,
+          4,
+          2,
+          2,
+          2,
+          2
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "C#",
+          "E",
+          "A",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "B7",
+         "frets": [
+          null,
+          2,
+          1,
+          2,
+          0,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "D#",
+          "A",
+          "B",
+          "F#"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Progressão em A maior: E7 – F#m7 – Bm7",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "E7",
+         "frets": [
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "D",
+          "G#",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "F#m7",
+         "frets": [
+          2,
+          4,
+          2,
+          2,
+          2,
+          2
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "C#",
+          "E",
+          "A",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "Bm7",
+         "frets": [
+          null,
+          2,
+          4,
+          2,
+          3,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F#",
+          "A",
+          "D",
+          "F#"
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g12-6",
+     "title": "Campos de C, G, D, A e E",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora pratique no instrumento as tétrades do campo harmônico maior em várias tonalidades: C, G, D, A, E. Toque cada campo do grau I ao grau VII, ouvindo como cada acorde ocupa uma região do braço."
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de C"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de C: C7M, Dm7, Em7, F7M, G7, Am7, Bm7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          0,
+          0
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "G",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "Dm7",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          1,
+          1
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "A",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "Em7",
+         "frets": [
+          0,
+          2,
+          2,
+          0,
+          3,
+          0
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "E",
+          "G",
+          "D",
+          "E"
+         ]
+        },
+        {
+         "name": "F7M",
+         "frets": [
+          1,
+          0,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          "A",
+          "E",
+          "A",
+          "C",
+          "E"
+         ]
+        },
+        {
+         "name": "G7",
+         "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          1
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "B",
+          "D",
+          "G",
+          "B",
+          "F"
+         ]
+        },
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          0,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G",
+          "C",
+          "E"
+         ]
+        },
+        {
+         "name": "Bm7(b5)",
+         "frets": [
+          null,
+          2,
+          3,
+          2,
+          3,
+          null
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F",
+          "A",
+          "D",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de G"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de G: G7M, Am7, Bm7, C7M, D7, Em7, F#m7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "G7M",
+         "frets": [
+          3,
+          null,
+          4,
+          4,
+          3,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F#",
+          "B",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          0,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G",
+          "C",
+          "E"
+         ]
+        },
+        {
+         "name": "Bm7",
+         "frets": [
+          null,
+          2,
+          4,
+          2,
+          3,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F#",
+          "A",
+          "D",
+          "F#"
+         ]
+        },
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          0,
+          0
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "G",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "D7",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          1,
+          2
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "A",
+          "C",
+          "F#"
+         ]
+        },
+        {
+         "name": "Em7",
+         "frets": [
+          0,
+          2,
+          2,
+          0,
+          3,
+          0
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "E",
+          "G",
+          "D",
+          "E"
+         ]
+        },
+        {
+         "name": "F#m7(b5)",
+         "frets": [
+          2,
+          0,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "A",
+          "E",
+          "A",
+          "C",
+          "E"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de D"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de D: D7M, Em7, F#m7, G7M, A7, Bm7, C#m7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "D7M",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          2,
+          2
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "A",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "Em7",
+         "frets": [
+          0,
+          2,
+          2,
+          0,
+          3,
+          0
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "E",
+          "G",
+          "D",
+          "E"
+         ]
+        },
+        {
+         "name": "F#m7",
+         "frets": [
+          2,
+          4,
+          2,
+          2,
+          2,
+          2
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "C#",
+          "E",
+          "A",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "G7M",
+         "frets": [
+          3,
+          null,
+          4,
+          4,
+          3,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F#",
+          "B",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "A7",
+         "frets": [
+          null,
+          0,
+          2,
+          0,
+          2,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G",
+          "C#",
+          "E"
+         ]
+        },
+        {
+         "name": "Bm7",
+         "frets": [
+          null,
+          2,
+          4,
+          2,
+          3,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F#",
+          "A",
+          "D",
+          "F#"
+         ]
+        },
+        {
+         "name": "C#m7(b5)",
+         "frets": [
+          null,
+          4,
+          5,
+          4,
+          5,
+          null
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "C#",
+          "G",
+          "B",
+          "E",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de A"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de A: A7M, Bm7, C#m7, D7M, E7, F#m7, G#m7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "A7M",
+         "frets": [
+          null,
+          0,
+          2,
+          1,
+          2,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G#",
+          "C#",
+          "E"
+         ]
+        },
+        {
+         "name": "Bm7",
+         "frets": [
+          null,
+          2,
+          4,
+          2,
+          3,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F#",
+          "A",
+          "D",
+          "F#"
+         ]
+        },
+        {
+         "name": "C#m7",
+         "frets": [
+          null,
+          4,
+          6,
+          4,
+          5,
+          4
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "C#",
+          "G#",
+          "B",
+          "E",
+          "G#"
+         ]
+        },
+        {
+         "name": "D7M",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          2,
+          2
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "A",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "E7",
+         "frets": [
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "D",
+          "G#",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "F#m7",
+         "frets": [
+          2,
+          4,
+          2,
+          2,
+          2,
+          2
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "C#",
+          "E",
+          "A",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "G#m7(b5)",
+         "frets": [
+          4,
+          null,
+          4,
+          4,
+          3,
+          null
+         ],
+         "root": 8,
+         "names": [
+          "G#",
+          null,
+          "F#",
+          "B",
+          "D",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de E"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de E: E7M, F#m7, G#m7, A7M, B7, C#m7, D#m7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "E7M",
+         "frets": [
+          0,
+          2,
+          2,
+          4,
+          4,
+          4
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "E",
+          "B",
+          "D#",
+          "G#"
+         ]
+        },
+        {
+         "name": "F#m7",
+         "frets": [
+          2,
+          4,
+          2,
+          2,
+          2,
+          2
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "C#",
+          "E",
+          "A",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "G#m7",
+         "frets": [
+          4,
+          6,
+          4,
+          4,
+          4,
+          4
+         ],
+         "root": 8,
+         "names": [
+          "G#",
+          "D#",
+          "F#",
+          "B",
+          "D#",
+          "G#"
+         ]
+        },
+        {
+         "name": "A7M",
+         "frets": [
+          null,
+          0,
+          2,
+          1,
+          2,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G#",
+          "C#",
+          "E"
+         ]
+        },
+        {
+         "name": "B7",
+         "frets": [
+          null,
+          2,
+          1,
+          2,
+          0,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "D#",
+          "A",
+          "B",
+          "F#"
+         ]
+        },
+        {
+         "name": "C#m7",
+         "frets": [
+          null,
+          4,
+          6,
+          4,
+          5,
+          4
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "C#",
+          "G#",
+          "B",
+          "E",
+          "G#"
+         ]
+        },
+        {
+         "name": "D#m7(b5)",
+         "frets": [
+          null,
+          null,
+          1,
+          2,
+          2,
+          2
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "D#",
+          "A",
+          "C#",
+          "F#"
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g12-7",
+     "title": "Campos de B, F# e C#",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora pratique no instrumento as tétrades do campo harmônico maior em várias tonalidades: B, F#, C#. Toque cada campo do grau I ao grau VII, ouvindo como cada acorde ocupa uma região do braço."
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de B"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de B: B7M, C#m7, D#m7, E7M, F#7, G#m7, A#m7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "B7M",
+         "frets": [
+          null,
+          2,
+          4,
+          3,
+          4,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F#",
+          "A#",
+          "D#",
+          "F#"
+         ]
+        },
+        {
+         "name": "C#m7",
+         "frets": [
+          null,
+          4,
+          6,
+          4,
+          5,
+          4
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "C#",
+          "G#",
+          "B",
+          "E",
+          "G#"
+         ]
+        },
+        {
+         "name": "D#m7",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          2,
+          2
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "D#",
+          "A#",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "E7M",
+         "frets": [
+          0,
+          2,
+          2,
+          4,
+          4,
+          4
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "E",
+          "B",
+          "D#",
+          "G#"
+         ]
+        },
+        {
+         "name": "F#7",
+         "frets": [
+          2,
+          4,
+          2,
+          3,
+          2,
+          2
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "C#",
+          "E",
+          "A#",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "G#m7",
+         "frets": [
+          4,
+          6,
+          4,
+          4,
+          4,
+          4
+         ],
+         "root": 8,
+         "names": [
+          "G#",
+          "D#",
+          "F#",
+          "B",
+          "D#",
+          "G#"
+         ]
+        },
+        {
+         "name": "A#m7(b5)",
+         "frets": [
+          null,
+          1,
+          2,
+          1,
+          2,
+          null
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "A#",
+          "E",
+          "G#",
+          "C#",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de F#"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de F#: F#7M, G#m7, A#m7, B7M, C#7, D#m7, E#m7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "F#7M",
+         "frets": [
+          2,
+          null,
+          3,
+          3,
+          2,
+          null
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          null,
+          "E#",
+          "A#",
+          "C#",
+          null
+         ]
+        },
+        {
+         "name": "G#m7",
+         "frets": [
+          4,
+          6,
+          4,
+          4,
+          4,
+          4
+         ],
+         "root": 8,
+         "names": [
+          "G#",
+          "D#",
+          "F#",
+          "B",
+          "D#",
+          "G#"
+         ]
+        },
+        {
+         "name": "A#m7",
+         "frets": [
+          null,
+          1,
+          3,
+          1,
+          2,
+          1
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "A#",
+          "E#",
+          "G#",
+          "C#",
+          "E#"
+         ]
+        },
+        {
+         "name": "B7M",
+         "frets": [
+          null,
+          2,
+          4,
+          3,
+          4,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F#",
+          "A#",
+          "D#",
+          "F#"
+         ]
+        },
+        {
+         "name": "C#7",
+         "frets": [
+          null,
+          4,
+          3,
+          4,
+          0,
+          4
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "C#",
+          "E#",
+          "B",
+          "B",
+          "G#"
+         ]
+        },
+        {
+         "name": "D#m7",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          2,
+          2
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "D#",
+          "A#",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "E#m7(b5)",
+         "frets": [
+          null,
+          null,
+          3,
+          4,
+          4,
+          4
+         ],
+         "root": 5,
+         "names": [
+          null,
+          null,
+          "E#",
+          "B",
+          "D#",
+          "G#"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de C#"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de C#: C#7M, D#m7, E#m7, F#7M, G#7, A#m7, B#m7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C#7M",
+         "frets": [
+          null,
+          4,
+          3,
+          1,
+          1,
+          1
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "C#",
+          "E#",
+          "G#",
+          "B#",
+          "E#"
+         ]
+        },
+        {
+         "name": "D#m7",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          2,
+          2
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "D#",
+          "A#",
+          "C#",
+          "F#"
+         ]
+        },
+        {
+         "name": "E#m7",
+         "frets": [
+          1,
+          3,
+          1,
+          1,
+          1,
+          1
+         ],
+         "root": 5,
+         "names": [
+          "E#",
+          "B#",
+          "D#",
+          "G#",
+          "B#",
+          "E#"
+         ]
+        },
+        {
+         "name": "F#7M",
+         "frets": [
+          2,
+          null,
+          3,
+          3,
+          2,
+          null
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          null,
+          "E#",
+          "A#",
+          "C#",
+          null
+         ]
+        },
+        {
+         "name": "G#7",
+         "frets": [
+          4,
+          6,
+          4,
+          5,
+          4,
+          4
+         ],
+         "root": 8,
+         "names": [
+          "G#",
+          "D#",
+          "F#",
+          "B#",
+          "D#",
+          "G#"
+         ]
+        },
+        {
+         "name": "A#m7",
+         "frets": [
+          null,
+          1,
+          3,
+          1,
+          2,
+          1
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "A#",
+          "E#",
+          "G#",
+          "C#",
+          "E#"
+         ]
+        },
+        {
+         "name": "B#m7(b5)",
+         "frets": [
+          null,
+          3,
+          4,
+          3,
+          4,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "B#",
+          "F#",
+          "A#",
+          "D#",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g12-8",
+     "title": "Campos de F, Bb, Eb e Ab",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora pratique no instrumento as tétrades do campo harmônico maior em várias tonalidades: F, Bb, Eb, Ab. Toque cada campo do grau I ao grau VII, ouvindo como cada acorde ocupa uma região do braço."
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de F"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de F: F7M, Gm7, Am7, Bb7M, C7, Dm7, Em7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "F7M",
+         "frets": [
+          1,
+          0,
+          2,
+          2,
+          1,
+          0
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          "A",
+          "E",
+          "A",
+          "C",
+          "E"
+         ]
+        },
+        {
+         "name": "Gm7",
+         "frets": [
+          3,
+          5,
+          3,
+          3,
+          3,
+          3
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "D",
+          "F",
+          "Bb",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          0,
+          2,
+          0,
+          1,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G",
+          "C",
+          "E"
+         ]
+        },
+        {
+         "name": "Bb7M",
+         "frets": [
+          null,
+          1,
+          3,
+          2,
+          3,
+          1
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "Bb",
+          "F",
+          "A",
+          "D",
+          "F"
+         ]
+        },
+        {
+         "name": "C7",
+         "frets": [
+          null,
+          3,
+          2,
+          3,
+          1,
+          0
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "Bb",
+          "C",
+          "E"
+         ]
+        },
+        {
+         "name": "Dm7",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          1,
+          1
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "A",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "Em7(b5)",
+         "frets": [
+          null,
+          null,
+          2,
+          3,
+          3,
+          3
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          "E",
+          "Bb",
+          "D",
+          "G"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de Bb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de Bb: Bb7M, Cm7, Dm7, Eb7M, F7, Gm7, Am7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Bb7M",
+         "frets": [
+          null,
+          1,
+          3,
+          2,
+          3,
+          1
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "Bb",
+          "F",
+          "A",
+          "D",
+          "F"
+         ]
+        },
+        {
+         "name": "Cm7",
+         "frets": [
+          null,
+          3,
+          5,
+          3,
+          4,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "Bb",
+          "Eb",
+          "G"
+         ]
+        },
+        {
+         "name": "Dm7",
+         "frets": [
+          null,
+          null,
+          0,
+          2,
+          1,
+          1
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "A",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "Eb7M",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          3,
+          3
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "Eb",
+          "Bb",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "F7",
+         "frets": [
+          1,
+          3,
+          1,
+          2,
+          1,
+          1
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          "C",
+          "Eb",
+          "A",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "Gm7",
+         "frets": [
+          3,
+          5,
+          3,
+          3,
+          3,
+          3
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "D",
+          "F",
+          "Bb",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "Am7(b5)",
+         "frets": [
+          null,
+          0,
+          1,
+          0,
+          1,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "Eb",
+          "G",
+          "C",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de Eb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de Eb: Eb7M, Fm7, Gm7, Ab7M, Bb7, Cm7, Dm7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Eb7M",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          3,
+          3
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "Eb",
+          "Bb",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "Fm7",
+         "frets": [
+          1,
+          3,
+          1,
+          1,
+          1,
+          1
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          "C",
+          "Eb",
+          "Ab",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "Gm7",
+         "frets": [
+          3,
+          5,
+          3,
+          3,
+          3,
+          3
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "D",
+          "F",
+          "Bb",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "Ab7M",
+         "frets": [
+          4,
+          null,
+          5,
+          5,
+          4,
+          null
+         ],
+         "root": 8,
+         "names": [
+          "Ab",
+          null,
+          "G",
+          "C",
+          "Eb",
+          null
+         ]
+        },
+        {
+         "name": "Bb7",
+         "frets": [
+          null,
+          1,
+          3,
+          1,
+          3,
+          1
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "Bb",
+          "F",
+          "Ab",
+          "D",
+          "F"
+         ]
+        },
+        {
+         "name": "Cm7",
+         "frets": [
+          null,
+          3,
+          5,
+          3,
+          4,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "Bb",
+          "Eb",
+          "G"
+         ]
+        },
+        {
+         "name": "Dm7(b5)",
+         "frets": [
+          null,
+          null,
+          0,
+          1,
+          1,
+          1
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "Ab",
+          "C",
+          "F"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de Ab"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de Ab: Ab7M, Bbm7, Cm7, Db7M, Eb7, Fm7, Gm7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Ab7M",
+         "frets": [
+          4,
+          null,
+          5,
+          5,
+          4,
+          null
+         ],
+         "root": 8,
+         "names": [
+          "Ab",
+          null,
+          "G",
+          "C",
+          "Eb",
+          null
+         ]
+        },
+        {
+         "name": "Bbm7",
+         "frets": [
+          null,
+          1,
+          3,
+          1,
+          2,
+          1
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "Bb",
+          "F",
+          "Ab",
+          "Db",
+          "F"
+         ]
+        },
+        {
+         "name": "Cm7",
+         "frets": [
+          null,
+          3,
+          5,
+          3,
+          4,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "Bb",
+          "Eb",
+          "G"
+         ]
+        },
+        {
+         "name": "Db7M",
+         "frets": [
+          null,
+          4,
+          3,
+          1,
+          1,
+          1
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "Db",
+          "F",
+          "Ab",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "Eb7",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          2,
+          3
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "Eb",
+          "Bb",
+          "Db",
+          "G"
+         ]
+        },
+        {
+         "name": "Fm7",
+         "frets": [
+          1,
+          3,
+          1,
+          1,
+          1,
+          1
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          "C",
+          "Eb",
+          "Ab",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "Gm7(b5)",
+         "frets": [
+          3,
+          null,
+          3,
+          3,
+          2,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F",
+          "Bb",
+          "Db",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g12-9",
+     "title": "Campos de Db, Gb e Cb",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora pratique no instrumento as tétrades do campo harmônico maior em várias tonalidades: Db, Gb, Cb. Toque cada campo do grau I ao grau VII, ouvindo como cada acorde ocupa uma região do braço."
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de Db"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de Db: Db7M, Ebm7, Fm7, Gb7M, Ab7, Bbm7, Cm7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Db7M",
+         "frets": [
+          null,
+          4,
+          3,
+          1,
+          1,
+          1
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "Db",
+          "F",
+          "Ab",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "Ebm7",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          2,
+          2
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "Eb",
+          "Bb",
+          "Db",
+          "Gb"
+         ]
+        },
+        {
+         "name": "Fm7",
+         "frets": [
+          1,
+          3,
+          1,
+          1,
+          1,
+          1
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          "C",
+          "Eb",
+          "Ab",
+          "C",
+          "F"
+         ]
+        },
+        {
+         "name": "Gb7M",
+         "frets": [
+          2,
+          null,
+          3,
+          3,
+          2,
+          null
+         ],
+         "root": 6,
+         "names": [
+          "Gb",
+          null,
+          "F",
+          "Bb",
+          "Db",
+          null
+         ]
+        },
+        {
+         "name": "Ab7",
+         "frets": [
+          4,
+          6,
+          4,
+          5,
+          4,
+          4
+         ],
+         "root": 8,
+         "names": [
+          "Ab",
+          "Eb",
+          "Gb",
+          "C",
+          "Eb",
+          "Ab"
+         ]
+        },
+        {
+         "name": "Bbm7",
+         "frets": [
+          null,
+          1,
+          3,
+          1,
+          2,
+          1
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "Bb",
+          "F",
+          "Ab",
+          "Db",
+          "F"
+         ]
+        },
+        {
+         "name": "Cm7(b5)",
+         "frets": [
+          null,
+          3,
+          4,
+          3,
+          4,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "Gb",
+          "Bb",
+          "Eb",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de Gb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de Gb: Gb7M, Abm7, Bbm7, Cb7M, Db7, Ebm7, Fm7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Gb7M",
+         "frets": [
+          2,
+          null,
+          3,
+          3,
+          2,
+          null
+         ],
+         "root": 6,
+         "names": [
+          "Gb",
+          null,
+          "F",
+          "Bb",
+          "Db",
+          null
+         ]
+        },
+        {
+         "name": "Abm7",
+         "frets": [
+          4,
+          6,
+          4,
+          4,
+          4,
+          4
+         ],
+         "root": 8,
+         "names": [
+          "Ab",
+          "Eb",
+          "Gb",
+          "Cb",
+          "Eb",
+          "Ab"
+         ]
+        },
+        {
+         "name": "Bbm7",
+         "frets": [
+          null,
+          1,
+          3,
+          1,
+          2,
+          1
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "Bb",
+          "F",
+          "Ab",
+          "Db",
+          "F"
+         ]
+        },
+        {
+         "name": "Cb7M",
+         "frets": [
+          null,
+          2,
+          4,
+          3,
+          4,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "Cb",
+          "Gb",
+          "Bb",
+          "Eb",
+          "Gb"
+         ]
+        },
+        {
+         "name": "Db7",
+         "frets": [
+          null,
+          4,
+          3,
+          4,
+          2,
+          null
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "Db",
+          "F",
+          "Cb",
+          "Db",
+          null
+         ]
+        },
+        {
+         "name": "Ebm7",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          2,
+          2
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "Eb",
+          "Bb",
+          "Db",
+          "Gb"
+         ]
+        },
+        {
+         "name": "Fm7(b5)",
+         "frets": [
+          null,
+          null,
+          3,
+          4,
+          4,
+          4
+         ],
+         "root": 5,
+         "names": [
+          null,
+          null,
+          "F",
+          "Cb",
+          "Eb",
+          "Ab"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de Cb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de Cb: Cb7M, Dbm7, Ebm7, Fb7M, Gb7, Abm7, Bbm7(b5)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Cb7M",
+         "frets": [
+          null,
+          2,
+          4,
+          3,
+          4,
+          2
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "Cb",
+          "Gb",
+          "Bb",
+          "Eb",
+          "Gb"
+         ]
+        },
+        {
+         "name": "Dbm7",
+         "frets": [
+          null,
+          4,
+          6,
+          4,
+          5,
+          4
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "Db",
+          "Ab",
+          "Cb",
+          "Fb",
+          "Ab"
+         ]
+        },
+        {
+         "name": "Ebm7",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          2,
+          2
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "Eb",
+          "Bb",
+          "Db",
+          "Gb"
+         ]
+        },
+        {
+         "name": "Fb7M",
+         "frets": [
+          0,
+          2,
+          2,
+          4,
+          4,
+          4
+         ],
+         "root": 4,
+         "names": [
+          "Fb",
+          "Cb",
+          "Fb",
+          "Cb",
+          "Eb",
+          "Ab"
+         ]
+        },
+        {
+         "name": "Gb7",
+         "frets": [
+          2,
+          4,
+          2,
+          3,
+          2,
+          2
+         ],
+         "root": 6,
+         "names": [
+          "Gb",
+          "Db",
+          "Fb",
+          "Bb",
+          "Db",
+          "Gb"
+         ]
+        },
+        {
+         "name": "Abm7",
+         "frets": [
+          4,
+          6,
+          4,
+          4,
+          4,
+          4
+         ],
+         "root": 8,
+         "names": [
+          "Ab",
+          "Eb",
+          "Gb",
+          "Cb",
+          "Eb",
+          "Ab"
+         ]
+        },
+        {
+         "name": "Bbm7(b5)",
+         "frets": [
+          null,
+          1,
+          2,
+          1,
+          2,
+          null
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "Bb",
+          "Fb",
+          "Ab",
+          "Db",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "Depois de praticar todos os campos você está preparado para tocar canções de vários estilos em qualquer tonalidade, e para tirar músicas de ouvido com mais facilidade."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g13",
+   "title": "Extensões dos acordes",
+   "topics": [
+    {
+     "id": "g13-1",
+     "title": "O que são as extensões",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "As <b>extensões</b> dos acordes são obtidas pela continuação do empilhamento de terças depois da 7ª, formando os intervalos de <b>9, 11 e 13</b>. Ao adicionar extensões aos acordes, também podemos usar os intervalos correspondentes dentro de uma oitava (2, 4 e 6)."
+      },
+      {
+       "type": "p",
+       "html": "Popularmente, muitos chamam estas extensões de dissonâncias, mas o termo não é 100% correto: dependendo do contexto, da oitava em que a nota é usada e da organização das vozes do acorde, uma extensão pode ser dissonante ou consonante."
+      },
+      {
+       "type": "p",
+       "html": "Para usar as extensões de forma correta, você precisa saber os intervalos que as notas da escala formam sobre cada grau do campo harmônico. Isso tem relação direta com os <b>modos gregos</b>:"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Grau",
+        "Modo",
+        "Intervalos",
+        "Tétrade",
+        "Extensões"
+       ],
+       "rows": [
+        [
+         "I",
+         "Jônio",
+         "T, 2M, 3M, 4J, 5J, 6M, 7M",
+         "I7M",
+         "2, 4, 6, 9, 11, 13"
+        ],
+        [
+         "II",
+         "Dórico",
+         "T, 2M, 3m, 4J, 5J, 6M, 7m",
+         "IIm7",
+         "2, 4, 6, 9, 11, 13"
+        ],
+        [
+         "III",
+         "Frígio",
+         "T, 2m, 3m, 4J, 5J, 6m, 7m",
+         "IIIm7",
+         "b2, 4, b6, b9, 11, b13"
+        ],
+        [
+         "IV",
+         "Lídio",
+         "T, 2M, 3M, 4Aum, 5J, 6M, 7M",
+         "IV7M",
+         "2, #4, 6, 9, #11, 13"
+        ],
+        [
+         "V",
+         "Mixolídio",
+         "T, 2M, 3M, 4J, 5J, 6M, 7m",
+         "V7",
+         "2, 4, 6, 9, 11, 13"
+        ],
+        [
+         "VI",
+         "Eólio",
+         "T, 2M, 3m, 4J, 5J, 6m, 7m",
+         "VIm7",
+         "2, 4, b6, 9, 11, b13"
+        ],
+        [
+         "VII",
+         "Lócrio",
+         "T, 2m, 3m, 4J, 5dim, 6m, 7m",
+         "VIIm7(b5)",
+         "b2, 4, b6, b9, 11, b13"
+        ]
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Intervalos que mais caracterizam cada modo"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "<b>Jônio (I):</b> a 7M e a 4J (natural).",
+        "<b>Dórico (II):</b> a 6M, que dá a cor do modo (extensão 13).",
+        "<b>Frígio (III):</b> a 2m (b9), a nota mais característica.",
+        "<b>Lídio (IV):</b> a 4Aum (#11).",
+        "<b>Mixolídio (V):</b> a 7m, a marca do acorde dominante.",
+        "<b>Eólio (VI):</b> a 6m (b13) e a 2M (9).",
+        "<b>Lócrio (VII):</b> a 5dim, com a 2m e a 6m (b9 e b13)."
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Os intervalos que mais caracterizam o grau ou o modo são justamente os que melhor soam como extensão naquele acorde."
+      },
+      {
+       "type": "p",
+       "html": "Agora vamos praticar alguns acordes com extensões montados sobre cada grau do campo harmônico maior de C. Toque cada acorde para ouvi-lo. No Rótulo de funções, as extensões aparecem como 2, 4 e 6 (a mesma nota, uma oitava abaixo de 9, 11 e 13)."
+      }
+     ]
+    },
+    {
+     "id": "g13-2",
+     "title": "Extensões nos graus I, II e III",
+     "blocks": [
+      {
+       "type": "h3",
+       "text": "Extensões no acorde do I grau"
+      },
+      {
+       "type": "chordseq",
+       "title": "C7M e extensões: C7M, Csus4, C9, C7M(9), C6(9)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          3,
+          5,
+          4,
+          5,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "B",
+          "E",
+          "G"
+         ]
+        },
+        {
+         "name": "Csus4",
+         "frets": [
+          null,
+          3,
+          5,
+          5,
+          6,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "C",
+          "F",
+          "G"
+         ]
+        },
+        {
+         "name": "C9",
+         "frets": [
+          null,
+          3,
+          5,
+          5,
+          3,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "C",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "C7M(9)",
+         "frets": [
+          null,
+          3,
+          2,
+          4,
+          3,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "B",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "C6(9)",
+         "frets": [
+          null,
+          3,
+          2,
+          2,
+          3,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "A",
+          "D",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Extensões no acorde do II grau"
+      },
+      {
+       "type": "chordseq",
+       "title": "Dm7 e extensões: Dm7, Dm7(9), Dm7(11), Dm7(13), Dm6",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Dm7",
+         "frets": [
+          null,
+          5,
+          7,
+          5,
+          6,
+          5
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          "A",
+          "C",
+          "F",
+          "A"
+         ]
+        },
+        {
+         "name": "Dm7(9)",
+         "frets": [
+          null,
+          5,
+          3,
+          5,
+          5,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          "F",
+          "C",
+          "E",
+          null
+         ]
+        },
+        {
+         "name": "Dm7(11)",
+         "frets": [
+          null,
+          5,
+          null,
+          5,
+          6,
+          3
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          null,
+          "C",
+          "F",
+          "G"
+         ]
+        },
+        {
+         "name": "Dm7(13)",
+         "frets": [
+          null,
+          5,
+          7,
+          5,
+          6,
+          7
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          "A",
+          "C",
+          "F",
+          "B"
+         ]
+        },
+        {
+         "name": "Dm6",
+         "frets": [
+          null,
+          5,
+          null,
+          4,
+          6,
+          5
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          null,
+          "B",
+          "F",
+          "A"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Extensões no acorde do III grau"
+      },
+      {
+       "type": "chordseq",
+       "title": "Em7 e extensões: Em7, Em7(b9), Em7(11), Em7(b13)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Em7",
+         "frets": [
+          null,
+          7,
+          9,
+          7,
+          8,
+          7
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "E",
+          "B",
+          "D",
+          "G",
+          "B"
+         ]
+        },
+        {
+         "name": "Em7(b9)",
+         "frets": [
+          null,
+          7,
+          5,
+          7,
+          6,
+          null
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "E",
+          "G",
+          "D",
+          "F",
+          null
+         ]
+        },
+        {
+         "name": "Em7(11)",
+         "frets": [
+          null,
+          7,
+          null,
+          7,
+          8,
+          5
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "E",
+          null,
+          "D",
+          "G",
+          "A"
+         ]
+        },
+        {
+         "name": "Em7(b13)",
+         "frets": [
+          null,
+          7,
+          null,
+          7,
+          8,
+          8
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "E",
+          null,
+          "D",
+          "G",
+          "C"
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g13-3",
+     "title": "Extensões nos graus IV, V e VI",
+     "blocks": [
+      {
+       "type": "h3",
+       "text": "Extensões no acorde do IV grau"
+      },
+      {
+       "type": "chordseq",
+       "title": "F7M e extensões: F7M, F7M(#11), F9, F6, F7M(9)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "F7M",
+         "frets": [
+          1,
+          null,
+          2,
+          2,
+          1,
+          null
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          null,
+          "E",
+          "A",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "F7M(#11)",
+         "frets": [
+          1,
+          3,
+          3,
+          2,
+          0,
+          0
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          "C",
+          "F",
+          "A",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "F9",
+         "frets": [
+          null,
+          null,
+          3,
+          2,
+          1,
+          3
+         ],
+         "root": 5,
+         "names": [
+          null,
+          null,
+          "F",
+          "A",
+          "C",
+          "G"
+         ]
+        },
+        {
+         "name": "F6",
+         "frets": [
+          null,
+          null,
+          3,
+          2,
+          3,
+          1
+         ],
+         "root": 5,
+         "names": [
+          null,
+          null,
+          "F",
+          "A",
+          "D",
+          "F"
+         ]
+        },
+        {
+         "name": "F7M(9)",
+         "frets": [
+          null,
+          null,
+          3,
+          5,
+          5,
+          3
+         ],
+         "root": 5,
+         "names": [
+          null,
+          null,
+          "F",
+          "C",
+          "E",
+          "G"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Extensões no acorde do V grau"
+      },
+      {
+       "type": "chordseq",
+       "title": "G7 e extensões: G7, Gsus4, G13, G7(9/11), G7(9)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "G7",
+         "frets": [
+          3,
+          5,
+          3,
+          4,
+          3,
+          3
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "D",
+          "F",
+          "B",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "Gsus4",
+         "frets": [
+          3,
+          5,
+          5,
+          5,
+          3,
+          3
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "D",
+          "G",
+          "C",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "G13",
+         "frets": [
+          3,
+          null,
+          3,
+          4,
+          5,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F",
+          "B",
+          "E",
+          null
+         ]
+        },
+        {
+         "name": "G7(9/11)",
+         "frets": [
+          3,
+          null,
+          3,
+          2,
+          1,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F",
+          "A",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "G7(9)",
+         "frets": [
+          null,
+          null,
+          5,
+          4,
+          6,
+          5
+         ],
+         "root": 7,
+         "names": [
+          null,
+          null,
+          "G",
+          "B",
+          "F",
+          "A"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Extensões no acorde do VI grau"
+      },
+      {
+       "type": "chordseq",
+       "title": "Am7 e extensões: Am7, Am7(9), Am7(11), Am7(b6)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Am7",
+         "frets": [
+          5,
+          7,
+          5,
+          5,
+          5,
+          5
+         ],
+         "root": 9,
+         "names": [
+          "A",
+          "E",
+          "G",
+          "C",
+          "E",
+          "A"
+         ]
+        },
+        {
+         "name": "Am7(9)",
+         "frets": [
+          5,
+          7,
+          5,
+          5,
+          5,
+          7
+         ],
+         "root": 9,
+         "names": [
+          "A",
+          "E",
+          "G",
+          "C",
+          "E",
+          "B"
+         ]
+        },
+        {
+         "name": "Am7(11)",
+         "frets": [
+          5,
+          null,
+          5,
+          5,
+          3,
+          null
+         ],
+         "root": 9,
+         "names": [
+          "A",
+          null,
+          "G",
+          "C",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "Am7(b6)",
+         "frets": [
+          5,
+          8,
+          5,
+          5,
+          5,
+          5
+         ],
+         "root": 9,
+         "names": [
+          "A",
+          "F",
+          "G",
+          "C",
+          "E",
+          "A"
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g13-4",
+     "title": "Extensões no VII grau e dominantes com b9 e b13",
+     "blocks": [
+      {
+       "type": "h3",
+       "text": "Extensões no acorde do VII grau"
+      },
+      {
+       "type": "chordseq",
+       "title": "Bm7(b5) e extensões: Bm7(b5), Bm7(b5/b9), Bm7(b5/b13)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Bm7(b5)",
+         "frets": [
+          null,
+          2,
+          3,
+          2,
+          3,
+          null
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F",
+          "A",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "Bm7(b5/b9)",
+         "frets": [
+          null,
+          2,
+          3,
+          2,
+          1,
+          null
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F",
+          "A",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "Bm7(b5/b13)",
+         "frets": [
+          null,
+          2,
+          3,
+          2,
+          0,
+          3
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F",
+          "A",
+          "B",
+          "G"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "p",
+       "html": "A partir da tabela e dos exemplos, você já pode pesquisar e descobrir sozinho outras formas de adicionar extensões aos acordes que já toca. O que vale é testar, ouvir o resultado e avaliar se é a sonoridade que você busca para a música."
+      },
+      {
+       "type": "note",
+       "html": "Além das extensões do campo harmônico maior, existem as extensões geradas pelos campos harmônicos da escala menor harmônica e da menor melódica, que não vamos explorar aqui. Com o conhecimento que você já tem, ficará fácil assimilá-las depois."
+      },
+      {
+       "type": "h3",
+       "text": "Dominante com b9 e b13"
+      },
+      {
+       "type": "p",
+       "html": "Também é comum usar as dissonâncias de <b>9m (b9)</b> e <b>13m (b13)</b> no acorde dominante (maior com 7ª menor) quando ele prepara outro acorde, maior ou menor. Veja os exemplos:"
+      },
+      {
+       "type": "h3",
+       "text": "Sequência com acordes 7(b9)"
+      },
+      {
+       "type": "chordseq",
+       "title": "Sequência com 7(b9): D7(b9), Gm7, C7(b9), F7M",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "D7(b9)",
+         "frets": [
+          null,
+          5,
+          4,
+          5,
+          4,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          "F#",
+          "C",
+          "Eb",
+          null
+         ]
+        },
+        {
+         "name": "Gm7",
+         "frets": [
+          3,
+          null,
+          3,
+          3,
+          3,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F",
+          "Bb",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "C7(b9)",
+         "frets": [
+          null,
+          3,
+          2,
+          3,
+          2,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "Bb",
+          "Db",
+          null
+         ]
+        },
+        {
+         "name": "F7M",
+         "frets": [
+          1,
+          null,
+          2,
+          2,
+          1,
+          null
+         ],
+         "root": 5,
+         "names": [
+          "F",
+          null,
+          "E",
+          "A",
+          "C",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Sequência com acordes 7(b13)"
+      },
+      {
+       "type": "chordseq",
+       "title": "Sequência com 7(b13): A7(b13), Dm7(9), G7(b13), C7M",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "A7(b13)",
+         "frets": [
+          5,
+          null,
+          5,
+          6,
+          6,
+          null
+         ],
+         "root": 9,
+         "names": [
+          "A",
+          null,
+          "G",
+          "C#",
+          "F",
+          null
+         ]
+        },
+        {
+         "name": "Dm7(9)",
+         "frets": [
+          null,
+          5,
+          3,
+          5,
+          5,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          "F",
+          "C",
+          "E",
+          null
+         ]
+        },
+        {
+         "name": "G7(b13)",
+         "frets": [
+          3,
+          null,
+          3,
+          4,
+          4,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F",
+          "B",
+          "Eb",
+          null
+         ]
+        },
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          3,
+          5,
+          4,
+          5,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "B",
+          "E",
+          "G"
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g14",
+   "title": "Acordes usando cordas soltas",
+   "topics": [
+    {
+     "id": "g14-1",
+     "title": "Cordas soltas nos campos de C e E",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Uma boa forma de obter sonoridades muito interessantes é adicionar uma ou mais <b>cordas soltas</b> aos acordes, desde que as notas dessas cordas estejam dentro do respectivo campo harmônico."
+      },
+      {
+       "type": "p",
+       "html": "É importante entender que uma mesma corda solta forma <b>intervalos diferentes dentro de cada acorde</b>. O que torna a sonoridade ainda mais interessante é o contraste formado pela distância entre as notas: o acorde na região aguda com a nota grave na corda solta, e vice-versa."
+      },
+      {
+       "type": "note",
+       "html": "Toque cada acorde e escute como a corda solta muda de papel de um acorde para o outro. No Rótulo de funções, veja o intervalo que a corda solta forma com a tônica de cada acorde."
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de C, com as cordas E e G soltas"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de C com cordas E e G soltas: C, Dm(4/9), Em, F7M(2), G6, Am7, Bm(b5/b6/11)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          5,
+          0,
+          5,
+          0
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "G",
+          "E",
+          "E"
+         ]
+        },
+        {
+         "name": "Dm(4/9)",
+         "frets": [
+          null,
+          5,
+          7,
+          0,
+          6,
+          0
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          "A",
+          "G",
+          "F",
+          "E"
+         ]
+        },
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          7,
+          9,
+          0,
+          8,
+          0
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "E",
+          "B",
+          "G",
+          "G",
+          "E"
+         ]
+        },
+        {
+         "name": "F7M(2)",
+         "frets": [
+          null,
+          8,
+          10,
+          0,
+          10,
+          0
+         ],
+         "root": 5,
+         "names": [
+          null,
+          "F",
+          "C",
+          "G",
+          "A",
+          "E"
+         ]
+        },
+        {
+         "name": "G6",
+         "frets": [
+          null,
+          10,
+          12,
+          0,
+          12,
+          0
+         ],
+         "root": 7,
+         "names": [
+          null,
+          "G",
+          "D",
+          "G",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "Am7",
+         "frets": [
+          null,
+          12,
+          14,
+          0,
+          13,
+          0
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          "G",
+          "C",
+          "E"
+         ]
+        },
+        {
+         "name": "Bm(b5/b6/11)",
+         "frets": [
+          null,
+          14,
+          15,
+          0,
+          15,
+          0
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F",
+          "G",
+          "D",
+          "E"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de E, com as cordas E e B soltas"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de E com cordas E e B soltas: E, F#m7(11), G#m(b6), A9, B11, C#m7, D#m(b5/b6/b9)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "E",
+         "frets": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "E",
+          "G#",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "F#m7(11)",
+         "frets": [
+          null,
+          4,
+          4,
+          2,
+          0,
+          0
+         ],
+         "root": 6,
+         "names": [
+          null,
+          "C#",
+          "F#",
+          "A",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "G#m(b6)",
+         "frets": [
+          null,
+          6,
+          6,
+          4,
+          0,
+          0
+         ],
+         "root": 8,
+         "names": [
+          null,
+          "D#",
+          "G#",
+          "B",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "A9",
+         "frets": [
+          5,
+          7,
+          7,
+          6,
+          0,
+          0
+         ],
+         "root": 9,
+         "names": [
+          "A",
+          "E",
+          "A",
+          "C#",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "B11",
+         "frets": [
+          7,
+          9,
+          9,
+          8,
+          0,
+          0
+         ],
+         "root": 11,
+         "names": [
+          "B",
+          "F#",
+          "B",
+          "D#",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "C#m7",
+         "frets": [
+          null,
+          11,
+          11,
+          9,
+          0,
+          0
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "G#",
+          "C#",
+          "E",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "D#m(b5/b6/b9)",
+         "frets": [
+          null,
+          12,
+          13,
+          11,
+          0,
+          0
+         ],
+         "root": 3,
+         "names": [
+          null,
+          "A",
+          "D#",
+          "F#",
+          "B",
+          "E"
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g14-2",
+     "title": "Cordas soltas nos campos de Eb e D",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Continue praticando com outros campos harmônicos, agora com uma única corda solta fixa."
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de Eb, com a corda G solta"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de Eb com a corda G solta: Eb, Fm2, Gm, Ab7M, Bb6, Cm, Dm(b5/4)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Eb",
+         "frets": [
+          null,
+          6,
+          8,
+          0,
+          8,
+          null
+         ],
+         "root": 3,
+         "names": [
+          null,
+          "Eb",
+          "Bb",
+          "G",
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "Fm2",
+         "frets": [
+          null,
+          8,
+          10,
+          0,
+          9,
+          null
+         ],
+         "root": 5,
+         "names": [
+          null,
+          "F",
+          "C",
+          "G",
+          "Ab",
+          null
+         ]
+        },
+        {
+         "name": "Gm",
+         "frets": [
+          null,
+          10,
+          12,
+          0,
+          11,
+          null
+         ],
+         "root": 7,
+         "names": [
+          null,
+          "G",
+          "D",
+          "G",
+          "Bb",
+          null
+         ]
+        },
+        {
+         "name": "Ab7M",
+         "frets": [
+          null,
+          11,
+          13,
+          0,
+          13,
+          null
+         ],
+         "root": 8,
+         "names": [
+          null,
+          "Ab",
+          "Eb",
+          "G",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "Bb6",
+         "frets": [
+          null,
+          1,
+          3,
+          0,
+          3,
+          null
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "Bb",
+          "F",
+          "G",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "Cm",
+         "frets": [
+          null,
+          3,
+          5,
+          0,
+          4,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "G",
+          "Eb",
+          null
+         ]
+        },
+        {
+         "name": "Dm(b5/4)",
+         "frets": [
+          null,
+          5,
+          6,
+          0,
+          6,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          "Ab",
+          "G",
+          "F",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de D, com a corda D solta"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de D com a corda D solta: D, Em7, F#m(b6), G, A4, Bm, C#m(b5/b2)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "D",
+         "frets": [
+          10,
+          12,
+          0,
+          11,
+          null,
+          null
+         ],
+         "root": 2,
+         "names": [
+          "D",
+          "A",
+          "D",
+          "F#",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Em7",
+         "frets": [
+          12,
+          14,
+          0,
+          12,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          "D",
+          "G",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "F#m(b6)",
+         "frets": [
+          2,
+          4,
+          0,
+          2,
+          null,
+          null
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "C#",
+          "D",
+          "A",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "G",
+         "frets": [
+          3,
+          5,
+          0,
+          4,
+          null,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "D",
+          "D",
+          "B",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "A4",
+         "frets": [
+          5,
+          7,
+          0,
+          6,
+          null,
+          null
+         ],
+         "root": 9,
+         "names": [
+          "A",
+          "E",
+          "D",
+          "C#",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Bm",
+         "frets": [
+          7,
+          9,
+          0,
+          7,
+          null,
+          null
+         ],
+         "root": 11,
+         "names": [
+          "B",
+          "F#",
+          "D",
+          "D",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "C#m(b5/b2)",
+         "frets": [
+          9,
+          10,
+          0,
+          9,
+          null,
+          null
+         ],
+         "root": 1,
+         "names": [
+          "C#",
+          "G",
+          "D",
+          "E",
+          null,
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "A partir desses exemplos e do que você já estudou, você consegue descobrir outras possibilidades de acordes com cordas soltas. Procure uma corda solta cuja nota esteja no campo e monte acordes ao redor dela."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g15",
+   "title": "Acordes coringa",
+   "topics": [
+    {
+     "id": "g15-1",
+     "title": "O que são acordes coringa e o Csus2",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "O <b>acorde coringa</b> é um tipo de acorde que pode ser arpejado sobre os outros acordes do mesmo campo harmônico, criando um efeito muito interessante."
+      },
+      {
+       "type": "p",
+       "html": "Em geral, os acordes que melhor funcionam como coringas são formados por <b>apenas três notas</b>. Mas não são tríades convencionais: eles contêm intervalos de <b>2ª ou de 7ª no lugar da 3ª</b>."
+      },
+      {
+       "type": "note",
+       "html": "Para sentir o efeito, arpeje os acordes abaixo sobre uma base na tonalidade de C maior. Pode ser uma gravação sua, um acompanhamento ou uma faixa de base."
+      },
+      {
+       "type": "h3",
+       "text": "Csus2: notas C, D e G (intervalos T, 2M e 5J)"
+      },
+      {
+       "type": "p",
+       "html": "Toque o Csus2 e suas inversões, primeiro nas cordas 4, 3 e 2 (mais graves), depois nas cordas 3, 2 e 1 (mais agudas)."
+      },
+      {
+       "type": "chordseq",
+       "title": "Csus2 e inversões, nas cordas 4, 3 e 2: Csus2, Csus2/D, Csus2/G",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Csus2",
+         "frets": [
+          null,
+          null,
+          10,
+          7,
+          8,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "C",
+          "D",
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "Csus2/D",
+         "frets": [
+          null,
+          null,
+          12,
+          12,
+          13,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "D",
+          "G",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "Csus2/G",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          3,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "G",
+          "C",
+          "D",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "Csus2 e inversões, nas cordas 3, 2 e 1: Csus2, Csus2/D, Csus2/G",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Csus2",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          3,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          null,
+          "C",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "Csus2/D",
+         "frets": [
+          null,
+          null,
+          null,
+          7,
+          8,
+          8
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          null,
+          "D",
+          "G",
+          "C"
+         ]
+        },
+        {
+         "name": "Csus2/G",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          13,
+          10
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          null,
+          "G",
+          "C",
+          "D"
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g15-2",
+     "title": "Coringa C7M e transposição",
+     "blocks": [
+      {
+       "type": "h3",
+       "text": "C7M: notas C, G e B (intervalos T, 5J e 7M)"
+      },
+      {
+       "type": "p",
+       "html": "Aqui o acorde não tem a 3ª: a 7ª maior ocupa o lugar dela. Toque o C7M e suas inversões, nos dois grupos de cordas."
+      },
+      {
+       "type": "chordseq",
+       "title": "C7M e inversões, nas cordas 4, 3 e 2: C7M, C7M/G, C7M/B",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          12,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "C",
+          "G",
+          "B",
+          null
+         ]
+        },
+        {
+         "name": "C7M/G",
+         "frets": [
+          null,
+          null,
+          5,
+          4,
+          1,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "G",
+          "B",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "C7M/B",
+         "frets": [
+          null,
+          null,
+          9,
+          5,
+          8,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "B",
+          "C",
+          "G",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "chordseq",
+       "title": "C7M e inversões, nas cordas 3, 2 e 1: C7M, C7M/G, C7M/B",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          8,
+          7
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          null,
+          "C",
+          "G",
+          "B"
+         ]
+        },
+        {
+         "name": "C7M/G",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          12,
+          8
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          null,
+          "G",
+          "B",
+          "C"
+         ]
+        },
+        {
+         "name": "C7M/B",
+         "frets": [
+          null,
+          null,
+          null,
+          4,
+          1,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          null,
+          "B",
+          "C",
+          "G"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "Experimente arpejar cada acorde sobre os acordes do campo de C (C, Dm, Em, F, G, Am) e escute como a mesma forma muda de cor conforme a base."
+      },
+      {
+       "type": "h3",
+       "text": "Transposição"
+      },
+      {
+       "type": "p",
+       "html": "Faça a transposição destes acordes e aplique-os em outras tonalidades: mova a forma pelo braço para que a tônica caia na nota desejada e arpeje sobre os acordes do novo campo."
+      }
+     ]
+    }
+   ]
   }
  ]
 }
