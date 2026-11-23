@@ -13196,6 +13196,2576 @@
      ]
     }
    ]
+  },
+  {
+   "id": "g10",
+   "title": "Estrutura das tétrades",
+   "topics": [
+    {
+     "id": "g10-1",
+     "title": "Os 4 tipos principais de tétrades",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Ao empilhar <b>terças</b> sobre a tônica, o acorde de três notas (tríade) ganha uma quarta nota: a <b>sétima</b>. Nasce a <b>tétrade</b>. Analisando todas as combinações possíveis de terças maiores e menores, existem <b>13 tipos</b> diferentes de tétrades. Aqui vamos estudar os <b>7 mais utilizados</b>."
+      },
+      {
+       "type": "p",
+       "html": "Nos esquemas abaixo, as notas do acorde aparecem em laranja sobre as 12 notas da escala cromática, a partir da tônica (C). Os arcos de cima mostram cada terça e os de baixo mostram a quinta e a sétima, medidas sempre a partir da tônica."
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima maior: C7M"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-acordes/img/esq-tetrade-7m.svg",
+       "caption": "C7M: T, 3M, 5J, 7M (notas: C, E, G, B)",
+       "dark": true
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima menor: C7"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-acordes/img/esq-tetrade-7.svg",
+       "caption": "C7: T, 3M, 5J, 7m (notas: C, E, G, Bb)",
+       "dark": true
+      },
+      {
+       "type": "h3",
+       "text": "Menor com sétima menor: Cm7"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-acordes/img/esq-tetrade-m7.svg",
+       "caption": "Cm7: T, 3m, 5J, 7m (notas: C, Eb, G, Bb)",
+       "dark": true
+      },
+      {
+       "type": "h3",
+       "text": "Meio diminuta: Cm7(b5)"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-acordes/img/esq-tetrade-m7b5.svg",
+       "caption": "Cm7(b5): T, 3m, 5dim, 7m (notas: C, Eb, Gb, Bb)",
+       "dark": true
+      },
+      {
+       "type": "note",
+       "html": "A diferença entre as tétrades está só em <b>qual terça</b> (maior ou menor) foi empilhada em cada posição. O mesmo raciocínio vale para qualquer tônica."
+      }
+     ]
+    },
+    {
+     "id": "g10-2",
+     "title": "Outros tipos e resumo das tétrades",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Veja agora os outros três tipos de tétrades, e depois um resumo com os sete."
+      },
+      {
+       "type": "h3",
+       "text": "Diminuta: C°"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-acordes/img/esq-tetrade-dim7.svg",
+       "caption": "C°: T, 3m, 5dim, 7dim (notas: C, Eb, Gb, Bbb)",
+       "dark": true
+      },
+      {
+       "type": "note",
+       "html": "Na tétrade diminuta a sétima é <b>diminuta</b> (9 semitons). No Dó ela é escrita Bbb (Si dobrado bemol), que soa igual ao Lá."
+      },
+      {
+       "type": "h3",
+       "text": "Menor com sétima maior: Cm(7M)"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-acordes/img/esq-tetrade-m7m.svg",
+       "caption": "Cm(7M): T, 3m, 5J, 7M (notas: C, Eb, G, B)",
+       "dark": true
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima maior e quinta aumentada: C7M(#5)"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-acordes/img/esq-tetrade-7m5a.svg",
+       "caption": "C7M(#5): T, 3M, 5aum, 7M (notas: C, E, G#, B)",
+       "dark": true
+      },
+      {
+       "type": "h3",
+       "text": "Resumo dos 7 tipos"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Tipo de tétrade",
+        "Sufixo",
+        "Fórmula / intervalos",
+        "Soma das terças"
+       ],
+       "rows": [
+        [
+         "Maior com 7ª maior",
+         "7M, 7+, maj7",
+         "T – 3M – 5J – 7M",
+         "3M + 3m + 3M"
+        ],
+        [
+         "Maior com 7ª menor",
+         "7",
+         "T – 3M – 5J – 7m",
+         "3M + 3m + 3m"
+        ],
+        [
+         "Menor com 7ª menor",
+         "m7",
+         "T – 3m – 5J – 7m",
+         "3m + 3M + 3m"
+        ],
+        [
+         "Meio diminuta",
+         "m7(b5), Ø",
+         "T – 3m – 5dim – 7m",
+         "3m + 3m + 3M"
+        ],
+        [
+         "Diminuta",
+         "dim7, °",
+         "T – 3m – 5dim – 7dim",
+         "3m + 3m + 3m"
+        ],
+        [
+         "Menor com 7ª maior",
+         "m(7M), m7M",
+         "T – 3m – 5J – 7M",
+         "3m + 3M + 3M"
+        ],
+        [
+         "Maior com 7ª maior e 5ª aumentada",
+         "7M(#5), 7M5+",
+         "T – 3M – 5aum – 7M",
+         "3M + 3M + 3m"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "g10-3",
+     "title": "Treino: intervalos e notas das tétrades",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Escreva os <b>intervalos</b> e as <b>notas</b> que formam cada tétrade, no papel ou de cabeça, e toque na linha para conferir. Modelo: C7M = T, 3M, 5J, 7M = C, E, G, B."
+      },
+      {
+       "type": "note",
+       "html": "Dica: primeiro escreva a escala do acorde ou conte os semitons a partir da tônica, depois ajuste a grafia (cada nota tem uma letra diferente: T, 3ª, 5ª e 7ª)."
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima maior (7M)"
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Acorde",
+        "Intervalos",
+        "Notas"
+       ],
+       "rows": [
+        [
+         "C7M",
+         "T, 3M, 5J, 7M",
+         "C, E, G, B"
+        ],
+        [
+         "D7M",
+         "T, 3M, 5J, 7M",
+         "D, F#, A, C#"
+        ],
+        [
+         "E7M",
+         "T, 3M, 5J, 7M",
+         "E, G#, B, D#"
+        ],
+        [
+         "F7M",
+         "T, 3M, 5J, 7M",
+         "F, A, C, E"
+        ],
+        [
+         "G7M",
+         "T, 3M, 5J, 7M",
+         "G, B, D, F#"
+        ],
+        [
+         "A7M",
+         "T, 3M, 5J, 7M",
+         "A, C#, E, G#"
+        ],
+        [
+         "B7M",
+         "T, 3M, 5J, 7M",
+         "B, D#, F#, A#"
+        ],
+        [
+         "Eb7M",
+         "T, 3M, 5J, 7M",
+         "Eb, G, Bb, D"
+        ],
+        [
+         "F#7M",
+         "T, 3M, 5J, 7M",
+         "F#, A#, C#, E#"
+        ]
+       ],
+       "hide": [
+        1,
+        2
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima menor (7)"
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Acorde",
+        "Intervalos",
+        "Notas"
+       ],
+       "rows": [
+        [
+         "C7",
+         "T, 3M, 5J, 7m",
+         "C, E, G, Bb"
+        ],
+        [
+         "D7",
+         "T, 3M, 5J, 7m",
+         "D, F#, A, C"
+        ],
+        [
+         "E7",
+         "T, 3M, 5J, 7m",
+         "E, G#, B, D"
+        ],
+        [
+         "F7",
+         "T, 3M, 5J, 7m",
+         "F, A, C, Eb"
+        ],
+        [
+         "G7",
+         "T, 3M, 5J, 7m",
+         "G, B, D, F"
+        ],
+        [
+         "A7",
+         "T, 3M, 5J, 7m",
+         "A, C#, E, G"
+        ],
+        [
+         "B7",
+         "T, 3M, 5J, 7m",
+         "B, D#, F#, A"
+        ],
+        [
+         "Eb7",
+         "T, 3M, 5J, 7m",
+         "Eb, G, Bb, Db"
+        ],
+        [
+         "F#7",
+         "T, 3M, 5J, 7m",
+         "F#, A#, C#, E"
+        ]
+       ],
+       "hide": [
+        1,
+        2
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Menor com sétima menor (m7)"
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Acorde",
+        "Intervalos",
+        "Notas"
+       ],
+       "rows": [
+        [
+         "Cm7",
+         "T, 3m, 5J, 7m",
+         "C, Eb, G, Bb"
+        ],
+        [
+         "Dm7",
+         "T, 3m, 5J, 7m",
+         "D, F, A, C"
+        ],
+        [
+         "Em7",
+         "T, 3m, 5J, 7m",
+         "E, G, B, D"
+        ],
+        [
+         "Fm7",
+         "T, 3m, 5J, 7m",
+         "F, Ab, C, Eb"
+        ],
+        [
+         "Gm7",
+         "T, 3m, 5J, 7m",
+         "G, Bb, D, F"
+        ],
+        [
+         "Am7",
+         "T, 3m, 5J, 7m",
+         "A, C, E, G"
+        ],
+        [
+         "Bm7",
+         "T, 3m, 5J, 7m",
+         "B, D, F#, A"
+        ],
+        [
+         "Ebm7",
+         "T, 3m, 5J, 7m",
+         "Eb, Gb, Bb, Db"
+        ],
+        [
+         "F#m7",
+         "T, 3m, 5J, 7m",
+         "F#, A, C#, E"
+        ]
+       ],
+       "hide": [
+        1,
+        2
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Meio diminuta (m7(b5))"
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Acorde",
+        "Intervalos",
+        "Notas"
+       ],
+       "rows": [
+        [
+         "Cm7(b5)",
+         "T, 3m, 5dim, 7m",
+         "C, Eb, Gb, Bb"
+        ],
+        [
+         "Dm7(b5)",
+         "T, 3m, 5dim, 7m",
+         "D, F, Ab, C"
+        ],
+        [
+         "Em7(b5)",
+         "T, 3m, 5dim, 7m",
+         "E, G, Bb, D"
+        ],
+        [
+         "Fm7(b5)",
+         "T, 3m, 5dim, 7m",
+         "F, Ab, Cb, Eb"
+        ],
+        [
+         "Gm7(b5)",
+         "T, 3m, 5dim, 7m",
+         "G, Bb, Db, F"
+        ],
+        [
+         "Am7(b5)",
+         "T, 3m, 5dim, 7m",
+         "A, C, Eb, G"
+        ],
+        [
+         "Bm7(b5)",
+         "T, 3m, 5dim, 7m",
+         "B, D, F, A"
+        ],
+        [
+         "Ebm7(b5)",
+         "T, 3m, 5dim, 7m",
+         "Eb, Gb, Bbb, Db"
+        ],
+        [
+         "F#m7(b5)",
+         "T, 3m, 5dim, 7m",
+         "F#, A, C, E"
+        ]
+       ],
+       "hide": [
+        1,
+        2
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Diminuta (°)"
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Acorde",
+        "Intervalos",
+        "Notas"
+       ],
+       "rows": [
+        [
+         "C°",
+         "T, 3m, 5dim, 7dim",
+         "C, Eb, Gb, Bbb (= A)"
+        ],
+        [
+         "D°",
+         "T, 3m, 5dim, 7dim",
+         "D, F, Ab, Cb (= B)"
+        ],
+        [
+         "E°",
+         "T, 3m, 5dim, 7dim",
+         "E, G, Bb, Db (= C#)"
+        ],
+        [
+         "F°",
+         "T, 3m, 5dim, 7dim",
+         "F, Ab, Cb, Ebb (= D)"
+        ],
+        [
+         "G°",
+         "T, 3m, 5dim, 7dim",
+         "G, Bb, Db, Fb (= E)"
+        ],
+        [
+         "A°",
+         "T, 3m, 5dim, 7dim",
+         "A, C, Eb, Gb (= F#)"
+        ],
+        [
+         "B°",
+         "T, 3m, 5dim, 7dim",
+         "B, D, F, Ab (= G#)"
+        ],
+        [
+         "Eb°",
+         "T, 3m, 5dim, 7dim",
+         "Eb, Gb, Bbb, Dbb (= C)"
+        ],
+        [
+         "F#°",
+         "T, 3m, 5dim, 7dim",
+         "F#, A, C, Eb (= D#)"
+        ]
+       ],
+       "hide": [
+        1,
+        2
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Na tétrade diminuta, a sétima diminuta soa igual a uma nota com outro nome (o livro indica entre parênteses), mas a grafia correta usa a letra da sétima."
+      }
+     ]
+    },
+    {
+     "id": "g10-4",
+     "title": "Tétrades com tônica na 6ª corda",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Pratique os 7 tipos de tétrades com a <b>tônica na 6ª corda</b>, usando o acorde de G como exemplo. Os acordes com a tônica na corda mais grave deixam a 5ª corda sem tocar."
+      },
+      {
+       "type": "chordseq",
+       "title": "Tétrades com tônica na 6ª corda (G): G7M, G7, Gm7, Gm7(b5), G°, Gm(7M), G7M(#5)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "G7M",
+         "frets": [
+          3,
+          null,
+          4,
+          4,
+          3,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F#",
+          "B",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "G7",
+         "frets": [
+          3,
+          null,
+          3,
+          4,
+          3,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F",
+          "B",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "Gm7",
+         "frets": [
+          3,
+          null,
+          3,
+          3,
+          3,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F",
+          "Bb",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "Gm7(b5)",
+         "frets": [
+          3,
+          null,
+          3,
+          3,
+          2,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F",
+          "Bb",
+          "Db",
+          null
+         ]
+        },
+        {
+         "name": "G°",
+         "frets": [
+          3,
+          null,
+          2,
+          3,
+          2,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "Fb",
+          "Bb",
+          "Db",
+          null
+         ]
+        },
+        {
+         "name": "Gm(7M)",
+         "frets": [
+          3,
+          null,
+          4,
+          3,
+          3,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F#",
+          "Bb",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "G7M(#5)",
+         "frets": [
+          3,
+          null,
+          4,
+          4,
+          4,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          null,
+          "F#",
+          "B",
+          "D#",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "Toque em cada acorde para ouvi-lo. O botão <b>Rótulo</b> alterna entre o nome das notas, as funções (T, 3M, 5J, 7M...) e os dedos. A numeração dos dedos é sugerida e pode variar do que você prefere."
+      },
+      {
+       "type": "note",
+       "html": "Para tocar o mesmo tipo em outra tônica, mova a forma pelo braço de modo que a tônica caia na nota desejada da mesma corda."
+      }
+     ]
+    },
+    {
+     "id": "g10-5",
+     "title": "Tétrades com tônica na 5ª corda",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Pratique os 7 tipos de tétrades com a <b>tônica na 5ª corda</b>, usando o acorde de C como exemplo. Aqui a 6ª corda não é tocada, e alguns acordes usam pestana parcial."
+      },
+      {
+       "type": "chordseq",
+       "title": "Tétrades com tônica na 5ª corda (C): C7M, C7, Cm7, Cm7(b5), C°, Cm(7M), C7M(#5)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          3,
+          5,
+          4,
+          5,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "B",
+          "E",
+          "G"
+         ]
+        },
+        {
+         "name": "C7",
+         "frets": [
+          null,
+          3,
+          5,
+          3,
+          5,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "Bb",
+          "E",
+          "G"
+         ]
+        },
+        {
+         "name": "Cm7",
+         "frets": [
+          null,
+          3,
+          5,
+          3,
+          4,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "Bb",
+          "Eb",
+          "G"
+         ]
+        },
+        {
+         "name": "Cm7(b5)",
+         "frets": [
+          null,
+          3,
+          4,
+          3,
+          4,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "Gb",
+          "Bb",
+          "Eb",
+          null
+         ]
+        },
+        {
+         "name": "C°",
+         "frets": [
+          null,
+          3,
+          4,
+          2,
+          4,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "Gb",
+          "Bbb",
+          "Eb",
+          null
+         ]
+        },
+        {
+         "name": "Cm(7M)",
+         "frets": [
+          null,
+          3,
+          5,
+          4,
+          4,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "B",
+          "Eb",
+          "G"
+         ]
+        },
+        {
+         "name": "C7M(#5)",
+         "frets": [
+          null,
+          3,
+          6,
+          4,
+          5,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G#",
+          "B",
+          "E",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "Toque em cada acorde para ouvi-lo. O botão <b>Rótulo</b> alterna entre o nome das notas, as funções (T, 3M, 5J, 7M...) e os dedos. A numeração dos dedos é sugerida e pode variar do que você prefere."
+      },
+      {
+       "type": "note",
+       "html": "Para tocar o mesmo tipo em outra tônica, mova a forma pelo braço de modo que a tônica caia na nota desejada da mesma corda."
+      }
+     ]
+    },
+    {
+     "id": "g10-6",
+     "title": "Tétrades com tônica na 4ª corda",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Pratique os 7 tipos de tétrades com a <b>tônica na 4ª corda</b>, usando o acorde de E como exemplo. As duas cordas mais graves ficam sem tocar, o que deixa esses acordes leves e agudos."
+      },
+      {
+       "type": "chordseq",
+       "title": "Tétrades com tônica na 4ª corda (E): E7M, E7, Em7, Em7(b5), E°, Em(7M), E7M(#5)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "E7M",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          4,
+          4
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          "E",
+          "B",
+          "D#",
+          "G#"
+         ]
+        },
+        {
+         "name": "E7",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          3,
+          4
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          "E",
+          "B",
+          "D",
+          "G#"
+         ]
+        },
+        {
+         "name": "Em7",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          3,
+          3
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          "E",
+          "B",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "Em7(b5)",
+         "frets": [
+          null,
+          null,
+          2,
+          3,
+          3,
+          3
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          "E",
+          "Bb",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "E°",
+         "frets": [
+          null,
+          null,
+          2,
+          3,
+          2,
+          3
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          "E",
+          "Bb",
+          "Db",
+          "G"
+         ]
+        },
+        {
+         "name": "Em(7M)",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          4,
+          3
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          "E",
+          "B",
+          "D#",
+          "G"
+         ]
+        },
+        {
+         "name": "E7M(#5)",
+         "frets": [
+          null,
+          null,
+          2,
+          5,
+          4,
+          4
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          "E",
+          "B#",
+          "D#",
+          "G#"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "Toque em cada acorde para ouvi-lo. O botão <b>Rótulo</b> alterna entre o nome das notas, as funções (T, 3M, 5J, 7M...) e os dedos. A numeração dos dedos é sugerida e pode variar do que você prefere."
+      },
+      {
+       "type": "note",
+       "html": "Para tocar o mesmo tipo em outra tônica, mova a forma pelo braço de modo que a tônica caia na nota desejada da mesma corda."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g11",
+   "title": "Aberturas e inversões das tétrades",
+   "topics": [
+    {
+     "id": "g11-1",
+     "title": "Posição fechada, Drop 2 e Drop 3",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Ao tocar as tétrades no módulo anterior, você deve ter notado que os intervalos nem sempre seguem a ordem crescente (T, 3, 5, 7): muitas vezes aparecem como T, 5, 7, 3 ou T, 7, 3, 5."
+      },
+      {
+       "type": "p",
+       "html": "Isso acontece porque a tétrade com os intervalos em ordem crescente, chamada de <b>posição fechada</b>, é muito difícil (algumas vezes impossível) de tocar na guitarra e no violão, por causa da abertura da mão. Ela também atrapalha as inversões. Por isso usamos uma distribuição diferente dos intervalos, uma <b>abertura</b> da tétrade: pulamos um dos intervalos e ultrapassamos uma oitava na montagem."
+      },
+      {
+       "type": "p",
+       "html": "Nos nossos instrumentos usamos dois tipos de abertura: <b>Drop 2</b> e <b>Drop 3</b>. Em inglês, <i>drop</i> significa derrubar: obtemos cada abertura <b>derrubando uma das notas para a oitava abaixo</b>. O número indica qual nota derrubar, contando do agudo para o grave."
+      },
+      {
+       "type": "h3",
+       "text": "Drop 2: derrubar a 2ª nota mais aguda"
+      },
+      {
+       "type": "p",
+       "html": "Na distribuição Drop 2 derrubamos a 2ª nota mais aguda uma oitava abaixo, e fazemos o mesmo com todas as inversões. Veja como fica o C7M:"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Posição fechada",
+        "Notas",
+        "Drop 2",
+        "Notas"
+       ],
+       "rows": [
+        [
+         "C7M",
+         "C E G B",
+         "C7M/G",
+         "G C E B"
+        ],
+        [
+         "C7M/E",
+         "E G B C",
+         "C7M/B",
+         "B E G C"
+        ],
+        [
+         "C7M/G",
+         "G B C E",
+         "C7M",
+         "C G B E"
+        ],
+        [
+         "C7M/B",
+         "B C E G",
+         "C7M/E",
+         "E B C G"
+        ]
+       ]
+      },
+      {
+       "type": "note",
+       "html": "No C7M as notas são C = T, E = 3M, G = 5J e B = 7M."
+      },
+      {
+       "type": "note",
+       "html": "Drop 2 é mais comum com o baixo na <b>5ª corda</b>, mas também funciona com o baixo na <b>4ª corda</b>. Os acordes ocupam 4 cordas vizinhas."
+      },
+      {
+       "type": "h3",
+       "text": "Drop 3: derrubar a 3ª nota mais aguda"
+      },
+      {
+       "type": "p",
+       "html": "Na distribuição Drop 3 derrubamos a 3ª nota mais aguda. Veja o C7M e suas inversões:"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Posição fechada",
+        "Notas",
+        "Drop 3",
+        "Notas"
+       ],
+       "rows": [
+        [
+         "C7M",
+         "C E G B",
+         "C7M/E",
+         "E C G B"
+        ],
+        [
+         "C7M/E",
+         "E G B C",
+         "C7M/G",
+         "G E B C"
+        ],
+        [
+         "C7M/G",
+         "G B C E",
+         "C7M/B",
+         "B G C E"
+        ],
+        [
+         "C7M/B",
+         "B C E G",
+         "C7M",
+         "C B E G"
+        ]
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Drop 3 é tocado com o baixo na <b>6ª corda</b>: o acorde pula a 5ª corda e usa as cordas 6, 4, 3 e 2."
+      },
+      {
+       "type": "note",
+       "html": "A lógica é a mesma para todos os tipos de tétrades. Se a teoria pareceu difícil, não se preocupe: você entende melhor tocando. Nos próximos tópicos há os 5 tipos principais (7M, 7, m7, m7(b5) e °) com todas as inversões."
+      },
+      {
+       "type": "h3",
+       "text": "Outras aberturas"
+      },
+      {
+       "type": "p",
+       "html": "Existem outras distribuições, como o <b>Drop 4/2</b> (derrubar a 2ª e a 4ª notas) e o <b>Drop 3/2</b> (derrubar a 2ª e a 3ª notas). Elas formam digitações muito complicadas na guitarra e no violão, por isso são usadas em outros instrumentos. Aqui vamos nos concentrar no Drop 2 e no Drop 3."
+      }
+     ]
+    },
+    {
+     "id": "g11-2",
+     "title": "Drop 2 com baixo na 5ª corda",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Toque o acorde de C com a abertura Drop 2 e o baixo na 5ª corda e suas inversões, do acorde com a tônica no baixo até o acorde com a 7ª no baixo. O botão <b>Rótulo</b> mostra as notas, as funções (T, 3M, 5J, 7M) ou os dedos. Toque em cada acorde para ouvi-lo."
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima maior: C7M"
+      },
+      {
+       "type": "chordseq",
+       "title": "C7M e inversões (Drop 2, baixo na 5ª corda): C7M, C7M/E, C7M/G, C7M/B",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          3,
+          5,
+          4,
+          5,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "B",
+          "E",
+          null
+         ]
+        },
+        {
+         "name": "C7M/E",
+         "frets": [
+          null,
+          7,
+          9,
+          5,
+          8,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "E",
+          "B",
+          "C",
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "C7M/G",
+         "frets": [
+          null,
+          10,
+          10,
+          9,
+          12,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "G",
+          "C",
+          "E",
+          "B",
+          null
+         ]
+        },
+        {
+         "name": "C7M/B",
+         "frets": [
+          null,
+          14,
+          14,
+          12,
+          13,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "B",
+          "E",
+          "G",
+          "C",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima menor: C7"
+      },
+      {
+       "type": "chordseq",
+       "title": "C7 e inversões (Drop 2, baixo na 5ª corda): C7, C7/E, C7/G, C7/Bb",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7",
+         "frets": [
+          null,
+          3,
+          5,
+          3,
+          5,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "Bb",
+          "E",
+          null
+         ]
+        },
+        {
+         "name": "C7/E",
+         "frets": [
+          null,
+          7,
+          8,
+          5,
+          8,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "E",
+          "Bb",
+          "C",
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "C7/G",
+         "frets": [
+          null,
+          10,
+          10,
+          9,
+          11,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "G",
+          "C",
+          "E",
+          "Bb",
+          null
+         ]
+        },
+        {
+         "name": "C7/Bb",
+         "frets": [
+          null,
+          13,
+          14,
+          12,
+          13,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "Bb",
+          "E",
+          "G",
+          "C",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Menor com sétima menor: Cm7"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cm7 e inversões (Drop 2, baixo na 5ª corda): Cm7, Cm7/Eb, Cm7/G, Cm7/Bb",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Cm7",
+         "frets": [
+          null,
+          3,
+          5,
+          3,
+          4,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          "Bb",
+          "Eb",
+          null
+         ]
+        },
+        {
+         "name": "Cm7/Eb",
+         "frets": [
+          null,
+          6,
+          8,
+          5,
+          8,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "Eb",
+          "Bb",
+          "C",
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "Cm7/G",
+         "frets": [
+          null,
+          10,
+          10,
+          8,
+          11,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "G",
+          "C",
+          "Eb",
+          "Bb",
+          null
+         ]
+        },
+        {
+         "name": "Cm7/Bb",
+         "frets": [
+          null,
+          13,
+          13,
+          12,
+          13,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "Bb",
+          "Eb",
+          "G",
+          "C",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Meio diminuta: Cm7(b5)"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cm7(b5) e inversões (Drop 2, baixo na 5ª corda): Cm7(b5), Cm7(b5)/Eb, Cm7(b5)/Gb, Cm7(b5)/Bb",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Cm7(b5)",
+         "frets": [
+          null,
+          3,
+          4,
+          3,
+          4,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "Gb",
+          "Bb",
+          "Eb",
+          null
+         ]
+        },
+        {
+         "name": "Cm7(b5)/Eb",
+         "frets": [
+          null,
+          6,
+          8,
+          5,
+          7,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "Eb",
+          "Bb",
+          "C",
+          "Gb",
+          null
+         ]
+        },
+        {
+         "name": "Cm7(b5)/Gb",
+         "frets": [
+          null,
+          9,
+          10,
+          8,
+          11,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "Gb",
+          "C",
+          "Eb",
+          "Bb",
+          null
+         ]
+        },
+        {
+         "name": "Cm7(b5)/Bb",
+         "frets": [
+          null,
+          13,
+          13,
+          11,
+          13,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "Bb",
+          "Eb",
+          "Gb",
+          "C",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Diminuta: C°"
+      },
+      {
+       "type": "chordseq",
+       "title": "C° e inversões (Drop 2, baixo na 5ª corda): C°, C°/Eb, C°/Gb, C°/Bbb",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C°",
+         "frets": [
+          null,
+          3,
+          4,
+          2,
+          4,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "Gb",
+          "Bbb",
+          "Eb",
+          null
+         ]
+        },
+        {
+         "name": "C°/Eb",
+         "frets": [
+          null,
+          6,
+          7,
+          5,
+          7,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "Eb",
+          "Bbb",
+          "C",
+          "Gb",
+          null
+         ]
+        },
+        {
+         "name": "C°/Gb",
+         "frets": [
+          null,
+          9,
+          10,
+          8,
+          10,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "Gb",
+          "C",
+          "Eb",
+          "Bbb",
+          null
+         ]
+        },
+        {
+         "name": "C°/Bbb",
+         "frets": [
+          null,
+          12,
+          13,
+          11,
+          13,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "Bbb",
+          "Eb",
+          "Gb",
+          "C",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "Para tocar em outra tônica, desloque o desenho pelo braço de forma que o baixo caia na nota desejada da 5ª corda. A forma não muda."
+      }
+     ]
+    },
+    {
+     "id": "g11-3",
+     "title": "Drop 2 com baixo na 4ª corda",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Toque o acorde de C com a abertura Drop 2 e o baixo na 4ª corda e suas inversões, do acorde com a tônica no baixo até o acorde com a 7ª no baixo. O botão <b>Rótulo</b> mostra as notas, as funções (T, 3M, 5J, 7M) ou os dedos. Toque em cada acorde para ouvi-lo."
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima maior: C7M"
+      },
+      {
+       "type": "chordseq",
+       "title": "C7M e inversões (Drop 2, baixo na 4ª corda): C7M, C7M/E, C7M/G, C7M/B",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7M",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          12,
+          12
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "C",
+          "G",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "C7M/E",
+         "frets": [
+          null,
+          null,
+          2,
+          4,
+          1,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "E",
+          "B",
+          "C",
+          "G"
+         ]
+        },
+        {
+         "name": "C7M/G",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          5,
+          7
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "G",
+          "C",
+          "E",
+          "B"
+         ]
+        },
+        {
+         "name": "C7M/B",
+         "frets": [
+          null,
+          null,
+          9,
+          9,
+          8,
+          8
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "B",
+          "E",
+          "G",
+          "C"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima menor: C7"
+      },
+      {
+       "type": "chordseq",
+       "title": "C7 e inversões (Drop 2, baixo na 4ª corda): C7, C7/E, C7/G, C7/Bb",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          11,
+          12
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "C",
+          "G",
+          "Bb",
+          "E"
+         ]
+        },
+        {
+         "name": "C7/E",
+         "frets": [
+          null,
+          null,
+          2,
+          3,
+          1,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "E",
+          "Bb",
+          "C",
+          "G"
+         ]
+        },
+        {
+         "name": "C7/G",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          5,
+          6
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "G",
+          "C",
+          "E",
+          "Bb"
+         ]
+        },
+        {
+         "name": "C7/Bb",
+         "frets": [
+          null,
+          null,
+          8,
+          9,
+          8,
+          8
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "Bb",
+          "E",
+          "G",
+          "C"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Menor com sétima menor: Cm7"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cm7 e inversões (Drop 2, baixo na 4ª corda): Cm7, Cm7/Eb, Cm7/G, Cm7/Bb",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Cm7",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          11,
+          11
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "C",
+          "G",
+          "Bb",
+          "Eb"
+         ]
+        },
+        {
+         "name": "Cm7/Eb",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          1,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "Eb",
+          "Bb",
+          "C",
+          "G"
+         ]
+        },
+        {
+         "name": "Cm7/G",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          4,
+          6
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "G",
+          "C",
+          "Eb",
+          "Bb"
+         ]
+        },
+        {
+         "name": "Cm7/Bb",
+         "frets": [
+          null,
+          null,
+          8,
+          8,
+          8,
+          8
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "Bb",
+          "Eb",
+          "G",
+          "C"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Meio diminuta: Cm7(b5)"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cm7(b5) e inversões (Drop 2, baixo na 4ª corda): Cm7(b5), Cm7(b5)/Eb, Cm7(b5)/Gb, Cm7(b5)/Bb",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Cm7(b5)",
+         "frets": [
+          null,
+          null,
+          10,
+          11,
+          11,
+          11
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "C",
+          "Gb",
+          "Bb",
+          "Eb"
+         ]
+        },
+        {
+         "name": "Cm7(b5)/Eb",
+         "frets": [
+          null,
+          null,
+          1,
+          3,
+          1,
+          2
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "Eb",
+          "Bb",
+          "C",
+          "Gb"
+         ]
+        },
+        {
+         "name": "Cm7(b5)/Gb",
+         "frets": [
+          null,
+          null,
+          4,
+          5,
+          4,
+          6
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "Gb",
+          "C",
+          "Eb",
+          "Bb"
+         ]
+        },
+        {
+         "name": "Cm7(b5)/Bb",
+         "frets": [
+          null,
+          null,
+          8,
+          8,
+          7,
+          8
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "Bb",
+          "Eb",
+          "Gb",
+          "C"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Diminuta: C°"
+      },
+      {
+       "type": "chordseq",
+       "title": "C° e inversões (Drop 2, baixo na 4ª corda): C°, C°/Eb, C°/Gb, C°/Bbb",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C°",
+         "frets": [
+          null,
+          null,
+          10,
+          11,
+          10,
+          11
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "C",
+          "Gb",
+          "Bbb",
+          "Eb"
+         ]
+        },
+        {
+         "name": "C°/Eb",
+         "frets": [
+          null,
+          null,
+          1,
+          2,
+          1,
+          2
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "Eb",
+          "Bbb",
+          "C",
+          "Gb"
+         ]
+        },
+        {
+         "name": "C°/Gb",
+         "frets": [
+          null,
+          null,
+          4,
+          5,
+          4,
+          5
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "Gb",
+          "C",
+          "Eb",
+          "Bbb"
+         ]
+        },
+        {
+         "name": "C°/Bbb",
+         "frets": [
+          null,
+          null,
+          7,
+          8,
+          7,
+          8
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "Bbb",
+          "Eb",
+          "Gb",
+          "C"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "São as mesmas vozes do tópico anterior, agora numa região mais aguda e com o baixo na 4ª corda."
+      }
+     ]
+    },
+    {
+     "id": "g11-4",
+     "title": "Drop 3 com baixo na 6ª corda",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Toque o acorde de C com a abertura Drop 3 e o baixo na 6ª corda e suas inversões, do acorde com a tônica no baixo até o acorde com a 7ª no baixo. O botão <b>Rótulo</b> mostra as notas, as funções (T, 3M, 5J, 7M) ou os dedos. Toque em cada acorde para ouvi-lo."
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima maior: C7M"
+      },
+      {
+       "type": "chordseq",
+       "title": "C7M e inversões (Drop 3, baixo na 6ª corda): C7M, C7M/E, C7M/G, C7M/B",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7M",
+         "frets": [
+          8,
+          null,
+          9,
+          9,
+          8,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "C",
+          null,
+          "B",
+          "E",
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "C7M/E",
+         "frets": [
+          12,
+          null,
+          10,
+          12,
+          12,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "E",
+          null,
+          "C",
+          "G",
+          "B",
+          null
+         ]
+        },
+        {
+         "name": "C7M/G",
+         "frets": [
+          3,
+          null,
+          2,
+          4,
+          1,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "G",
+          null,
+          "E",
+          "B",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "C7M/B",
+         "frets": [
+          7,
+          null,
+          5,
+          5,
+          5,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "B",
+          null,
+          "G",
+          "C",
+          "E",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Maior com sétima menor: C7"
+      },
+      {
+       "type": "chordseq",
+       "title": "C7 e inversões (Drop 3, baixo na 6ª corda): C7, C7/E, C7/G, C7/Bb",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C7",
+         "frets": [
+          8,
+          null,
+          8,
+          9,
+          8,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "C",
+          null,
+          "Bb",
+          "E",
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "C7/E",
+         "frets": [
+          12,
+          null,
+          10,
+          12,
+          11,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "E",
+          null,
+          "C",
+          "G",
+          "Bb",
+          null
+         ]
+        },
+        {
+         "name": "C7/G",
+         "frets": [
+          3,
+          null,
+          2,
+          3,
+          1,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "G",
+          null,
+          "E",
+          "Bb",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "C7/Bb",
+         "frets": [
+          6,
+          null,
+          5,
+          5,
+          5,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "Bb",
+          null,
+          "G",
+          "C",
+          "E",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Menor com sétima menor: Cm7"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cm7 e inversões (Drop 3, baixo na 6ª corda): Cm7, Cm7/Eb, Cm7/G, Cm7/Bb",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Cm7",
+         "frets": [
+          8,
+          null,
+          8,
+          8,
+          8,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "C",
+          null,
+          "Bb",
+          "Eb",
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "Cm7/Eb",
+         "frets": [
+          11,
+          null,
+          10,
+          12,
+          11,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "Eb",
+          null,
+          "C",
+          "G",
+          "Bb",
+          null
+         ]
+        },
+        {
+         "name": "Cm7/G",
+         "frets": [
+          3,
+          null,
+          1,
+          3,
+          1,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "G",
+          null,
+          "Eb",
+          "Bb",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "Cm7/Bb",
+         "frets": [
+          6,
+          null,
+          5,
+          5,
+          4,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "Bb",
+          null,
+          "G",
+          "C",
+          "Eb",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Meio diminuta: Cm7(b5)"
+      },
+      {
+       "type": "chordseq",
+       "title": "Cm7(b5) e inversões (Drop 3, baixo na 6ª corda): Cm7(b5), Cm7(b5)/Eb, Cm7(b5)/Gb, Cm7(b5)/Bb",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Cm7(b5)",
+         "frets": [
+          8,
+          null,
+          8,
+          8,
+          7,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "C",
+          null,
+          "Bb",
+          "Eb",
+          "Gb",
+          null
+         ]
+        },
+        {
+         "name": "Cm7(b5)/Eb",
+         "frets": [
+          11,
+          null,
+          10,
+          11,
+          11,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "Eb",
+          null,
+          "C",
+          "Gb",
+          "Bb",
+          null
+         ]
+        },
+        {
+         "name": "Cm7(b5)/Gb",
+         "frets": [
+          2,
+          null,
+          1,
+          3,
+          1,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "Gb",
+          null,
+          "Eb",
+          "Bb",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "Cm7(b5)/Bb",
+         "frets": [
+          6,
+          null,
+          4,
+          5,
+          4,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "Bb",
+          null,
+          "Gb",
+          "C",
+          "Eb",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Diminuta: C°"
+      },
+      {
+       "type": "chordseq",
+       "title": "C° e inversões (Drop 3, baixo na 6ª corda): C°, C°/Eb, C°/Gb, C°/Bbb",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C°",
+         "frets": [
+          8,
+          null,
+          7,
+          8,
+          7,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "C",
+          null,
+          "Bbb",
+          "Eb",
+          "Gb",
+          null
+         ]
+        },
+        {
+         "name": "C°/Eb",
+         "frets": [
+          11,
+          null,
+          10,
+          11,
+          10,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "Eb",
+          null,
+          "C",
+          "Gb",
+          "Bbb",
+          null
+         ]
+        },
+        {
+         "name": "C°/Gb",
+         "frets": [
+          2,
+          null,
+          1,
+          2,
+          1,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "Gb",
+          null,
+          "Eb",
+          "Bbb",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "C°/Bbb",
+         "frets": [
+          5,
+          null,
+          4,
+          5,
+          4,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "Bbb",
+          null,
+          "Gb",
+          "C",
+          "Eb",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "No Drop 3 a 5ª corda não é tocada. Repare que algumas inversões ficam nas primeiras casas, e outras mais acima no braço."
+      }
+     ]
+    }
+   ]
   }
  ]
 }
