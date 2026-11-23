@@ -50,7 +50,8 @@ function renderBracoAcorde(el, frets, rootPc, label){
   renderBraco(el, { start, frets, rootPc, label: lab, fingers: d.fingers, barre: d.barre });
 }
 /* Braço em pé (cursos): cordas 6ª..1ª da esquerda para a direita, janela de 4 a 5 casas */
-function renderBracoVertical(el, frets, rootPc, label){
+const FUNC_NOMES = ['T', '2m', '2M', '3m', '3M', '4J', '5d', '5J', '5A', '6M', '7m', '7M'];
+function renderBracoVertical(el, frets, rootPc, label, nomes){
   const lab = label || 'fingers', d = fingersFor(frets), fr = frets.filter(f => f !== null && f > 0), mn = fr.length ? Math.min(...fr) : 1, mx = fr.length ? Math.max(...fr) : 1;
   let s = Math.max(0, mn - 1), cells = 4; if (mx - s > 4) cells = 5;
   const xs = [0,1,2,3,4,5].map(i => 28 + 22 * i), y0 = 30, ch = 32, H = y0 + ch * cells + 12, id = 'bv' + Math.random().toString(36).slice(2, 7), cy = k => y0 + ch * k + ch / 2;
@@ -61,11 +62,11 @@ function renderBracoVertical(el, frets, rootPc, label){
     if (f === 12) h += `<circle cx="${(xs[1] + xs[2]) / 2}" cy="${cy(k)}" r="4" fill="#2b2b33"/><circle cx="${(xs[3] + xs[4]) / 2}" cy="${cy(k)}" r="4" fill="#2b2b33"/>`;
     h += `<text x="6" y="${cy(k) + 4}" text-anchor="middle" font-size="10" fill="#9a968c" font-family="Inter,sans-serif">${f}</text>`; }
   xs.forEach((x, i) => { const w = [3.1,2.5,2,1.5,1.2,.9][i]; h += `<line x1="${x}" y1="${y0}" x2="${x}" y2="${y0 + ch * cells}" stroke="${i < 3 ? '#a8a8b2' : '#d6d6dc'}" stroke-width="${w}"/><line x1="${x - w / 4}" y1="${y0}" x2="${x - w / 4}" y2="${y0 + ch * cells}" stroke="#fff" stroke-opacity=".35" stroke-width=".6"/>`; });
-  frets.forEach((f, i) => { if (f === null) h += `<text x="${xs[i]}" y="20" text-anchor="middle" font-size="15" font-weight="700" fill="#9a968c" font-family="Inter,sans-serif">×</text>`; else if (f === 0) h += `<circle cx="${xs[i]}" cy="15" r="5" fill="none" stroke="#eee7d8" stroke-width="1.6"/>`; });
+  frets.forEach((f, i) => { if (f === null) h += `<text x="${xs[i]}" y="20" text-anchor="middle" font-size="15" font-weight="700" fill="#9a968c" font-family="Inter,sans-serif">×</text>`; else if (f === 0) h += lab === 'funcs' ? `<circle cx="${xs[i]}" cy="15" r="9.5" fill="#ff9437"${((OPEN_STRING_PC[i]) % 12) === rootPc ? ' stroke="#fff4e0" stroke-width="2"' : ''}/><text x="${xs[i]}" y="18.5" text-anchor="middle" font-size="9" font-weight="700" fill="#1a0f00" font-family="Inter,sans-serif">${FUNC_NOMES[(OPEN_STRING_PC[i] - rootPc + 120) % 12]}</text>` : `<circle cx="${xs[i]}" cy="15" r="5" fill="none" stroke="#eee7d8" stroke-width="1.6"/>`; });
   if (d.barre){ const k = d.barre.fret - s - 1; if (k >= 0 && k < cells) h += `<rect x="${xs[d.barre.from] - 12}" y="${cy(k) - 12}" width="${xs[d.barre.to] - xs[d.barre.from] + 24}" height="24" rx="12" fill="#ff9437" opacity=".3"/>`; }
   frets.forEach((f, i) => { if (!f) return; const k = f - s - 1, pc = (OPEN_STRING_PC[i] + f) % 12, root = pc === rootPc, x = xs[i], y = cy(k);
     h += `<circle cx="${x}" cy="${y}" r="13" fill="#ff9437" opacity=".75" filter="url(#${id})"/><circle cx="${x}" cy="${y}" r="11" fill="#ff9437"${root ? ' stroke="#fff4e0" stroke-width="2.4"' : ''}/>`;
-    const tx = lab === 'names' ? NOTE_NAMES[pc] : (lab === 'fingers' ? d.fingers[i] : null);
-    if (tx) h += `<text x="${x}" y="${y + 4}" text-anchor="middle" font-size="11" font-weight="700" fill="#1a0f00" font-family="Inter,sans-serif">${tx}</text>`; });
+    const tx = lab === 'names' ? ((nomes && nomes[i]) || NOTE_NAMES[pc]) : lab === 'funcs' ? FUNC_NOMES[(pc - rootPc + 120) % 12] : (lab === 'fingers' ? d.fingers[i] : null);
+    if (tx) h += `<text x="${x}" y="${y + 4}" text-anchor="middle" font-size="${(lab === 'funcs' || (lab === 'names' && String(tx).length > 1)) ? 9 : 11}" font-weight="700" fill="#1a0f00" font-family="Inter,sans-serif">${tx}</text>`; });
   el.innerHTML = h + '</svg>';
 }

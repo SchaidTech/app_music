@@ -11,7 +11,7 @@ const Intervalos = (() => {
     [13, 9, '9m', '9m (b9)'], [14, 9, '9M', '9M (9)'], [15, 10, '3m↑', '3m (b3), uma oitava acima'], [16, 10, '3M↑', '3M (3), uma oitava acima'],
     [17, 11, '11J', '11J (11)'], [18, 11, '11A', '11Aum (#11)']];
   const CURTO = { 0: 'T', 1: '2m', 2: '2M', 3: '3m', 4: '3M', 5: '4J', 6: '5d', 7: '5J', 8: '6m', 9: '6M', 10: '7m', 11: '7M' };
-  const acid = (d) => d === 0 ? '' : d === 1 ? '#' : d === -1 ? 'b' : d === 2 ? 'x' : d === -2 ? 'bb' : '';
+  const acid = (d) => d === 0 ? '' : d === 1 ? '#' : d === -1 ? 'b' : d === 2 ? '##' : d === -2 ? 'bb' : '';
   function nomeNota(raiz, grau, semis){          // grafia correta: letra pelo grau, acidente pela distância
     const [, letra, pc] = RAIZES[raiz], li = (letra + grau - 1) % 7, alvo = (pc + semis) % 12;
     let d = ((alvo - NAT[li]) % 12 + 12) % 12; if (d > 6) d -= 12;
@@ -133,5 +133,53 @@ const Intervalos = (() => {
     esconder.addEventListener('click', () => { rev.clear(); draw(); });
     draw(); return wrap;
   }
-  return { tabela, mapa, pratica, tabelaTreino };
+
+  // ---- treino: escreva as notas das tríades maiores e menores ----
+  function triadeTreino(b){
+    const wrap = el('div', 'fretmap');
+    const MAIORES = ['C', 'G', 'D', 'A', 'E', 'B', 'F#', 'C#', 'G#', 'D#', 'A#', 'F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb', 'Cb'];
+    const MENORES = ['Am', 'Em', 'Bm', 'F#m', 'C#m', 'G#m', 'D#m', 'A#m', 'E#m', 'Gm', 'Cm', 'Fm', 'Bbm', 'Dm', 'Ebm', 'Abm', 'Dbm', 'Gbm'];
+    let menor = !!b.minor; const rev = new Set();
+    const ctr = el('div', 'fm-ctr'); const bM = el('button', 'chip', 'Tríades maiores (T, 3M, 5J)'), bm = el('button', 'chip', 'Tríades menores (T, 3m, 5J)'); ctr.append(bM, bm);
+    const tb = el('div', 'tbl-wrap'), c2 = el('div', 'fm-ctr'); const mostrar = el('button', 'chip', 'Mostrar tudo'), esconder = el('button', 'chip', 'Esconder tudo'); c2.append(mostrar, esconder);
+    wrap.append(ctr, tb, c2);
+    function notas(nome){
+      const m = /^([A-G])([#b]?)(m?)$/.exec(nome), li = LETRAS.indexOf(m[1]), pc = ((NAT[li] + (m[2] === '#' ? 1 : m[2] === 'b' ? -1 : 0)) % 12 + 12) % 12, tr = m[3] ? 3 : 4;
+      const sp = (grau, semis) => { const l = (li + grau - 1) % 7, alvo = (pc + semis) % 12; let d = ((alvo - NAT[l]) % 12 + 12) % 12; if (d > 6) d -= 12; return LETRAS[l] + acid(d); };
+      return { pc, nomes: [nome.replace(/m$/, ''), sp(3, tr), sp(5, 7)], tr };
+    }
+    function draw(){
+      bM.setAttribute('aria-pressed', String(!menor)); bm.setAttribute('aria-pressed', String(menor));
+      const lista = menor ? MENORES : MAIORES;
+      let h = '<table class="tbl tbl-t"><thead><tr><th>Acorde</th><th>Notas (T – ' + (menor ? '3m' : '3M') + ' – 5J)</th></tr></thead><tbody>';
+      lista.forEach((n, i) => { const k = (menor ? 'm' : 'M') + i, v = notas(n); h += `<tr data-k="${k}" data-i="${i}" style="cursor:pointer"><td><b>${n}</b></td><td>${rev.has(k) ? v.nomes.join(' – ') : '?'}</td></tr>`; });
+      tb.innerHTML = h + '</tbody></table><div class="fm-hint">Escreva as notas de cada acorde (no papel ou de cabeça) e toque na linha para conferir e ouvir o arpejo. Toque de novo para esconder.</div>';
+      tb.querySelectorAll('tr[data-k]').forEach(tr => tr.addEventListener('click', () => {
+        const k = tr.dataset.k, v = notas(lista[+tr.dataset.i]);
+        if (rev.has(k)) rev.delete(k); else { rev.add(k); const m0 = 48 + v.pc; [0, v.tr, 7].forEach((st, j) => setTimeout(() => Acorde.nota(m0 + st).catch(() => {}), j * 330)); }
+        draw();
+      }));
+    }
+    bM.addEventListener('click', () => { menor = false; rev.clear(); draw(); }); bm.addEventListener('click', () => { menor = true; rev.clear(); draw(); });
+    mostrar.addEventListener('click', () => { (menor ? MENORES : MAIORES).forEach((_, i) => rev.add((menor ? 'm' : 'M') + i)); draw(); });
+    esconder.addEventListener('click', () => { rev.clear(); draw(); });
+    draw(); return wrap;
+  }
+
+  // ---- tabela com colunas escondidas (toque na linha para revelar) ----
+  function tabelaReveal(b){
+    const wrap = el('div', 'fretmap'); const rev = new Set(), ocultas = new Set(b.hide || []);
+    const tb = el('div', 'tbl-wrap'), c2 = el('div', 'fm-ctr'); const mostrar = el('button', 'chip', 'Mostrar tudo'), esconder = el('button', 'chip', 'Esconder tudo'); c2.append(mostrar, esconder);
+    wrap.append(tb, c2); if (b.hint){ const hn = el('div', 'fm-hint', b.hint); wrap.appendChild(hn); }
+    function draw(){
+      let h = '<table class="tbl tbl-t"><thead><tr>' + b.head.map(x => `<th>${x}</th>`).join('') + '</tr></thead><tbody>';
+      b.rows.forEach((r, i) => { h += `<tr data-i="${i}" style="cursor:pointer">` + r.map((c, k) => `<td>${ocultas.has(k) && !rev.has(i) ? '?' : c}</td>`).join('') + '</tr>'; });
+      tb.innerHTML = h + '</tbody></table>';
+      tb.querySelectorAll('tr[data-i]').forEach(tr => tr.addEventListener('click', () => { const i = +tr.dataset.i; rev.has(i) ? rev.delete(i) : rev.add(i); draw(); }));
+    }
+    mostrar.addEventListener('click', () => { b.rows.forEach((_, i) => rev.add(i)); draw(); });
+    esconder.addEventListener('click', () => { rev.clear(); draw(); });
+    draw(); return wrap;
+  }
+  return { tabela, mapa, pratica, tabelaTreino, triadeTreino, tabelaReveal };
 })();

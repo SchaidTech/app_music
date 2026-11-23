@@ -5220,6 +5220,7982 @@
      ]
     }
    ]
+  },
+  {
+   "id": "g7",
+   "title": "Estrutura das tríades",
+   "topics": [
+    {
+     "id": "g7-1",
+     "title": "As quatro tríades",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Uma <b>tríade</b> é um conjunto de três notas combinadas em intervalos de terça. Ela tem uma <b>tônica</b> (T), uma nota a uma terça da tônica e uma terceira nota a uma quinta da tônica, que forma uma terça com a nota anterior. Na escala de Dó maior (C, D, E, F, G, A, B), a tríade de C reúne C (tônica), E (3ª a partir de C) e G (5ª a partir de C e 3ª a partir de E)."
+      },
+      {
+       "type": "p",
+       "html": "Dependendo das distâncias em tons e semitons e das alterações (# e b), existem <b>quatro tipos</b> de tríade: maior, menor, diminuta e aumentada. Veja a estrutura de cada uma, montadas sobre a tônica C:"
+      },
+      {
+       "type": "cards",
+       "items": [
+        {
+         "big": "C",
+         "title": "Maior",
+         "text": "C – E – G (T, 3M, 5J)"
+        },
+        {
+         "big": "Cm",
+         "title": "Menor",
+         "text": "C – Eb – G (T, 3m, 5J)"
+        },
+        {
+         "big": "Cm(b5)",
+         "title": "Diminuta",
+         "text": "C – Eb – Gb (T, 3m, 5d)"
+        },
+        {
+         "big": "C(#5)",
+         "title": "Aumentada",
+         "text": "C – E – G# (T, 3M, 5A)"
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Tabela-resumo"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Tipo de tríade",
+        "Sufixo",
+        "Fórmula",
+        "Soma das 3ªs"
+       ],
+       "rows": [
+        [
+         "Maior",
+         "nenhum",
+         "T – 3M – 5J",
+         "3M + 3m"
+        ],
+        [
+         "Menor",
+         "m, min, –",
+         "T – 3m – 5J",
+         "3m + 3M"
+        ],
+        [
+         "Diminuta",
+         "m(b5), m/5b, m/5–",
+         "T – 3m – 5d",
+         "3m + 3m"
+        ],
+        [
+         "Aumentada",
+         "+, aug, (#5)",
+         "T – 3M – 5A",
+         "3M + 3M"
+        ]
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Ouça as quatro tríades"
+      },
+      {
+       "type": "chords",
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          8,
+          7,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm",
+         "frets": [
+          8,
+          6,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5)",
+         "frets": [
+          8,
+          6,
+          4,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5)",
+         "frets": [
+          8,
+          7,
+          6,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "note",
+       "html": "Cada bolinha mostra a <b>função</b> da nota no acorde (T, 3M, 5J...). Compare o som das quatro."
+      }
+     ]
+    },
+    {
+     "id": "g7-2",
+     "title": "Treino: notas das tríades",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora treine a formação das tríades <b>maiores e menores</b>: descubra as notas de cada acorde. Escolha o tipo, escreva as notas (no papel ou de cabeça) e toque na linha para conferir e ouvir o arpejo."
+      },
+      {
+       "type": "triquiz"
+      }
+     ]
+    },
+    {
+     "id": "g7-3",
+     "title": "Estado fundamental e inversões",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Como a tríade tem três notas, elas podem ser combinadas de formas e ordens diferentes, dando sonoridades diferentes ao mesmo acorde ou arpejo."
+      },
+      {
+       "type": "ul",
+       "items": [
+        "<b>Estado fundamental:</b> a própria tônica é a nota mais grave (baixo). Exemplo: C, com as notas C, E, G, ou seja, T, 3M, 5J.",
+        "<b>1ª inversão:</b> o baixo é a nota que forma a 3ª com a tônica. Exemplo: C/E, com as notas E, G, C (3M, 5J, T).",
+        "<b>2ª inversão:</b> o baixo é a nota que forma a 5ª com a tônica. Exemplo: C/G, com as notas G, C, E (5J, T, 3M)."
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Na cifra, a nota depois da barra indica o baixo: C/E é um acorde de C com E no baixo."
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade de C e as suas inversões (cordas 6-5-4)",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          8,
+          7,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E",
+         "frets": [
+          12,
+          10,
+          10,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G",
+         "frets": [
+          3,
+          3,
+          2,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      }
+     ]
+    },
+    {
+     "id": "g7-4",
+     "title": "Tríades fechadas em estado fundamental",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Chegou a hora de exercitar as tríades na prática, em 3 cordas. Vamos começar pelas tríades em estado fundamental, com a tônica no baixo."
+      },
+      {
+       "type": "note",
+       "html": "Cada exercício tem 4 digitações, uma para cada grupo de 3 cordas vizinhas (6-5-4, 5-4-3, 4-3-2 e 3-2-1). A bolinha mostra a função da nota, e o botão <b>Rótulo</b> troca por dedos."
+      },
+      {
+       "type": "h3",
+       "text": "Tríade maior em estado fundamental — C"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade maior em estado fundamental: C",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "C · cordas 6-5-4",
+         "frets": [
+          8,
+          7,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C · cordas 5-4-3",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C · cordas 4-3-2",
+         "frets": [
+          null,
+          null,
+          10,
+          9,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C · cordas 3-2-1",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          5,
+          3
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade menor em estado fundamental — Cm"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade menor em estado fundamental: Cm",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "Cm · cordas 6-5-4",
+         "frets": [
+          8,
+          6,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm · cordas 5-4-3",
+         "frets": [
+          null,
+          3,
+          1,
+          0,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm · cordas 4-3-2",
+         "frets": [
+          null,
+          null,
+          10,
+          8,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm · cordas 3-2-1",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          4,
+          3
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade diminuta em estado fundamental — Cm(b5)"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade diminuta em estado fundamental: Cm(b5)",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "Cm(b5) · cordas 6-5-4",
+         "frets": [
+          8,
+          6,
+          4,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5) · cordas 5-4-3",
+         "frets": [
+          null,
+          15,
+          13,
+          11,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5) · cordas 4-3-2",
+         "frets": [
+          null,
+          null,
+          10,
+          8,
+          7,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5) · cordas 3-2-1",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          4,
+          2
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade aumentada em estado fundamental — C(#5)"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade aumentada em estado fundamental: C(#5)",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "C(#5) · cordas 6-5-4",
+         "frets": [
+          8,
+          7,
+          6,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5) · cordas 5-4-3",
+         "frets": [
+          null,
+          3,
+          2,
+          1,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5) · cordas 4-3-2",
+         "frets": [
+          null,
+          null,
+          10,
+          9,
+          9,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5) · cordas 3-2-1",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          5,
+          4
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      }
+     ]
+    },
+    {
+     "id": "g7-5",
+     "title": "Tríades fechadas em 1ª inversão",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos praticar as tríades fechadas em <b>1ª inversão</b>, tendo como nota mais grave a 3ª do acorde."
+      },
+      {
+       "type": "note",
+       "html": "Cada exercício tem 4 digitações, uma para cada grupo de 3 cordas vizinhas (6-5-4, 5-4-3, 4-3-2 e 3-2-1). A bolinha mostra a função da nota, e o botão <b>Rótulo</b> troca por dedos."
+      },
+      {
+       "type": "h3",
+       "text": "Tríade maior em 1ª inversão — C/E"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade maior em 1ª inversão: C/E",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "C/E · cordas 6-5-4",
+         "frets": [
+          12,
+          10,
+          10,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E · cordas 5-4-3",
+         "frets": [
+          null,
+          7,
+          5,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E · cordas 4-3-2",
+         "frets": [
+          null,
+          null,
+          2,
+          0,
+          1,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E · cordas 3-2-1",
+         "frets": [
+          null,
+          null,
+          null,
+          9,
+          8,
+          8
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade menor em 1ª inversão — Cm/Eb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade menor em 1ª inversão: Cm/Eb",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "Cm/Eb · cordas 6-5-4",
+         "frets": [
+          11,
+          10,
+          10,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/Eb · cordas 5-4-3",
+         "frets": [
+          null,
+          6,
+          5,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/Eb · cordas 4-3-2",
+         "frets": [
+          null,
+          null,
+          1,
+          0,
+          1,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/Eb · cordas 3-2-1",
+         "frets": [
+          null,
+          null,
+          null,
+          8,
+          8,
+          8
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade diminuta em 1ª inversão — Cm(b5)/Eb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade diminuta em 1ª inversão: Cm(b5)/Eb",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "Cm(b5)/Eb · cordas 6-5-4",
+         "frets": [
+          11,
+          9,
+          10,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5)/Eb · cordas 5-4-3",
+         "frets": [
+          null,
+          6,
+          4,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5)/Eb · cordas 4-3-2",
+         "frets": [
+          null,
+          null,
+          13,
+          11,
+          13,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5)/Eb · cordas 3-2-1",
+         "frets": [
+          null,
+          null,
+          null,
+          8,
+          7,
+          8
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade aumentada em 1ª inversão — C(#5)/E"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade aumentada em 1ª inversão: C(#5)/E",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "C(#5)/E · cordas 6-5-4",
+         "frets": [
+          12,
+          11,
+          10,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5)/E · cordas 5-4-3",
+         "frets": [
+          null,
+          7,
+          6,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5)/E · cordas 4-3-2",
+         "frets": [
+          null,
+          null,
+          2,
+          1,
+          1,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5)/E · cordas 3-2-1",
+         "frets": [
+          null,
+          null,
+          null,
+          9,
+          9,
+          8
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      }
+     ]
+    },
+    {
+     "id": "g7-6",
+     "title": "Tríades fechadas em 2ª inversão",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "E agora as tríades fechadas em <b>2ª inversão</b>, tendo como nota mais grave a 5ª do acorde."
+      },
+      {
+       "type": "note",
+       "html": "Cada exercício tem 4 digitações, uma para cada grupo de 3 cordas vizinhas (6-5-4, 5-4-3, 4-3-2 e 3-2-1). A bolinha mostra a função da nota, e o botão <b>Rótulo</b> troca por dedos."
+      },
+      {
+       "type": "h3",
+       "text": "Tríade maior em 2ª inversão — C/G"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade maior em 2ª inversão: C/G",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "C/G · cordas 6-5-4",
+         "frets": [
+          3,
+          3,
+          2,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G · cordas 5-4-3",
+         "frets": [
+          null,
+          10,
+          10,
+          9,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G · cordas 4-3-2",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          5,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G · cordas 3-2-1",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          13,
+          12
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade menor em 2ª inversão — Cm/G"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade menor em 2ª inversão: Cm/G",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "Cm/G · cordas 6-5-4",
+         "frets": [
+          3,
+          3,
+          1,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/G · cordas 5-4-3",
+         "frets": [
+          null,
+          10,
+          10,
+          8,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/G · cordas 4-3-2",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          4,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/G · cordas 3-2-1",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          13,
+          11
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade diminuta em 2ª inversão — Cm(b5)/Gb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade diminuta em 2ª inversão: Cm(b5)/Gb",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "Cm(b5)/Gb · cordas 6-5-4",
+         "frets": [
+          2,
+          3,
+          1,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5)/Gb · cordas 5-4-3",
+         "frets": [
+          null,
+          9,
+          10,
+          8,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5)/Gb · cordas 4-3-2",
+         "frets": [
+          null,
+          null,
+          4,
+          5,
+          4,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5)/Gb · cordas 3-2-1",
+         "frets": [
+          null,
+          null,
+          null,
+          11,
+          13,
+          11
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade aumentada em 2ª inversão — C(#5)/G#"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade aumentada em 2ª inversão: C(#5)/G#",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "C(#5)/G# · cordas 6-5-4",
+         "frets": [
+          4,
+          3,
+          2,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5)/G# · cordas 5-4-3",
+         "frets": [
+          null,
+          11,
+          10,
+          9,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5)/G# · cordas 4-3-2",
+         "frets": [
+          null,
+          null,
+          6,
+          5,
+          5,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5)/G# · cordas 3-2-1",
+         "frets": [
+          null,
+          null,
+          null,
+          13,
+          13,
+          12
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      }
+     ]
+    },
+    {
+     "id": "g7-7",
+     "title": "Juntando as inversões",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Nos próximos exercícios você pratica as <b>conexões entre as inversões</b> dos dois principais tipos de tríade, a maior e a menor. Este estudo também desenvolve a percepção auditiva, para que você consiga identificar acordes de ouvido."
+      },
+      {
+       "type": "note",
+       "html": "Em cada grupo de cordas, toque na ordem: estado fundamental, 1ª e 2ª inversão da tríade maior, e depois o mesmo da tríade menor."
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 6ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríades maior e menor de C, com o baixo na 6ª corda",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          8,
+          7,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E",
+         "frets": [
+          12,
+          10,
+          10,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G",
+         "frets": [
+          3,
+          3,
+          2,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm",
+         "frets": [
+          8,
+          6,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/Eb",
+         "frets": [
+          11,
+          10,
+          10,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/G",
+         "frets": [
+          3,
+          3,
+          1,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 5ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríades maior e menor de C, com o baixo na 5ª corda",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E",
+         "frets": [
+          null,
+          7,
+          5,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G",
+         "frets": [
+          null,
+          10,
+          10,
+          9,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm",
+         "frets": [
+          null,
+          3,
+          1,
+          0,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/Eb",
+         "frets": [
+          null,
+          6,
+          5,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/G",
+         "frets": [
+          null,
+          10,
+          10,
+          8,
+          null,
+          null
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 4ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríades maior e menor de C, com o baixo na 4ª corda",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          10,
+          9,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E",
+         "frets": [
+          null,
+          null,
+          2,
+          0,
+          1,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          5,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm",
+         "frets": [
+          null,
+          null,
+          10,
+          8,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/Eb",
+         "frets": [
+          null,
+          null,
+          1,
+          0,
+          1,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/G",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          4,
+          null
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 3ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríades maior e menor de C, com o baixo na 3ª corda",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          5,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E",
+         "frets": [
+          null,
+          null,
+          null,
+          9,
+          8,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          13,
+          12
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          4,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/Eb",
+         "frets": [
+          null,
+          null,
+          null,
+          8,
+          8,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/G",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          13,
+          11
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      }
+     ]
+    },
+    {
+     "id": "g7-8",
+     "title": "Sequência C, G, Am e F em todas as cordas",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Chegou a hora de praticar as tríades maiores e menores, com todas as suas inversões, em todas as cordas, sobre uma sequência musical muito comum: <b>C – G – Am – F</b>. Em cada corda do baixo há três posições no braço, da mais grave para a mais aguda."
+      },
+      {
+       "type": "note",
+       "html": "Escute como a mesma sequência soa nas três posições. Procure sempre o caminho mais curto entre um acorde e o próximo."
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 6ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 6ª corda, posição 1: C/G, G, Am, F/A",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/G",
+         "frets": [
+          3,
+          3,
+          2,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          3,
+          2,
+          0,
+          null,
+          null,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am",
+         "frets": [
+          5,
+          3,
+          2,
+          null,
+          null,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/A",
+         "frets": [
+          5,
+          3,
+          3,
+          null,
+          null,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 6ª corda, posição 2: C, G/B, Am/C, F/C",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          8,
+          7,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/B",
+         "frets": [
+          7,
+          5,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/C",
+         "frets": [
+          8,
+          7,
+          7,
+          null,
+          null,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          8,
+          8,
+          7,
+          null,
+          null,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 6ª corda, posição 3: C/E, G/D, Am/E, F",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/E",
+         "frets": [
+          12,
+          10,
+          10,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/D",
+         "frets": [
+          10,
+          10,
+          9,
+          null,
+          null,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/E",
+         "frets": [
+          12,
+          12,
+          10,
+          null,
+          null,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F",
+         "frets": [
+          13,
+          12,
+          10,
+          null,
+          null,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 5ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 5ª corda, posição 1: C, G/B, Am/C, F/C",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/B",
+         "frets": [
+          null,
+          2,
+          0,
+          0,
+          null,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/C",
+         "frets": [
+          null,
+          3,
+          2,
+          2,
+          null,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          null,
+          3,
+          3,
+          2,
+          null,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 5ª corda, posição 2: C/E, G/D, Am/E, F",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/E",
+         "frets": [
+          null,
+          7,
+          5,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/D",
+         "frets": [
+          null,
+          5,
+          5,
+          4,
+          null,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/E",
+         "frets": [
+          null,
+          7,
+          7,
+          5,
+          null,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          8,
+          7,
+          5,
+          null,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 5ª corda, posição 3: C/G, G, Am, F/A",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/G",
+         "frets": [
+          null,
+          10,
+          10,
+          9,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          10,
+          9,
+          7,
+          null,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          12,
+          10,
+          9,
+          null,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/A",
+         "frets": [
+          null,
+          12,
+          10,
+          10,
+          null,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 4ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 4ª corda, posição 1: C/E, G/D, Am/E, F",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/E",
+         "frets": [
+          null,
+          null,
+          2,
+          0,
+          1,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/D",
+         "frets": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/E",
+         "frets": [
+          null,
+          null,
+          2,
+          2,
+          1,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          null,
+          3,
+          2,
+          1,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 4ª corda, posição 2: C/G, G, Am, F/A",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/G",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          5,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          null,
+          5,
+          4,
+          3,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          7,
+          5,
+          5,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/A",
+         "frets": [
+          null,
+          null,
+          7,
+          5,
+          6,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 4ª corda, posição 3: C, G/B, Am/C, F/C",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          10,
+          9,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/B",
+         "frets": [
+          null,
+          null,
+          9,
+          7,
+          8,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/C",
+         "frets": [
+          null,
+          null,
+          10,
+          9,
+          10,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          null,
+          null,
+          10,
+          10,
+          10,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 3ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 3ª corda, posição 1: C, G/B, Am/C, F/C",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          5,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/B",
+         "frets": [
+          null,
+          null,
+          null,
+          4,
+          3,
+          3
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/C",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          5,
+          5
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          6,
+          5
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 3ª corda, posição 2: C/E, G/D, Am/E, F",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/E",
+         "frets": [
+          null,
+          null,
+          null,
+          9,
+          8,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/D",
+         "frets": [
+          null,
+          null,
+          null,
+          7,
+          8,
+          7
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/E",
+         "frets": [
+          null,
+          null,
+          null,
+          9,
+          10,
+          8
+         ],
+         "root": 9
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          null,
+          null,
+          10,
+          10,
+          8
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 3ª corda, posição 3: C/G, G, Am, F/A",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/G",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          13,
+          12
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          12,
+          10
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          null,
+          14,
+          13,
+          12
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/A",
+         "frets": [
+          null,
+          null,
+          null,
+          14,
+          13,
+          13
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g8",
+   "title": "Tríades abertas",
+   "topics": [
+    {
+     "id": "g8-1",
+     "title": "Tríade fechada e tríade aberta",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "No módulo anterior você viu só as tríades em <b>posição fechada</b>. Nelas, os intervalos seguem, do grave para o agudo, a ordem numérica crescente (T→3→5, 3→5→T ou 5→T→3), qualquer que seja a inversão, e não passam da distância de uma oitava."
+      },
+      {
+       "type": "p",
+       "html": "Quando os intervalos seguem a ordem numérica inversa (T→5→3, 5→3→T ou 3→T→5) e ultrapassam a extensão de uma oitava, temos as <b>tríades abertas</b>. É o que você vai praticar neste módulo. Compare as duas, com o acorde de C:"
+      },
+      {
+       "type": "chords",
+       "items": [
+        {
+         "name": "C fechada",
+         "frets": [
+          8,
+          7,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C aberta",
+         "frets": [
+          8,
+          10,
+          null,
+          9,
+          null,
+          null
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "note",
+       "html": "Toque as duas. As mesmas três notas, mas a tríade aberta soa mais ampla e espaçada, porque a nota do meio fica uma oitava acima. Repare também que na aberta ficam <b>cordas vazias entre as notas</b> (as cordas com X não devem soar)."
+      },
+      {
+       "type": "note",
+       "html": "Cada bolinha mostra a função da nota (T, 3M, 5J...). Em cada sequência, o botão <b>Rótulo</b> troca por dedos."
+      }
+     ]
+    },
+    {
+     "id": "g8-2",
+     "title": "Tríades abertas em estado fundamental",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Vamos começar praticando as tríades abertas em <b>estado fundamental</b>, com a tônica no baixo."
+      },
+      {
+       "type": "note",
+       "html": "Cada exercício tem 3 digitações, com o baixo na 6ª, na 5ª e na 4ª corda."
+      },
+      {
+       "type": "h3",
+       "text": "Tríade maior em estado fundamental — C"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade maior em estado fundamental: C",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "C · cordas 6-5-3",
+         "frets": [
+          8,
+          10,
+          null,
+          9,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C · cordas 5-4-2",
+         "frets": [
+          null,
+          3,
+          5,
+          null,
+          5,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C · cordas 4-3-1",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          null,
+          12
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade menor em estado fundamental — Cm"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade menor em estado fundamental: Cm",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "Cm · cordas 6-5-3",
+         "frets": [
+          8,
+          10,
+          null,
+          8,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm · cordas 5-4-2",
+         "frets": [
+          null,
+          3,
+          5,
+          null,
+          4,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm · cordas 4-3-1",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          null,
+          11
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade diminuta em estado fundamental — Cm(b5)"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade diminuta em estado fundamental: Cm(b5)",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "Cm(b5) · cordas 6-5-3",
+         "frets": [
+          8,
+          9,
+          null,
+          8,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5) · cordas 5-4-2",
+         "frets": [
+          null,
+          3,
+          4,
+          null,
+          4,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5) · cordas 4-3-1",
+         "frets": [
+          null,
+          null,
+          10,
+          11,
+          null,
+          11
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade aumentada em estado fundamental — C(#5)"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade aumentada em estado fundamental: C(#5)",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "C(#5) · cordas 6-5-3",
+         "frets": [
+          8,
+          11,
+          null,
+          9,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5) · cordas 5-4-2",
+         "frets": [
+          null,
+          3,
+          6,
+          null,
+          5,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5) · cordas 4-3-1",
+         "frets": [
+          null,
+          null,
+          10,
+          13,
+          null,
+          12
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      }
+     ]
+    },
+    {
+     "id": "g8-3",
+     "title": "Tríades abertas em 1ª inversão",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos exercitar as tríades abertas em <b>1ª inversão</b>, com a 3ª no baixo."
+      },
+      {
+       "type": "note",
+       "html": "Cada exercício tem 3 digitações, com o baixo na 6ª, na 5ª e na 4ª corda."
+      },
+      {
+       "type": "h3",
+       "text": "Tríade maior em 1ª inversão — C/E"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade maior em 1ª inversão: C/E",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "C/E · cordas 6-4-3",
+         "frets": [
+          12,
+          null,
+          10,
+          12,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E · cordas 5-3-2",
+         "frets": [
+          null,
+          7,
+          null,
+          5,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E · cordas 4-2-1",
+         "frets": [
+          null,
+          null,
+          2,
+          null,
+          1,
+          3
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade menor em 1ª inversão — Cm/Eb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade menor em 1ª inversão: Cm/Eb",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "Cm/Eb · cordas 6-4-3",
+         "frets": [
+          11,
+          null,
+          10,
+          12,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/Eb · cordas 5-3-2",
+         "frets": [
+          null,
+          6,
+          null,
+          5,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/Eb · cordas 4-2-1",
+         "frets": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          3
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade diminuta em 1ª inversão — Cm(b5)/Eb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade diminuta em 1ª inversão: Cm(b5)/Eb",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "Cm(b5)/Eb · cordas 6-4-3",
+         "frets": [
+          11,
+          null,
+          10,
+          11,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5)/Eb · cordas 5-3-2",
+         "frets": [
+          null,
+          6,
+          null,
+          5,
+          7,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5)/Eb · cordas 4-2-1",
+         "frets": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          2
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade aumentada em 1ª inversão — C(#5)/E"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade aumentada em 1ª inversão: C(#5)/E",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "C(#5)/E · cordas 6-4-3",
+         "frets": [
+          12,
+          null,
+          10,
+          13,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5)/E · cordas 5-3-2",
+         "frets": [
+          null,
+          7,
+          null,
+          5,
+          9,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5)/E · cordas 4-2-1",
+         "frets": [
+          null,
+          null,
+          2,
+          null,
+          1,
+          4
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      }
+     ]
+    },
+    {
+     "id": "g8-4",
+     "title": "Tríades abertas em 2ª inversão",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "E agora as tríades abertas em <b>2ª inversão</b>, com a 5ª no baixo."
+      },
+      {
+       "type": "note",
+       "html": "Cada exercício tem 3 digitações, com o baixo na 6ª, na 5ª e na 4ª corda."
+      },
+      {
+       "type": "h3",
+       "text": "Tríade maior em 2ª inversão — C/G"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade maior em 2ª inversão: C/G",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "C/G · cordas 6-4-3",
+         "frets": [
+          3,
+          null,
+          2,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G · cordas 5-3-2",
+         "frets": [
+          null,
+          10,
+          null,
+          9,
+          13,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G · cordas 4-2-1",
+         "frets": [
+          null,
+          null,
+          5,
+          null,
+          5,
+          8
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade menor em 2ª inversão — Cm/G"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade menor em 2ª inversão: Cm/G",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "Cm/G · cordas 6-5-3",
+         "frets": [
+          3,
+          6,
+          null,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/G · cordas 5-4-2",
+         "frets": [
+          null,
+          10,
+          13,
+          null,
+          13,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/G · cordas 4-3-1",
+         "frets": [
+          null,
+          null,
+          5,
+          8,
+          null,
+          8
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade diminuta em 2ª inversão — Cm(b5)/Gb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade diminuta em 2ª inversão: Cm(b5)/Gb",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "Cm(b5)/Gb · cordas 6-5-3",
+         "frets": [
+          2,
+          6,
+          null,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5)/Gb · cordas 5-4-2",
+         "frets": [
+          null,
+          9,
+          13,
+          null,
+          13,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm(b5)/Gb · cordas 4-3-1",
+         "frets": [
+          null,
+          null,
+          4,
+          8,
+          null,
+          8
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Tríade aumentada em 2ª inversão — C(#5)/G#"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríade aumentada em 2ª inversão: C(#5)/G#",
+       "tempo": 70,
+       "beats": 3,
+       "items": [
+        {
+         "name": "C(#5)/G# · cordas 6-4-3",
+         "frets": [
+          4,
+          null,
+          2,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5)/G# · cordas 5-3-2",
+         "frets": [
+          null,
+          11,
+          null,
+          9,
+          13,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C(#5)/G# · cordas 4-2-1",
+         "frets": [
+          null,
+          null,
+          6,
+          null,
+          5,
+          8
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      }
+     ]
+    },
+    {
+     "id": "g8-5",
+     "title": "Juntando as inversões das tríades abertas",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Nos próximos exemplos você pratica as <b>conexões entre as inversões</b> dos dois principais tipos de tríade, a maior e a menor. Em cada exercício, toque o estado fundamental, a 1ª e a 2ª inversão da tríade maior, e depois o mesmo da tríade menor."
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 6ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríades abertas maior e menor de C, com o baixo na 6ª corda",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          8,
+          10,
+          null,
+          9,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E",
+         "frets": [
+          12,
+          null,
+          10,
+          12,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G",
+         "frets": [
+          3,
+          null,
+          2,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm",
+         "frets": [
+          8,
+          10,
+          null,
+          8,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/Eb",
+         "frets": [
+          11,
+          null,
+          10,
+          12,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/G",
+         "frets": [
+          3,
+          6,
+          null,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 5ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríades abertas maior e menor de C, com o baixo na 5ª corda",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          5,
+          null,
+          5,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E",
+         "frets": [
+          null,
+          7,
+          null,
+          5,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G",
+         "frets": [
+          null,
+          10,
+          null,
+          9,
+          13,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm",
+         "frets": [
+          null,
+          3,
+          5,
+          null,
+          4,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/Eb",
+         "frets": [
+          null,
+          6,
+          null,
+          5,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/G",
+         "frets": [
+          null,
+          10,
+          13,
+          null,
+          13,
+          null
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 4ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Tríades abertas maior e menor de C, com o baixo na 4ª corda",
+       "tempo": 60,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          null,
+          12
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/E",
+         "frets": [
+          null,
+          null,
+          2,
+          null,
+          1,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "C/G",
+         "frets": [
+          null,
+          null,
+          5,
+          null,
+          5,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          null,
+          11
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/Eb",
+         "frets": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "Cm/G",
+         "frets": [
+          null,
+          null,
+          5,
+          8,
+          null,
+          8
+         ],
+         "root": 0
+        }
+       ],
+       "label": "funcs"
+      }
+     ]
+    },
+    {
+     "id": "g8-6",
+     "title": "Tríades abertas na sequência C, G, Am e F",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Para finalizar, vamos praticar as tríades abertas maiores e menores, com todas as suas inversões, em todas as cordas, sobre a sequência <b>C – G – Am – F</b>. Em cada corda do baixo há três posições no braço, da mais grave para a mais aguda."
+      },
+      {
+       "type": "note",
+       "html": "Escute como a mesma sequência soa nas três posições e compare com as tríades fechadas do módulo anterior."
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 6ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 6ª corda, posição 1: C/G, G, Am, F/A",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/G",
+         "frets": [
+          3,
+          null,
+          2,
+          5,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          3,
+          5,
+          null,
+          4,
+          null,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am",
+         "frets": [
+          5,
+          7,
+          null,
+          5,
+          null,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/A",
+         "frets": [
+          5,
+          null,
+          3,
+          5,
+          null,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 6ª corda, posição 2: C, G/B, Am/C, F/C",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          8,
+          10,
+          null,
+          9,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/B",
+         "frets": [
+          7,
+          null,
+          5,
+          7,
+          null,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/C",
+         "frets": [
+          8,
+          null,
+          7,
+          9,
+          null,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          8,
+          null,
+          7,
+          10,
+          null,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 6ª corda, posição 3: C/E, G/D, Am/E, F",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/E",
+         "frets": [
+          12,
+          null,
+          10,
+          12,
+          null,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/D",
+         "frets": [
+          10,
+          null,
+          9,
+          12,
+          null,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/E",
+         "frets": [
+          12,
+          15,
+          null,
+          14,
+          null,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F",
+         "frets": [
+          13,
+          15,
+          null,
+          14,
+          null,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 5ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 5ª corda, posição 1: C, G/B, Am/C, F/C",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          5,
+          null,
+          5,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/B",
+         "frets": [
+          null,
+          2,
+          5,
+          null,
+          3,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/C",
+         "frets": [
+          null,
+          3,
+          null,
+          2,
+          5,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          null,
+          3,
+          null,
+          2,
+          6,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 5ª corda, posição 2: C/E, G/D, Am/E, F",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/E",
+         "frets": [
+          null,
+          7,
+          null,
+          5,
+          8,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/D",
+         "frets": [
+          null,
+          5,
+          null,
+          4,
+          8,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/E",
+         "frets": [
+          null,
+          7,
+          10,
+          null,
+          10,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          8,
+          10,
+          null,
+          10,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 5ª corda, posição 3: C/G, G, Am, F/A",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/G",
+         "frets": [
+          null,
+          10,
+          null,
+          9,
+          13,
+          null
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          10,
+          12,
+          null,
+          12,
+          null
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          12,
+          14,
+          null,
+          13,
+          null
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/A",
+         "frets": [
+          null,
+          12,
+          null,
+          10,
+          13,
+          null
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "h3",
+       "text": "Baixo na 4ª corda"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 4ª corda, posição 1: C/E, G/D, Am/E, F",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/E",
+         "frets": [
+          null,
+          null,
+          2,
+          null,
+          1,
+          3
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/D",
+         "frets": [
+          null,
+          null,
+          0,
+          null,
+          0,
+          3
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/E",
+         "frets": [
+          null,
+          null,
+          2,
+          5,
+          null,
+          5
+         ],
+         "root": 9
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          null,
+          3,
+          5,
+          null,
+          5
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 4ª corda, posição 2: C/G, G, Am, F/A",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C/G",
+         "frets": [
+          null,
+          null,
+          5,
+          null,
+          5,
+          8
+         ],
+         "root": 0
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          null,
+          5,
+          7,
+          null,
+          7
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          7,
+          9,
+          null,
+          8
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/A",
+         "frets": [
+          null,
+          null,
+          7,
+          null,
+          6,
+          8
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "chordseq",
+       "title": "Baixo na 4ª corda, posição 3: C, G/B, Am/C, F/C",
+       "tempo": 70,
+       "beats": 4,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          null,
+          12
+         ],
+         "root": 0
+        },
+        {
+         "name": "G/B",
+         "frets": [
+          null,
+          null,
+          9,
+          null,
+          8,
+          10
+         ],
+         "root": 7
+        },
+        {
+         "name": "Am/C",
+         "frets": [
+          null,
+          null,
+          10,
+          null,
+          10,
+          12
+         ],
+         "root": 9
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          null,
+          null,
+          10,
+          null,
+          10,
+          13
+         ],
+         "root": 5
+        }
+       ],
+       "label": "funcs"
+      },
+      {
+       "type": "note",
+       "html": "Sua tarefa agora é aplicar as tríades abertas sobre as sequências de acordes das canções que você já sabe tocar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g9",
+   "title": "Tríades no campo harmônico",
+   "topics": [
+    {
+     "id": "g9-1",
+     "title": "O que é o campo harmônico",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "O <b>campo harmônico</b> é o conjunto dos acordes formados pelas notas de uma escala. Dá para deduzi-lo empilhando as notas da escala em <b>intervalos de terça</b>. Vamos tomar a escala de Dó maior como referência: C D E F G A B C."
+      },
+      {
+       "type": "p",
+       "html": "Primeiro, adicionamos a cada nota uma terça (maior ou menor), respeitando os intervalos da própria escala de C maior. Depois empilhamos mais uma terça, que é a quinta em relação à tônica, e obtemos as sete tríades do campo harmônico maior de C:"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Grau",
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII"
+       ],
+       "rows": [
+        [
+         "Escala",
+         "C",
+         "D",
+         "E",
+         "F",
+         "G",
+         "A",
+         "B"
+        ],
+        [
+         "Terça acima",
+         "3M",
+         "3m",
+         "3m",
+         "3M",
+         "3M",
+         "3m",
+         "3m"
+        ],
+        [
+         "Quinta",
+         "5J",
+         "5J",
+         "5J",
+         "5J",
+         "5J",
+         "5J",
+         "5d"
+        ],
+        [
+         "Tríade",
+         "C",
+         "Dm",
+         "Em",
+         "F",
+         "G",
+         "Am",
+         "Bm(b5)"
+        ]
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Resumindo, o campo harmônico maior tem sempre a mesma estrutura:"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "<b>3 tríades maiores:</b> nos graus I, IV e V.",
+        "<b>3 tríades menores:</b> nos graus II, III e VI.",
+        "<b>1 tríade diminuta:</b> apenas no grau VII."
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Ouça o campo harmônico de C"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo harmônico maior de C (tríades fechadas, cordas 5-4-3)",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          null,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "G",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          5,
+          3,
+          2,
+          null,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          "F",
+          "A",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          7,
+          5,
+          4,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "E",
+          "G",
+          "B",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          8,
+          7,
+          5,
+          null,
+          null
+         ],
+         "root": 5,
+         "names": [
+          null,
+          "F",
+          "A",
+          "C",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          10,
+          9,
+          7,
+          null,
+          null
+         ],
+         "root": 7,
+         "names": [
+          null,
+          "G",
+          "B",
+          "D",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          12,
+          10,
+          9,
+          null,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "C",
+          "E",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Bm(b5)",
+         "frets": [
+          null,
+          14,
+          12,
+          10,
+          null,
+          null
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "D",
+          "F",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          15,
+          14,
+          12,
+          null,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "G",
+          null,
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "Toque a sequência e ouça a função de cada acorde. Os nomes das notas aparecem nas bolinhas, e o botão <b>Rótulo</b> alterna entre notas, funções e dedos."
+      }
+     ]
+    },
+    {
+     "id": "g9-2",
+     "title": "Os campos harmônicos em todas as tonalidades",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Veja as tríades do campo harmônico maior em todas as tonalidades, organizadas pela quantidade de sustenidos (#) e bemóis (b): o <b>ciclo das quintas</b> (#) e o <b>ciclo das quartas</b> (b)."
+      },
+      {
+       "type": "p",
+       "html": "Os graus I, IV e V são maiores. Os graus II, III e VI são menores. O grau VII é diminuto (m(b5))."
+      },
+      {
+       "type": "h3",
+       "text": "Ciclo das quintas (#)"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Tom",
+        "I",
+        "IIm",
+        "IIIm",
+        "IV",
+        "V",
+        "VIm",
+        "VIIm(b5)"
+       ],
+       "rows": [
+        [
+         "C",
+         "C",
+         "Dm",
+         "Em",
+         "F",
+         "G",
+         "Am",
+         "Bm(b5)"
+        ],
+        [
+         "G",
+         "G",
+         "Am",
+         "Bm",
+         "C",
+         "D",
+         "Em",
+         "F#m(b5)"
+        ],
+        [
+         "D",
+         "D",
+         "Em",
+         "F#m",
+         "G",
+         "A",
+         "Bm",
+         "C#m(b5)"
+        ],
+        [
+         "A",
+         "A",
+         "Bm",
+         "C#m",
+         "D",
+         "E",
+         "F#m",
+         "G#m(b5)"
+        ],
+        [
+         "E",
+         "E",
+         "F#m",
+         "G#m",
+         "A",
+         "B",
+         "C#m",
+         "D#m(b5)"
+        ],
+        [
+         "B",
+         "B",
+         "C#m",
+         "D#m",
+         "E",
+         "F#",
+         "G#m",
+         "A#m(b5)"
+        ],
+        [
+         "F#",
+         "F#",
+         "G#m",
+         "A#m",
+         "B",
+         "C#",
+         "D#m",
+         "E#m(b5)"
+        ],
+        [
+         "C#",
+         "C#",
+         "D#m",
+         "E#m",
+         "F#",
+         "G#",
+         "A#m",
+         "B#m(b5)"
+        ]
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Ciclo das quartas (b)"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Tom",
+        "I",
+        "IIm",
+        "IIIm",
+        "IV",
+        "V",
+        "VIm",
+        "VIIm(b5)"
+       ],
+       "rows": [
+        [
+         "C",
+         "C",
+         "Dm",
+         "Em",
+         "F",
+         "G",
+         "Am",
+         "Bm(b5)"
+        ],
+        [
+         "F",
+         "F",
+         "Gm",
+         "Am",
+         "Bb",
+         "C",
+         "Dm",
+         "Em(b5)"
+        ],
+        [
+         "Bb",
+         "Bb",
+         "Cm",
+         "Dm",
+         "Eb",
+         "F",
+         "Gm",
+         "Am(b5)"
+        ],
+        [
+         "Eb",
+         "Eb",
+         "Fm",
+         "Gm",
+         "Ab",
+         "Bb",
+         "Cm",
+         "Dm(b5)"
+        ],
+        [
+         "Ab",
+         "Ab",
+         "Bbm",
+         "Cm",
+         "Db",
+         "Eb",
+         "Fm",
+         "Gm(b5)"
+        ],
+        [
+         "Db",
+         "Db",
+         "Ebm",
+         "Fm",
+         "Gb",
+         "Ab",
+         "Bbm",
+         "Cm(b5)"
+        ],
+        [
+         "Gb",
+         "Gb",
+         "Abm",
+         "Bbm",
+         "Cb",
+         "Db",
+         "Ebm",
+         "Fm(b5)"
+        ],
+        [
+         "Cb",
+         "Cb",
+         "Dbm",
+         "Ebm",
+         "Fb",
+         "Gb",
+         "Abm",
+         "Bbm(b5)"
+        ]
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Dica: ao mudar de tonalidade no ciclo das quintas, cada nova tonalidade começa na 5ª nota da anterior e ganha um sustenido. No ciclo das quartas, cada uma começa na 4ª nota da anterior e ganha um bemol."
+      }
+     ]
+    },
+    {
+     "id": "g9-3",
+     "title": "Treino: tonalidade e graus das sequências",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Descubra a <b>tonalidade</b> de cada sequência de acordes e o <b>grau</b> de cada acorde dentro dela. Escreva as respostas (no papel ou de cabeça) e toque na linha para conferir."
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Acordes",
+        "Tonalidade",
+        "Graus"
+       ],
+       "rows": [
+        [
+         "Dm – G – C – F",
+         "C maior",
+         "IIm – V – I – IV"
+        ],
+        [
+         "Dm – Gm – C – F",
+         "F maior",
+         "VIm – IIm – V – I"
+        ],
+        [
+         "E – C#m – G#m – A – B",
+         "E maior",
+         "I – VIm – IIIm – IV – V"
+        ],
+        [
+         "Em – D – Bm – C",
+         "G maior",
+         "VIm – V – IIIm – IV"
+        ],
+        [
+         "Bm – G – D – A",
+         "D maior",
+         "VIm – IV – I – V"
+        ],
+        [
+         "B – A – E",
+         "E maior",
+         "V – IV – I"
+        ],
+        [
+         "B – E – F# – B",
+         "B maior",
+         "I – IV – V – I"
+        ],
+        [
+         "A – Bm – C#m – Bm",
+         "A maior",
+         "I – IIm – IIIm – IIm"
+        ],
+        [
+         "A – B – C#m – B",
+         "E maior",
+         "IV – V – VIm – V"
+        ],
+        [
+         "C – D – C – D",
+         "G maior",
+         "IV – V – IV – V"
+        ],
+        [
+         "Bb – F – C – Dm",
+         "F maior",
+         "IV – I – V – VIm"
+        ],
+        [
+         "D – F#m – G – A",
+         "D maior",
+         "I – IIIm – IV – V"
+        ],
+        [
+         "D – C – G – D",
+         "G maior",
+         "V – IV – I – V"
+        ]
+       ],
+       "hide": [
+        1,
+        2
+       ],
+       "hint": "Dica: procure o acorde de grau I (o acorde de repouso) e confirme se todos os outros pertencem ao campo harmônico dessa tonalidade."
+      }
+     ]
+    },
+    {
+     "id": "g9-4",
+     "title": "Treino: escala e tríades em todas as tonalidades",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora escreva a <b>escala</b> e as <b>tríades do campo harmônico maior</b>, junto com as notas que formam cada uma, em todas as tonalidades. Faça no papel ou de cabeça e toque na linha para conferir."
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Tom",
+        "Escala",
+        "Tríades (I a VII)",
+        "Notas das tríades"
+       ],
+       "rows": [
+        [
+         "C",
+         "C D E F G A B",
+         "C – Dm – Em – F – G – Am – Bm(b5)",
+         "CEG – DFA – EGB – FAC – GBD – ACE – BDF"
+        ],
+        [
+         "G",
+         "G A B C D E F#",
+         "G – Am – Bm – C – D – Em – F#m(b5)",
+         "GBD – ACE – B D F# – CEG – D F# A – EGB – F# A C"
+        ],
+        [
+         "D",
+         "D E F# G A B C#",
+         "D – Em – F#m – G – A – Bm – C#m(b5)",
+         "D F# A – EGB – F# A C# – GBD – A C# E – B D F# – C# E G"
+        ],
+        [
+         "A",
+         "A B C# D E F# G#",
+         "A – Bm – C#m – D – E – F#m – G#m(b5)",
+         "A C# E – B D F# – C# E G# – D F# A – E G# B – F# A C# – G# B D"
+        ],
+        [
+         "E",
+         "E F# G# A B C# D#",
+         "E – F#m – G#m – A – B – C#m – D#m(b5)",
+         "E G# B – F# A C# – G# B D# – A C# E – B D# F# – C# E G# – D# F# A"
+        ],
+        [
+         "B",
+         "B C# D# E F# G# A#",
+         "B – C#m – D#m – E – F# – G#m – A#m(b5)",
+         "B D# F# – C# E G# – D# F# A# – E G# B – F# A# C# – G# B D# – A# C# E"
+        ],
+        [
+         "F#",
+         "F# G# A# B C# D# E#",
+         "F# – G#m – A#m – B – C# – D#m – E#m(b5)",
+         "F# A# C# – G# B D# – A# C# E# – B D# F# – C# E# G# – D# F# A# – E# G# B"
+        ],
+        [
+         "C#",
+         "C# D# E# F# G# A# B#",
+         "C# – D#m – E#m – F# – G# – A#m – B#m(b5)",
+         "C# E# G# – D# F# A# – E# G# B# – F# A# C# – G# B# D# – A# C# E# – B# D# F#"
+        ],
+        [
+         "F",
+         "F G A Bb C D E",
+         "F – Gm – Am – Bb – C – Dm – Em(b5)",
+         "FAC – G Bb D – ACE – Bb D F – CEG – DFA – E G Bb"
+        ],
+        [
+         "Bb",
+         "Bb C D Eb F G A",
+         "Bb – Cm – Dm – Eb – F – Gm – Am(b5)",
+         "Bb D F – C Eb G – DFA – Eb G Bb – FAC – G Bb D – A C Eb"
+        ],
+        [
+         "Eb",
+         "Eb F G Ab Bb C D",
+         "Eb – Fm – Gm – Ab – Bb – Cm – Dm(b5)",
+         "Eb G Bb – F Ab C – G Bb D – Ab C Eb – Bb D F – C Eb G – D F Ab"
+        ],
+        [
+         "Ab",
+         "Ab Bb C Db Eb F G",
+         "Ab – Bbm – Cm – Db – Eb – Fm – Gm(b5)",
+         "Ab C Eb – Bb Db F – C Eb G – Db F Ab – Eb G Bb – F Ab C – G Bb Db"
+        ],
+        [
+         "Db",
+         "Db Eb F Gb Ab Bb C",
+         "Db – Ebm – Fm – Gb – Ab – Bbm – Cm(b5)",
+         "Db F Ab – Eb Gb Bb – F Ab C – Gb Bb Db – Ab C Eb – Bb Db F – C Eb Gb"
+        ],
+        [
+         "Gb",
+         "Gb Ab Bb Cb Db Eb F",
+         "Gb – Abm – Bbm – Cb – Db – Ebm – Fm(b5)",
+         "Gb Bb Db – Ab Cb Eb – Bb Db F – Cb Eb Gb – Db F Ab – Eb Gb Bb – F Ab Cb"
+        ],
+        [
+         "Cb",
+         "Cb Db Eb Fb Gb Ab Bb",
+         "Cb – Dbm – Ebm – Fb – Gb – Abm – Bbm(b5)",
+         "Cb Eb Gb – Db Fb Ab – Eb Gb Bb – Fb Ab Cb – Gb Bb Db – Ab Cb Eb – Bb Db Fb"
+        ]
+       ],
+       "hide": [
+        1,
+        2,
+        3
+       ],
+       "hint": "Comece pela escala: com ela, as tríades saem empilhando terças, uma nota sim e outra não."
+      },
+      {
+       "type": "note",
+       "html": "Para praticar mais, repita em outras tonalidades do ciclo das quintas e das quartas e confira com a tabela do tópico anterior."
+      }
+     ]
+    },
+    {
+     "id": "g9-5",
+     "title": "Tríades fechadas no campo: estado fundamental",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A seguir, pratique as tríades no campo harmônico maior em várias tonalidades, em todas as inversões e passando por todas as cordas. Em cada exercício, o campo sobe pelo braço, do grau I ao grau I uma oitava acima."
+      },
+      {
+       "type": "note",
+       "html": "As bolinhas mostram o nome de cada nota. Use o botão <b>Rótulo</b> para ver as funções ou os dedos, e toque num acorde para ouvi-lo."
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de G"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de G, tríades fechadas em estado fundamental (cordas 6-5-4): G, Am, Bm, C...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "G",
+         "frets": [
+          3,
+          2,
+          0,
+          null,
+          null,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "B",
+          "D",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Am",
+         "frets": [
+          5,
+          3,
+          2,
+          null,
+          null,
+          null
+         ],
+         "root": 9,
+         "names": [
+          "A",
+          "C",
+          "E",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Bm",
+         "frets": [
+          7,
+          5,
+          4,
+          null,
+          null,
+          null
+         ],
+         "root": 11,
+         "names": [
+          "B",
+          "D",
+          "F#",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "C",
+         "frets": [
+          8,
+          7,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "C",
+          "E",
+          "G",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "D",
+         "frets": [
+          10,
+          9,
+          7,
+          null,
+          null,
+          null
+         ],
+         "root": 2,
+         "names": [
+          "D",
+          "F#",
+          "A",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Em",
+         "frets": [
+          12,
+          10,
+          9,
+          null,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "G",
+          "B",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "F#m(b5)",
+         "frets": [
+          14,
+          12,
+          10,
+          null,
+          null,
+          null
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "A",
+          "C",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "G",
+         "frets": [
+          15,
+          14,
+          12,
+          null,
+          null,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "B",
+          "D",
+          null,
+          null,
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de C"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de C, tríades fechadas em estado fundamental (cordas 5-4-3): C, Dm, Em, F...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          2,
+          0,
+          null,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "G",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          5,
+          3,
+          2,
+          null,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          "F",
+          "A",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          7,
+          5,
+          4,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "E",
+          "G",
+          "B",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          8,
+          7,
+          5,
+          null,
+          null
+         ],
+         "root": 5,
+         "names": [
+          null,
+          "F",
+          "A",
+          "C",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          10,
+          9,
+          7,
+          null,
+          null
+         ],
+         "root": 7,
+         "names": [
+          null,
+          "G",
+          "B",
+          "D",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          12,
+          10,
+          9,
+          null,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "C",
+          "E",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Bm(b5)",
+         "frets": [
+          null,
+          14,
+          12,
+          10,
+          null,
+          null
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "D",
+          "F",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          15,
+          14,
+          12,
+          null,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "E",
+          "G",
+          null,
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de F"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de F, tríades fechadas em estado fundamental (cordas 4-3-2): F, Gm, Am, Bb...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "F",
+         "frets": [
+          null,
+          null,
+          3,
+          2,
+          1,
+          null
+         ],
+         "root": 5,
+         "names": [
+          null,
+          null,
+          "F",
+          "A",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "Gm",
+         "frets": [
+          null,
+          null,
+          5,
+          3,
+          3,
+          null
+         ],
+         "root": 7,
+         "names": [
+          null,
+          null,
+          "G",
+          "Bb",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          7,
+          5,
+          5,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          null,
+          "A",
+          "C",
+          "E",
+          null
+         ]
+        },
+        {
+         "name": "Bb",
+         "frets": [
+          null,
+          null,
+          8,
+          7,
+          6,
+          null
+         ],
+         "root": 10,
+         "names": [
+          null,
+          null,
+          "Bb",
+          "D",
+          "F",
+          null
+         ]
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          10,
+          9,
+          8,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "C",
+          "E",
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          null,
+          12,
+          10,
+          10,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "F",
+          "A",
+          null
+         ]
+        },
+        {
+         "name": "Em(b5)",
+         "frets": [
+          null,
+          null,
+          14,
+          12,
+          11,
+          null
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          "E",
+          "G",
+          "Bb",
+          null
+         ]
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          null,
+          15,
+          14,
+          13,
+          null
+         ],
+         "root": 5,
+         "names": [
+          null,
+          null,
+          "F",
+          "A",
+          "C",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de Bb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de Bb, tríades fechadas em estado fundamental (cordas 3-2-1): Bb, Cm, Dm, Eb...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Bb",
+         "frets": [
+          null,
+          null,
+          null,
+          3,
+          3,
+          1
+         ],
+         "root": 10,
+         "names": [
+          null,
+          null,
+          null,
+          "Bb",
+          "D",
+          "F"
+         ]
+        },
+        {
+         "name": "Cm",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          4,
+          3
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          null,
+          "C",
+          "Eb",
+          "G"
+         ]
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          null,
+          null,
+          7,
+          6,
+          5
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          null,
+          "D",
+          "F",
+          "A"
+         ]
+        },
+        {
+         "name": "Eb",
+         "frets": [
+          null,
+          null,
+          null,
+          8,
+          8,
+          6
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          null,
+          "Eb",
+          "G",
+          "Bb"
+         ]
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          null,
+          null,
+          10,
+          10,
+          8
+         ],
+         "root": 5,
+         "names": [
+          null,
+          null,
+          null,
+          "F",
+          "A",
+          "C"
+         ]
+        },
+        {
+         "name": "Gm",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          11,
+          10
+         ],
+         "root": 7,
+         "names": [
+          null,
+          null,
+          null,
+          "G",
+          "Bb",
+          "D"
+         ]
+        },
+        {
+         "name": "Am(b5)",
+         "frets": [
+          null,
+          null,
+          null,
+          14,
+          13,
+          11
+         ],
+         "root": 9,
+         "names": [
+          null,
+          null,
+          null,
+          "A",
+          "C",
+          "Eb"
+         ]
+        },
+        {
+         "name": "Bb",
+         "frets": [
+          null,
+          null,
+          null,
+          15,
+          15,
+          13
+         ],
+         "root": 10,
+         "names": [
+          null,
+          null,
+          null,
+          "Bb",
+          "D",
+          "F"
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g9-6",
+     "title": "Tríades fechadas no campo: 1ª inversão",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora as tríades fechadas em <b>1ª inversão</b>, com a 3ª no baixo."
+      },
+      {
+       "type": "note",
+       "html": "As bolinhas mostram o nome de cada nota. Use o botão <b>Rótulo</b> para ver as funções ou os dedos, e toque num acorde para ouvi-lo."
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de E"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de E, tríades fechadas em 1ª inversão (cordas 6-5-4): E/G#, F#m/A, G#m/B, A/C#...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "E/G#",
+         "frets": [
+          4,
+          2,
+          2,
+          null,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          "G#",
+          "B",
+          "E",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "F#m/A",
+         "frets": [
+          5,
+          4,
+          4,
+          null,
+          null,
+          null
+         ],
+         "root": 6,
+         "names": [
+          "A",
+          "C#",
+          "F#",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "G#m/B",
+         "frets": [
+          7,
+          6,
+          6,
+          null,
+          null,
+          null
+         ],
+         "root": 8,
+         "names": [
+          "B",
+          "D#",
+          "G#",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "A/C#",
+         "frets": [
+          9,
+          7,
+          7,
+          null,
+          null,
+          null
+         ],
+         "root": 9,
+         "names": [
+          "C#",
+          "E",
+          "A",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "B/D#",
+         "frets": [
+          11,
+          9,
+          9,
+          null,
+          null,
+          null
+         ],
+         "root": 11,
+         "names": [
+          "D#",
+          "F#",
+          "B",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "C#m/E",
+         "frets": [
+          12,
+          11,
+          11,
+          null,
+          null,
+          null
+         ],
+         "root": 1,
+         "names": [
+          "E",
+          "G#",
+          "C#",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "D#m(b5)/F#",
+         "frets": [
+          14,
+          12,
+          13,
+          null,
+          null,
+          null
+         ],
+         "root": 3,
+         "names": [
+          "F#",
+          "A",
+          "D#",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "E/G#",
+         "frets": [
+          16,
+          14,
+          14,
+          null,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          "G#",
+          "B",
+          "E",
+          null,
+          null,
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de A"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de A, tríades fechadas em 1ª inversão (cordas 5-4-3): A/C#, Bm/D, C#m/E, D/F#...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "A/C#",
+         "frets": [
+          null,
+          4,
+          2,
+          2,
+          null,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "C#",
+          "E",
+          "A",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Bm/D",
+         "frets": [
+          null,
+          5,
+          4,
+          4,
+          null,
+          null
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "D",
+          "F#",
+          "B",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "C#m/E",
+         "frets": [
+          null,
+          7,
+          6,
+          6,
+          null,
+          null
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "E",
+          "G#",
+          "C#",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "D/F#",
+         "frets": [
+          null,
+          9,
+          7,
+          7,
+          null,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "F#",
+          "A",
+          "D",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "E/G#",
+         "frets": [
+          null,
+          11,
+          9,
+          9,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "G#",
+          "B",
+          "E",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "F#m/A",
+         "frets": [
+          null,
+          12,
+          11,
+          11,
+          null,
+          null
+         ],
+         "root": 6,
+         "names": [
+          null,
+          "A",
+          "C#",
+          "F#",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "G#m(b5)/B",
+         "frets": [
+          null,
+          14,
+          12,
+          13,
+          null,
+          null
+         ],
+         "root": 8,
+         "names": [
+          null,
+          "B",
+          "D",
+          "G#",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "A/C#",
+         "frets": [
+          null,
+          16,
+          14,
+          14,
+          null,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "C#",
+          "E",
+          "A",
+          null,
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de D"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de D, tríades fechadas em 1ª inversão (cordas 4-3-2): D/F#, Em/G, F#m/A, G/B...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "D/F#",
+         "frets": [
+          null,
+          null,
+          4,
+          2,
+          3,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "F#",
+          "A",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "Em/G",
+         "frets": [
+          null,
+          null,
+          5,
+          4,
+          5,
+          null
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          "G",
+          "B",
+          "E",
+          null
+         ]
+        },
+        {
+         "name": "F#m/A",
+         "frets": [
+          null,
+          null,
+          7,
+          6,
+          7,
+          null
+         ],
+         "root": 6,
+         "names": [
+          null,
+          null,
+          "A",
+          "C#",
+          "F#",
+          null
+         ]
+        },
+        {
+         "name": "G/B",
+         "frets": [
+          null,
+          null,
+          9,
+          7,
+          8,
+          null
+         ],
+         "root": 7,
+         "names": [
+          null,
+          null,
+          "B",
+          "D",
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "A/C#",
+         "frets": [
+          null,
+          null,
+          11,
+          9,
+          10,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          null,
+          "C#",
+          "E",
+          "A",
+          null
+         ]
+        },
+        {
+         "name": "Bm/D",
+         "frets": [
+          null,
+          null,
+          12,
+          11,
+          12,
+          null
+         ],
+         "root": 11,
+         "names": [
+          null,
+          null,
+          "D",
+          "F#",
+          "B",
+          null
+         ]
+        },
+        {
+         "name": "C#m(b5)/E",
+         "frets": [
+          null,
+          null,
+          14,
+          12,
+          14,
+          null
+         ],
+         "root": 1,
+         "names": [
+          null,
+          null,
+          "E",
+          "G",
+          "C#",
+          null
+         ]
+        },
+        {
+         "name": "D/F#",
+         "frets": [
+          null,
+          null,
+          16,
+          14,
+          15,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "F#",
+          "A",
+          "D",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de G"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de G, tríades fechadas em 1ª inversão (cordas 3-2-1): G/B, Am/C, Bm/D, C/E...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "G/B",
+         "frets": [
+          null,
+          null,
+          null,
+          4,
+          3,
+          3
+         ],
+         "root": 7,
+         "names": [
+          null,
+          null,
+          null,
+          "B",
+          "D",
+          "G"
+         ]
+        },
+        {
+         "name": "Am/C",
+         "frets": [
+          null,
+          null,
+          null,
+          5,
+          5,
+          5
+         ],
+         "root": 9,
+         "names": [
+          null,
+          null,
+          null,
+          "C",
+          "E",
+          "A"
+         ]
+        },
+        {
+         "name": "Bm/D",
+         "frets": [
+          null,
+          null,
+          null,
+          7,
+          7,
+          7
+         ],
+         "root": 11,
+         "names": [
+          null,
+          null,
+          null,
+          "D",
+          "F#",
+          "B"
+         ]
+        },
+        {
+         "name": "C/E",
+         "frets": [
+          null,
+          null,
+          null,
+          9,
+          8,
+          8
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          null,
+          "E",
+          "G",
+          "C"
+         ]
+        },
+        {
+         "name": "D/F#",
+         "frets": [
+          null,
+          null,
+          null,
+          11,
+          10,
+          10
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          null,
+          "F#",
+          "A",
+          "D"
+         ]
+        },
+        {
+         "name": "Em/G",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          12,
+          12
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          null,
+          "G",
+          "B",
+          "E"
+         ]
+        },
+        {
+         "name": "F#m(b5)/A",
+         "frets": [
+          null,
+          null,
+          null,
+          14,
+          13,
+          14
+         ],
+         "root": 6,
+         "names": [
+          null,
+          null,
+          null,
+          "A",
+          "C",
+          "F#"
+         ]
+        },
+        {
+         "name": "G/B",
+         "frets": [
+          null,
+          null,
+          null,
+          16,
+          15,
+          15
+         ],
+         "root": 7,
+         "names": [
+          null,
+          null,
+          null,
+          "B",
+          "D",
+          "G"
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g9-7",
+     "title": "Tríades fechadas no campo: 2ª inversão",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "E as tríades fechadas em <b>2ª inversão</b>, com a 5ª no baixo."
+      },
+      {
+       "type": "note",
+       "html": "As bolinhas mostram o nome de cada nota. Use o botão <b>Rótulo</b> para ver as funções ou os dedos, e toque num acorde para ouvi-lo."
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de C"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de C, tríades fechadas em 2ª inversão (cordas 6-5-4): C/G, Dm/A, Em/B, F/C...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C/G",
+         "frets": [
+          3,
+          3,
+          2,
+          null,
+          null,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "G",
+          "C",
+          "E",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Dm/A",
+         "frets": [
+          5,
+          5,
+          3,
+          null,
+          null,
+          null
+         ],
+         "root": 2,
+         "names": [
+          "A",
+          "D",
+          "F",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Em/B",
+         "frets": [
+          7,
+          7,
+          5,
+          null,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          "B",
+          "E",
+          "G",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          8,
+          8,
+          7,
+          null,
+          null,
+          null
+         ],
+         "root": 5,
+         "names": [
+          "C",
+          "F",
+          "A",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "G/D",
+         "frets": [
+          10,
+          10,
+          9,
+          null,
+          null,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "D",
+          "G",
+          "B",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Am/E",
+         "frets": [
+          12,
+          12,
+          10,
+          null,
+          null,
+          null
+         ],
+         "root": 9,
+         "names": [
+          "E",
+          "A",
+          "C",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Bm(b5)/F",
+         "frets": [
+          13,
+          14,
+          12,
+          null,
+          null,
+          null
+         ],
+         "root": 11,
+         "names": [
+          "F",
+          "B",
+          "D",
+          null,
+          null,
+          null
+         ]
+        },
+        {
+         "name": "C/G",
+         "frets": [
+          15,
+          15,
+          14,
+          null,
+          null,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "G",
+          "C",
+          "E",
+          null,
+          null,
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de F"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de F, tríades fechadas em 2ª inversão (cordas 5-4-3): F/C, Gm/D, Am/E, Bb/F...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "F/C",
+         "frets": [
+          null,
+          3,
+          3,
+          2,
+          null,
+          null
+         ],
+         "root": 5,
+         "names": [
+          null,
+          "C",
+          "F",
+          "A",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Gm/D",
+         "frets": [
+          null,
+          5,
+          5,
+          3,
+          null,
+          null
+         ],
+         "root": 7,
+         "names": [
+          null,
+          "D",
+          "G",
+          "Bb",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Am/E",
+         "frets": [
+          null,
+          7,
+          7,
+          5,
+          null,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "E",
+          "A",
+          "C",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Bb/F",
+         "frets": [
+          null,
+          8,
+          8,
+          7,
+          null,
+          null
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "F",
+          "Bb",
+          "D",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "C/G",
+         "frets": [
+          null,
+          10,
+          10,
+          9,
+          null,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "G",
+          "C",
+          "E",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Dm/A",
+         "frets": [
+          null,
+          12,
+          12,
+          10,
+          null,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "A",
+          "D",
+          "F",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Em(b5)/Bb",
+         "frets": [
+          null,
+          13,
+          14,
+          12,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "Bb",
+          "E",
+          "G",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          null,
+          15,
+          15,
+          14,
+          null,
+          null
+         ],
+         "root": 5,
+         "names": [
+          null,
+          "C",
+          "F",
+          "A",
+          null,
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de Bb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de Bb, tríades fechadas em 2ª inversão (cordas 4-3-2): Bb/F, Cm/G, Dm/A, Eb/Bb...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Bb/F",
+         "frets": [
+          null,
+          null,
+          3,
+          3,
+          3,
+          null
+         ],
+         "root": 10,
+         "names": [
+          null,
+          null,
+          "F",
+          "Bb",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "Cm/G",
+         "frets": [
+          null,
+          null,
+          5,
+          5,
+          4,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "G",
+          "C",
+          "Eb",
+          null
+         ]
+        },
+        {
+         "name": "Dm/A",
+         "frets": [
+          null,
+          null,
+          7,
+          7,
+          6,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "A",
+          "D",
+          "F",
+          null
+         ]
+        },
+        {
+         "name": "Eb/Bb",
+         "frets": [
+          null,
+          null,
+          8,
+          8,
+          8,
+          null
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "Bb",
+          "Eb",
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          null,
+          null,
+          10,
+          10,
+          10,
+          null
+         ],
+         "root": 5,
+         "names": [
+          null,
+          null,
+          "C",
+          "F",
+          "A",
+          null
+         ]
+        },
+        {
+         "name": "Gm/D",
+         "frets": [
+          null,
+          null,
+          12,
+          12,
+          11,
+          null
+         ],
+         "root": 7,
+         "names": [
+          null,
+          null,
+          "D",
+          "G",
+          "Bb",
+          null
+         ]
+        },
+        {
+         "name": "Am(b5)/Eb",
+         "frets": [
+          null,
+          null,
+          13,
+          14,
+          13,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          null,
+          "Eb",
+          "A",
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "Bb/F",
+         "frets": [
+          null,
+          null,
+          15,
+          15,
+          15,
+          null
+         ],
+         "root": 10,
+         "names": [
+          null,
+          null,
+          "F",
+          "Bb",
+          "D",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de D"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de D, tríades fechadas em 2ª inversão (cordas 3-2-1): D/A, Em/B, F#m/C#, G/D...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "D/A",
+         "frets": [
+          null,
+          null,
+          null,
+          2,
+          3,
+          2
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          null,
+          "A",
+          "D",
+          "F#"
+         ]
+        },
+        {
+         "name": "Em/B",
+         "frets": [
+          null,
+          null,
+          null,
+          4,
+          5,
+          3
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          null,
+          "B",
+          "E",
+          "G"
+         ]
+        },
+        {
+         "name": "F#m/C#",
+         "frets": [
+          null,
+          null,
+          null,
+          6,
+          7,
+          5
+         ],
+         "root": 6,
+         "names": [
+          null,
+          null,
+          null,
+          "C#",
+          "F#",
+          "A"
+         ]
+        },
+        {
+         "name": "G/D",
+         "frets": [
+          null,
+          null,
+          null,
+          7,
+          8,
+          7
+         ],
+         "root": 7,
+         "names": [
+          null,
+          null,
+          null,
+          "D",
+          "G",
+          "B"
+         ]
+        },
+        {
+         "name": "A/E",
+         "frets": [
+          null,
+          null,
+          null,
+          9,
+          10,
+          9
+         ],
+         "root": 9,
+         "names": [
+          null,
+          null,
+          null,
+          "E",
+          "A",
+          "C#"
+         ]
+        },
+        {
+         "name": "Bm/F#",
+         "frets": [
+          null,
+          null,
+          null,
+          11,
+          12,
+          10
+         ],
+         "root": 11,
+         "names": [
+          null,
+          null,
+          null,
+          "F#",
+          "B",
+          "D"
+         ]
+        },
+        {
+         "name": "C#m(b5)/G",
+         "frets": [
+          null,
+          null,
+          null,
+          12,
+          14,
+          12
+         ],
+         "root": 1,
+         "names": [
+          null,
+          null,
+          null,
+          "G",
+          "C#",
+          "E"
+         ]
+        },
+        {
+         "name": "D/A",
+         "frets": [
+          null,
+          null,
+          null,
+          14,
+          15,
+          14
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          null,
+          "A",
+          "D",
+          "F#"
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g9-8",
+     "title": "Tríades abertas no campo: estado fundamental",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora as <b>tríades abertas</b>, começando pelo estado fundamental (ordem T, 5ª, 3ª)."
+      },
+      {
+       "type": "note",
+       "html": "As bolinhas mostram o nome de cada nota. Use o botão <b>Rótulo</b> para ver as funções ou os dedos, e toque num acorde para ouvi-lo."
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de G"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de G, tríades abertas em estado fundamental: G, Am, Bm, C...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "G",
+         "frets": [
+          3,
+          5,
+          null,
+          4,
+          null,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "D",
+          null,
+          "B",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Am",
+         "frets": [
+          5,
+          7,
+          null,
+          5,
+          null,
+          null
+         ],
+         "root": 9,
+         "names": [
+          "A",
+          "E",
+          null,
+          "C",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Bm",
+         "frets": [
+          7,
+          9,
+          null,
+          7,
+          null,
+          null
+         ],
+         "root": 11,
+         "names": [
+          "B",
+          "F#",
+          null,
+          "D",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "C",
+         "frets": [
+          8,
+          10,
+          null,
+          9,
+          null,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "C",
+          "G",
+          null,
+          "E",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "D",
+         "frets": [
+          10,
+          12,
+          null,
+          11,
+          null,
+          null
+         ],
+         "root": 2,
+         "names": [
+          "D",
+          "A",
+          null,
+          "F#",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Em",
+         "frets": [
+          12,
+          14,
+          null,
+          12,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          "E",
+          "B",
+          null,
+          "G",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "F#m(b5)",
+         "frets": [
+          14,
+          15,
+          null,
+          14,
+          null,
+          null
+         ],
+         "root": 6,
+         "names": [
+          "F#",
+          "C",
+          null,
+          "A",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "G",
+         "frets": [
+          15,
+          17,
+          null,
+          16,
+          null,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "G",
+          "D",
+          null,
+          "B",
+          null,
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de C"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de C, tríades abertas em estado fundamental: C, Dm, Em, F...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C",
+         "frets": [
+          null,
+          3,
+          5,
+          null,
+          5,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          null,
+          "E",
+          null
+         ]
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          5,
+          7,
+          null,
+          6,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "D",
+          "A",
+          null,
+          "F",
+          null
+         ]
+        },
+        {
+         "name": "Em",
+         "frets": [
+          null,
+          7,
+          9,
+          null,
+          8,
+          null
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "E",
+          "B",
+          null,
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          8,
+          10,
+          null,
+          10,
+          null
+         ],
+         "root": 5,
+         "names": [
+          null,
+          "F",
+          "C",
+          null,
+          "A",
+          null
+         ]
+        },
+        {
+         "name": "G",
+         "frets": [
+          null,
+          10,
+          12,
+          null,
+          12,
+          null
+         ],
+         "root": 7,
+         "names": [
+          null,
+          "G",
+          "D",
+          null,
+          "B",
+          null
+         ]
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          12,
+          14,
+          null,
+          13,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "A",
+          "E",
+          null,
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "Bm(b5)",
+         "frets": [
+          null,
+          14,
+          15,
+          null,
+          15,
+          null
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "B",
+          "F",
+          null,
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          15,
+          17,
+          null,
+          17,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "C",
+          "G",
+          null,
+          "E",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de F"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de F, tríades abertas em estado fundamental: F, Gm, Am, Bb...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "F",
+         "frets": [
+          null,
+          null,
+          3,
+          5,
+          null,
+          5
+         ],
+         "root": 5,
+         "names": [
+          null,
+          null,
+          "F",
+          "C",
+          null,
+          "A"
+         ]
+        },
+        {
+         "name": "Gm",
+         "frets": [
+          null,
+          null,
+          5,
+          7,
+          null,
+          6
+         ],
+         "root": 7,
+         "names": [
+          null,
+          null,
+          "G",
+          "D",
+          null,
+          "Bb"
+         ]
+        },
+        {
+         "name": "Am",
+         "frets": [
+          null,
+          null,
+          7,
+          9,
+          null,
+          8
+         ],
+         "root": 9,
+         "names": [
+          null,
+          null,
+          "A",
+          "E",
+          null,
+          "C"
+         ]
+        },
+        {
+         "name": "Bb",
+         "frets": [
+          null,
+          null,
+          8,
+          10,
+          null,
+          10
+         ],
+         "root": 10,
+         "names": [
+          null,
+          null,
+          "Bb",
+          "F",
+          null,
+          "D"
+         ]
+        },
+        {
+         "name": "C",
+         "frets": [
+          null,
+          null,
+          10,
+          12,
+          null,
+          12
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "C",
+          "G",
+          null,
+          "E"
+         ]
+        },
+        {
+         "name": "Dm",
+         "frets": [
+          null,
+          null,
+          12,
+          14,
+          null,
+          13
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "D",
+          "A",
+          null,
+          "F"
+         ]
+        },
+        {
+         "name": "Em(b5)",
+         "frets": [
+          null,
+          null,
+          14,
+          15,
+          null,
+          15
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          "E",
+          "Bb",
+          null,
+          "G"
+         ]
+        },
+        {
+         "name": "F",
+         "frets": [
+          null,
+          null,
+          15,
+          17,
+          null,
+          17
+         ],
+         "root": 5,
+         "names": [
+          null,
+          null,
+          "F",
+          "C",
+          null,
+          "A"
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g9-9",
+     "title": "Tríades abertas no campo: 1ª inversão",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Tríades abertas em <b>1ª inversão</b> (ordem 3ª, T, 5ª)."
+      },
+      {
+       "type": "note",
+       "html": "As bolinhas mostram o nome de cada nota. Use o botão <b>Rótulo</b> para ver as funções ou os dedos, e toque num acorde para ouvi-lo."
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de E"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de E, tríades abertas em 1ª inversão: E/G#, F#m/A, G#m/B, A/C#...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "E/G#",
+         "frets": [
+          4,
+          null,
+          2,
+          4,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          "G#",
+          null,
+          "E",
+          "B",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "F#m/A",
+         "frets": [
+          5,
+          null,
+          4,
+          6,
+          null,
+          null
+         ],
+         "root": 6,
+         "names": [
+          "A",
+          null,
+          "F#",
+          "C#",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "G#m/B",
+         "frets": [
+          7,
+          null,
+          6,
+          8,
+          null,
+          null
+         ],
+         "root": 8,
+         "names": [
+          "B",
+          null,
+          "G#",
+          "D#",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "A/C#",
+         "frets": [
+          9,
+          null,
+          7,
+          9,
+          null,
+          null
+         ],
+         "root": 9,
+         "names": [
+          "C#",
+          null,
+          "A",
+          "E",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "B/D#",
+         "frets": [
+          11,
+          null,
+          9,
+          11,
+          null,
+          null
+         ],
+         "root": 11,
+         "names": [
+          "D#",
+          null,
+          "B",
+          "F#",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "C#m/E",
+         "frets": [
+          12,
+          null,
+          11,
+          13,
+          null,
+          null
+         ],
+         "root": 1,
+         "names": [
+          "E",
+          null,
+          "C#",
+          "G#",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "D#m(b5)/F#",
+         "frets": [
+          14,
+          null,
+          13,
+          14,
+          null,
+          null
+         ],
+         "root": 3,
+         "names": [
+          "F#",
+          null,
+          "D#",
+          "A",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "E/G#",
+         "frets": [
+          16,
+          null,
+          14,
+          16,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          "G#",
+          null,
+          "E",
+          "B",
+          null,
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de A"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de A, tríades abertas em 1ª inversão: A/C#, Bm/D, C#m/E, D/F#...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "A/C#",
+         "frets": [
+          null,
+          4,
+          null,
+          2,
+          5,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "C#",
+          null,
+          "A",
+          "E",
+          null
+         ]
+        },
+        {
+         "name": "Bm/D",
+         "frets": [
+          null,
+          5,
+          null,
+          4,
+          7,
+          null
+         ],
+         "root": 11,
+         "names": [
+          null,
+          "D",
+          null,
+          "B",
+          "F#",
+          null
+         ]
+        },
+        {
+         "name": "C#m/E",
+         "frets": [
+          null,
+          7,
+          null,
+          6,
+          9,
+          null
+         ],
+         "root": 1,
+         "names": [
+          null,
+          "E",
+          null,
+          "C#",
+          "G#",
+          null
+         ]
+        },
+        {
+         "name": "D/F#",
+         "frets": [
+          null,
+          9,
+          null,
+          7,
+          10,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "F#",
+          null,
+          "D",
+          "A",
+          null
+         ]
+        },
+        {
+         "name": "E/G#",
+         "frets": [
+          null,
+          11,
+          null,
+          9,
+          12,
+          null
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "G#",
+          null,
+          "E",
+          "B",
+          null
+         ]
+        },
+        {
+         "name": "F#m/A",
+         "frets": [
+          null,
+          12,
+          null,
+          11,
+          14,
+          null
+         ],
+         "root": 6,
+         "names": [
+          null,
+          "A",
+          null,
+          "F#",
+          "C#",
+          null
+         ]
+        },
+        {
+         "name": "G#m(b5)/B",
+         "frets": [
+          null,
+          14,
+          null,
+          13,
+          15,
+          null
+         ],
+         "root": 8,
+         "names": [
+          null,
+          "B",
+          null,
+          "G#",
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "A/C#",
+         "frets": [
+          null,
+          16,
+          null,
+          14,
+          17,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "C#",
+          null,
+          "A",
+          "E",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de D"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de D, tríades abertas em 1ª inversão: D/F#, Em/G, F#m/A, G/B...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "D/F#",
+         "frets": [
+          null,
+          null,
+          4,
+          null,
+          3,
+          5
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "F#",
+          null,
+          "D",
+          "A"
+         ]
+        },
+        {
+         "name": "Em/G",
+         "frets": [
+          null,
+          null,
+          5,
+          null,
+          5,
+          7
+         ],
+         "root": 4,
+         "names": [
+          null,
+          null,
+          "G",
+          null,
+          "E",
+          "B"
+         ]
+        },
+        {
+         "name": "F#m/A",
+         "frets": [
+          null,
+          null,
+          7,
+          null,
+          7,
+          9
+         ],
+         "root": 6,
+         "names": [
+          null,
+          null,
+          "A",
+          null,
+          "F#",
+          "C#"
+         ]
+        },
+        {
+         "name": "G/B",
+         "frets": [
+          null,
+          null,
+          9,
+          null,
+          8,
+          10
+         ],
+         "root": 7,
+         "names": [
+          null,
+          null,
+          "B",
+          null,
+          "G",
+          "D"
+         ]
+        },
+        {
+         "name": "A/C#",
+         "frets": [
+          null,
+          null,
+          11,
+          null,
+          10,
+          12
+         ],
+         "root": 9,
+         "names": [
+          null,
+          null,
+          "C#",
+          null,
+          "A",
+          "E"
+         ]
+        },
+        {
+         "name": "Bm/D",
+         "frets": [
+          null,
+          null,
+          12,
+          null,
+          12,
+          14
+         ],
+         "root": 11,
+         "names": [
+          null,
+          null,
+          "D",
+          null,
+          "B",
+          "F#"
+         ]
+        },
+        {
+         "name": "C#m(b5)/E",
+         "frets": [
+          null,
+          null,
+          14,
+          null,
+          14,
+          15
+         ],
+         "root": 1,
+         "names": [
+          null,
+          null,
+          "E",
+          null,
+          "C#",
+          "G"
+         ]
+        },
+        {
+         "name": "D/F#",
+         "frets": [
+          null,
+          null,
+          16,
+          null,
+          15,
+          17
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "F#",
+          null,
+          "D",
+          "A"
+         ]
+        }
+       ],
+       "label": "names"
+      }
+     ]
+    },
+    {
+     "id": "g9-10",
+     "title": "Tríades abertas no campo: 2ª inversão",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Por fim, as tríades abertas em <b>2ª inversão</b> (ordem 5ª, 3ª, T). No campo de Bb, os acordes maiores e o diminuto usam um grupo de cordas, e os menores usam outro, para manter as notas dentro do alcance da mão."
+      },
+      {
+       "type": "note",
+       "html": "As bolinhas mostram o nome de cada nota. Use o botão <b>Rótulo</b> para ver as funções ou os dedos, e toque num acorde para ouvi-lo."
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de C"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de C, tríades abertas em 2ª inversão: C/G, Dm/A, Em/B, F/C...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "C/G",
+         "frets": [
+          3,
+          null,
+          2,
+          5,
+          null,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "G",
+          null,
+          "E",
+          "C",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Dm/A",
+         "frets": [
+          5,
+          null,
+          3,
+          7,
+          null,
+          null
+         ],
+         "root": 2,
+         "names": [
+          "A",
+          null,
+          "F",
+          "D",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Em/B",
+         "frets": [
+          7,
+          null,
+          5,
+          9,
+          null,
+          null
+         ],
+         "root": 4,
+         "names": [
+          "B",
+          null,
+          "G",
+          "E",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          8,
+          null,
+          7,
+          10,
+          null,
+          null
+         ],
+         "root": 5,
+         "names": [
+          "C",
+          null,
+          "A",
+          "F",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "G/D",
+         "frets": [
+          10,
+          null,
+          9,
+          12,
+          null,
+          null
+         ],
+         "root": 7,
+         "names": [
+          "D",
+          null,
+          "B",
+          "G",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Am/E",
+         "frets": [
+          12,
+          null,
+          10,
+          14,
+          null,
+          null
+         ],
+         "root": 9,
+         "names": [
+          "E",
+          null,
+          "C",
+          "A",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "Bm(b5)/F",
+         "frets": [
+          13,
+          null,
+          12,
+          16,
+          null,
+          null
+         ],
+         "root": 11,
+         "names": [
+          "F",
+          null,
+          "D",
+          "B",
+          null,
+          null
+         ]
+        },
+        {
+         "name": "C/G",
+         "frets": [
+          15,
+          null,
+          14,
+          17,
+          null,
+          null
+         ],
+         "root": 0,
+         "names": [
+          "G",
+          null,
+          "E",
+          "C",
+          null,
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de F"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de F, tríades abertas em 2ª inversão: F/C, Gm/D, Am/E, Bb/F...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "F/C",
+         "frets": [
+          null,
+          3,
+          7,
+          null,
+          6,
+          null
+         ],
+         "root": 5,
+         "names": [
+          null,
+          "C",
+          "A",
+          null,
+          "F",
+          null
+         ]
+        },
+        {
+         "name": "Gm/D",
+         "frets": [
+          null,
+          5,
+          8,
+          null,
+          8,
+          null
+         ],
+         "root": 7,
+         "names": [
+          null,
+          "D",
+          "Bb",
+          null,
+          "G",
+          null
+         ]
+        },
+        {
+         "name": "Am/E",
+         "frets": [
+          null,
+          7,
+          10,
+          null,
+          10,
+          null
+         ],
+         "root": 9,
+         "names": [
+          null,
+          "E",
+          "C",
+          null,
+          "A",
+          null
+         ]
+        },
+        {
+         "name": "Bb/F",
+         "frets": [
+          null,
+          8,
+          12,
+          null,
+          11,
+          null
+         ],
+         "root": 10,
+         "names": [
+          null,
+          "F",
+          "D",
+          null,
+          "Bb",
+          null
+         ]
+        },
+        {
+         "name": "C/G",
+         "frets": [
+          null,
+          10,
+          14,
+          null,
+          13,
+          null
+         ],
+         "root": 0,
+         "names": [
+          null,
+          "G",
+          "E",
+          null,
+          "C",
+          null
+         ]
+        },
+        {
+         "name": "Dm/A",
+         "frets": [
+          null,
+          12,
+          15,
+          null,
+          15,
+          null
+         ],
+         "root": 2,
+         "names": [
+          null,
+          "A",
+          "F",
+          null,
+          "D",
+          null
+         ]
+        },
+        {
+         "name": "Em(b5)/Bb",
+         "frets": [
+          null,
+          13,
+          17,
+          null,
+          17,
+          null
+         ],
+         "root": 4,
+         "names": [
+          null,
+          "Bb",
+          "G",
+          null,
+          "E",
+          null
+         ]
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          null,
+          15,
+          19,
+          null,
+          18,
+          null
+         ],
+         "root": 5,
+         "names": [
+          null,
+          "C",
+          "A",
+          null,
+          "F",
+          null
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "h3",
+       "text": "Campo harmônico maior de Bb"
+      },
+      {
+       "type": "chordseq",
+       "title": "Campo de Bb, tríades abertas em 2ª inversão: Bb/F, Cm/G, Dm/A, Eb/Bb...",
+       "tempo": 70,
+       "beats": 2,
+       "items": [
+        {
+         "name": "Bb/F",
+         "frets": [
+          null,
+          null,
+          3,
+          null,
+          3,
+          6
+         ],
+         "root": 10,
+         "names": [
+          null,
+          null,
+          "F",
+          null,
+          "D",
+          "Bb"
+         ]
+        },
+        {
+         "name": "Cm/G",
+         "frets": [
+          null,
+          null,
+          5,
+          8,
+          null,
+          8
+         ],
+         "root": 0,
+         "names": [
+          null,
+          null,
+          "G",
+          "Eb",
+          null,
+          "C"
+         ]
+        },
+        {
+         "name": "Dm/A",
+         "frets": [
+          null,
+          null,
+          7,
+          10,
+          null,
+          10
+         ],
+         "root": 2,
+         "names": [
+          null,
+          null,
+          "A",
+          "F",
+          null,
+          "D"
+         ]
+        },
+        {
+         "name": "Eb/Bb",
+         "frets": [
+          null,
+          null,
+          8,
+          null,
+          8,
+          11
+         ],
+         "root": 3,
+         "names": [
+          null,
+          null,
+          "Bb",
+          null,
+          "G",
+          "Eb"
+         ]
+        },
+        {
+         "name": "F/C",
+         "frets": [
+          null,
+          null,
+          10,
+          null,
+          10,
+          13
+         ],
+         "root": 5,
+         "names": [
+          null,
+          null,
+          "C",
+          null,
+          "A",
+          "F"
+         ]
+        },
+        {
+         "name": "Gm/D",
+         "frets": [
+          null,
+          null,
+          12,
+          15,
+          null,
+          15
+         ],
+         "root": 7,
+         "names": [
+          null,
+          null,
+          "D",
+          "Bb",
+          null,
+          "G"
+         ]
+        },
+        {
+         "name": "Am(b5)/Eb",
+         "frets": [
+          null,
+          null,
+          13,
+          null,
+          13,
+          17
+         ],
+         "root": 9,
+         "names": [
+          null,
+          null,
+          "Eb",
+          null,
+          "C",
+          "A"
+         ]
+        },
+        {
+         "name": "Bb/F",
+         "frets": [
+          null,
+          null,
+          15,
+          null,
+          15,
+          18
+         ],
+         "root": 10,
+         "names": [
+          null,
+          null,
+          "F",
+          null,
+          "D",
+          "Bb"
+         ]
+        }
+       ],
+       "label": "names"
+      },
+      {
+       "type": "note",
+       "html": "A sua tarefa agora é aplicar estas tríades sobre as músicas que você já sabe tocar, em várias tonalidades."
+      }
+     ]
+    }
+   ]
   }
  ]
 }
