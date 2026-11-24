@@ -1000,7 +1000,7 @@
           1,
           1,
           1,
-          null
+          4
          ],
          "root": 8
         },
@@ -1012,7 +1012,7 @@
           2,
           2,
           2,
-          null
+          5
          ],
          "root": 9
         },
@@ -1024,7 +1024,7 @@
           3,
           3,
           3,
-          null
+          6
          ],
          "root": 10
         },
@@ -1036,7 +1036,7 @@
           4,
           4,
           4,
-          null
+          7
          ],
          "root": 11
         },
@@ -1048,7 +1048,7 @@
           5,
           5,
           5,
-          null
+          8
          ],
          "root": 0
         }
@@ -1056,7 +1056,7 @@
       },
       {
        "type": "note",
-       "html": "O modelo de G exige uma grande abertura dos dedos e fica desconfortável. Para facilitar, <b>omita a 1ª corda</b> e use um dedo a menos, como nos diagramas acima (a partir do segundo acorde)."
+       "html": "O modelo de G exige uma grande abertura dos dedos e fica desconfortável. Para facilitar, você pode <b>omitir a 1ª corda</b> e usar um dedo a menos. É assim que o modelo aparece nos próximos exercícios."
       },
       {
        "type": "h3",
@@ -2394,12 +2394,12 @@
         {
          "name": "Em",
          "frets": [
-          null,
+          0,
           7,
           5,
           4,
           5,
-          null
+          0
          ],
          "root": 4
         },
@@ -13689,7 +13689,7 @@
       },
       {
        "type": "note",
-       "html": "Na tétrade diminuta, a sétima diminuta soa igual a uma nota com outro nome (o livro indica entre parênteses), mas a grafia correta usa a letra da sétima."
+       "html": "Na tétrade diminuta, a sétima diminuta soa igual a uma nota com outro nome (indicada entre parênteses na tabela), mas a grafia correta usa a letra da sétima."
       }
      ]
     },
