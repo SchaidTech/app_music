@@ -4,7 +4,7 @@
  "modules": [
   {
    "id": "m1",
-   "title": "Conhecendo a guitarra",
+   "title": "1. CONHECENDO A GUITARRA",
    "topics": [
     {
      "id": "t1-1",
@@ -152,7 +152,7 @@
   },
   {
    "id": "m2",
-   "title": "Lendo cifras e tablaturas",
+   "title": "2. LENDO CIFRAS E TABLATURAS",
    "topics": [
     {
      "id": "t2-1",
@@ -770,7 +770,7 @@
   },
   {
    "id": "m3",
-   "title": "Técnica básica",
+   "title": "3. TÉCNICA BÁSICA",
    "topics": [
     {
      "id": "t3-1",
@@ -1074,7 +1074,7 @@
   },
   {
    "id": "m4",
-   "title": "Teoria musical básica aplicada",
+   "title": "4. TEORIA MUSICAL BÁSICA APLICADA",
    "topics": [
     {
      "id": "t4-1",
@@ -1487,7 +1487,7 @@
   },
   {
    "id": "m5",
-   "title": "Elementos e técnicas da guitarra rítmica",
+   "title": "5. ELEMENTOS E TÉCNICAS DA GUITARRA RÍTMICA",
    "topics": [
     {
      "id": "t5-1",
@@ -4204,7 +4204,7 @@
   },
   {
    "id": "m6",
-   "title": "Técnicas de expressão da guitarra solo",
+   "title": "6. TÉCNICAS DE EXPRESSÃO DA GUITARRA SOLO",
    "topics": [
     {
      "id": "t6-1",
@@ -4575,7 +4575,7 @@
   },
   {
    "id": "m7",
-   "title": "Dicionário resumido de acordes",
+   "title": "7. DICIONÁRIO RESUMIDO DE ACORDES",
    "topics": [
     {
      "id": "t7-1",

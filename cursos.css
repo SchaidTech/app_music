@@ -87,3 +87,6 @@
 .tbl tr:last-child td{border-bottom:0}
 .tbl-t tr[data-k]:active{background:#1f1a14}
 .iv-title{margin:6px 2px 8px;font-size:.95rem}
+
+/* Texto corrido justificado (parágrafos, destaques e listas dos cursos), com hifenização em português */
+.topic-p,.topic-note,.topic-ul li,.ex-hint{text-align:justify;text-justify:inter-word;-webkit-hyphens:auto;hyphens:auto;overflow-wrap:break-word}

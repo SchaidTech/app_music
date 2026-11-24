@@ -4,7 +4,7 @@
  "modules": [
   {
    "id": "g1",
-   "title": "Conceitos básicos",
+   "title": "1. CONCEITOS BÁSICOS DA MÚSICA",
    "topics": [
     {
      "id": "g1-1",
@@ -300,7 +300,7 @@
   },
   {
    "id": "g2",
-   "title": "Power chords, inversões e variações",
+   "title": "2. POWER CHORDS, INVERSÕES E VARIAÇÕES",
    "topics": [
     {
      "id": "g2-1",
@@ -709,7 +709,7 @@
   },
   {
    "id": "g3",
-   "title": "Acordes maiores no sistema CAGED",
+   "title": "3. ACORDES MAIORES NO SISTEMA CAGED",
    "topics": [
     {
      "id": "g3-1",
@@ -2244,7 +2244,7 @@
   },
   {
    "id": "g4",
-   "title": "Acordes menores no sistema CAGED",
+   "title": "4. ACORDES MENORES NO SISTEMA CAGED",
    "topics": [
     {
      "id": "g4-1",
@@ -3829,7 +3829,7 @@
   },
   {
    "id": "g5",
-   "title": "Tétrades no sistema CAGED",
+   "title": "5. ACORDES TÉTRADES NO SISTEMA CAGED",
    "topics": [
     {
      "id": "g5-1",
@@ -4738,7 +4738,7 @@
   },
   {
    "id": "g6",
-   "title": "Intervalos",
+   "title": "6. INTERVALOS",
    "topics": [
     {
      "id": "g6-1",
@@ -5223,7 +5223,7 @@
   },
   {
    "id": "g7",
-   "title": "Estrutura das tríades",
+   "title": "7. ESTRUTURA DOS ACORDES TRÍADES",
    "topics": [
     {
      "id": "g7-1",
@@ -7291,7 +7291,7 @@
   },
   {
    "id": "g8",
-   "title": "Tríades abertas",
+   "title": "8. TRÍADES ABERTAS",
    "topics": [
     {
      "id": "g8-1",
@@ -8787,7 +8787,7 @@
   },
   {
    "id": "g9",
-   "title": "Tríades no campo harmônico",
+   "title": "9. TRÍADES NO CAMPO HARMÔNICO MAIOR",
    "topics": [
     {
      "id": "g9-1",
@@ -13199,7 +13199,7 @@
   },
   {
    "id": "g10",
-   "title": "Estrutura das tétrades",
+   "title": "10. ESTRUTURA DOS ACORDES TÉTRADES",
    "topics": [
     {
      "id": "g10-1",
@@ -14198,7 +14198,7 @@
   },
   {
    "id": "g11",
-   "title": "Aberturas e inversões das tétrades",
+   "title": "11. ABERTURAS E INVERSÕES DAS TÉTRADES",
    "topics": [
     {
      "id": "g11-1",
@@ -15769,7 +15769,7 @@
   },
   {
    "id": "g12",
-   "title": "Tétrades no campo harmônico maior",
+   "title": "12. TÉTRADES NO CAMPO HARMÔNICO MAIOR",
    "topics": [
     {
      "id": "g12-1",
@@ -19932,7 +19932,7 @@
   },
   {
    "id": "g13",
-   "title": "Extensões dos acordes",
+   "title": "13. EXTENSÕES DOS ACORDES",
    "topics": [
     {
      "id": "g13-1",
@@ -20972,7 +20972,7 @@
   },
   {
    "id": "g14",
-   "title": "Acordes usando cordas soltas",
+   "title": "14. ACORDES USANDO CORDAS SOLTAS",
    "topics": [
     {
      "id": "g14-1",
@@ -21622,7 +21622,7 @@
   },
   {
    "id": "g15",
-   "title": "Acordes coringa",
+   "title": "15. ACORDES CORINGA",
    "topics": [
     {
      "id": "g15-1",
