@@ -46,10 +46,15 @@ const Escala = (() => {
     for (let f = fMin; f <= f1; f++) s += `<text x="${X(f)}" y="${yBot + 20}" text-anchor="middle" font-size="10.5" fill="${INLAY1.includes(f) || INLAY2.includes(f) ? '#cfc8b8' : '#77777f'}">${f}</text>`;
     // notas
     notas.forEach(nt => {
-      const i = cordas.indexOf(nt.s), tonica = nt.pc === b.root;
+      const i = cordas.indexOf(nt.s), tonica = nt.pc === b.root || (b.dest && b.dest.includes(nt.pc)), t2 = b.root2 != null && nt.pc === b.root2;
       const txt = modo === 'degs' ? (b.degs || {})[nt.pc] : (b.names || {})[nt.pc];
       const t = txt == null ? '' : String(txt), fs = t.length > 3 ? 8 : t.length > 1 ? 9.5 : 12;
-      s += `<g class="es-n" data-s="${nt.s}" data-f="${nt.f}" tabindex="0"><circle cx="${X(nt.f)}" cy="${Y(i)}" r="${nt.f === 0 ? 11 : 12.8}" fill="${tonica ? '#ff9437' : '#eee7d8'}" stroke="${tonica ? '#ffd7ae' : '#17171b'}" stroke-width="1.5"/><text x="${X(nt.f)}" y="${Y(i) + fs * .36}" text-anchor="middle" font-size="${fs}" font-weight="700" fill="#17110a">${esc(t)}</text></g>`;
+      if (b.blue != null && nt.pc === b.blue){
+        const x = X(nt.f), y = Y(i), k = nt.f === 0 ? 9.5 : 11.2;
+        s += `<g class="es-n es-blue" data-s="${nt.s}" data-f="${nt.f}" tabindex="0"><rect x="${x - k}" y="${y - k}" width="${2 * k}" height="${2 * k}" rx="4" fill="#2faa5a" stroke="#bff0cf" stroke-width="1.5"/><text x="${x}" y="${y + 3.4}" text-anchor="middle" font-size="${String(txt).length > 1 ? 9.5 : 12}" font-weight="700" fill="#04180b">${esc(txt == null ? '' : txt)}</text></g>`;
+        return;
+      }
+      s += `<g class="es-n" data-s="${nt.s}" data-f="${nt.f}" tabindex="0"><circle cx="${X(nt.f)}" cy="${Y(i)}" r="${nt.f === 0 ? 11 : 12.8}" fill="${tonica ? '#ff9437' : t2 ? '#6ea8ff' : '#eee7d8'}" stroke="${tonica ? '#ffd7ae' : t2 ? '#cfe0ff' : '#17171b'}" stroke-width="1.5"/><text x="${X(nt.f)}" y="${Y(i) + fs * .36}" text-anchor="middle" font-size="${fs}" font-weight="700" fill="#17110a">${esc(t)}</text></g>`;
     });
     return { html: s + '</svg>', wTot };
   }

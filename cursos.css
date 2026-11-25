@@ -97,3 +97,6 @@
 .es-scroll svg{display:block}.es-n{cursor:pointer;outline:none}.es-n circle{transition:transform .15s,filter .15s;transform-box:fill-box;transform-origin:center}
 .es-n.on circle,.es-n.pulse circle{transform:scale(1.28);filter:drop-shadow(0 0 5px #ff9437)}
 .es-ctr{margin-top:10px}
+
+.es-n.on rect,.es-n.pulse rect{transform:scale(1.25);filter:drop-shadow(0 0 5px #2faa5a);transform-box:fill-box;transform-origin:center}
+.es-n rect{transition:transform .15s,filter .15s}

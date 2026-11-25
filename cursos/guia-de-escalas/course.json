@@ -845,6 +845,9293 @@
      ]
     }
    ]
+  },
+  {
+   "id": "e4",
+   "title": "4. ESCALA PENTATÔNICA",
+   "topics": [
+    {
+     "id": "e4-1",
+     "title": "Pentatônica maior: a estrutura",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A <b>Pentatônica</b> é a escala mais antiga de que se tem conhecimento: na China há documentos de 3.000 a.C. que comprovam o seu uso, e alguns historiadores afirmam que os sumérios já a usavam há mais de 6.000 anos. Em geral, as origens da pentatônica remetem ao mundo oriental e ao continente africano. Ela chegou à música ocidental nos EUA, levada pelos escravos trazidos da África e seus descendentes, que também originaram o Jazz e o Blues."
+      },
+      {
+       "type": "p",
+       "html": "A definição é: <i>uma escala de 5 sons dentro de uma oitava</i>. Existem vários tipos de escalas pentatônicas, mas as mais usadas são a <b>Pentatônica Maior</b> e a <b>Pentatônica Menor</b>."
+      },
+      {
+       "type": "h3",
+       "text": "Escala Pentatônica Maior"
+      },
+      {
+       "type": "p",
+       "html": "Veja a estrutura da Pentatônica Maior, com as distâncias em tons (T) e semitons (ST), os intervalos e uma comparação com a Escala Diatônica Maior. No exemplo, a escala de Dó Maior (C):"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-escalas/img/penta-maior-C.svg",
+       "caption": "Pentatônica de Dó Maior (C): T, 2M, 3M, 5J e 6M, com as distâncias entre as notas",
+       "dark": true
+      },
+      {
+       "type": "p",
+       "html": "A Pentatônica de Dó Maior (C) é formada pelas notas <b>C, D, E, G, A</b> (as notas circuladas): respectivamente a 1ª (tônica), 2ª, 3ª, 5ª e 6ª notas da Escala Diatônica Maior. Ficaram de fora o F e o B, a 4ª e a 7ª notas. É importante já ficar atento a essa relação entre as escalas."
+      }
+     ]
+    },
+    {
+     "id": "e4-2",
+     "title": "Pentatônica maior na horizontal e em todo o braço",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Vamos começar visualizando e tocando a escala na horizontal, em <b>apenas uma corda</b>, para assimilar bem na prática as distâncias entre as notas. Neste exemplo, na 2ª corda:"
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "7": "5J",
+        "9": "6M"
+       },
+       "title": "Escala Pentatônica de Dó Maior (C) na 2ª corda",
+       "strings": [
+        4
+       ],
+       "range": [
+        1,
+        17
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Toque, e comece a improvisar com essas notas sobre uma harmonia na tonalidade de Dó Maior (C). Depois localize as mesmas notas em todas as cordas e toque um pouco em cada uma delas. Veja a Pentatônica Maior em todas as cordas e em todo o braço:"
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "7": "5J",
+        "9": "6M"
+       },
+       "title": "Escala Pentatônica de Dó Maior (C) em todas as cordas",
+       "range": [
+        0,
+        17
+       ]
+      },
+      {
+       "type": "note",
+       "html": "As bolinhas à esquerda do braço são as notas das cordas soltas que fazem parte da escala. Deslize o diagrama para o lado para ver o braço todo."
+      }
+     ]
+    },
+    {
+     "id": "e4-3",
+     "title": "Formatos da Pentatônica Maior",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Olhando com atenção o diagrama do braço todo, percebemos que é possível recortá-lo em partes menores, formando <b>5 digitações diferentes</b>, todas com 2 notas por corda. Chamamos essas digitações de <b>formatos</b>. O <b>Formato 1</b> é sempre o que começa pela <b>tônica</b> da escala (aqui, a nota C)."
+      },
+      {
+       "type": "p",
+       "html": "Pratique os 5 formatos até memorizá-los bem. Você pode usar o metrônomo com diferentes divisões rítmicas (colcheias, tercinas, semicolcheias...). Depois reserve sempre um tempo do estudo para aplicá-los musicalmente, improvisando sobre <i>jam tracks</i>."
+      },
+      {
+       "type": "h3",
+       "text": "Digitações da Escala Pentatônica Maior"
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "7": "5J",
+        "9": "6M"
+       },
+       "title": "Formato 1",
+       "pos": [
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       "range": [
+        6,
+        11
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "7": "5J",
+        "9": "6M"
+       },
+       "title": "Formato 2",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ]
+       ],
+       "range": [
+        8,
+        14
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "7": "5J",
+        "9": "6M"
+       },
+       "title": "Formato 3",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         15
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         15
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         15
+        ]
+       ],
+       "range": [
+        11,
+        16
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "7": "5J",
+        "9": "6M"
+       },
+       "title": "Formato 4",
+       "pos": [
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         5,
+         5
+        ]
+       ],
+       "range": [
+        1,
+        6
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "7": "5J",
+        "9": "6M"
+       },
+       "title": "Formato 5",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         8
+        ]
+       ],
+       "range": [
+        4,
+        9
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Repare onde fica a tônica (laranja) em cada formato. Ela é o seu ponto de referência para encontrar a escala no braço."
+      }
+     ]
+    },
+    {
+     "id": "e4-4",
+     "title": "Transposição da Pentatônica Maior",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A esta altura você pode ter se perguntado: <i>“e se a música for em Mi Maior (E)?”</i>. Na prática é bem fácil mudar de tonalidade, desde que você tenha memorizado bem os formatos e observado onde fica a tônica em cada um."
+      },
+      {
+       "type": "p",
+       "html": "Você vai aproveitar sempre os mesmos formatos, movendo-os para encaixar na tonalidade desejada. O mais fácil é tomar como referência o <b>Formato 1</b>, que começa pela tônica na 6ª corda. Para trocar para Mi Maior (E), basta movê-lo até a <b>casa 12</b>, para que ele comece na nota E, que passa a ser a tônica. As demais notas mudam automaticamente. Compare:"
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "7": "5J",
+        "9": "6M"
+       },
+       "title": "Formato 1",
+       "pos": [
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       "range": [
+        6,
+        11
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 4,
+       "pcs": [
+        1,
+        4,
+        6,
+        8,
+        11
+       ],
+       "names": {
+        "4": "E",
+        "6": "F#",
+        "8": "G#",
+        "11": "B",
+        "1": "C#"
+       },
+       "degs": {
+        "4": "T",
+        "6": "2M",
+        "8": "3M",
+        "11": "5J",
+        "1": "6M"
+       },
+       "title": "Formato 1 em Mi Maior (E)",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         14
+        ],
+        [
+         1,
+         11
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         2,
+         11
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         3,
+         11
+        ],
+        [
+         3,
+         13
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         14
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         14
+        ]
+       ],
+       "range": [
+        11,
+        16
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Você pode fazer a transposição para qualquer tonalidade, com todos os formatos, observando sempre onde fica a tônica e localizando-a nas cordas e casas corretas da tonalidade escolhida."
+      }
+     ]
+    },
+    {
+     "id": "e4-5",
+     "title": "Exercício de transposição da Pentatônica Maior",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos exercitar a transposição do ponto de vista teórico, para saber quais notas formam a escala em cada tonalidade. Escreva num papel (ou de cabeça) as notas da Pentatônica Maior de cada tonalidade e depois toque na linha para conferir. Assim você exercita também os intervalos e os ciclos de 5ª e de 4ª das tonalidades maiores."
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Tonalidade",
+        "Notas da escala"
+       ],
+       "rows": [
+        [
+         "Sol Maior (G)",
+         "G A B D E"
+        ],
+        [
+         "Ré Maior (D)",
+         "D E F# A B"
+        ],
+        [
+         "Lá Maior (A)",
+         "A B C# E F#"
+        ],
+        [
+         "Mi Maior (E)",
+         "E F# G# B C#"
+        ],
+        [
+         "Si Maior (B)",
+         "B C# D# F# G#"
+        ],
+        [
+         "Fá# Maior (F#)",
+         "F# G# A# C# D#"
+        ],
+        [
+         "Dó# Maior (C#)",
+         "C# D# E# G# A#"
+        ],
+        [
+         "Fá Maior (F)",
+         "F G A C D"
+        ],
+        [
+         "Sib Maior (Bb)",
+         "Bb C D F G"
+        ],
+        [
+         "Mib Maior (Eb)",
+         "Eb F G Bb C"
+        ],
+        [
+         "Láb Maior (Ab)",
+         "Ab Bb C Eb F"
+        ],
+        [
+         "Réb Maior (Db)",
+         "Db Eb F Ab Bb"
+        ],
+        [
+         "Solb Maior (Gb)",
+         "Gb Ab Bb Db Eb"
+        ],
+        [
+         "Dób Maior (Cb)",
+         "Cb Db Eb Gb Ab"
+        ]
+       ],
+       "hide": [
+        1
+       ],
+       "hint": "Fórmula: T, 2M, 3M, 5J e 6M a partir da tônica."
+      }
+     ]
+    },
+    {
+     "id": "e4-6",
+     "title": "Pentatônica menor: a estrutura",
+     "blocks": [
+      {
+       "type": "h3",
+       "text": "Escala Pentatônica Menor"
+      },
+      {
+       "type": "p",
+       "html": "Veja a estrutura da Pentatônica Menor, com as distâncias em tons (T) e semitons (ST), os intervalos e uma comparação com a Escala Menor Natural. No exemplo, a escala de Lá menor (Am):"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-escalas/img/penta-menor-A.svg",
+       "caption": "Pentatônica de Lá menor (Am): T, 3m, 4J, 5J e 7m, com as distâncias entre as notas",
+       "dark": true
+      },
+      {
+       "type": "p",
+       "html": "A Pentatônica de Lá menor (Am) é formada pelas notas <b>A, C, D, E, G</b> (as notas circuladas): respectivamente a 1ª (tônica), 3ª, 4ª, 5ª e 7ª notas da Escala Menor Natural. Ficaram de fora o B e o F, a 2ª e a 6ª notas. É importante ficar atento a essa relação."
+      }
+     ]
+    },
+    {
+     "id": "e4-7",
+     "title": "Pentatônica menor na horizontal e em todo o braço",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Começamos de novo na horizontal, em apenas uma corda. Neste exemplo, na 3ª corda:"
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "9": "A",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "7": "7m"
+       },
+       "title": "Escala Pentatônica de Lá Menor (Am) na 3ª corda",
+       "strings": [
+        3
+       ],
+       "range": [
+        1,
+        17
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Toque, e comece a improvisar com essas notas sobre uma harmonia na tonalidade de Lá Menor (Am). Depois localize as mesmas notas em todas as cordas e toque um pouco em cada uma. Veja a Pentatônica Menor em todas as cordas e em todo o braço:"
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "9": "A",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "7": "7m"
+       },
+       "title": "Escala Pentatônica de Lá Menor (Am) em todas as cordas",
+       "range": [
+        0,
+        17
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e4-8",
+     "title": "Formatos da Pentatônica Menor",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Como já fizemos com a Pentatônica Maior, vamos recortar o diagrama em <b>5 digitações diferentes</b>, de 2 notas por corda. Repare que são os mesmos formatos, mas agora o <b>Formato 1</b> é o que começa na nota Lá (A), a tônica deste exemplo. Pratique os 5 formatos até memorizá-los, sempre observando onde está a tônica. Depois, improvise sobre <i>jam tracks</i>."
+      },
+      {
+       "type": "h3",
+       "text": "Digitações da Escala Pentatônica Menor"
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "9": "A",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "7": "7m"
+       },
+       "title": "Formato 1",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         8
+        ]
+       ],
+       "range": [
+        4,
+        9
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "9": "A",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "7": "7m"
+       },
+       "title": "Formato 2",
+       "pos": [
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       "range": [
+        6,
+        11
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "9": "A",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "7": "7m"
+       },
+       "title": "Formato 3",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ]
+       ],
+       "range": [
+        8,
+        14
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "9": "A",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "7": "7m"
+       },
+       "title": "Formato 4",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         15
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         15
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         15
+        ]
+       ],
+       "range": [
+        11,
+        16
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "9": "A",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "7": "7m"
+       },
+       "title": "Formato 5",
+       "pos": [
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         5,
+         5
+        ]
+       ],
+       "range": [
+        1,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e4-9",
+     "title": "Transposição da Pentatônica Menor",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Como fizemos com a Pentatônica Maior, vamos transpor a Pentatônica Menor para outras tonalidades. Quando a tonalidade é menor, o mais fácil é usar como referência o <b>Formato 1</b>, que começa pela tônica na 6ª corda. Para trocar de Lá menor (Am) para Ré menor (Dm), movemos o formato até a <b>casa 10</b>, para que ele comece na nota D, que passa a ser a tônica. As demais notas mudam automaticamente. Compare:"
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "9": "A",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "7": "7m"
+       },
+       "title": "Formato 1",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         8
+        ]
+       ],
+       "range": [
+        4,
+        9
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 2,
+       "pcs": [
+        0,
+        2,
+        5,
+        7,
+        9
+       ],
+       "names": {
+        "2": "D",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "0": "C"
+       },
+       "degs": {
+        "2": "T",
+        "5": "3m",
+        "7": "4J",
+        "9": "5J",
+        "0": "7m"
+       },
+       "title": "Formato 1 em Ré menor (Dm), na casa 10",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         13
+        ]
+       ],
+       "range": [
+        9,
+        14
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Veja agora outro exemplo, transpondo o <b>Formato 4</b> da Pentatônica de Lá Menor (Am) para Dó sustenido Menor (C#m):"
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "9": "A",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "7": "7m"
+       },
+       "title": "Formato 4",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         15
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         15
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         15
+        ]
+       ],
+       "range": [
+        11,
+        16
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 1,
+       "pcs": [
+        1,
+        4,
+        6,
+        8,
+        11
+       ],
+       "names": {
+        "1": "C#",
+        "4": "E",
+        "6": "F#",
+        "8": "G#",
+        "11": "B"
+       },
+       "degs": {
+        "1": "T",
+        "4": "3m",
+        "6": "4J",
+        "8": "5J",
+        "11": "7m"
+       },
+       "title": "Formato 4 em Dó# menor (C#m)",
+       "pos": [
+        [
+         0,
+         4
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         1,
+         4
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         2,
+         4
+        ],
+        [
+         2,
+         6
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         6
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         7
+        ],
+        [
+         5,
+         4
+        ],
+        [
+         5,
+         7
+        ]
+       ],
+       "range": [
+        3,
+        8
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Exercite essa transposição para várias tonalidades e com todos os formatos."
+      }
+     ]
+    },
+    {
+     "id": "e4-10",
+     "title": "Exercício de transposição da Pentatônica Menor",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora, o mesmo exercício teórico para a Pentatônica Menor. Escreva no papel (ou de cabeça) as notas da escala de cada tonalidade menor e toque na linha para conferir. Assim você exercita os intervalos e os ciclos de 5ª e de 4ª das tonalidades menores."
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Tonalidade",
+        "Notas da escala"
+       ],
+       "rows": [
+        [
+         "Mi menor (Em)",
+         "E G A B D"
+        ],
+        [
+         "Si menor (Bm)",
+         "B D E F# A"
+        ],
+        [
+         "Fá# menor (F#m)",
+         "F# A B C# E"
+        ],
+        [
+         "Dó# menor (C#m)",
+         "C# E F# G# B"
+        ],
+        [
+         "Sol# menor (G#m)",
+         "G# B C# D# F#"
+        ],
+        [
+         "Ré# menor (D#m)",
+         "D# F# G# A# C#"
+        ],
+        [
+         "Lá# menor (A#m)",
+         "A# C# D# E# G#"
+        ],
+        [
+         "Ré menor (Dm)",
+         "D F G A C"
+        ],
+        [
+         "Sol menor (Gm)",
+         "G Bb C D F"
+        ],
+        [
+         "Dó menor (Cm)",
+         "C Eb F G Bb"
+        ],
+        [
+         "Fá menor (Fm)",
+         "F Ab Bb C Eb"
+        ],
+        [
+         "Sib menor (Bbm)",
+         "Bb Db Eb F Ab"
+        ],
+        [
+         "Mib menor (Ebm)",
+         "Eb Gb Ab Bb Db"
+        ],
+        [
+         "Láb menor (Abm)",
+         "Ab Cb Db Eb Gb"
+        ]
+       ],
+       "hide": [
+        1
+       ],
+       "hint": "Fórmula: T, 3m, 4J, 5J e 7m a partir da tônica."
+      }
+     ]
+    },
+    {
+     "id": "e4-11",
+     "title": "Relação entre a Pentatônica Maior e a Menor",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Você provavelmente já percebeu que as Pentatônicas de Dó Maior (C) e de Lá menor (Am) têm <b>os mesmos formatos e as mesmas notas</b>. Por isso dizemos que essas escalas são <b>relativas</b>, o que na prática significa que <b>são a mesma escala</b>. Assim, podemos pensar sempre em uma só Pentatônica com duas tônicas: a Maior (laranja) e a menor (azul)."
+      },
+      {
+       "type": "p",
+       "html": "Veja os formatos com as duas tônicas, na numeração da Pentatônica Menor (o Formato 1 começa em Lá):"
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "title": "Formato 1",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         8
+        ]
+       ],
+       "range": [
+        4,
+        9
+       ],
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "title": "Formato 2",
+       "pos": [
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       "range": [
+        6,
+        11
+       ],
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "title": "Formato 3",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ]
+       ],
+       "range": [
+        8,
+        14
+       ],
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "title": "Formato 4",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         15
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         15
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         15
+        ]
+       ],
+       "range": [
+        11,
+        16
+       ],
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "title": "Formato 5",
+       "pos": [
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         5,
+         5
+        ]
+       ],
+       "range": [
+        1,
+        6
+       ],
+       "root2": 9
+      }
+     ]
+    },
+    {
+     "id": "e4-12",
+     "title": "Relativas e aplicações da Pentatônica",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Você deve aprender quais são as escalas e tonalidades relativas. A forma mais fácil de deduzi-las é pela distância de <b>1T + 1ST (3 casas)</b> entre as notas A (menor relativa) e C (Maior)."
+      },
+      {
+       "type": "ul",
+       "items": [
+        "Para achar a <b>relativa menor</b>, desça 3 semitons a partir da tônica Maior.",
+        "Para achar a <b>tônica Maior</b>, suba 3 semitons a partir da relativa menor."
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Outra dica: as duas tônicas ficam no início do Formato 1 da Pentatônica, a 3 casas de distância. A menor relativa é tocada com o dedo indicador e a tônica Maior com o dedo mínimo."
+      },
+      {
+       "type": "h3",
+       "text": "Quadro de escalas e tonalidades relativas"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Maior (ciclo de 5ªs, #)",
+        "Menor relativa",
+        "Maior (ciclo de 4ªs, b)",
+        "Menor relativa"
+       ],
+       "rows": [
+        [
+         "C",
+         "Am",
+         "C",
+         "Am"
+        ],
+        [
+         "G",
+         "Em",
+         "F",
+         "Dm"
+        ],
+        [
+         "D",
+         "Bm",
+         "Bb",
+         "Gm"
+        ],
+        [
+         "A",
+         "F#m",
+         "Eb",
+         "Cm"
+        ],
+        [
+         "E",
+         "C#m",
+         "Ab",
+         "Fm"
+        ],
+        [
+         "B",
+         "G#m",
+         "Db",
+         "Bbm"
+        ],
+        [
+         "F#",
+         "D#m",
+         "Gb",
+         "Ebm"
+        ],
+        [
+         "C#",
+         "A#m",
+         "Cb",
+         "Abm"
+        ]
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Memorize essa tabela e exercite várias vezes escrevendo, num rascunho, tônicas maiores e suas relativas menores, e vice-versa."
+      },
+      {
+       "type": "h3",
+       "text": "Aplicações da Escala Pentatônica"
+      },
+      {
+       "type": "p",
+       "html": "A Pentatônica é a escala mais fácil de usar, pois pode ser aplicada sobre <b>todos os acordes de uma harmonia que estejam no mesmo campo harmônico</b> da tonalidade, e muitas vezes soa bem até sobre acordes que não fazem parte do campo."
+      },
+      {
+       "type": "p",
+       "html": "Também é possível aplicar uma Pentatônica específica para cada acorde da harmonia: a <b>Pentatônica Maior sobre acordes maiores</b> e a <b>Pentatônica Menor sobre acordes menores</b>, sempre partindo da tônica de cada acorde."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "title": "5. ESCALA PENTATÔNICA BLUES",
+   "topics": [
+    {
+     "id": "e5-1",
+     "title": "Pentatônica Blues: a estrutura",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A escala <b>Pentatônica Blues</b> é uma pentatônica, maior ou menor, acrescida de uma nota de passagem chamada <b>Blue Note</b>. O nome vem do fato de que essa nota acrescenta um toque de tristeza e melancolia à sonoridade da escala."
+      },
+      {
+       "type": "h3",
+       "text": "Estrutura da Pentatônica Blues"
+      },
+      {
+       "type": "p",
+       "html": "Tomando como referência a Pentatônica Maior, encontramos a Blue Note no intervalo de <b>terça menor</b> (3m ou b3) em relação à tônica. Exemplo em Dó Maior (C), com a blue note Eb:"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-escalas/img/blues-maior-C.svg",
+       "caption": "Pentatônica Blues de Dó Maior: T, 2M, 3m (blue note), 3M, 5J e 6M",
+       "dark": true
+      },
+      {
+       "type": "p",
+       "html": "Se tomarmos como referência a Pentatônica Menor, a Blue Note fica no intervalo de <b>quinta diminuta</b> (5dim ou b5) em relação à tônica. Exemplo em Lá menor (Am), com a mesma blue note Eb:"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-escalas/img/blues-menor-A.svg",
+       "caption": "Pentatônica Blues de Lá menor: T, 3m, 4J, 5dim (blue note), 5J e 7m",
+       "dark": true
+      },
+      {
+       "type": "note",
+       "html": "São a mesma escala, vista por dois lados: como C e Am são relativas, a blue note é a mesma nota (Eb) nas duas."
+      }
+     ]
+    },
+    {
+     "id": "e5-2",
+     "title": "Pentatônica Blues em todo o braço",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Como já fizemos com a Pentatônica, recomendo tocar a Penta Blues na horizontal, improvisando em uma corda por vez, sempre observando onde estão as tônicas (a Maior em <b>laranja</b> e a menor relativa em <b>azul</b>) e a blue note (o <b>quadrado verde</b>)."
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "3": "Eb",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "title": "Pentatônica Blues de Dó Maior (C) e Lá Menor (Am) em todo o braço",
+       "range": [
+        0,
+        17
+       ],
+       "blue": 3,
+       "root2": 9
+      },
+      {
+       "type": "note",
+       "html": "Deslize o diagrama para o lado para ver o braço todo. Toque em qualquer nota para ouvi-la e use o botão Tocar escala para ouvir a sequência completa."
+      }
+     ]
+    },
+    {
+     "id": "e5-3",
+     "title": "Formatos da Pentatônica Blues",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos recortar o diagrama e ver como ficam os <b>5 formatos</b> da Pentatônica Blues. São os mesmos formatos da Pentatônica, na numeração da Pentatônica Menor (o Formato 1 começa em Lá), com a blue note acrescentada como nota de passagem."
+      },
+      {
+       "type": "h3",
+       "text": "Digitações da Pentatônica Blues"
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "3": "Eb",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "title": "Formato 1",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         1,
+         6
+        ],
+        [
+         3,
+         8
+        ]
+       ],
+       "range": [
+        4,
+        9
+       ],
+       "blue": 3,
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "3": "Eb",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "title": "Formato 2",
+       "pos": [
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         0,
+         11
+        ],
+        [
+         3,
+         8
+        ],
+        [
+         5,
+         11
+        ]
+       ],
+       "range": [
+        6,
+        12
+       ],
+       "blue": 3,
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "3": "Eb",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "title": "Formato 3",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         0,
+         11
+        ],
+        [
+         2,
+         13
+        ],
+        [
+         5,
+         11
+        ]
+       ],
+       "range": [
+        8,
+        14
+       ],
+       "blue": 3,
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "3": "Eb",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "title": "Formato 4",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         15
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         15
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         15
+        ],
+        [
+         2,
+         13
+        ],
+        [
+         4,
+         16
+        ]
+       ],
+       "range": [
+        11,
+        17
+       ],
+       "blue": 3,
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "3": "Eb",
+        "4": "E",
+        "7": "G",
+        "9": "A"
+       },
+       "title": "Formato 5",
+       "pos": [
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         1,
+         6
+        ],
+        [
+         4,
+         4
+        ]
+       ],
+       "range": [
+        1,
+        7
+       ],
+       "blue": 3,
+       "root2": 9
+      },
+      {
+       "type": "note",
+       "html": "Repare que a blue note aparece sempre colada em uma nota do formato, funcionando como passagem entre a 4ª e a 5ª notas da Pentatônica Menor (no exemplo, entre D e E)."
+      }
+     ]
+    },
+    {
+     "id": "e5-4",
+     "title": "Exercício de transposição da Pentatônica Blues",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Na prática, a transposição funciona da mesma forma que na Pentatônica: você só precisa ficar atento às tônicas (a Maior e a menor relativa). Mas nunca é demais exercitar. Escreva no papel (ou de cabeça) as notas da Penta Blues partindo da tônica Maior e depois da menor relativa, e toque na linha para conferir."
+      },
+      {
+       "type": "h3",
+       "text": "A partir da tônica Maior"
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Tonalidade",
+        "Notas da escala"
+       ],
+       "rows": [
+        [
+         "Sol Maior (G)",
+         "G A Bb B D E"
+        ],
+        [
+         "Ré Maior (D)",
+         "D E F F# A B"
+        ],
+        [
+         "Lá Maior (A)",
+         "A B C C# E F#"
+        ],
+        [
+         "Mi Maior (E)",
+         "E F# G G# B C#"
+        ],
+        [
+         "Si Maior (B)",
+         "B C# D D# F# G#"
+        ],
+        [
+         "Fá# Maior (F#)",
+         "F# G# A A# C# D#"
+        ],
+        [
+         "Dó# Maior (C#)",
+         "C# D# E E# G# A#"
+        ],
+        [
+         "Fá Maior (F)",
+         "F G Ab A C D"
+        ],
+        [
+         "Sib Maior (Bb)",
+         "Bb C Db D F G"
+        ],
+        [
+         "Mib Maior (Eb)",
+         "Eb F Gb G Bb C"
+        ],
+        [
+         "Láb Maior (Ab)",
+         "Ab Bb Cb C Eb F"
+        ],
+        [
+         "Réb Maior (Db)",
+         "Db Eb Fb F Ab Bb"
+        ],
+        [
+         "Solb Maior (Gb)",
+         "Gb Ab Bbb Bb Db Eb"
+        ],
+        [
+         "Dób Maior (Cb)",
+         "Cb Db Ebb Eb Gb Ab"
+        ]
+       ],
+       "hide": [
+        1
+       ],
+       "hint": "Fórmula: T, 2M, 3m, 3M, 5J e 6M."
+      },
+      {
+       "type": "h3",
+       "text": "A partir da tônica menor"
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Tonalidade",
+        "Notas da escala"
+       ],
+       "rows": [
+        [
+         "Mi menor (Em)",
+         "E G A Bb B D"
+        ],
+        [
+         "Si menor (Bm)",
+         "B D E F F# A"
+        ],
+        [
+         "Fá# menor (F#m)",
+         "F# A B C C# E"
+        ],
+        [
+         "Dó# menor (C#m)",
+         "C# E F# G G# B"
+        ],
+        [
+         "Sol# menor (G#m)",
+         "G# B C# D D# F#"
+        ],
+        [
+         "Ré# menor (D#m)",
+         "D# F# G# A A# C#"
+        ],
+        [
+         "Lá# menor (A#m)",
+         "A# C# D# E E# G#"
+        ],
+        [
+         "Ré menor (Dm)",
+         "D F G Ab A C"
+        ],
+        [
+         "Sol menor (Gm)",
+         "G Bb C Db D F"
+        ],
+        [
+         "Dó menor (Cm)",
+         "C Eb F Gb G Bb"
+        ],
+        [
+         "Fá menor (Fm)",
+         "F Ab Bb Cb C Eb"
+        ],
+        [
+         "Sib menor (Bbm)",
+         "Bb Db Eb Fb F Ab"
+        ],
+        [
+         "Mib menor (Ebm)",
+         "Eb Gb Ab Bbb Bb Db"
+        ],
+        [
+         "Láb menor (Abm)",
+         "Ab Cb Db Ebb Eb Gb"
+        ]
+       ],
+       "hide": [
+        1
+       ],
+       "hint": "Fórmula: T, 3m, 4J, 5dim, 5J e 7m."
+      }
+     ]
+    },
+    {
+     "id": "e5-5",
+     "title": "Aplicações da Pentatônica Blues",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A Pentatônica Blues tem as mesmas possibilidades de aplicação da Pentatônica convencional, apenas acrescentando o uso da <b>blue note como nota de passagem</b>."
+      },
+      {
+       "type": "p",
+       "html": "No Blues há ainda uma possibilidade peculiar: aplicar uma <b>Pentatônica Menor sobre um acorde Maior de mesma tônica</b>. Por exemplo, tocar a Pentatônica Blues de Lá menor sobre um acorde de A (Lá Maior). Esse é um dos sons mais característicos do estilo."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "title": "6. ESCALA DIATÔNICA",
+   "topics": [
+    {
+     "id": "e6-1",
+     "title": "Escala Diatônica e Escala Maior: a estrutura",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A <b>Escala Diatônica</b> é uma das estruturas mais antigas do sistema de teoria musical ocidental. Geralmente é a primeira escala que conhecemos desde criança, quando aprendemos os nomes das 7 notas musicais: Dó, Ré, Mi, Fá, Sol, Lá, Si (nomes de origem latina), ou sua representação por letras: C, D, E, F, G, A, B (notação de origem anglo-germânica)."
+      },
+      {
+       "type": "p",
+       "html": "Esse conjunto das 7 notas naturais dá origem a duas escalas principais: a <b>Escala de Dó Maior</b> e a <b>Escala de Lá menor natural</b>. A relação entre as duas é a mesma que vimos entre as Pentatônicas."
+      },
+      {
+       "type": "h3",
+       "text": "Escala Maior"
+      },
+      {
+       "type": "p",
+       "html": "A estrutura da Escala Maior, em distâncias de tom (T) e semitom (ST) entre as notas (graus), é <b>T, T, ST, T, T, T, ST</b>. Em intervalos, é <b>T – 2M – 3M – 4J – 5J – 6M – 7M</b>. Veja a estrutura da Escala de Dó Maior (C):"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-escalas/img/diat-maior-C.svg",
+       "caption": "Escala de Dó Maior (C): T, 2M, 3M, 4J, 5J, 6M e 7M, com as distâncias entre as notas",
+       "dark": true
+      }
+     ]
+    },
+    {
+     "id": "e6-2",
+     "title": "Escala Maior na horizontal e em todo o braço",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Vamos começar visualizando e tocando a escala na horizontal, em <b>apenas uma corda</b>, para assimilar bem na prática as distâncias entre as notas. Neste exemplo, na 2ª corda:"
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Escala de Dó Maior (C) na 2ª corda",
+       "strings": [
+        4
+       ],
+       "range": [
+        1,
+        17
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Toque, e comece a improvisar com essas notas sobre uma harmonia na tonalidade de Dó Maior (C). Depois localize as mesmas notas em todas as cordas e toque um pouco em cada uma delas. Veja a Escala de Dó Maior em todas as cordas e em todo o braço:"
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Escala de Dó Maior (C) em todas as cordas",
+       "range": [
+        0,
+        17
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Observando com atenção esse diagrama, percebemos que é possível recortá-lo em partes menores, formando <b>vários tipos de digitações</b> diferentes, combinando 3 e 2 notas por corda."
+      }
+     ]
+    },
+    {
+     "id": "e6-3",
+     "title": "Formatos da Escala Maior em 3 notas por corda",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Vamos começar com as digitações de <b>3 notas por corda</b>, que geram <b>7 formatos</b>, partindo de cada uma das notas da escala. Chamamos de <b>Formato 1</b> o que começa pela tônica, neste caso a nota C."
+      },
+      {
+       "type": "p",
+       "html": "Pratique os 7 formatos até memorizá-los bem. Você pode usar o metrônomo com diferentes divisões rítmicas (colcheias, tercinas, semicolcheias, etc.). Depois reserve sempre um tempo do estudo para aplicá-los musicalmente, improvisando sobre <i>jam tracks</i>."
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Formato 1",
+       "pos": [
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ]
+       ],
+       "range": [
+        7,
+        14
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Formato 2",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ],
+        [
+         5,
+         15
+        ]
+       ],
+       "range": [
+        9,
+        16
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Formato 3",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         0,
+         15
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         1,
+         15
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         2,
+         15
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         3,
+         16
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         4,
+         17
+        ],
+        [
+         5,
+         13
+        ],
+        [
+         5,
+         15
+        ],
+        [
+         5,
+         17
+        ]
+       ],
+       "range": [
+        11,
+        18
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Formato 4",
+       "pos": [
+        [
+         0,
+         1
+        ],
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         7
+        ]
+       ],
+       "range": [
+        0,
+        8
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Formato 5",
+       "pos": [
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ]
+       ],
+       "range": [
+        2,
+        9
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Formato 6",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       "range": [
+        4,
+        11
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Formato 7",
+       "pos": [
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ]
+       ],
+       "range": [
+        6,
+        13
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e6-4",
+     "title": "Formatos da Escala Maior sobre os modelos do CAGED",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Outra abordagem interessante é dividir o braço da guitarra em <b>5 regiões</b>, gerando 5 formatos de 3 e 2 notas por corda, e sobrepondo-os aos <b>modelos de acordes do CAGED</b>. Nos diagramas a seguir você vê esses 5 formatos com as notas do acorde de C (C, E e G) em destaque."
+      },
+      {
+       "type": "note",
+       "html": "Recomendo que você pratique tocando primeiro o acorde e depois a escala."
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Escala de Dó Maior (C) sobre o Modelo de Dó (C)",
+       "pos": [
+        [
+         0,
+         0
+        ],
+        [
+         0,
+         1
+        ],
+        [
+         0,
+         3
+        ],
+        [
+         1,
+         0
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         2,
+         0
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         3,
+         0
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         4,
+         1
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         5,
+         0
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         5,
+         3
+        ]
+       ],
+       "range": [
+        0,
+        6
+       ],
+       "dest": [
+        0,
+        4,
+        7
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Escala de Dó Maior (C) sobre o Modelo de Lá (A)",
+       "pos": [
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         5,
+         5
+        ]
+       ],
+       "range": [
+        1,
+        7
+       ],
+       "dest": [
+        0,
+        4,
+        7
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Escala de Dó Maior (C) sobre o Modelo de Sol (G)",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ]
+       ],
+       "range": [
+        3,
+        9
+       ],
+       "dest": [
+        0,
+        4,
+        7
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Escala de Dó Maior (C) sobre o Modelo de Mi (E)",
+       "pos": [
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       "range": [
+        6,
+        12
+       ],
+       "dest": [
+        0,
+        4,
+        7
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Escala de Dó Maior (C) sobre o Modelo de Ré (D)",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ]
+       ],
+       "range": [
+        8,
+        14
+       ],
+       "dest": [
+        0,
+        4,
+        7
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Escala de Dó Maior (C) sobre o Modelo de Dó (C) uma oitava acima",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         0,
+         15
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         1,
+         15
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         2,
+         15
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ],
+        [
+         5,
+         15
+        ]
+       ],
+       "range": [
+        11,
+        17
+       ],
+       "dest": [
+        0,
+        4,
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e6-5",
+     "title": "Transposição da Escala Maior",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A transposição segue a mesma lógica explicada no capítulo sobre a Pentatônica. <b>Memorize onde ficam as tônicas</b> dentro dos formatos, para que possa movê-los para qualquer tonalidade escolhida."
+      },
+      {
+       "type": "p",
+       "html": "Por exemplo, o Formato 1 começa pela tônica na 6ª corda. Em Dó Maior (C) ele começa na casa 8. Para tocar em Mi Maior (E), basta movê-lo até a casa 12, e todas as notas mudam automaticamente. Compare:"
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "degs": {
+        "0": "T",
+        "2": "2M",
+        "4": "3M",
+        "5": "4J",
+        "7": "5J",
+        "9": "6M",
+        "11": "7M"
+       },
+       "title": "Formato 1",
+       "pos": [
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ]
+       ],
+       "range": [
+        7,
+        14
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 4,
+       "pcs": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "4": "E",
+        "6": "F#",
+        "8": "G#",
+        "9": "A",
+        "11": "B",
+        "1": "C#",
+        "3": "D#"
+       },
+       "degs": {
+        "4": "T",
+        "6": "2M",
+        "8": "3M",
+        "9": "4J",
+        "11": "5J",
+        "1": "6M",
+        "3": "7M"
+       },
+       "title": "Formato 1 em Mi Maior (E)",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         14
+        ],
+        [
+         0,
+         16
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         1,
+         16
+        ],
+        [
+         2,
+         13
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         2,
+         16
+        ],
+        [
+         3,
+         13
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         3,
+         16
+        ],
+        [
+         4,
+         14
+        ],
+        [
+         4,
+         16
+        ],
+        [
+         4,
+         17
+        ],
+        [
+         5,
+         14
+        ],
+        [
+         5,
+         16
+        ],
+        [
+         5,
+         17
+        ]
+       ],
+       "range": [
+        11,
+        18
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Faça o mesmo com os outros formatos e com as outras tonalidades, sempre localizando primeiro a tônica."
+      }
+     ]
+    },
+    {
+     "id": "e6-6",
+     "title": "Exercício de transposição da Escala Maior",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos exercitar a transposição do ponto de vista teórico, para saber quais notas formam a escala em cada tonalidade. Escreva as notas no papel (ou de cabeça) e toque na linha para conferir. Assim você exercita também o seu conhecimento de intervalos e dos ciclos de 5ª e de 4ª das tonalidades maiores."
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Tonalidade",
+        "Notas da escala"
+       ],
+       "rows": [
+        [
+         "Sol Maior (G)",
+         "G A B C D E F#"
+        ],
+        [
+         "Ré Maior (D)",
+         "D E F# G A B C#"
+        ],
+        [
+         "Lá Maior (A)",
+         "A B C# D E F# G#"
+        ],
+        [
+         "Mi Maior (E)",
+         "E F# G# A B C# D#"
+        ],
+        [
+         "Si Maior (B)",
+         "B C# D# E F# G# A#"
+        ],
+        [
+         "Fá# Maior (F#)",
+         "F# G# A# B C# D# E#"
+        ],
+        [
+         "Dó# Maior (C#)",
+         "C# D# E# F# G# A# B#"
+        ],
+        [
+         "Fá Maior (F)",
+         "F G A Bb C D E"
+        ],
+        [
+         "Sib Maior (Bb)",
+         "Bb C D Eb F G A"
+        ],
+        [
+         "Mib Maior (Eb)",
+         "Eb F G Ab Bb C D"
+        ],
+        [
+         "Láb Maior (Ab)",
+         "Ab Bb C Db Eb F G"
+        ],
+        [
+         "Réb Maior (Db)",
+         "Db Eb F Gb Ab Bb C"
+        ],
+        [
+         "Solb Maior (Gb)",
+         "Gb Ab Bb Cb Db Eb F"
+        ],
+        [
+         "Dób Maior (Cb)",
+         "Cb Db Eb Fb Gb Ab Bb"
+        ]
+       ],
+       "hide": [
+        1
+       ],
+       "hint": "Fórmula: T, 2M, 3M, 4J, 5J, 6M e 7M (T, T, ST, T, T, T, ST)."
+      }
+     ]
+    },
+    {
+     "id": "e6-7",
+     "title": "Escala Menor Natural: a estrutura",
+     "blocks": [
+      {
+       "type": "h3",
+       "text": "Escala Menor Natural"
+      },
+      {
+       "type": "p",
+       "html": "A Escala Menor Natural é um modo obtido a partir da <b>sexta nota</b> da Escala Maior, por isso também a chamamos de <b>Escala Menor Relativa</b>. A estrutura em distâncias de tom e semitom é <b>T, ST, T, T, ST, T, T</b>. Em intervalos, é <b>T – 2M – 3m – 4J – 5J – 6m – 7m</b>. Veja a estrutura da Escala de Lá menor (Am):"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-escalas/img/diat-menor-A.svg",
+       "caption": "Escala de Lá menor (Am): T, 2M, 3m, 4J, 5J, 6m e 7m, com as distâncias entre as notas",
+       "dark": true
+      }
+     ]
+    },
+    {
+     "id": "e6-8",
+     "title": "Escala Menor Natural na horizontal e em todo o braço",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Vamos visualizar e tocar a escala na horizontal, em apenas uma corda. Neste exemplo, na 3ª corda:"
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Escala de Lá Menor (Am) na 3ª corda",
+       "strings": [
+        3
+       ],
+       "range": [
+        1,
+        17
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Toque, e comece a improvisar com essas notas sobre uma harmonia na tonalidade de Lá Menor (Am). Depois localize as mesmas notas em todas as cordas e toque um pouco em cada uma delas. Veja a Escala de Lá Menor (Am) em todas as cordas e em todo o braço:"
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Escala de Lá Menor (Am) em todas as cordas",
+       "range": [
+        0,
+        17
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Como acontece com a Maior, é possível recortar o diagrama em partes menores, formando vários tipos de digitações, combinando 3 e 2 notas por corda."
+      }
+     ]
+    },
+    {
+     "id": "e6-9",
+     "title": "Formatos da Escala Menor Natural em 3 notas por corda",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Começamos com as digitações de <b>3 notas por corda</b>, que geram <b>7 formatos</b>, partindo de cada uma das notas da escala. O <b>Formato 1</b> é o que começa pela tônica, neste caso a nota A."
+      },
+      {
+       "type": "p",
+       "html": "Pratique os 7 formatos até memorizá-los bem, com metrônomo e diferentes divisões rítmicas, e depois aplique-os musicalmente, improvisando sobre <i>jam tracks</i>."
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Formato 1",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       "range": [
+        4,
+        11
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Formato 2",
+       "pos": [
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ]
+       ],
+       "range": [
+        6,
+        13
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Formato 3",
+       "pos": [
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ]
+       ],
+       "range": [
+        7,
+        14
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Formato 4",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ],
+        [
+         5,
+         15
+        ]
+       ],
+       "range": [
+        9,
+        16
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Formato 5",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         0,
+         15
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         1,
+         15
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         2,
+         15
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         3,
+         16
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         4,
+         17
+        ],
+        [
+         5,
+         13
+        ],
+        [
+         5,
+         15
+        ],
+        [
+         5,
+         17
+        ]
+       ],
+       "range": [
+        11,
+        18
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Formato 6",
+       "pos": [
+        [
+         0,
+         1
+        ],
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         7
+        ]
+       ],
+       "range": [
+        0,
+        8
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Formato 7",
+       "pos": [
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ]
+       ],
+       "range": [
+        2,
+        9
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e6-10",
+     "title": "Formatos da Escala Menor Natural no CAGED",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos ver os <b>5 formatos</b> de 3 e 2 notas por corda sobrepostos aos modelos de acordes do CAGED. Nos diagramas a seguir você vê esses formatos com as notas do acorde de Am (A, C e E) em destaque."
+      },
+      {
+       "type": "note",
+       "html": "Recomendo que você pratique tocando primeiro o acorde e depois a escala."
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Escala de Lá Menor (Am) sobre o modelo de Lá menor (Am)",
+       "pos": [
+        [
+         0,
+         0
+        ],
+        [
+         0,
+         1
+        ],
+        [
+         0,
+         3
+        ],
+        [
+         1,
+         0
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         2,
+         0
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         3,
+         0
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         4,
+         1
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         5,
+         0
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         5,
+         3
+        ]
+       ],
+       "range": [
+        0,
+        6
+       ],
+       "dest": [
+        9,
+        0,
+        4
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Escala de Lá Menor (Am) sobre o modelo de Sol menor (Gm)",
+       "pos": [
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         5,
+         5
+        ]
+       ],
+       "range": [
+        1,
+        7
+       ],
+       "dest": [
+        9,
+        0,
+        4
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Escala de Lá Menor (Am) sobre o modelo de Mi menor (Em)",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ]
+       ],
+       "range": [
+        3,
+        9
+       ],
+       "dest": [
+        9,
+        0,
+        4
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Escala de Lá Menor (Am) sobre o modelo de Ré menor (Dm)",
+       "pos": [
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       "range": [
+        6,
+        12
+       ],
+       "dest": [
+        9,
+        0,
+        4
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Escala de Lá Menor (Am) sobre o modelo de Dó menor (Cm)",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ]
+       ],
+       "range": [
+        8,
+        14
+       ],
+       "dest": [
+        9,
+        0,
+        4
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Escala de Lá Menor (Am) sobre o modelo de Lá menor (Am) uma oitava acima",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         0,
+         15
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         1,
+         15
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         2,
+         15
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ],
+        [
+         5,
+         15
+        ]
+       ],
+       "range": [
+        11,
+        17
+       ],
+       "dest": [
+        9,
+        0,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e6-11",
+     "title": "Transposição da Escala Menor Natural",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A transposição segue a mesma lógica da Pentatônica. <b>Memorize onde ficam as tônicas</b> dentro dos formatos, para movê-los para qualquer tonalidade escolhida."
+      },
+      {
+       "type": "p",
+       "html": "O Formato 1 começa pela tônica na 6ª corda. Em Lá menor (Am) ele começa na casa 5. Para tocar em Ré menor (Dm), movemos o formato até a casa 10. Compare:"
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "7": "7m"
+       },
+       "title": "Formato 1",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       "range": [
+        4,
+        11
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 2,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10
+       ],
+       "names": {
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "10": "Bb",
+        "0": "C"
+       },
+       "degs": {
+        "2": "T",
+        "4": "2M",
+        "5": "3m",
+        "7": "4J",
+        "9": "5J",
+        "10": "6m",
+        "0": "7m"
+       },
+       "title": "Formato 1 em Ré menor (Dm)",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         13
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         11
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ],
+        [
+         5,
+         15
+        ]
+       ],
+       "range": [
+        9,
+        16
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e6-12",
+     "title": "Exercício de transposição da Escala Menor Natural",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora, o exercício teórico para a Escala Menor Natural. Escreva as notas no papel (ou de cabeça) e toque na linha para conferir. Assim você exercita também os intervalos e os ciclos de 5ª e de 4ª das tonalidades menores."
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Tonalidade",
+        "Notas da escala"
+       ],
+       "rows": [
+        [
+         "Mi menor (Em)",
+         "E F# G A B C D"
+        ],
+        [
+         "Si menor (Bm)",
+         "B C# D E F# G A"
+        ],
+        [
+         "Fá# menor (F#m)",
+         "F# G# A B C# D E"
+        ],
+        [
+         "Dó# menor (C#m)",
+         "C# D# E F# G# A B"
+        ],
+        [
+         "Sol# menor (G#m)",
+         "G# A# B C# D# E F#"
+        ],
+        [
+         "Ré# menor (D#m)",
+         "D# E# F# G# A# B C#"
+        ],
+        [
+         "Lá# menor (A#m)",
+         "A# B# C# D# E# F# G#"
+        ],
+        [
+         "Ré menor (Dm)",
+         "D E F G A Bb C"
+        ],
+        [
+         "Sol menor (Gm)",
+         "G A Bb C D Eb F"
+        ],
+        [
+         "Dó menor (Cm)",
+         "C D Eb F G Ab Bb"
+        ],
+        [
+         "Fá menor (Fm)",
+         "F G Ab Bb C Db Eb"
+        ],
+        [
+         "Sib menor (Bbm)",
+         "Bb C Db Eb F Gb Ab"
+        ],
+        [
+         "Mib menor (Ebm)",
+         "Eb F Gb Ab Bb Cb Db"
+        ],
+        [
+         "Láb menor (Abm)",
+         "Ab Bb Cb Db Eb Fb Gb"
+        ]
+       ],
+       "hide": [
+        1
+       ],
+       "hint": "Fórmula: T, 2M, 3m, 4J, 5J, 6m e 7m (T, ST, T, T, ST, T, T)."
+      }
+     ]
+    },
+    {
+     "id": "e6-13",
+     "title": "Escalas Maior e menor relativa juntas",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Assim como acontece com a Pentatônica, cada Escala Maior possui uma <b>menor relativa</b>, com os mesmos formatos e as mesmas notas. Na prática, <b>são a mesma escala</b>. Podemos pensar sempre em uma só Escala Diatônica que serve para duas tonalidades, uma Maior e outra menor, como C e Am."
+      },
+      {
+       "type": "p",
+       "html": "Veja todos os formatos com as duas tônicas: a Maior (C) em laranja e a menor (A) em azul."
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "title": "Formato 1",
+       "pos": [
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ]
+       ],
+       "range": [
+        7,
+        14
+       ],
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "title": "Formato 2",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ],
+        [
+         5,
+         15
+        ]
+       ],
+       "range": [
+        9,
+        16
+       ],
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "title": "Formato 3",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         0,
+         15
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         1,
+         15
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         2,
+         15
+        ],
+        [
+         3,
+         12
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         3,
+         16
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         4,
+         17
+        ],
+        [
+         5,
+         13
+        ],
+        [
+         5,
+         15
+        ],
+        [
+         5,
+         17
+        ]
+       ],
+       "range": [
+        11,
+        18
+       ],
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "title": "Formato 4",
+       "pos": [
+        [
+         0,
+         1
+        ],
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         5,
+         3
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         7
+        ]
+       ],
+       "range": [
+        0,
+        8
+       ],
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "title": "Formato 5",
+       "pos": [
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ]
+       ],
+       "range": [
+        2,
+        9
+       ],
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "title": "Formato 6",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       "range": [
+        4,
+        11
+       ],
+       "root2": 9
+      },
+      {
+       "type": "scale",
+       "root": 0,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+       ],
+       "names": {
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "7": "G",
+        "9": "A",
+        "11": "B"
+       },
+       "title": "Formato 7",
+       "pos": [
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         10
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ]
+       ],
+       "range": [
+        6,
+        13
+       ],
+       "root2": 9
+      }
+     ]
+    },
+    {
+     "id": "e6-14",
+     "title": "Aplicações da Escala Diatônica",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A Escala Diatônica deve ser aplicada sobre os acordes do respectivo <b>Campo Harmônico Maior</b>: I7M, IIm7, IIIm7, IV7M, V7, VIm7, VIIm7(b5); ou do <b>Campo Harmônico Menor Natural</b>: Im7, IIm7(b5), bIII7M, IVm7, Vm7, bVI7M, bVII7."
+      },
+      {
+       "type": "p",
+       "html": "Nas tonalidades de Dó Maior (C) ou da sua relativa Lá menor (Am), os acordes são C7M, Dm7, Em7, F7M, G7, Am7 e Bm7(b5). A situação mais comum é que todos os acordes de uma sequência façam parte do mesmo campo harmônico, e então basta aplicar a mesma escala sobre todos eles."
+      },
+      {
+       "type": "p",
+       "html": "Quando algum acorde não faz parte do mesmo campo dos demais, é preciso descobrir o seu campo harmônico de origem e usar a escala apropriada sobre ele. Nesse caso, e também quando há um acorde sozinho, fora de contexto, é possível ter mais de uma opção de escala."
+      },
+      {
+       "type": "p",
+       "html": "Por exemplo, um acorde C pode ser encontrado em três campos harmônicos diferentes: ele é o I grau do campo de C, o IV grau do campo de G e o V grau do campo de F. Sobre um acorde C podemos tocar, então, três escalas maiores: de C, de G e de F. Cada uma gera uma sonoridade diferente, e é isso que chamamos de <b>intenção modal</b>. Aqui percebemos a importância de conhecer os modos gregos."
+      }
+     ]
+    },
+    {
+     "id": "e6-15",
+     "title": "Modos gregos: a ideia",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Embora não seja o objetivo deste curso, vamos ver uma breve explicação sobre os <b>modos gregos</b>."
+      },
+      {
+       "type": "p",
+       "html": "Os modos gregos são sonoridades obtidas pela <b>inversão das notas de uma Escala Maior</b>. Uma analogia com a palavra <i>Guitarra</i>: se tiramos a letra G do início e a colocamos no final, a palavra vira <i>Uitarrag</i>. Se passamos a letra U para o final, fica <i>Itarragu</i>; depois <i>Tarragui</i>, <i>Arraguit</i>, <i>Rraguita</i>, e assim por diante. São sempre as mesmas letras, mas a ordem muda e a palavra muda totalmente de sentido."
+      },
+      {
+       "type": "p",
+       "html": "É mais ou menos isso que acontece com a escala, mas é mais difícil perceber auditivamente as diferenças entre os modos, por isso é preciso familiarizar e treinar o ouvido para identificar as diferentes sonoridades."
+      },
+      {
+       "type": "p",
+       "html": "E não se trata exatamente da nota em que começamos, e sim da nota que é <b>enfatizada</b>, colocada como principal na base, no baixo por exemplo. Além disso, quando há um acorde na base, ele determina quem é a nota principal naquele contexto, e a combinação dele com a escala aplicada define a sonoridade modal."
+      }
+     ]
+    },
+    {
+     "id": "e6-16",
+     "title": "Os sete modos da escala de Dó Maior",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Vamos exemplificar com os modos gerados pela escala de Dó Maior (C), que tem as notas C, D, E, F, G, A, B. Cada modo começa em uma nota da escala e está ligado a um acorde do campo harmônico maior."
+      },
+      {
+       "type": "table",
+       "head": [
+        "Modo",
+        "Notas em C",
+        "Intervalo característico"
+       ],
+       "rows": [
+        [
+         "1º: Jônio",
+         "C D E F G A B C",
+         "—"
+        ],
+        [
+         "2º: Dórico",
+         "D E F G A B C D",
+         "6M"
+        ],
+        [
+         "3º: Frígio",
+         "E F G A B C D E",
+         "2m"
+        ],
+        [
+         "4º: Lídio",
+         "F G A B C D E F",
+         "4Aum"
+        ],
+        [
+         "5º: Mixolídio",
+         "G A B C D E F G",
+         "7m"
+        ],
+        [
+         "6º: Eólio",
+         "A B C D E F G A",
+         "6m"
+        ],
+        [
+         "7º: Lócrio",
+         "B C D E F G A B",
+         "5d"
+        ]
+       ]
+      },
+      {
+       "type": "ul",
+       "items": [
+        "<b>Modo Jônio:</b> é o 1º modo, a Escala Maior partindo da sua 1ª nota, adotada como tônica. Está ligado ao 1º acorde do campo, o C ou C7M.",
+        "<b>Modo Dórico:</b> começa na 2ª nota (D), enfatizada como principal. Tem como intervalo característico a 6M. Liga-se ao 2º acorde, o Dm ou Dm7.",
+        "<b>Modo Frígio:</b> começa na 3ª nota (E). Intervalo característico: 2m. Liga-se ao 3º acorde, o Em ou Em7.",
+        "<b>Modo Lídio:</b> começa na 4ª nota (F). Intervalo característico: 4Aum. Liga-se ao 4º acorde, o F ou F7M.",
+        "<b>Modo Mixolídio:</b> começa na 5ª nota (G). Intervalo característico: 7m. Liga-se ao 5º acorde, o G ou G7.",
+        "<b>Modo Eólio:</b> começa na 6ª nota (A). Intervalo característico: 6m. Liga-se ao 6º acorde, o Am ou Am7. O Modo Eólio é, na verdade, a Escala Menor Natural.",
+        "<b>Modo Lócrio:</b> começa na 7ª nota (B). Intervalo característico: 5d. Liga-se ao 7º acorde, o Bm(b5) ou Bm7(b5)."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e6-17",
+     "title": "Resumo: a mesma escala sobre cada acorde",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Em resumo, a mesma escala de C aplicada sobre diferentes acordes do seu campo harmônico gera diferentes sonoridades modais:"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "Escala de C sobre o acorde C ou C7M = <b>Modo Jônio</b> (Maior)",
+        "Escala de C sobre o acorde Dm ou Dm7 = <b>Modo Dórico</b>",
+        "Escala de C sobre o acorde Em ou Em7 = <b>Modo Frígio</b>",
+        "Escala de C sobre o acorde F ou F7M = <b>Modo Lídio</b>",
+        "Escala de C sobre o acorde G ou G7 = <b>Modo Mixolídio</b>",
+        "Escala de C sobre o acorde Am ou Am7 = <b>Modo Eólio</b> (Menor Natural)",
+        "Escala de C sobre o acorde Bm(b5) ou Bm7(b5) = <b>Modo Lócrio</b>"
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Portanto, embora muitos materiais abordem os modos gregos como escalas à parte, é mais fácil entendê-los como <b>diferentes aplicações de uma mesma escala</b>."
+      },
+      {
+       "type": "note",
+       "html": "É um assunto extenso, que depende do conhecimento de harmonia para ser bem compreendido. Vale se aprofundar também no estudo de harmonia."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e7",
+   "title": "7. ESCALA MENOR HARMÔNICA",
+   "topics": [
+    {
+     "id": "e7-1",
+     "title": "Escala Menor Harmônica: a estrutura",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Do ponto de vista <b>melódico</b>, a Escala Menor Harmônica surgiu da vontade, ou da necessidade, de criar uma <b>sensível</b> na escala menor natural, para diferenciá-la da sua escala relativa maior. Sensível é uma nota que gera uma sensação de atração para outra. Por exemplo, ao tocar a escala de Dó Maior (C), perceba como a nota B (7M da escala) é atraída para a nota C (tônica). Isso acontece porque a nota B está a apenas 1 ST da nota C, e por isso é chamada de sensível. Ela ajuda a mostrar qual é a nota mais importante da escala, a tônica, onde tudo deve se resolver."
+      },
+      {
+       "type": "p",
+       "html": "O problema da escala de Lá Menor Natural (Am), nesse sentido, é que não existe uma nota sensível dizendo que A é a nota principal. A solução é <b>elevar em 1 ST a sétima nota</b> da escala de Am, alterando de G (7m) para G# (7M), transformando-a numa sensível. Ao tocar a escala, a nota G# gera uma atração para a nota A, uma tensão que pede resolução em A, definindo-a como tônica."
+      },
+      {
+       "type": "p",
+       "html": "Do ponto de vista <b>harmônico</b>, a Escala Menor Harmônica possibilitou criar uma tensão no acorde do V grau do campo harmônico menor, que naturalmente seria um acorde menor e com pouco poder de atração para a tônica, por não ter o trítono entre a terça e a sétima. Elevando a terça desse acorde em 1 ST, ele passa a ser Maior com sétima menor, um acorde de <b>função dominante</b> com grande poder de atração."
+      },
+      {
+       "type": "p",
+       "html": "No campo harmônico de Am, por exemplo, o acorde do V grau é o Em7, formado pelas notas E, G, B e D (T, 3m, 5J e 7m). Ao elevar a sua terça, ele vira E7, com as notas E, G#, B e D (T, 3M, 5J e 7m), formando um trítono entre G# e D que gera uma tensão a ser resolvida no acorde da tônica, neste caso Am."
+      },
+      {
+       "type": "note",
+       "html": "Em resumo: a Escala Menor Harmônica é obtida com a alteração no VII grau da Escala Menor Natural, elevando-o em 1 ST, ou seja, elevando a 7m para 7M."
+      },
+      {
+       "type": "h3",
+       "text": "Estrutura da Escala Menor Harmônica"
+      },
+      {
+       "type": "p",
+       "html": "A estrutura em distâncias é <b>T, ST, T, T, ST, T+ST, ST</b>, e em intervalos é <b>T – 2M – 3m – 4J – 5J – 6m – 7M</b>. Veja a estrutura da escala de Lá Menor (Am) Harmônica:"
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-escalas/img/menor-harmonica-A.svg",
+       "caption": "Escala de Lá Menor Harmônica: T, 2M, 3m, 4J, 5J, 6m e 7M, com as distâncias entre as notas",
+       "dark": true
+      },
+      {
+       "type": "note",
+       "html": "Outra característica importante da menor harmônica é a distância de um tom e meio (T+ST) entre o VI e o VII graus (F e G#), que dá à escala uma sonoridade peculiar."
+      }
+     ]
+    },
+    {
+     "id": "e7-2",
+     "title": "Menor Harmônica na horizontal e em todo o braço",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Vamos começar visualizando e tocando a escala na horizontal, em <b>apenas uma corda</b>, para assimilar bem na prática as distâncias entre as notas. Neste exemplo, na 3ª corda:"
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Escala de Lá Menor (Am) Harmônica na 3ª corda",
+       "strings": [
+        3
+       ],
+       "range": [
+        1,
+        17
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Depois de praticar em uma corda, localize as mesmas notas em todas as cordas e toque um pouco em cada uma. Veja a escala de Lá Menor (Am) Harmônica em todas as cordas e em todo o braço:"
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Escala de Lá Menor (Am) Harmônica em todas as cordas",
+       "range": [
+        0,
+        17
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Observando com atenção esse diagrama, percebemos que é possível recortá-lo em partes menores, formando <b>vários tipos de digitações</b>, combinando 3 e 2 notas por corda."
+      }
+     ]
+    },
+    {
+     "id": "e7-3",
+     "title": "Formatos da Menor Harmônica em 3 notas por corda",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Novamente vamos começar com as digitações de <b>3 notas por corda</b>, que geram <b>7 formatos</b>, partindo de cada uma das notas da escala. O <b>Formato 1</b> é o que começa pela tônica, neste caso a nota A."
+      },
+      {
+       "type": "p",
+       "html": "Pratique os 7 formatos até memorizá-los bem, com metrônomo e diferentes divisões rítmicas (colcheias, tercinas, semicolcheias, etc.)."
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Formato 1",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         2,
+         6
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         4,
+         9
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       "range": [
+        4,
+        11
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Formato 2",
+       "pos": [
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         11
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         4,
+         9
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ]
+       ],
+       "range": [
+        6,
+        13
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Formato 3",
+       "pos": [
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         11
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         13
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ]
+       ],
+       "range": [
+        7,
+        14
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Formato 4",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         1,
+         11
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         13
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ],
+        [
+         5,
+         16
+        ]
+       ],
+       "range": [
+        9,
+        17
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Formato 5",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         0,
+         16
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         1,
+         15
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         2,
+         15
+        ],
+        [
+         3,
+         13
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         3,
+         16
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         4,
+         17
+        ],
+        [
+         5,
+         13
+        ],
+        [
+         5,
+         16
+        ],
+        [
+         5,
+         17
+        ]
+       ],
+       "range": [
+        11,
+        18
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Formato 6",
+       "pos": [
+        [
+         0,
+         1
+        ],
+        [
+         0,
+         4
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         2,
+         6
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         5,
+         4
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         7
+        ]
+       ],
+       "range": [
+        0,
+        8
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Formato 7",
+       "pos": [
+        [
+         0,
+         4
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         2,
+         6
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         4,
+         9
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ]
+       ],
+       "range": [
+        2,
+        10
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e7-4",
+     "title": "Formatos da Menor Harmônica sobre os modelos do CAGED",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos ver os <b>5 formatos</b> de 3 e 2 notas por corda sobrepostos aos modelos de acordes do CAGED. Nos diagramas a seguir você vê esses formatos com as notas do acorde de Am (A, C e E) em destaque."
+      },
+      {
+       "type": "note",
+       "html": "Recomendo que você pratique tocando primeiro o acorde e depois a escala."
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Escala de Lá Menor (Am) Harmônica sobre o modelo de Lá menor (Am)",
+       "pos": [
+        [
+         0,
+         0
+        ],
+        [
+         0,
+         1
+        ],
+        [
+         0,
+         4
+        ],
+        [
+         1,
+         0
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         2,
+         0
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         3,
+         1
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         4,
+         1
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         5,
+         0
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         5,
+         4
+        ]
+       ],
+       "range": [
+        0,
+        6
+       ],
+       "dest": [
+        9,
+        0,
+        4
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Escala de Lá Menor (Am) Harmônica sobre o modelo de Sol menor (Gm)",
+       "pos": [
+        [
+         0,
+         4
+        ],
+        [
+         0,
+         5
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         3
+        ],
+        [
+         2,
+         6
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         5,
+         4
+        ],
+        [
+         5,
+         5
+        ]
+       ],
+       "range": [
+        1,
+        7
+       ],
+       "dest": [
+        9,
+        0,
+        4
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Escala de Lá Menor (Am) Harmônica sobre o modelo de Mi menor (Em)",
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         2,
+         6
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         6
+        ],
+        [
+         5,
+         4
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         7
+        ]
+       ],
+       "range": [
+        3,
+        9
+       ],
+       "dest": [
+        9,
+        0,
+        4
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Escala de Lá Menor (Am) Harmônica sobre o modelo de Ré menor (Dm)",
+       "pos": [
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         0,
+         10
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         1,
+         8
+        ],
+        [
+         1,
+         11
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         4,
+         9
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         5,
+         7
+        ],
+        [
+         5,
+         8
+        ],
+        [
+         5,
+         10
+        ]
+       ],
+       "range": [
+        6,
+        12
+       ],
+       "dest": [
+        9,
+        0,
+        4
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Escala de Lá Menor (Am) Harmônica sobre o modelo de Dó menor (Cm)",
+       "pos": [
+        [
+         0,
+         10
+        ],
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         1,
+         11
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         2,
+         9
+        ],
+        [
+         2,
+         10
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         3,
+         9
+        ],
+        [
+         3,
+         10
+        ],
+        [
+         3,
+         13
+        ],
+        [
+         4,
+         10
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         5,
+         10
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ]
+       ],
+       "range": [
+        8,
+        14
+       ],
+       "dest": [
+        9,
+        0,
+        4
+       ]
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        9,
+        11
+       ],
+       "names": {
+        "9": "A",
+        "11": "B",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "5": "F",
+        "8": "G#"
+       },
+       "degs": {
+        "9": "T",
+        "11": "2M",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "5": "6m",
+        "8": "7M"
+       },
+       "title": "Escala de Lá Menor (Am) Harmônica sobre o modelo de Lá menor (Am) uma oitava acima",
+       "pos": [
+        [
+         0,
+         12
+        ],
+        [
+         0,
+         13
+        ],
+        [
+         0,
+         16
+        ],
+        [
+         1,
+         12
+        ],
+        [
+         1,
+         14
+        ],
+        [
+         1,
+         15
+        ],
+        [
+         2,
+         12
+        ],
+        [
+         2,
+         14
+        ],
+        [
+         2,
+         15
+        ],
+        [
+         3,
+         13
+        ],
+        [
+         3,
+         14
+        ],
+        [
+         4,
+         12
+        ],
+        [
+         4,
+         13
+        ],
+        [
+         4,
+         15
+        ],
+        [
+         5,
+         12
+        ],
+        [
+         5,
+         13
+        ],
+        [
+         5,
+         16
+        ]
+       ],
+       "range": [
+        11,
+        17
+       ],
+       "dest": [
+        9,
+        0,
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e7-5",
+     "title": "Aplicações da Escala Menor Harmônica",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "De forma simples, a Escala Menor Harmônica pode ser aplicada sobre todos os acordes do <b>Campo Harmônico Menor Harmônico</b>: Im(7M), IIm7(b5), bIII7M(#5), IVm7, V7, bVI7M e VIIº. No campo da escala de Lá Menor Harmônica, por exemplo, temos os acordes Am(7M), Bm7(b5), C7M(#5), Dm7, E7, F7M e G#º, e podemos aplicar a escala sobre qualquer um deles."
+      },
+      {
+       "type": "p",
+       "html": "A aplicação mais comum, porém, é sobre o acorde do <b>V grau</b>, que é um acorde dominante, Maior com sétima menor (no exemplo, o E7). Portanto, a aplicação mais comum da escala de Lá Menor (Am) Harmônica é sobre o acorde E7. É comum usar a Escala Menor Natural sobre os demais acordes da harmonia e a Menor Harmônica somente sobre o acorde dominante."
+      },
+      {
+       "type": "p",
+       "html": "Assim como a Escala Maior, a Menor Harmônica também gera sonoridades modais, que não vamos abordar aqui por se tratar de um assunto muito extenso, que depende do conhecimento de harmonia. Se tiver curiosidade, pesquise também os modos da Escala Menor Harmônica:"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "Eólio 7M",
+        "Lócrio 6M",
+        "Jônio 5Aum (Jônio #5)",
+        "Dórico 4Aum (Dórico #4)",
+        "Frígio 3M (ou Mixolídio b6/b9)",
+        "Lídio 2Aum (Lídio #9)",
+        "Diminuto Harmônico (ou Diminuto Alterado)"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "e7-6",
+     "title": "Exercício de transposição da Menor Harmônica",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Agora vamos exercitar a transposição do ponto de vista teórico, para saber quais notas formam a escala em cada tonalidade. Escreva as notas no papel (ou de cabeça) e toque na linha para conferir. Assim você exercita também o seu conhecimento de intervalos."
+      },
+      {
+       "type": "revtable",
+       "head": [
+        "Tonalidade",
+        "Notas da escala"
+       ],
+       "rows": [
+        [
+         "Mi menor (Em) Harmônica",
+         "E F# G A B C D#"
+        ],
+        [
+         "Si menor (Bm) Harmônica",
+         "B C# D E F# G A#"
+        ],
+        [
+         "Fá# menor (F#m) Harmônica",
+         "F# G# A B C# D E#"
+        ],
+        [
+         "Dó# menor (C#m) Harmônica",
+         "C# D# E F# G# A B#"
+        ],
+        [
+         "Sol# menor (G#m) Harmônica",
+         "G# A# B C# D# E F##"
+        ],
+        [
+         "Ré# menor (D#m) Harmônica",
+         "D# E# F# G# A# B C##"
+        ],
+        [
+         "Lá# menor (A#m) Harmônica",
+         "A# B# C# D# E# F# G##"
+        ],
+        [
+         "Ré menor (Dm) Harmônica",
+         "D E F G A Bb C#"
+        ],
+        [
+         "Sol menor (Gm) Harmônica",
+         "G A Bb C D Eb F#"
+        ],
+        [
+         "Dó menor (Cm) Harmônica",
+         "C D Eb F G Ab B"
+        ],
+        [
+         "Fá menor (Fm) Harmônica",
+         "F G Ab Bb C Db E"
+        ],
+        [
+         "Sib menor (Bbm) Harmônica",
+         "Bb C Db Eb F Gb A"
+        ],
+        [
+         "Mib menor (Ebm) Harmônica",
+         "Eb F Gb Ab Bb Cb D"
+        ],
+        [
+         "Láb menor (Abm) Harmônica",
+         "Ab Bb Cb Db Eb Fb G"
+        ]
+       ],
+       "hide": [
+        1
+       ],
+       "hint": "Fórmula: T, 2M, 3m, 4J, 5J, 6m e 7M. É a menor natural com a 7ª nota elevada em 1 semitom."
+      }
+     ]
+    }
+   ]
   }
  ]
 }
