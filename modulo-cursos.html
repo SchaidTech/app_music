@@ -23,6 +23,7 @@
 <script src="violao.js"></script>
 <script src="acorde.js"></script>
 <script src="intervalos.js"></script>
+<script src="escalas.js"></script>
 <link rel="stylesheet" href="cursos.css">
 </head>
 <body>
@@ -95,7 +96,12 @@
     const v = c.cover || {}, a = v.accent || '#ff9437', id = 'cv' + Math.random().toString(36).slice(2, 6);
     const X = (i, y) => (20 + i * 52) + (400 - y) / 230 * ((150 + (i - 2.5) * 14) - (20 + i * 52));
     let h = `<svg viewBox="0 0 300 400" class="cover" role="img" aria-label="${esc(c.title)}"><defs><linearGradient id="${id}b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d1d23"/><stop offset="1" stop-color="#0b0b0d"/></linearGradient><filter id="${id}g" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="6"/></filter></defs><rect width="300" height="400" fill="url(#${id}b)"/>`;
-    if (v.art === 'acorde'){
+    if (v.art === 'escala'){
+      const gx = i => 44 + i * 44, gy = k => 222 + k * 30;
+      for (let k = 0; k < 6; k++) h += `<line x1="${gx(0)}" y1="${gy(k)}" x2="${gx(5.5)}" y2="${gy(k)}" stroke="#8c8c96" stroke-width="${1 + (5 - k) * .3}" opacity=".7"/>`;
+      for (let i = 0; i <= 5; i++) h += `<line x1="${gx(i)}" y1="${gy(0) - 12}" x2="${gx(i)}" y2="${gy(5) + 12}" stroke="${i === 0 ? '#cfc8b8' : '#55555e'}" stroke-width="${i === 0 ? 4 : 1.5}" opacity=".85"/>`;
+      [[0, 1, 1], [0, 3, 0], [1, 1, 0], [1, 3, 0], [2, 1, 0], [2, 3, 0], [3, 0, 0], [3, 2, 0], [4, 0, 0], [4, 2, 0], [5, 0, 1]].forEach(([i, k, t]) => { const x = gx(i + 0.5), y = gy(k); h += t ? `<circle cx="${x}" cy="${y}" r="15" fill="${a}" opacity=".75" filter="url(#${id}g)"/><circle cx="${x}" cy="${y}" r="11" fill="${a}"/>` : `<circle cx="${x}" cy="${y}" r="9" fill="#cfc8b8" opacity=".9"/>`; });
+    } else if (v.art === 'acorde'){
       const gx = i => 78 + i * 29, gy = k => 214 + k * 34;
       for (let k = 0; k <= 5; k++) h += `<line x1="${gx(0)}" y1="${gy(k)}" x2="${gx(5)}" y2="${gy(k)}" stroke="${k === 0 ? '#cfc8b8' : '#55555e'}" stroke-width="${k === 0 ? 4 : 1.6}" opacity=".85"/>`;
       for (let i = 0; i < 6; i++) h += `<line x1="${gx(i)}" y1="${gy(0)}" x2="${gx(i)}" y2="${gy(5)}" stroke="#9a9aa4" stroke-width="${1 + i * .25}" opacity=".7"/>`;
@@ -221,6 +227,8 @@
         body.appendChild(Intervalos.triadeTreino(b));
       } else if (b.type === 'intquiz'){
         body.appendChild(Intervalos.tabelaTreino(b));
+      } else if (b.type === 'scale'){
+        body.appendChild(Escala.build(b));
       } else if (b.type === 'fretmap'){
         body.appendChild(buildFretmap(b));
       } else if (b.type === 'exercise'){

@@ -11,6 +11,7 @@ const APP_SHELL = [
   './tab.css',
   './nav.js',
   './braco.js',
+  './escalas.js',
   './cordas.js',
   './diag.js',
   './violao.js',

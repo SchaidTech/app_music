@@ -21,5 +21,17 @@
    "accent": "#3fd0b0",
    "art": "acorde"
   }
+ },
+ {
+  "id": "guia-de-escalas",
+  "title": "Guia de Escalas – Guitarra e Violão",
+  "path": "cursos/guia-de-escalas/course.json",
+  "cover": {
+   "l1": "GUIA DE",
+   "l2": "ESCALAS",
+   "tag": "Guitarra e Violão",
+   "accent": "#6ea8ff",
+   "art": "escala"
+  }
  }
 ]

@@ -1,0 +1,850 @@
+{
+ "id": "guia-de-escalas",
+ "title": "Guia de Escalas – Guitarra e Violão",
+ "modules": [
+  {
+   "id": "e1",
+   "title": "1. O QUE SÃO, E PARA QUE SERVEM AS ESCALAS",
+   "topics": [
+    {
+     "id": "e1-1",
+     "title": "O que são as escalas e para que servem",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "<b>Escalas</b> são conjuntos de notas musicais, de 5 até 12 notas, colocadas em sequência da mais grave para a mais aguda (e vice-versa). Cada escala tem a sua <b>sonoridade característica</b>, que vem dos intervalos formados entre as suas notas."
+      },
+      {
+       "type": "p",
+       "html": "As escalas são o ponto de partida para criar <b>melodias</b> (linhas vocais ou solos de instrumento) e também <b>harmonias</b> (acordes). A base de uma música, seja formada por acordes ou riffs, a melodia vocal e os solos de guitarra ou violão, tudo é feito de notas de uma mesma escala. É por isso que elas combinam entre si."
+      },
+      {
+       "type": "note",
+       "html": "Existem exceções: notas e acordes que não pertencem à escala usada na música. Mas sempre há um motivo para eles estarem ali. As escalas não limitam a criatividade; elas ampliam as possibilidades à medida que você conhece e domina suas aplicações e relações entre si."
+      },
+      {
+       "type": "h3",
+       "text": "Para que servem na teoria"
+      },
+      {
+       "type": "p",
+       "html": "O estudo das escalas é necessário para aprender <b>leitura musical, intervalos, formação de acordes, campo harmônico, diferentes sonoridades, harmonia, composição e improvisação</b> em geral."
+      },
+      {
+       "type": "h3",
+       "text": "Para que servem na prática"
+      },
+      {
+       "type": "p",
+       "html": "Para quem toca guitarra ou violão, estudar escalas serve principalmente para <b>tocar solos</b>: de músicas conhecidas, composições próprias ou improvisados. Além disso, a prática de escalas no instrumento, por meio da repetição, desenvolve o <b>ouvido</b> e a <b>técnica</b>, elevando o nível do instrumentista como um todo."
+      },
+      {
+       "type": "ul",
+       "items": [
+        "<b>Tocar</b> solos e melodias.",
+        "<b>Compor</b> melodias e harmonias.",
+        "<b>Improvisar</b> com liberdade.",
+        "<b>Entender</b> a teoria musical.",
+        "<b>Evoluir</b> o ouvido e a técnica."
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Em outras palavras: se você quer tocar suas músicas preferidas, compor, improvisar, ler música, entender a teoria, melhorar o ouvido e a técnica, <b>precisa estudar e praticar escalas</b>."
+      }
+     ]
+    },
+    {
+     "id": "e1-2",
+     "title": "Como estudar as escalas",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Nenhum livro, site ou videoaula substitui as aulas de um bom professor. Mas este curso serve como complemento para quem estuda com professor e como alternativa para quem não pode frequentar aulas regulares."
+      },
+      {
+       "type": "p",
+       "html": "Ele <b>não é indicado para quem está começando a tocar do zero</b>, e sim para quem já toca e quer aprender as escalas, principalmente para solar. Se você já tem experiência com escalas, use o curso como consulta e vá direto ao tópico ou à escala de que precisa. Se está começando agora a estudar escalas, siga a ordem proposta, <b>sem pular nada e sem pressa</b>, explorando bem cada capítulo antes de avançar."
+      },
+      {
+       "type": "h3",
+       "text": "O estudo de cada escala"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "Aprender a <b>estrutura</b> da escala, no papel e no instrumento.",
+        "<b>Transpor</b> a escala para várias tonalidades, no papel e no instrumento.",
+        "Treinar na <b>horizontal</b>, em uma corda por vez.",
+        "Treinar e memorizar os <b>formatos na vertical</b>.",
+        "Treinar a <b>aplicação</b>, improvisando sobre um acorde ou sobre bases (jam tracks)."
+       ]
+      },
+      {
+       "type": "note",
+       "html": "O mais importante é o <b>estudo prático</b>. Para aprender de verdade, repita centenas ou milhares de vezes cada escala, subindo e descendo no instrumento. E pratique sempre a aplicação musical: improvisando, compondo ou aprendendo solos que usem a escala. Monte um cronograma que inclua o estudo todos os dias."
+      },
+      {
+       "type": "h3",
+       "text": "É preciso estudar todas as escalas?"
+      },
+      {
+       "type": "p",
+       "html": "Não. Depende dos seus objetivos, do seu estilo musical e da sua curiosidade. Muitos guitarristas consagrados construíram carreiras de sucesso usando só duas ou três destas escalas. Poucos estudaram todas as que você vai ver aqui, e é justamente isso que pode ser o seu diferencial."
+      },
+      {
+       "type": "p",
+       "html": "Tenha paciência e estude com disciplina e regularidade, mas sem pressa: o aprendizado é gradual. Todos os guitarristas que você admira já passaram pela fase em que você está. Mãos à obra!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e2",
+   "title": "2. ENTENDENDO OS DIAGRAMAS DE ESCALAS",
+   "topics": [
+    {
+     "id": "e2-1",
+     "title": "Como ler os diagramas de escalas",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "As digitações das escalas são representadas por <b>diagramas</b> no padrão mais usado nos métodos de guitarra e violão do mundo todo. Eles mostram o braço como você o vê quando está tocando, <b>olhando de cima para baixo</b>."
+      },
+      {
+       "type": "p",
+       "html": "Por esse ângulo, as <b>primeiras casas ficam do lado esquerdo</b>, a <b>1ª corda</b> (a mais fina) aparece <b>em cima</b> e a <b>6ª corda</b> (a mais grossa) aparece <b>embaixo</b>. Os números embaixo do braço são as casas."
+      },
+      {
+       "type": "scale",
+       "root": 9,
+       "pcs": [
+        0,
+        2,
+        4,
+        7,
+        9
+       ],
+       "names": {
+        "9": "A",
+        "0": "C",
+        "2": "D",
+        "4": "E",
+        "7": "G"
+       },
+       "degs": {
+        "9": "T",
+        "0": "3m",
+        "2": "4J",
+        "4": "5J",
+        "7": "7m"
+       },
+       "title": "Pentatônica de Lá menor (Am), formato na casa 5",
+       "strnum": true,
+       "range": [
+        4,
+        9
+       ],
+       "pos": [
+        [
+         0,
+         5
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         1,
+         5
+        ],
+        [
+         1,
+         7
+        ],
+        [
+         2,
+         5
+        ],
+        [
+         2,
+         7
+        ],
+        [
+         3,
+         5
+        ],
+        [
+         3,
+         7
+        ],
+        [
+         4,
+         5
+        ],
+        [
+         4,
+         8
+        ],
+        [
+         5,
+         5
+        ],
+        [
+         5,
+         8
+        ]
+       ]
+      },
+      {
+       "type": "ul",
+       "items": [
+        "As notas da escala aparecem em bolinhas, com o nome da nota (sistema anglo-germânico: A, B, C, D, E, F, G).",
+        "A <b>tônica</b>, a nota principal da escala, sempre aparece destacada em <b>laranja</b>. Aqui é a nota Lá (A), pois o exemplo é a pentatônica de Lá menor.",
+        "Toque em qualquer bolinha para <b>ouvir a nota</b>.",
+        "O botão <b>Tocar escala</b> toca as notas da mais grave para a mais aguda e volta. Use os botões de BPM para mudar a velocidade.",
+        "O botão <b>Rótulo</b> troca o nome das notas pelos graus (intervalos em relação à tônica)."
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Como praticar"
+      },
+      {
+       "type": "p",
+       "html": "Para memorizar as digitações, pratique começando pela nota mais grave (que aparece embaixo), subindo até a mais aguda e voltando. Já na aplicação musical, na improvisação, você não precisa seguir ordem nenhuma: crie suas frases e padrões, inverta a ordem, salte notas, conforme o seu <i>feeling</i>, desde que toque só notas que fazem parte da escala usada."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e3",
+   "title": "3. CONCEITOS BÁSICOS DA MÚSICA",
+   "topics": [
+    {
+     "id": "e3-1",
+     "title": "As notas musicais, tom e semitom",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A música ocidental usa <b>sete notas</b>: Dó, Ré, Mi, Fá, Sol, Lá e Si. Elas também são escritas com letras, as sete primeiras do alfabeto. Cuidado: a sequência das letras começa no <b>Lá</b> (A), e não no Dó."
+      },
+      {
+       "type": "cards",
+       "items": [
+        {
+         "big": "C",
+         "title": "Dó"
+        },
+        {
+         "big": "D",
+         "title": "Ré"
+        },
+        {
+         "big": "E",
+         "title": "Mi"
+        },
+        {
+         "big": "F",
+         "title": "Fá"
+        },
+        {
+         "big": "G",
+         "title": "Sol"
+        },
+        {
+         "big": "A",
+         "title": "Lá"
+        },
+        {
+         "big": "B",
+         "title": "Si"
+        }
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Memorize os dois nomes de cada nota. A cifra dos acordes usa as letras."
+      },
+      {
+       "type": "h3",
+       "text": "Tom e semitom"
+      },
+      {
+       "type": "p",
+       "html": "Tom e semitom medem a distância entre duas notas. O <b>semitom</b> é a menor distância e vale <b>uma casa</b> no braço. O <b>tom</b> vale dois semitons, ou <b>duas casas</b>."
+      },
+      {
+       "type": "cards",
+       "items": [
+        {
+         "big": "1 ST",
+         "title": "1 semitom",
+         "text": "= ½ tom = 1 casa"
+        },
+        {
+         "big": "1 T",
+         "title": "1 tom",
+         "text": "= 2 semitons = 2 casas"
+        }
+       ]
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-acordes/img/esq-tom-semitom.svg",
+       "caption": "Distâncias entre as notas naturais, de Dó (C) a Dó (C).",
+       "dark": true
+      },
+      {
+       "type": "note",
+       "html": "Entre <b>E e F</b> e entre <b>B e C</b> a distância é de apenas 1 semitom. Nas outras notas vizinhas (C-D, D-E, F-G, G-A, A-B) é de 1 tom, com uma casa vazia no meio."
+      }
+     ]
+    },
+    {
+     "id": "e3-2",
+     "title": "Acidentes e escala cromática",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Os <b>acidentes</b> são sinais que alteram a altura de uma nota:"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "<b>#</b> (sustenido): sobe a nota 1 semitom.",
+        "<b>b</b> (bemol): desce a nota 1 semitom.",
+        "<b>## </b>(dobrado sustenido): sobe 2 semitons.",
+        "<b>bb</b> (dobrado bemol): desce 2 semitons."
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Entre duas notas separadas por um tom cabe uma nota intermediária. Entre C e D, por exemplo, temos C# ou Db: nomes diferentes para o <b>mesmo som</b>. Notas assim se chamam <b>enarmônicas</b>. O mesmo vale para D#/Eb, F#/Gb, G#/Ab e A#/Bb."
+      },
+      {
+       "type": "h3",
+       "text": "Escala cromática"
+      },
+      {
+       "type": "p",
+       "html": "É a sequência com os <b>12 sons</b> do sistema ocidental (7 naturais + 5 alteradas), todos a 1 semitom de distância do vizinho. Ela contém todas as outras escalas."
+      },
+      {
+       "type": "img",
+       "src": "cursos/guia-de-acordes/img/esq-cromatica.svg",
+       "caption": "Escala cromática: as 12 notas, cada uma a 1 semitom da vizinha. Nas teclas pretas, o nome de cima é o sustenido e o de baixo é o bemol.",
+       "dark": true
+      },
+      {
+       "type": "note",
+       "html": "Entre E e F e entre B e C não há nota no meio. Por isso quase nunca se escrevem E#, Fb, B# e Cb: na prática E# = F, Fb = E, B# = C e Cb = B."
+      }
+     ]
+    },
+    {
+     "id": "e3-3",
+     "title": "Localização das notas no braço",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Para achar uma nota no braço, você precisa saber a nota de cada <b>corda solta</b>. A afinação padrão, contando da 1ª (mais fina) para a 6ª (mais grossa), é:"
+      },
+      {
+       "type": "cards",
+       "items": [
+        {
+         "big": "E",
+         "title": "1ª corda",
+         "text": "Mi"
+        },
+        {
+         "big": "B",
+         "title": "2ª corda",
+         "text": "Si"
+        },
+        {
+         "big": "G",
+         "title": "3ª corda",
+         "text": "Sol"
+        },
+        {
+         "big": "D",
+         "title": "4ª corda",
+         "text": "Ré"
+        },
+        {
+         "big": "A",
+         "title": "5ª corda",
+         "text": "Lá"
+        },
+        {
+         "big": "E",
+         "title": "6ª corda",
+         "text": "Mi"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "html": "A cada casa que você sobe, a nota avança 1 semitom, seguindo a escala cromática. Na 1ª corda: casa 1 = F, casa 2 = F# ou Gb, casa 3 = G, casa 4 = G# ou Ab, casa 5 = A, e assim por diante. A mesma lógica vale para todas as cordas, cada uma a partir da sua nota solta."
+      },
+      {
+       "type": "fretmap",
+       "mode": "nat",
+       "hide": false
+      },
+      {
+       "type": "note",
+       "html": "A <b>casa 12</b> tem as mesmas notas das cordas soltas, uma oitava acima. Depois dela, as notas se repetem como se recomeçasse da casa 1."
+      },
+      {
+       "type": "h",
+       "text": "Treino: localize as notas"
+      },
+      {
+       "type": "p",
+       "html": "Localizar as notas no braço de cabeça é um dos treinos mais valiosos. Use o mapa abaixo no modo <b>Treinar</b>: os nomes ficam escondidos. Diga a nota de cada bolinha e toque nela para conferir e ouvir o som."
+      },
+      {
+       "type": "h3",
+       "text": "Naturais e sustenidos"
+      },
+      {
+       "type": "note",
+       "html": "Além de visualizar o mapa, exercite bastante a localização das notas no braço do seu instrumento: tocando e também desenhando o braço no papel e escrevendo as notas."
+      },
+      {
+       "type": "fretmap",
+       "mode": "sus",
+       "hide": true
+      },
+      {
+       "type": "h3",
+       "text": "Naturais e bemóis"
+      },
+      {
+       "type": "fretmap",
+       "mode": "bem",
+       "hide": true
+      },
+      {
+       "type": "h3",
+       "text": "Só as naturais"
+      },
+      {
+       "type": "p",
+       "html": "Quando você toca apenas as notas naturais em ordem, de um C até o próximo C, está tocando a <b>escala de Dó maior</b>."
+      },
+      {
+       "type": "fretmap",
+       "mode": "nat",
+       "hide": true
+      }
+     ]
+    },
+    {
+     "id": "e3-4",
+     "title": "Intervalos",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "<b>Intervalo</b> é a distância, em graus, entre duas notas. Ele expressa a relação entre elas e define se formam uma <b>consonância</b> ou uma <b>dissonância</b>, e se podem fazer parte de uma mesma escala ou de um mesmo acorde. Entender intervalos é fundamental para qualquer músico, porque eles formam os acordes, as escalas e as melodias."
+      },
+      {
+       "type": "h3",
+       "text": "Harmônicos e melódicos"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "<b>Intervalo harmônico:</b> as duas notas soam ao mesmo tempo.",
+        "<b>Intervalo melódico:</b> as notas soam uma depois da outra."
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Os intervalos são medidos em <b>tons e semitons</b>. A nota mais grave é a <b>tônica</b>, e a nota mais aguda é classificada pela sua distância, em graus, até a tônica."
+      },
+      {
+       "type": "h3",
+       "text": "Os graus da escala maior"
+      },
+      {
+       "type": "p",
+       "html": "Para começar, pense na escala maior com as sete notas, numeradas em graus. Tomando C como tônica: D é a 2ª, E a 3ª, F a 4ª, G a 5ª, A a 6ª e B a 7ª."
+      },
+      {
+       "type": "cards",
+       "items": [
+        {
+         "big": "C",
+         "title": "Tônica"
+        },
+        {
+         "big": "D",
+         "title": "2ª"
+        },
+        {
+         "big": "E",
+         "title": "3ª"
+        },
+        {
+         "big": "F",
+         "title": "4ª"
+        },
+        {
+         "big": "G",
+         "title": "5ª"
+        },
+        {
+         "big": "A",
+         "title": "6ª"
+        },
+        {
+         "big": "B",
+         "title": "7ª"
+        }
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Maior, menor, justo, aumentado e diminuto"
+      },
+      {
+       "type": "p",
+       "html": "Dependendo da distância e da relação entre as notas, os intervalos recebem uma <b>qualidade</b>: Maior (M), Menor (m), Justo (J), Aumentado (A) ou Diminuto (d). Na escala maior, os intervalos a partir da tônica C são:"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Nota",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B",
+        "C"
+       ],
+       "rows": [
+        [
+         "Intervalo",
+         "T",
+         "2M",
+         "3M",
+         "4J",
+         "5J",
+         "6M",
+         "7M",
+         "8J"
+        ]
+       ]
+      },
+      {
+       "type": "ul",
+       "items": [
+        "Os intervalos de <b>2ª, 3ª, 6ª e 7ª</b> podem ser maiores ou menores (e, às vezes, aumentados ou diminutos).",
+        "Os intervalos de <b>4ª e 5ª</b> só podem ser justos, aumentados ou diminutos.",
+        "O intervalo de <b>8ª</b> é sempre justo.",
+        "Assim como existem notas enarmônicas, existem <b>intervalos enarmônicos</b>: nomes diferentes para a mesma distância."
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Simples e compostos"
+      },
+      {
+       "type": "p",
+       "html": "Os intervalos de até uma oitava são <b>simples</b>. Os que passam de uma oitava são <b>compostos</b> (9ª, 11ª, 13ª). Os intervalos de 3ª, 5ª e 7ª nunca são escritos na forma composta, mantendo o mesmo nome em qualquer oitava. Já os compostos sempre mantêm a qualidade (maior, menor, justo...) dos seus intervalos simples."
+      }
+     ]
+    },
+    {
+     "id": "e3-5",
+     "title": "Tabela de intervalos",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Veja a tabela dos intervalos com as suas abreviações, os semitons e os tons. Os nomes entre parênteses são enarmônicos, ou seja, o mesmo som com outro nome."
+      },
+      {
+       "type": "h3",
+       "text": "Intervalos simples"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Intervalo",
+        "Abreviações",
+        "Semitons",
+        "Tons"
+       ],
+       "rows": [
+        [
+         "Uníssono",
+         "–",
+         "0",
+         "0"
+        ],
+        [
+         "Segunda menor",
+         "2m, b2",
+         "1",
+         "½"
+        ],
+        [
+         "Segunda maior",
+         "2M, 2",
+         "2",
+         "1"
+        ],
+        [
+         "Terça menor (ou 2ª aumentada)",
+         "3m, b3 (2A, #2)",
+         "3",
+         "1+½"
+        ],
+        [
+         "Terça maior",
+         "3M, 3",
+         "4",
+         "2"
+        ],
+        [
+         "Quarta justa",
+         "4J, 4",
+         "5",
+         "2+½"
+        ],
+        [
+         "Quarta aumentada ou quinta diminuta (trítono)",
+         "4A, #4 / 5d, b5",
+         "6",
+         "3"
+        ],
+        [
+         "Quinta justa",
+         "5J, 5",
+         "7",
+         "3+½"
+        ],
+        [
+         "Quinta aumentada ou sexta menor",
+         "5A, #5 / 6m, b6",
+         "8",
+         "4"
+        ],
+        [
+         "Sexta maior (ou 7ª diminuta)",
+         "6M, 6 (7d, bb7)",
+         "9",
+         "4+½"
+        ],
+        [
+         "Sétima menor",
+         "7m, b7, 7",
+         "10",
+         "5"
+        ],
+        [
+         "Sétima maior",
+         "7M, maj7, 7+",
+         "11",
+         "5+½"
+        ],
+        [
+         "Oitava justa",
+         "8J, 8, T",
+         "12",
+         "6"
+        ]
+       ]
+      },
+      {
+       "type": "h3",
+       "text": "Intervalos compostos"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Intervalo",
+        "Abreviações",
+        "Semitons",
+        "Tons"
+       ],
+       "rows": [
+        [
+         "Nona menor",
+         "9m, b9",
+         "13",
+         "6+½"
+        ],
+        [
+         "Nona maior",
+         "9M, 9",
+         "14",
+         "7"
+        ],
+        [
+         "Nona aumentada (ou 3ª menor)",
+         "9A, #9 (3m, b3)",
+         "15",
+         "7+½"
+        ],
+        [
+         "Terça maior",
+         "3M, 3",
+         "16",
+         "8"
+        ],
+        [
+         "Décima primeira justa",
+         "11J, 11",
+         "17",
+         "8+½"
+        ],
+        [
+         "Décima primeira aumentada (ou 5ª diminuta)",
+         "11A, #11 (5d, b5)",
+         "18",
+         "9"
+        ],
+        [
+         "Quinta justa",
+         "5J, 5",
+         "19",
+         "9+½"
+        ],
+        [
+         "Quinta aumentada (ou 13ª menor)",
+         "5A, #5 (13m, b13)",
+         "20",
+         "10"
+        ],
+        [
+         "Décima terceira maior",
+         "13M, 13",
+         "21",
+         "10+½"
+        ],
+        [
+         "Sétima menor",
+         "7m, b7, 7",
+         "22",
+         "11"
+        ],
+        [
+         "Sétima maior",
+         "7M, maj7, 7+",
+         "23",
+         "11+½"
+        ]
+       ]
+      },
+      {
+       "type": "note",
+       "html": "Dica: decore os semitons de cada intervalo. Com eles você descobre qualquer intervalo contando as casas no braço."
+      }
+     ]
+    },
+    {
+     "id": "e3-6",
+     "title": "Intervalos no braço e inversões",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Veja os intervalos <b>no braço</b>, em relação à tônica. O mapa mostra, em cada casa, que intervalo aquela nota forma com a tônica. Por padrão a tônica é C, mas você pode escolher outra nota."
+      },
+      {
+       "type": "intmap",
+       "root": 0,
+       "hide": false
+      },
+      {
+       "type": "note",
+       "html": "Toque numa nota para ouvir a tônica e depois o intervalo. Se preferir treinar, ligue o modo <b>Treinar</b> e adivinhe o intervalo antes de conferir."
+      },
+      {
+       "type": "p",
+       "html": "É preciso analisar o contexto: se o intervalo ultrapassa uma oitava, usa-se a forma composta (a 2M vira 9M, a 4J vira 11J, e assim por diante), exceto nas 3ªs, 5ªs e 7ªs. Também é fundamental memorizar as <b>enarmonias</b> dos intervalos e usar o nome mais adequado a cada contexto."
+      },
+      {
+       "type": "h3",
+       "text": "Inversão de intervalos"
+      },
+      {
+       "type": "p",
+       "html": "Os intervalos também podem ser <b>invertidos</b>: a tônica e a outra nota trocam de papel. Por exemplo, D forma uma 2M em relação a C, mas, se tomarmos D como tônica, C forma uma 7m em relação a D. As tabelas resumem o que acontece na inversão:"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Grau",
+        "Inversão"
+       ],
+       "rows": [
+        [
+         "2",
+         "7"
+        ],
+        [
+         "3",
+         "6"
+        ],
+        [
+         "4",
+         "5"
+        ],
+        [
+         "5",
+         "4"
+        ],
+        [
+         "6",
+         "3"
+        ],
+        [
+         "7",
+         "2"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "head": [
+        "Tipo",
+        "Inversão"
+       ],
+       "rows": [
+        [
+         "Maior",
+         "Menor"
+        ],
+        [
+         "Menor",
+         "Maior"
+        ],
+        [
+         "Justo",
+         "Justo"
+        ],
+        [
+         "Aumentado",
+         "Diminuto"
+        ],
+        [
+         "Diminuto",
+         "Aumentado"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -15,6 +15,6 @@ const Acorde = (() => {
     let k = 0;
     frets.forEach((f, i) => { if (f == null) return; voz.triggerAttackRelease(nome(OPEN[i] + f), '2n', t0 + k * o.strum); k++; });
   }
-  async function nota(midi){ await init(); voz.triggerAttackRelease(nome(midi), '2n', Tone.now() + 0.02); }
+  async function nota(midi, dur){ await init(); voz.triggerAttackRelease(nome(midi), dur || '2n', Tone.now() + 0.02); }
   return { play, nota, init, OPEN };
 })();

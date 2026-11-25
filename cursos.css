@@ -90,3 +90,10 @@
 
 /* Texto corrido justificado (parágrafos, destaques e listas dos cursos), com hifenização em português */
 .topic-p,.topic-note,.topic-ul li,.ex-hint{text-align:justify;text-justify:inter-word;-webkit-hyphens:auto;hyphens:auto;overflow-wrap:break-word}
+
+/* diagramas de escalas no braço */
+.escala{margin:16px 0}.es-title{font-weight:600;font-size:.95rem;margin-bottom:8px;color:var(--ink)}
+.es-scroll{overflow-x:auto;background:var(--panel);border:1px solid var(--panel-edge);border-radius:14px;padding:8px 6px 4px;-webkit-overflow-scrolling:touch}
+.es-scroll svg{display:block}.es-n{cursor:pointer;outline:none}.es-n circle{transition:transform .15s,filter .15s;transform-box:fill-box;transform-origin:center}
+.es-n.on circle,.es-n.pulse circle{transform:scale(1.28);filter:drop-shadow(0 0 5px #ff9437)}
+.es-ctr{margin-top:10px}
